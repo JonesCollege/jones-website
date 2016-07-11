@@ -1,0 +1,22 @@
+{
+  "name": "jones-website",
+  "version": "1.0.0",
+  "description": "Website for the most winningest college at Rice University",
+  "main": "nodeServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonesCollege/jones-website.git"
+  },
+  "author": "Alex Lamas (jibawebmaster@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonesCollege/jones-website/issues"
+  },
+  "homepage": "https://github.com/JonesCollege/jones-website#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

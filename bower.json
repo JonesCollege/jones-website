@@ -1,0 +1,18 @@
+{
+  "name": "jones-website",
+  "description": "Website for the most winningest college at Rice University",
+  "main": "nodeServer.js",
+  "authors": [
+    "Alex Lamas (jibawebmaster@gmail.com)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JonesCollege/jones-website",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
