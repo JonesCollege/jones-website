@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import Dropdown from './Dropdown';
+import { AboutItems, LeadershipItems, ResourceItems, CommunityItems } from './MenuItems';
 import './NavBar.css';
 
 function NavBar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
-    const [dropdown, setDropdown] = useState(false);
-
+    
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
@@ -19,22 +19,12 @@ function NavBar() {
             setButton(true);
         }
     };
-
-    const onMouseEnter = () => {
-      if (window.innerWidth < 960) {
-        setDropdown(false);
-      } else {
-        setDropdown(true);
-      }
-    };
-  
-    const onMouseLeave = () => {
-      if (window.innerWidth < 960) {
-        setDropdown(false);
-      } else {
-        setDropdown(false);
-      }
-    };
+    
+    //dropdown hover actions
+    const [dropdownAbout, setDropdownAbout] = useState(false);
+    const [dropdownLead, setDropdownLead] = useState(false);
+    const [dropdownResource, setDropdownResource] = useState(false);
+    const [dropdownCommunity, setDropdownCommunity] = useState(false);
 
     useEffect(() => {
         showButton();
@@ -56,8 +46,8 @@ function NavBar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li
                 className='nav-item'
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
+                onMouseEnter={() => setDropdownAbout(true)}
+                onMouseLeave={() => setDropdownAbout(false)}
               >
                 <Link
                     to='/about'
@@ -66,7 +56,7 @@ function NavBar() {
                 >
                   About
                 </Link>
-                {dropdown && <Dropdown />}
+                {dropdownAbout && <Dropdown arr={AboutItems}/>}
               </li>
               <li className='nav-item'>
                 <Link
@@ -79,8 +69,8 @@ function NavBar() {
               </li>
               <li
                 className='nav-item'
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
+                onMouseEnter={() => setDropdownLead(true)}
+                onMouseLeave={() => setDropdownLead(false)}
               >
                 <Link
                     to='/services'
@@ -89,12 +79,12 @@ function NavBar() {
                 >
                   Leadership
                 </Link>
-                {dropdown && <Dropdown />}
+                {dropdownLead && <Dropdown arr={LeadershipItems}/>}
               </li>
               <li
                 className='nav-item'
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
+                onMouseEnter={() => setDropdownResource(true)}
+                onMouseLeave={() => setDropdownResource(false)}
               >
                 <Link
                     to='/resources'
@@ -103,21 +93,21 @@ function NavBar() {
                 >
                   Resources
                 </Link>
-                {dropdown && <Dropdown />}
+                {dropdownResource && <Dropdown arr={ResourceItems}/>}
               </li>
               <li
                 className='nav-item'
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
+                onMouseEnter={() => setDropdownCommunity(true)}
+                onMouseLeave={() => setDropdownCommunity(false)}
               >
                 <Link
                     to='/people'
                     className='nav-links'
                     onClick={closeMobileMenu}
                 >
-                  People
+                  Community
                 </Link>
-                {dropdown && <Dropdown />}
+                {dropdownCommunity && <Dropdown arr={CommunityItems}/>}
               </li>
               <li className='nav-item'>
                 <Link

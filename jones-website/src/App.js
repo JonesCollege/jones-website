@@ -4,7 +4,9 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import OWeek from './components/pages/oweek/O-Week';
-import Cards from './components/Cards';
+import Constitution from './components/pages/about/Constitution';
+import History from './components/pages/about/history/History';
+import BeerBike from './components/pages/about/beerbike/BeerBike';
 
 function App() {
   return (
@@ -13,8 +15,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Home />} />
+          <Route path='/about' element={<Constitution />} />
+          <Route path='/constitution' element={<Constitution />} />
+          <Route path='/history' element={<History />} />
+          <Route path='/beerbike' element={<BeerBike />} />
           <Route path='/o-week' exact element={<OWeek />} />
-          <Route path='/cards' element={<Cards />} />
+          
         </Routes>
       </Router>
     </>

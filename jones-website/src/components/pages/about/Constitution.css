@@ -1,0 +1,28 @@
+.const-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem;
+}
+.const-text {
+  text-align: left;
+  font-size: large;
+  color: rgb(116, 116, 116);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 24px;
+  padding: 2rem;
+}
+.const-title {
+  text-align: left;
+  font-size: 4rem;
+  color: rgb(116, 116, 116);
+  font-weight: lighter;
+}
+.download-btns {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}

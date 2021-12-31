@@ -1,0 +1,28 @@
+.hist-img1 {
+  float: left;
+  margin: 1rem 2rem;
+}
+.hist-img2 {
+  float: right;
+  margin: 1rem 2rem;
+}
+
+.hist-container {
+  padding: 4rem 6rem;
+}
+.hist-text {
+  text-align: left;
+  font-size: large;
+  color: rgb(116, 116, 116);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 24px;
+  padding: 0.25rem;
+}
+.hist-title {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(116, 116, 116);
+  font-weight: lighter;
+  padding-bottom: 2rem;
+}
