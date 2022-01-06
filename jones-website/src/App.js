@@ -7,6 +7,7 @@ import OWeek from './components/pages/oweek/O-Week';
 import Constitution from './components/pages/about/Constitution';
 import History from './components/pages/about/history/History';
 import BeerBike from './components/pages/about/beerbike/BeerBike';
+import Traditions from './components/pages/about/traditions/Traditions';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path='/history' element={<History />} />
           <Route path='/beerbike' element={<BeerBike />} />
           <Route path='/o-week' exact element={<OWeek />} />
-          
+          <Route path='/traditions' exact element={<Traditions />} />
         </Routes>
       </Router>
     </>

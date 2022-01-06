@@ -1,0 +1,66 @@
+p {
+  color: rgb(116, 116, 116);
+}
+a {
+  cursor: pointer;
+}
+.download-txt {
+  padding-top: 2rem;
+}
+.audio-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.audio-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 6px 20px rgba(165, 56, 255, 0.37);
+  border-radius: 10px;
+  margin-left: 12rem;
+}
+
+.audio-text {
+  color: blac;
+  text-align: left;
+  width: 200px;
+  padding-top: 5px;
+}
+
+.audio-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.audio-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: small;
+}
+
+.title-text {
+  font-size: 50px;
+  text-align: left;
+  padding-left: 4rem;
+  padding-right: 2rem;
+}
+
+.text-purple {
+  text-align: left;
+  color: rgb(222, 145, 234);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-green {
+  text-align: left;
+  color: #3cb371;
+  font-family: Arial, Helvetica, sans-serif;
+}

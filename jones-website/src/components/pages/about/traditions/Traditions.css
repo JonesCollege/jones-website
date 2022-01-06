@@ -1,0 +1,50 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 0.5rem;
+  font-size: 22px;
+}
+.traditions-container {
+  padding: 2rem 6rem;
+}
+.traditions-title {
+  text-align: center;
+  font-size: 6rem;
+  color: rgb(116, 116, 116);
+  font-weight: lighter;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.rounded {
+  margin-top: 4rem;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+}
+
+.trad-box {
+  text-align: left;
+  color: rgb(116, 116, 116);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: -2rem;
+}
+
+.trad-txt {
+  padding: 2rem;
+}
+
+.img-l {
+  float: left;
+  margin: 2rem;
+}
+.img-r {
+  float: right;
+  margin: 2rem;
+}
