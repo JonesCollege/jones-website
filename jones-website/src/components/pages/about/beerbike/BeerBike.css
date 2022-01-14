@@ -1,0 +1,16 @@
+.beerbike-container {
+  padding: 2rem 4rem;
+}
+.lead-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.lead-container {
+  text-align: center;
+}
+.beerbike-li {
+  list-style: none;
+  padding: 2rem;
+}
