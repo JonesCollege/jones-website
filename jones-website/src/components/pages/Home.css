@@ -1,0 +1,24 @@
+.donate-button {
+    position: fixed;
+    top: 85vh;
+    right: 2rem;
+    width: 170px;
+    height: 55px;
+    background-color: white;
+    border: none;
+    border-radius: 46px;
+    cursor: pointer;
+}
+
+.donate-button:hover {
+    background-color: #8CC292;
+    color: white    ;
+}
+
+.donate-text{
+    font-family: "Futura Hv BT";
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+    color: #2B7632;
+}

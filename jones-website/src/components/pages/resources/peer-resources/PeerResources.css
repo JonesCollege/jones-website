@@ -1,0 +1,9 @@
+.peer-container {
+  padding: 4rem 6rem;
+}
+.peer-title {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(116, 116, 116);
+  font-weight: lighter;
+}
