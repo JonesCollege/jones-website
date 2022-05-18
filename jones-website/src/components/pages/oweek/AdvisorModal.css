@@ -1,0 +1,38 @@
+.advisor-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+    box-shadow: 24;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.advisor-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.a-majors{
+    font-family: "Futura Bk BT";
+    font-size: 13px;
+    padding: 0.5rem;
+}
+
+.a-email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 11px;
+    padding: 0.5rem;
+}
+
+.a-name{
+    font-family: "Futura BK BT";
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 0.5rem;
+}
