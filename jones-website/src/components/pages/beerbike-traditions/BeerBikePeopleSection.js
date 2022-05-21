@@ -7,8 +7,8 @@ const BeerBikePeopleSection = () => {
     const purple = "#715AA0"
 
   return (
-    <div className = "section">
-        <div className="group">
+    <div className = "people-group-container">
+        <div className="people-group">
             <div className="heading" style = {{color:{green}}} >Beer Bike Coords</div>
             <div className="row">
                 <BeerBikePeople name = "taya laysota" email = "taya@rice.edu" color = {green}/> 
@@ -23,7 +23,7 @@ const BeerBikePeopleSection = () => {
             </div>
         </div>
 
-        <div className="group">
+        <div className="people-group">
             <div className="heading" style = {{color:{green}}} >Bike Captains</div>
             <div className="row">
                 <BeerBikePeople name = "taya laysota" email = "taya@rice.edu" color = {purple}/> 
@@ -39,7 +39,7 @@ const BeerBikePeopleSection = () => {
 
         </div>
 
-        <div className="group">
+        <div className="people-group">
             <div className="heading" >chug captains</div>
             <div className="row">
                 <BeerBikePeople name = "taya laysota" email = "taya@rice.edu" /> 

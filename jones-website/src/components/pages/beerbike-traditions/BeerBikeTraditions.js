@@ -10,11 +10,10 @@ import Traditions from './Traditions'
 export default function BeerBikeTraditions () {
   return (
 
-    <div style = {{display: "flex", flexDirection: "column"}}>
-      {/* <BeerBikeHeader />
-      <BeerBikePeopleSection /> */}
+    <div className = "page-container">
+      <BeerBikeHeader />
+      <BeerBikePeopleSection />
       <Traditions />
-      <Footer />
 
 
     </div>
