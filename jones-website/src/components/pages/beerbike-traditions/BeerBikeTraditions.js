@@ -2,22 +2,23 @@ import React from 'react'
 import Footer from '../../Footer';
 import "./BeerBikeTraditions.css";
 import BeerBikeHeader from './BeerBikeHeader';
-import BeerBikePeople from './BeerBikePeople';
+import BeerBikePeopleSection from './BeerBikePeopleSection';
+import Traditions from './Traditions'
 // import JonesAnthem from './JonesAnthem';
 
 
 export default function BeerBikeTraditions () {
   return (
 
-    <div>
-      {/* <BeerBikeHeader /> */}
-      <BeerBikePeople />
+    <div style = {{display: "flex", flexDirection: "column"}}>
+      {/* <BeerBikeHeader />
+      <BeerBikePeopleSection /> */}
+      <Traditions />
+      <Footer />
+
 
     </div>
   )
-
-    
-   
 }
 
 

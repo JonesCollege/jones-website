@@ -1,0 +1,105 @@
+.tradition-container {
+    background-color: blue;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 41px;
+
+    width: 351.67px;
+    height: 547px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.photo {
+    background-color: red;
+    width: 235px;
+    height: 235px;
+
+    /* background: url(image-asset.jpg); */
+    border-radius: 169px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text-container{
+    background-color: green;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    width: 356.67px;
+    height: 237px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text-container > h1 {
+    background-color: yellow;
+    width: 356.67px;
+    height: 40px;
+
+    /* Subheading */
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.475em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.text-container > p {
+    background-color: pink;
+    width: 356.67px;
+    height: 171px;
+
+    font-family: 'Meta Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}

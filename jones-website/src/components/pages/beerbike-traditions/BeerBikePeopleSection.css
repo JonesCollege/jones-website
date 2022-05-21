@@ -1,0 +1,41 @@
+.section {
+    display: flex;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    width: 80vw;
+    min-width: 800px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.heading {
+    /* Heading 3 */
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 10px;
+
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+}
