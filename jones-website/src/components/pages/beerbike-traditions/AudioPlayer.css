@@ -1,16 +1,25 @@
 .audioPlayer {
-  --primary: black;
-  --secondary: #fff;
+  --primary: white;
+  --secondary: black;
 
-  align-items: center;
+  /* align-items: center;
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 700px; */
 }
 
 .audioBar {
   display: flex;
   flex-direction: column;
+
+  position: absolute;
+  left: 35.71%;
+  right: 55.95%;
+  top: 22.62%;
+  bottom: 24.94%;
+
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
 }
 
 .playBar {
@@ -23,8 +32,8 @@
   border: none;
   display: flex;
   align-items: center;
-  font-family: "Roboto", sans-serif;
-  color: black;
+  font-family: "Futura", sans-serif;
+  color: white;
   font-size: small;
   cursor: pointer;
 }
@@ -34,7 +43,7 @@
 }
 
 .playPause {
-  background: var(--primary);
+  /* background: var(--primary);
   border: none;
   border-radius: 50%;
   width: 75px;
@@ -44,7 +53,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  cursor: pointer; */
+
+
+  position: absolute;
+  left: 32.14%;
+  right: 40.48%;
+  top: 11.31%;
+  bottom: 82.01%;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary);
+  background: var(--primary);
+  border: 1px solid #FFFFFF;
+  border-radius: 1px;
 }
 
 .play {
@@ -54,7 +76,7 @@
 
 .currentTime,
 .duration {
-  font-family: "Roboto", sans-serif;
+  font-family: "Futura", sans-serif;
   font-size: small;
   color: black;
   font-weight: 300;
@@ -76,7 +98,7 @@
 .progressBar {
   --bar-bg: #e4e4e4;
   --seek-before-width: 0;
-  --seek-before-color: #b1b1b1;
+  --seek-before-color: white;
   --knobby: rgb(117, 117, 117);
   --selectedKnobby: black;
 

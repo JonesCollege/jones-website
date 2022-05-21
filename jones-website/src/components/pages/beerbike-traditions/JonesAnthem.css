@@ -15,33 +15,37 @@ a {
 .audio-card {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
-  width: 300px;
-  justify-content: center;
+  background-color: black;
+  position: absolute;
+  width: 84px;
+  height: 445px;
+  left: 0px;
+  top: 216px;
+
+  /* justify-content: center;
   align-items: center;
-  text-align: center;
-  padding-top: 2rem;
+  text-align: center; */
+  /* padding-top: 2rem;
   padding-bottom: 2rem;
-  box-shadow: 0 6px 20px rgba(165, 56, 255, 0.37);
   border-radius: 10px;
-  margin-left: 12rem;
+  margin-left: 12rem; */
 }
 
 .audio-text {
-  color: blac;
+  color: white;
   text-align: left;
   width: 200px;
   padding-top: 5px;
 }
 
 .audio-title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Futura", sans-serif;
   font-weight: 400;
   font-size: medium;
 }
 
 .audio-subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: "Futura", sans-serif;
   font-weight: 300;
   font-size: small;
 }

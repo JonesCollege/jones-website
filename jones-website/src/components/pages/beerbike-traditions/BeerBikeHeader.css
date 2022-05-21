@@ -1,0 +1,98 @@
+.beerbike-header {
+    /* background-color: black; */
+    object-fit:contain;
+    display: flex;
+}
+
+.blank {
+    flex: 3;
+    width: 100%;
+    height: 200px;
+}
+
+.beerbike-info {
+    flex: 2;
+    /* background-color: red; */
+    object-fit: contain;
+    padding: 10px;
+    margin-left: 230px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction:column;
+}
+
+.beerbike-info-title {
+    flex: 4;
+    object-fit: contain;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: yellow; */
+
+    
+}
+
+.beerbike-info-title > h1 {
+    color: black;
+    font-family: 'Futura';
+    font-style: italic;
+    letter-spacing: 0.18em;
+    font-weight: 900;
+    font-size: 100px;
+
+}
+
+.beerbike-info-title-image {
+    max-height: 200px;
+    
+    /* background-color: blue; */
+
+}
+
+
+.beerbike-info-subtitle {
+    flex: 1;
+    width: 224px;
+    padding: 10px;
+    /* background-color: pink; */
+
+    /* Subheading */
+
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.475em;
+    text-transform: uppercase;
+
+}
+
+.beerbike-info > p {
+    flex: 4;
+    padding: 10px;
+
+    height: 355px;
+    left: 13.6%;
+    right: 63.72%;
+
+
+    font-family: 'Meta Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: justify;
+
+
+    /* object-fit: contain; */
+
+}
