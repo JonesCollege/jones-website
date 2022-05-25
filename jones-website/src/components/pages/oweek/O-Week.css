@@ -21,7 +21,7 @@
 }
 .oweek-text-container {
     background-color: white;
-    padding: 3rem 5rem;
+    padding: 3rem 6rem;
     margin: 0 4rem;
     margin-bottom: 2rem;
 }
@@ -30,19 +30,35 @@
     font-family: "Futura XBlk BT";
     color: black;
     font-style: italic;
-    font-size: 80px;
-    letter-spacing: 0.2rem;
+    font-size: 70px;
+    letter-spacing: 6px;
+    padding: 2rem 0;
 }
 
 .oweek-h3 {
     font-family: "Futura Hv BT";
-    font-size: 18px;
+    font-size: 15px;
     text-align: left;
     padding-top: 1rem;
+    letter-spacing: 6px;
 }
 
 .oweek-p {
-    font-family: "Futura Bk BT";
+    font-family: "Meta Pro Light";
     font-size: 12px;
-    text-align: left;
+    text-align:justify;
+}
+
+.oweek-letter-box {
+    max-height: 350px;
+    padding-top: 1rem;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+.open-letter-text {
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
 }
