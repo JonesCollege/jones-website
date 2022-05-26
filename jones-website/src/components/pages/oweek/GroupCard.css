@@ -1,0 +1,38 @@
+.g-bg-img {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.g-text-card {
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    background-color: tan;  
+    bottom: -100px;
+    cursor: pointer;
+}
+.g-text-card-down {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.1s;
+    transition: transform 0.5s, opacity 0.1s, -webkit-transform 0.5s;
+}
+.g-text-card-up {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.1s;
+    transition: transform 0.5s, opacity 0.1s, -webkit-transform 0.5s;
+  }
+
+  .advisor-modal{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 99;
+  }

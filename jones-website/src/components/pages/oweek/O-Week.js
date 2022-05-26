@@ -1,15 +1,22 @@
-import React from 'react';
+import React , { useState } from 'react';
+import Modal from "react-modal";
 import './O-Week.css';
 import '../../../App.css';
 import CoordCard from './CoordCard';
-import Welcome from './Welcome';
-import Banner from './Banner';
-import Coords from './Coords';
-import Advisors from './Advisors';
+import GroupCard from './GroupCard';
 import Footer from '../../Footer';
+import LetterModal from './LetterModal';
+import { CoordLetter } from './OWeekDataSheet';
 
 export default function OWeek () {
-    
+    const [showLetterModal, setShowLetterModal] = useState(false);
+
+    const openLetterModal = () => {
+        setShowLetterModal(prev => !prev);
+    };
+    const closeModal = () => {
+        setShowLetterModal(false);
+    };
     return (
         <div>
         <div className='oweek-container'>
@@ -25,18 +32,26 @@ export default function OWeek () {
                     OWEEK
                 </h1>
                 <h3 className='oweek-h3'>
-                    HI EVERYONE
+                    HELLO NEW JONESIANS!
                 </h3>
-                <p className='oweek-p'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <div className='oweek-letter-box'>
+                {CoordLetter.text.split(/\n/).map(line => <p className='oweek-p' key={line}>{line}<br/></p>)}
+                </div>
+                <div className='open-letter-text'>
+                    <a style={{cursor:"pointer"}} onClick={openLetterModal}>Read More</a>
+                </div>
             </div>
-            
+            <Modal
+            isOpen={showLetterModal}
+            className="advisor-modal"
+            onRequestClose={closeModal}
+            centered
+            >
+                <LetterModal closeModal={closeModal}/>
+            </Modal>
+
         </div>
+        <GroupCard />
         <Footer/>
     </div>
     )

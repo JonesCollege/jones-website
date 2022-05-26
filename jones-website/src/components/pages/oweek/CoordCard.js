@@ -8,7 +8,6 @@ function CoordCard(props) {
     const [firstLoad, setFirstLoad] = useState(false);
 
     const bgImg = {
-        backgroundColor: "red",
         backgroundImage: `url(${props.img})`,
     }
 
