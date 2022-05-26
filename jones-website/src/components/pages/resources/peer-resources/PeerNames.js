@@ -122,6 +122,38 @@ export const Fellows = [
     
 ]
 
+export const StriveLiasons = [
+    {
+        "name": "Katie Wall"
+        "position": "Head RHA"
+        "email": "krw3@rice.edu"
+        "phone": "949-419-7066"
+        "year": "Junior"
+    },
+    {
+        "name": "Theo Schweizer"
+        "position": "Head RHA"
+        "email": "tss1@rice.edu"
+        "phone": "949-419-7066"
+        "year": "Junior"        
+    }
+]
+
+export const PCAS = [
+    {
+        "name": "Katie Wall"
+        "email": "krw3@rice.edu"
+        "year": "Junior"
+        "majors": "Biochemistry and Cell Biology; French Studies"
+    },
+    {
+        "name": "Ron Underwood"
+        "email": "rau1@rice.edu"
+        "year": "Junior"
+        "majors": "Computer Science and Cognitive Science"    
+    }
+]
+
 export const RHAS = [
     {
         "name": "Candi Zhao",

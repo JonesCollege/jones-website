@@ -100,3 +100,4 @@ function PeerResources() {
 }
 
 export default PeerResources;
+PeerResources();
