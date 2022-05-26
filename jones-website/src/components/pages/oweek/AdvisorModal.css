@@ -8,7 +8,19 @@
     border-radius: 5px;
     box-shadow: 24;
     padding: 1rem;
-    width: fit-content;
+    width: auto;
+}
+
+.a-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    row-gap: 2rem;
+    column-gap: 1rem;
+}
+
+.a-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .advisor-img {
@@ -18,13 +30,13 @@
 }
 
 .a-majors{
-    font-family: "Futura Bk BT";
+    font-family: "Meta Pro Light";
     font-size: 13px;
     padding: 0.5rem;
 }
 
 .a-email {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Meta Pro Light";
     font-style: italic;
     font-size: 11px;
     padding: 0.5rem;
