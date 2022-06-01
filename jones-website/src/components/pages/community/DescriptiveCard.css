@@ -1,0 +1,28 @@
+.desccard-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: aquamarine;
+    margin: auto;
+    width: 60vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.descimage{
+    flex: 0 1 50vw;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 100%;
+    object-position: -90px 0px;
+}
+
+.dinfo{
+    flex: 1 1 50vw;
+    padding-left: 40px;
+    padding-right: 40px;
+}

@@ -48,3 +48,14 @@
     background: linear-gradient(0deg, #ffffff 50%, #ebf6ed 50%);
     bottom: 0px;
 }
+
+.associatescard-flex{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    margin: auto;
+}
