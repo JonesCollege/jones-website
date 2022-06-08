@@ -1,14 +1,30 @@
+.modal-background{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: 9;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
 .desccard-flex{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-color: aquamarine;
+    background-color: white;
     margin: auto;
     width: 60vw;
     height: 80vh;
     overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+    z-index: 10;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .descimage{
@@ -25,4 +41,14 @@
     flex: 1 1 50vw;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.exit-button{
+    position: absolute;
+    top: 3vh;
+    right: 3vw;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
 }

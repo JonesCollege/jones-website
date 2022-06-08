@@ -1,10 +1,15 @@
 import React from 'react'
+import { useState } from 'react'
 import './Associatesalumni.css'
 import ACard from './AssociateCard'
 import DCard from './DescriptiveCard'
 import { Associates } from './AssociateInfo'
 
 const Associatesalumni = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [modalImg, setModalImg] = useState("");
+  const [modalName, setModalName] = useState("");
+  const [modalDesc, setModalDesc] = useState("");
   return (
     <div className='associatesalumni'>
       <div className='flex-row'>
@@ -52,19 +57,19 @@ const Associatesalumni = () => {
         </div>
       </div>
 
-      <DCard img='./images/aaron_pathak.jpg' name='Jones President' desc="Go to Associate's Night (a reception and dinner extravaganza held each 
-                    semester on behalf of the North Servery Chef). Take their classes. Keep 
-                    in touch with your O-Week Associates. Facebook friend them if you must. If 
-                    you're looking for some good conversation and some cool adults, just introduce 
-                    yourself. They're really eager to meet you, and they have plenty of stories and 
-                    memories from their own Jones and Rice experiences. And just think: you might 
-                    someday become an Associate too!"/>
+      {showModal && <DCard img={modalImg} name={modalName} longdesc={modalDesc} className='fullassociatescard' closeonclick={()=>{
+        setShowModal(false);
+      }}/>}
 
       <div className='associatescard-wrapper'>
         <div className='associatescard-flex'>
           {Associates.map((associate) => (
             /* associate.img must be a path into the public image folder */
-            <ACard img={associate.img} name={associate.name} desc={associate.desc} email={associate.email}/>
+            <ACard img={associate.img} name={associate.name} shortdesc={associate.shortdesc} email={associate.email} 
+            oncardclick={()=>{setShowModal(true);
+              setModalImg(associate.fullimg);
+              setModalName(associate.name);
+              setModalDesc(associate.longdesc);}}/>
           ))}
         </div>
       </div>
