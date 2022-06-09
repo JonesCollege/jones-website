@@ -8,7 +8,7 @@
     margin: 20px;
 }
 
-img {
+.associateimage {
     object-fit: cover;
     /* Need input for following three parameters 
     to resize avatar to fit */

@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #ebf6ed;
+    background-color: rgba(243, 248, 244, 255);
     position: relative;
     width: 100%;
     padding-top: 5%;
@@ -22,6 +22,7 @@
     right: 10%;
     border-radius: 100%;
     text-align: center;
+    font-style: italic;
     background-color: #FAF9F6;
     width: 220px;
     height: 220px;
@@ -41,11 +42,11 @@
     width: 50%;
     margin: auto;
     padding: 4% 4%;
-    gap: 10%
+    gap: 10%;
 }
 
 .associatesintro-bg{
-    background: linear-gradient(0deg, #ffffff 50%, #ebf6ed 50%);
+    background: linear-gradient(0deg, #ffffff 50%, rgba(243, 248, 244, 255) 50%);
     bottom: 0px;
 }
 
@@ -58,4 +59,104 @@
     /* align-items: center; */
     align-content: center;
     margin: auto;
+    padding: 2% 0% 2% 0%;
+}
+
+.famousassociates-wrapper{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 248, 244, 255);
+    position: relative;
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.famousassociates-text{
+    text-align: center;
+    /* width: 33%; */
+    width: 60vw;
+    margin: auto;
+}
+
+.ad-flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20vh 0 20vh 0;
+    gap: 8%;
+    overflow: hidden;
+}
+
+.ad-image{
+    max-height: 40vh;
+    box-shadow: -25px 25px 0px rgba(140,194,146,255);
+}
+
+#ad-title{
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(43,118,50,255);
+    padding: 1.5vh 0;
+}
+
+#ad-button{
+    background-color: white;
+    border: 1px solid rgba(43,118,50,255);
+    border-color: rgba(43,118,50,255);
+    border-radius: 10px;
+    color: rgba(43,118,50,255);
+    font-size: 19px;
+    cursor: pointer;
+    padding: 8px 35px;
+    margin: 3.5vh 0;
+}
+
+#ad-button:hover{
+    background-color: rgba(43,118,50,255);
+    color: white;
+}
+
+#ad-comments{
+    font-style: italic;
+    margin: 3vh 0;
+}
+
+.jonesemail{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(136,178,140,255);
+}
+
+li{
+    list-style-position: inside;
+    margin: 2px;
+}
+
+.donate{
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(241,247,241,255);
+    z-index: 8;
+    position: fixed;
+    bottom: 8vh;
+    right: 5vw;
+    padding: 15px 50px;
+    border-radius: 40px;
+    color: rgba(43,118,50,255);
+}
+
+.donate:hover{
+    box-shadow: 0 0 30px rgba(226,238,227,255);
+    color: rgba(140,194,146,255);
+}
+
+.donate.donateclicked{
+    background-color: rgba(140,194,146,255);
+    color: white;
+    box-shadow: none;
 }

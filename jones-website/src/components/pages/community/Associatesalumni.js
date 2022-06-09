@@ -10,6 +10,8 @@ const Associatesalumni = () => {
   const [modalImg, setModalImg] = useState("");
   const [modalName, setModalName] = useState("");
   const [modalDesc, setModalDesc] = useState("");
+  const [donateClicked, setDonateClicked] = useState(false);
+
   return (
     <div className='associatesalumni'>
       <div className='flex-row'>
@@ -25,7 +27,7 @@ const Associatesalumni = () => {
         </div>
         <div className='joinassociates'>
           <p className='joinassociates-text'>If you are interested in becoming an associate, please contact the 
-            External Vice President at <a href='mailto: jonesevp@gmail.com'>jonesevp@gmail.com</a>
+            External Vice President at <a href='mailto: jonesevp@gmail.com' className='jonesemail'>jonesevp@gmail.com</a>
           </p>
         </div>
       </div>
@@ -61,20 +63,54 @@ const Associatesalumni = () => {
         setShowModal(false);
       }}/>}
 
-      <div className='associatescard-wrapper'>
-        <div className='associatescard-flex'>
-          {Associates.map((associate) => (
-            /* associate.img must be a path into the public image folder */
-            <ACard img={associate.img} name={associate.name} shortdesc={associate.shortdesc} email={associate.email} 
-            oncardclick={()=>{setShowModal(true);
-              setModalImg(associate.fullimg);
-              setModalName(associate.name);
-              setModalDesc(associate.longdesc);}}/>
-          ))}
+      <div className='associatescard-flex'>
+        {Associates.map((associate) => (
+          /* associate.img must be a path into the public image folder */
+          <ACard img={associate.img} name={associate.name} shortdesc={associate.shortdesc} email={associate.email} 
+          oncardclick={()=>{setShowModal(true);
+            setModalImg(associate.fullimg);
+            setModalName(associate.name);
+            setModalDesc(associate.longdesc);}}/>
+        ))}
+      </div>
+      
+      <div className='famousassociates-wrapper'>
+        <div className='famousassociates-text'>
+            <h2>ASSOCIATES IN HIGH PLACES</h2>
+            <br></br>
+            <p>In 2010, the Mayor of Houston Annise Parker (Jones '78) came to campus as part of a jack (prank) 
+              organized by Jones College. The jack was coordinated by then-Jonesians Dan Lasalle and Prem 
+              Ramkumar. Parker spoke before a huge crowd of Rice students for about five minutes before 
+              announcing Jones was the BEST college. At that point, Jonesians in the crowd stood up and sprayed 
+              silly string on the rest of the audience amid chants of "JIBA" and "Jones wins again!" In short, 
+              Jones is the BEST college with the most POWERFUL associates! Although she is too busy to stop 
+              by (being mayor and all), Jones is extremely proud to call her an associate.
+            </p>
         </div>
       </div>
+      
+      <div className='ad-flexbox'>
+       <img src='./images/james.jpg' alt='' className='ad-image'></img>
+       <div className='ad-text'>
+         <h2 id="ad-title">ATTENTION WINNING JONES ALUMS</h2>
+         <p id="ad-instructions">Please fill out the short form linked below if you would like to 
+           stay in touch with Jones College and new Jonesians!
+         </p>
+         <button id="ad-button">Join the Mailing List!</button>
+         <p>Opting-in to the mailing list will keep you updated on the following:</p>
+         <ul id="ad-list">
+           <li>Alumni events at Jones</li>
+           <li>Twice a year updates about the college</li>
+           <li>Beer Bike</li>
+           <li>Ways you can give back to Jones</li>
+         </ul>
+         <p id="ad-comments">If you have any comments or suggestions, please contact the External 
+           Vice President at <a href='mailto: jonesevp@gmail.com' className='jonesemail'>jonesevp@gmail.com</a>
+        </p>
+       </div>
+      </div>
 
-
+      <button className={donateClicked ? "donate donateclicked" : "donate"} onMouseDown={()=>{setDonateClicked(true)}} onMouseUp={()=>{setDonateClicked(false)}}>DONATE</button>
     </div>
   )
 }

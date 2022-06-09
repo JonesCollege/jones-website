@@ -5,7 +5,7 @@ const AssociateCard = ( {img, name, shortdesc, email, oncardclick} ) => {
   return (
     <div className='card' onClick={oncardclick}>
         <div className='img-wrapper'>
-         <img src={img} alt="" className='image'></img>
+         <img src={img} alt="" className='associateimage'></img>
         </div>
         <h3 className='name'>{name}</h3>
         <p className='shortdesc'>{shortdesc}</p>
