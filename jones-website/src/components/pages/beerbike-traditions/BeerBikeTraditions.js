@@ -1,23 +1,19 @@
-import React from 'react'
-import Footer from '../../Footer';
+import React from "react";
+import Footer from "../../Footer";
 import "./BeerBikeTraditions.css";
-import BeerBikeHeader from './BeerBikeHeader';
-import BeerBikePeopleSection from './BeerBikePeopleSection';
-import Traditions from './Traditions'
+import BeerBikeHeader from "./BeerBikeHeader";
+import BeerBikePeopleSection from "./BeerBikePeopleSection";
+import Traditions from "./Traditions";
+import History from "./History";
 // import JonesAnthem from './JonesAnthem';
 
-
-export default function BeerBikeTraditions () {
+export default function BeerBikeTraditions() {
   return (
-
-    <div className = "page-container">
-      <BeerBikeHeader />
-      <BeerBikePeopleSection />
-      <Traditions />
-
-
+    <div className="page-container">
+      {/* <BeerBikeHeader />
+      <BeerBikePeopleSection /> */}
+      {/* <Traditions /> */}
+      <History />
     </div>
-  )
+  );
 }
-
-

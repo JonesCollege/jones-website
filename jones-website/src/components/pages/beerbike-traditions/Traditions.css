@@ -1,62 +1,61 @@
 .traditions-container {
-    /* Auto layout */
+  /* Auto layout */
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 100px 0px;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 100px 0px;
+  gap: 40px;
 
-    position: relative;
-    width: 100vw;
-    height: 864px;
-   
-    top: 10px;
-    background-color: #F3F8F4;
+  position: relative;
+  width: 100vw;
+  height: 864px;
 
+  top: 10px;
+  background-color: #f3f8f4;
 }
 
 .traditions-container > h1 {
-    /* Heading 3 */
-    width: 216px;
-    height: 29px;
+  /* Heading 3 */
+  width: 216px;
+  height: 29px;
 
-    /* Heading 3 */
+  /* Heading 3 */
 
-    font-family: 'Futura';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: 0.39em;
-    text-transform: uppercase;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.39em;
+  text-transform: uppercase;
 
-    color: #000000;
+  color: #000000;
 
+  /* Inside auto layout */
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
+  flex: none;
+  order: 0;
 }
 
 .traditions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 50px;
+  width: 100%;
 
-    width: 100%;
-   
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
 }
 
+@media only screen and (max-width: 930px) {
+  [class="traditions"] {
+    flex-direction: column;
+  }
+}
