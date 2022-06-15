@@ -1,0 +1,37 @@
+.history-container > h1 {
+  /* Heading 3 */
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.39em;
+  text-transform: uppercase;
+  align-self: center;
+  margin: 0px;
+
+  color: #000000;
+}
+
+.history-container {
+  /* background-color: pink; */
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  min-width: 600px;
+  flex-direction: column;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+@media only screen and (max-width: 650px) {
+  [class="history-container"] {
+    width: 500px;
+    gap: 20px;
+  }
+}

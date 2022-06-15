@@ -4,13 +4,12 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import OWeek from "./components/pages/oweek/O-Week";
-import BeerBikeTraditions from "./components/pages/beerbike-traditions/BeerBikeTraditions";
+import BeerBikeTraditionsPage from "./components/pages/beerbike-traditions/BeerBikeTraditionsPage";
 
 function App() {
   return (
     <>
-      <BeerBikeTraditions />
-      {/* <Router>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
@@ -18,10 +17,10 @@ function App() {
           <Route
             path="/beerbike-traditions"
             exact
-            element={<BeerBikeTraditions />}
+            element={<BeerBikeTraditionsPage />}
           />
         </Routes>
-      </Router> */}
+      </Router>
     </>
   );
 }
