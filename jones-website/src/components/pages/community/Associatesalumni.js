@@ -14,7 +14,7 @@ const Associatesalumni = () => {
 
   return (
     <div className='associatesalumni'>
-      <div className='flex-row'>
+      <div className='headflex-row'>
         <div className='associatesintro-text'>
           <h2>ASSOCIATES</h2>
           <br></br>
