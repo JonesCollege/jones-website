@@ -1,0 +1,41 @@
+.center-box{
+    background: #F7F3FC99;
+    border-radius: 29px;
+    display: flex;
+    width: 13rem;
+    height: 14rem;
+    border-radius: .5rem;
+}
+
+.h3-title {
+    font-family: 'Futura Lt Bt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .headline-text {
+    color: #c4c4c4;
+    font-family: "Futura Lt Bt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.regular-text{
+    color: #000000;
+    font-family: 'Meta Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.italic-text{
+    font-style: italic;
+    font-family: 'Futura Lt Bt';
+    color: #c4c4c4
+}

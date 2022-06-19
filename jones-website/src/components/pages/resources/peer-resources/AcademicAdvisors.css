@@ -1,0 +1,53 @@
+.h3-green-title {
+    font-family: 'Futura Lt Bt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .advisors-desc-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.center-green-box {
+  display: flex;
+  background: #D6E7D8;
+  border-radius: 29px;
+  flex-direction: column;
+  padding: 2rem; 
+  max-width: 540px;
+}
+
+.meta-pro-text{
+  font-family: 'Meta Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #000000;
+}
+
+.green-link-text{
+    font-family: 'Meta Pro';
+    font-style: italic;
+    color: #2B7632;
+}
+
+.advisor-button {
+    width: 190px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 1px solid black;
+  }
+  
+  .advisor-button:hover {
+    background-color: #8CC292;
+    color: white;
+  }

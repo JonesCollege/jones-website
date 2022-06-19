@@ -1,0 +1,22 @@
+.headline-text {
+    color: #c4c4c4;
+    font-family: "Futura Lt Bt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.regular-text{
+    color: #000000;
+    font-family: 'Meta Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.italic-text{
+    font-style: italic;
+    font-family: 'Futura Lt Bt';
+}
