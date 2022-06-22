@@ -1,10 +1,15 @@
 import React from 'react'
+import { useState } from 'react'
 import { SocialIcon } from 'react-social-icons'
 import './Studentgov.css'
 import GovCard from './StugovCard'
-import { Stugov } from './StugovInfo'
+import InfoCard from './InfoCard'
+import { Stugov } from './information/StugovInfo'
+import { ElectedPos } from './information/ElectedPosInfo'
 
 const Studentgov = () => {
+  const [formClick, setFormClick] = useState(false);
+
   return (
     <div>
       <div id='instaicon-wrap'>
@@ -42,7 +47,7 @@ const Studentgov = () => {
       <div id='cabpos-flexrow'>
         <div id='cabfb-flexcol'>
           <p>Have any feedback for Cabinet?</p>
-          <button>Form Link</button>
+          <button id={formClick ? 'cabfbclick' : ''} onMouseDown={()=>{setFormClick(true)}} onMouseUp={()=>{setFormClick(false)}}>Form Link</button>
         </div>
         <div id='aboutcab'>
           <h3 id='cabpos'>CABINET POSITIONS</h3>
@@ -53,14 +58,27 @@ const Studentgov = () => {
         </div>
       </div>
 
+      {/* REQUIRES ALL STUDENT GOVERNMENT IMAGES BE PLACED IN PUBLIC > IMAGES */}
       <div id='stugovflexrow'>
         {Stugov.map((stugov) => (
-          <GovCard name={stugov.name} pronouns={stugov.pronouns} position={stugov.pronouns} major={stugov.major}
+          <GovCard name={stugov.name} pronouns={stugov.pronouns} position={stugov.position} major={stugov.major}
                     img={stugov.img} email={stugov.email} shortdesc={stugov.shortdesc} objpos={stugov.objpos}
-                    maxsize={stugov.maxsize}/>
+                    maxsize={stugov.maxsize} key={stugov.name}/>
         ))}
       </div>
-      <br></br><br></br>
+
+      <hr></hr>
+
+      <div id='electedpos'>
+          <h3 id='electedtitle'>ELECTED POSITIONS 2022-2023</h3>
+          <p id='electeddesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
+          and the rest are appointed by the President, Vice President, and other officers, usually in the spring</p>
+          {ElectedPos.map((elected) => (
+            <InfoCard title={elected.title} email={elected.email} people={elected.people}/>
+          ))}
+      </div>
+
+      <hr></hr>
     </div>
   )
 }

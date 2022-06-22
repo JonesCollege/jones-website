@@ -53,6 +53,13 @@
     src: url(../../../../public/fonts/meta-pro/FFMetaProThin.TTF)
 }
 
+hr {
+    width: 80%;
+    height: 2px;
+    margin: 4rem auto;
+    color: rgba(196, 196, 196, 0.5)
+}
+
 #instaicon-wrap{
     display: flex;
     flex-direction: row;
@@ -223,6 +230,16 @@
     flex-grow: 0; */
 }
 
+#cabfb-flexcol button:hover {
+    color: #FFFFFF;
+    background-color: #2B7632;
+}
+
+#cabfbclick {
+    background: #2B7632;
+    opacity: 0.5;
+}
+
 #aboutcab {
     justify-self: center;
 }
@@ -278,10 +295,51 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 2rem 0%;
+    background: rgba(214, 231, 216, 0.2);
+    border-radius: 22px;
+}
+
+#electedpos {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     /* align-items: center; */
     align-content: center;
     margin: auto;
-    padding: 2vh 0%;
-    background: rgba(214, 231, 216, 0.2);
-    border-radius: 22px;
+    padding: 2rem 0%;
+}
+
+#electedtitle {
+    font-family: 'futuraHeavy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin-bottom: 1rem;
+}
+
+#electeddesc {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+
+    margin-bottom: 1.5rem;
 }

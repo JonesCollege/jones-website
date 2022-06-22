@@ -39,7 +39,9 @@ export const Stugov = [
         "major": "",
         "img": "",
         "email": "jonescollegetreasurer@gmail.com",
-        "shortdesc": "Manage the Jones budget, maintain financial records"
+        "shortdesc": "Manage the Jones budget, maintain financial records",
+        "objpos": '',
+        "maxsize": ''
     },
     {
         "name": "Bikram Singh",
@@ -59,7 +61,9 @@ export const Stugov = [
         "major": "",
         "img": "",
         "email": "jonessasentator@gmail.com",
-        "shortdesc": "Represent Jones in the Student Association, serve as a non-voting member of Cabinet"
+        "shortdesc": "Represent Jones in the Student Association, serve as a non-voting member of Cabinet",
+        "objpos": '',
+        "maxsize": ''
     },
     {
         "name": "Nafisa Azizi",

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './Associatesalumni.css'
 import ACard from './AssociateCard'
 import DCard from './DescriptiveCard'
-import { Associates } from './AssociateInfo'
+import { Associates } from './information/AssociateInfo'
 
 const Associatesalumni = () => {
   const [showModal, setShowModal] = useState(false);
