@@ -271,3 +271,17 @@
     align-self: stretch;
     flex-grow: 0;
 }
+
+#stugovflexrow {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    margin: auto;
+    padding: 2vh 0%;
+    background: rgba(214, 231, 216, 0.2);
+    border-radius: 22px;
+}

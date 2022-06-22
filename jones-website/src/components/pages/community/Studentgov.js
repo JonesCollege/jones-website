@@ -1,7 +1,8 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import './Studentgov.css'
-import { GovCard } from './StugovCard'
+import GovCard from './StugovCard'
+import { Stugov } from './StugovInfo'
 
 const Studentgov = () => {
   return (
@@ -51,6 +52,15 @@ const Studentgov = () => {
           </p>
         </div>
       </div>
+
+      <div id='stugovflexrow'>
+        {Stugov.map((stugov) => (
+          <GovCard name={stugov.name} pronouns={stugov.pronouns} position={stugov.pronouns} major={stugov.major}
+                    img={stugov.img} email={stugov.email} shortdesc={stugov.shortdesc} objpos={stugov.objpos}
+                    maxsize={stugov.maxsize}/>
+        ))}
+      </div>
+      <br></br><br></br>
     </div>
   )
 }
