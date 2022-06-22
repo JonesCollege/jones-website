@@ -12,7 +12,7 @@ export const ElectedPos = [
     {
         "title": "RPC Rep",
         "email": "jones.rpc.rep@gmail.com",
-        "people": []
+        "people": ["Delaney Miller"]
     },
     {
         "title": "Social Coordinators",

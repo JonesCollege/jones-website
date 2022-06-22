@@ -90,7 +90,7 @@
 }
 
 #stugov {
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
     background-color: #F3F8F4;
 
     font-family: 'futuraHeavy';
@@ -302,8 +302,13 @@
     border-radius: 22px;
 }
 
-#electedposflexrow {
+#electedpos {
     width: 55%;
+    margin: auto;
+}
+
+.posflexrow {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -311,7 +316,6 @@
     /* align-items: center; */
     align-content: center;
     margin: auto;
-    padding: 2rem 0%;
 }
 
 .postitle {
@@ -329,6 +333,7 @@
     color: #000000;
 
     margin-bottom: 1rem;
+    background-color: #FFFFFF;
 }
 
 #electedposdesc {
@@ -359,4 +364,84 @@
     text-align: center;
 
     color: #000000;
+    margin-bottom: 2rem;
+}
+
+#otherpos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+  
+#otherpos::before, #otherpos::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid rgba(196, 196, 196, 0.5);
+}
+
+#otherpos:not(:empty)::before {
+    margin-right: 1rem;
+}
+
+#otherpos:not(:empty)::after {
+    margin-left: 0.5rem;
+}
+
+#constitution {
+    width: 90%;
+    background: #F7FBF7;
+    margin: 8rem auto;
+    padding: 13rem 0rem 13rem 15rem;
+}
+
+#constitution .postitle {
+    text-align: left;
+    background: #F7FBF7;
+    margin: 0rem;
+    margin-bottom: 1rem;
+}
+
+#constitutiontxt {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+#constflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0rem;
+    gap: 12rem;
+}
+
+#downloadwrapper {
+    border-radius: 100%;
+    /* more aggressive blur */
+    box-shadow: 0px 4px 50px 2px #D6E7D8;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem;
+    height: 76px;
+    width: 76px;
+}
+
+#downloadbutton {
+    color:#2B7632;
+    background-color: transparent;
+    padding: 0rem;
+    margin: 0rem;
+    height: 40px;
+    width: 40px;
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import { SocialIcon } from 'react-social-icons'
+import { MdDownload } from 'react-icons/md'
+import { IconContext } from 'react-icons'
 import './Studentgov.css'
 import CabinetCard from './studentgov/CabinetCard'
 import PositionCard from './studentgov/PositionCard'
@@ -9,6 +11,7 @@ import { PresInfo } from './information/PresidentInfo'
 import { Stugov } from './information/StugovInfo'
 import { ElectedPos } from './information/ElectedPosInfo'
 import { AppointedPos } from './information/AppointedPosInfo'
+import { OtherPos } from './information/OtherPosInfo'
 
 const Studentgov = () => {
   const [formClick, setFormClick] = useState(false);
@@ -50,7 +53,9 @@ const Studentgov = () => {
       <div id='cabpos-flexrow'>
         <div id='cabfb-flexcol'>
           <p>Have any feedback for Cabinet?</p>
-          <button id={formClick ? 'cabfbclick' : ''} onMouseDown={()=>{setFormClick(true)}} onMouseUp={()=>{setFormClick(false)}}>Form Link</button>
+          <form target="_blank" action="https://goo.gl/forms/qOgEch2pH41iOdPo2">
+            <button id={formClick ? 'cabfbclick' : ''} onMouseDown={()=>{setFormClick(true)}} onMouseUp={()=>{setFormClick(false)}}>Form Link</button>
+          </form>
         </div>
         <div id='aboutcab'>
           <h3 id='cabpos'>CABINET POSITIONS</h3>
@@ -72,13 +77,15 @@ const Studentgov = () => {
 
       <hr className='govdivide'></hr>
 
-      <div id='electedposflexrow'>
+      <div id='electedpos'>
           <h3 className='postitle'>ELECTED POSITIONS 2022-2023</h3>
           <p id='electedposdesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
           and the rest are appointed by the President, Vice President, and other officers, usually in the spring.</p>
-          {ElectedPos.map((elected, idx) => (
-            <PositionCard title={elected.title} email={elected.email} people={elected.people} key={idx}/>
-          ))}
+          <div className='posflexrow'>
+            {ElectedPos.map((elected, idx) => (
+              <PositionCard title={elected.title} email={elected.email} people={elected.people} key={idx}/>
+            ))}
+          </div>
       </div>
 
       <hr className='govdivide'></hr>
@@ -93,7 +100,29 @@ const Studentgov = () => {
         <AppointedPosList position={pos.position} info={pos.info} key={idx}/>
       ))}
 
-      <br></br>
+      <div id='otherpos' className='postitle'>Other Positions</div>
+
+      <div className='posflexrow'>
+        {OtherPos.map((position, idx) => (
+          <PositionCard title={position.title} email={position.email} people={position.people} key={idx}/>
+        ))}
+      </div>
+
+      <div id='constitution'>
+        <h3 className='postitle'>The Constitution</h3>
+        <div id='constflex'>
+          <p id='constitutiontxt'>The Jones Constitution details the laws of our land. It’s the way we make most of our decisions, 
+            and how we put people in charge. From room draw procedures to the most eccentric of Presidential duties, 
+            the Constitution has got it all. There are over 35 pages of carefully worded text to guide our college’s 
+            activity. The College Parliamentarian is responsible for updating and changing the Constitution as he or she 
+            sees fit. The Constitution is broken down into six main sections:</p>
+          <div id='downloadwrapper'>
+            <IconContext.Provider value={{ size: 200 }}>
+              <MdDownload id='downloadbutton' />
+            </IconContext.Provider>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
