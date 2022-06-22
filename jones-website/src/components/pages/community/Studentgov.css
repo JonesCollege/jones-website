@@ -53,7 +53,7 @@
     src: url(../../../../public/fonts/meta-pro/FFMetaProThin.TTF)
 }
 
-hr {
+.govdivide {
     width: 80%;
     height: 2px;
     margin: 4rem auto;
@@ -302,7 +302,7 @@ hr {
     border-radius: 22px;
 }
 
-#electedpos {
+#electedposflexrow {
     width: 55%;
     display: flex;
     flex-wrap: wrap;
@@ -314,7 +314,7 @@ hr {
     padding: 2rem 0%;
 }
 
-#electedtitle {
+.postitle {
     font-family: 'futuraHeavy';
     font-style: normal;
     font-weight: 700;
@@ -331,7 +331,7 @@ hr {
     margin-bottom: 1rem;
 }
 
-#electeddesc {
+#electedposdesc {
     font-family: 'mpBlkLt';
     font-style: normal;
     font-weight: 300;
@@ -342,4 +342,21 @@ hr {
     color: #000000;
 
     margin-bottom: 1.5rem;
+}
+
+
+#appointedposheader {
+    width: 55%;
+    margin: auto;
+}
+
+#appointposdesc {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
 }

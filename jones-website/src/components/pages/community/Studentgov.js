@@ -2,10 +2,13 @@ import React from 'react'
 import { useState } from 'react'
 import { SocialIcon } from 'react-social-icons'
 import './Studentgov.css'
-import GovCard from './StugovCard'
-import InfoCard from './InfoCard'
+import CabinetCard from './studentgov/CabinetCard'
+import PositionCard from './studentgov/PositionCard'
+import AppointedPosList from './studentgov/AppointedPosList'
+import { PresInfo } from './information/PresidentInfo'
 import { Stugov } from './information/StugovInfo'
 import { ElectedPos } from './information/ElectedPosInfo'
+import { AppointedPos } from './information/AppointedPosInfo'
 
 const Studentgov = () => {
   const [formClick, setFormClick] = useState(false);
@@ -19,10 +22,10 @@ const Studentgov = () => {
       <h2 id='stugov'>STUDENT GOVERNMENT</h2>
       <div id='presflexrow-bg'>
         <div id='presflexrow'>
-          <img src={require('./images/danprespic.jpg')} alt=''></img>
+          <img src={PresInfo.img} alt=''></img>
           <div>
-            <h3 id='presname'>DAN HELMECI, JONES'23</h3>
-            <p id='prestitle'>PRESIDENT 2022-2023</p>
+            <h3 id='presname'>{PresInfo.name}, JONES'23</h3>
+            <p id='prestitle'>PRESIDENT {PresInfo.year}</p>
             <p id='presintro'>Hey Jones! My name is Dan, and I'm the Jones president for the 2022-23 school year! 
               I'm so excited to have the opportunity to be president this year, as we are hoping to 
               both revitalize many of our favorite traditions and cultures following COVID while also 
@@ -60,25 +63,37 @@ const Studentgov = () => {
 
       {/* REQUIRES ALL STUDENT GOVERNMENT IMAGES BE PLACED IN PUBLIC > IMAGES */}
       <div id='stugovflexrow'>
-        {Stugov.map((stugov) => (
-          <GovCard name={stugov.name} pronouns={stugov.pronouns} position={stugov.position} major={stugov.major}
+        {Stugov.map((stugov, idx) => (
+          <CabinetCard name={stugov.name} pronouns={stugov.pronouns} position={stugov.position} major={stugov.major}
                     img={stugov.img} email={stugov.email} shortdesc={stugov.shortdesc} objpos={stugov.objpos}
-                    maxsize={stugov.maxsize} key={stugov.name}/>
+                    maxsize={stugov.maxsize} key={idx}/>
         ))}
       </div>
 
-      <hr></hr>
+      <hr className='govdivide'></hr>
 
-      <div id='electedpos'>
-          <h3 id='electedtitle'>ELECTED POSITIONS 2022-2023</h3>
-          <p id='electeddesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
-          and the rest are appointed by the President, Vice President, and other officers, usually in the spring</p>
-          {ElectedPos.map((elected) => (
-            <InfoCard title={elected.title} email={elected.email} people={elected.people}/>
+      <div id='electedposflexrow'>
+          <h3 className='postitle'>ELECTED POSITIONS 2022-2023</h3>
+          <p id='electedposdesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
+          and the rest are appointed by the President, Vice President, and other officers, usually in the spring.</p>
+          {ElectedPos.map((elected, idx) => (
+            <PositionCard title={elected.title} email={elected.email} people={elected.people} key={idx}/>
           ))}
       </div>
 
-      <hr></hr>
+      <hr className='govdivide'></hr>
+
+      <div id='appointedposheader'>
+          <h3 className='postitle'>APPOINTED POSITIONS 2022-2023</h3>
+          <p id='appointposdesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
+          and the rest are appointed by the President, Vice President, and other officers, usually in the spring.</p>
+      </div>
+
+      {AppointedPos.map((pos, idx) => (
+        <AppointedPosList position={pos.position} info={pos.info} key={idx}/>
+      ))}
+
+      <br></br>
     </div>
   )
 }

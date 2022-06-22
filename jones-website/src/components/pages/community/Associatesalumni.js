@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import './Associatesalumni.css'
-import ACard from './AssociateCard'
-import DCard from './DescriptiveCard'
+import ACard from './associates-alumni/AssociateCard'
+import DCard from './associates-alumni/DescriptiveCard'
 import { Associates } from './information/AssociateInfo'
 
 const Associatesalumni = () => {
