@@ -1,0 +1,56 @@
+@font-face{
+    font-family: futuraHeavy;
+    src: url(../../../../../public/fonts/futura/Futura\ Heavy\ font.ttf)
+}
+
+@font-face{
+    font-family: futuraMediumBT;
+    src: url(../../../../../public/fonts/futura/futura\ medium\ bt.ttf)
+}
+
+@font-face{
+    font-family: mpBlkLt;
+    src: url(../../../../../public/fonts/meta-pro/FFMetaProLight.TTF)
+}
+
+#appointposflex {
+    width: fit-content;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+}
+
+#appointedposition {
+    font-family: 'futuraMediumBT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.33em;
+    text-transform: uppercase;
+
+    color: rgba(61, 133, 69, 0.56);
+
+    transform: rotate(-90deg);
+}
+
+#appointposinnerflex {
+    background: rgba(214, 231, 216, 0.17);
+    border-radius: 30px;
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-self: center;
+    padding: 0 2.5rem;
+}

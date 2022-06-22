@@ -1,0 +1,55 @@
+@font-face {
+    font-family: futuraHeavy;
+    src: url(../../../../../public/fonts/futura/Futura\ Heavy\ font.ttf)
+}
+
+@font-face {
+    font-family: mpBlkLt;
+    src: url(../../../../../public/fonts/meta-pro/FFMetaProLight.TTF)
+}
+
+#infocard {
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem
+}
+
+#infotitle {
+    font-family: 'futuraHeavy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#infoemail {
+    font-family: 'mpBlkLt';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+    margin: 0.5rem auto;
+}
+
+.infoperson {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
