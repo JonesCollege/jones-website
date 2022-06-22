@@ -18,7 +18,11 @@ export default function AutoPlaySlider({ images }) {
         {images.map((image) => {
           return (
             <div>
-              <img style={{ width: "50vw" }} src={image} alt="image" />
+              <img
+                style={{ width: "49.8vw", margin: "10px" }}
+                src={image}
+                alt="image"
+              />
             </div>
           );
         })}
