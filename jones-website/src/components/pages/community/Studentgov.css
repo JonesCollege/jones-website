@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: futuraHeavy;
-    src: url(../../../../public/fonts/futura/Futura\ Heavy\ font.ttf)
+    font-family: futuraBook;
+    src: url(../../../../public/fonts/futura/Futura\ Book\ font.ttf)
 }
 
 @font-face {
@@ -19,13 +19,28 @@
 }
 
 @font-face {
+    font-family: futuraHeavy;
+    src: url(../../../../public/fonts/futura/Futura\ Heavy\ font.ttf)
+}
+
+@font-face {
     font-family: futuraLightBT;
     src: url(../../../../public/fonts/futura/futura\ light\ bt.ttf)
 }
 
 @font-face {
+    font-family: futuraLight;
+    src: url(../../../../public/fonts/futura/Futura\ Light\ font.ttf)
+}
+
+@font-face {
     font-family: futuraMediumBT;
     src: url(../../../../public/fonts/futura/futura\ medium\ bt.ttf)
+}
+
+@font-face {
+    font-family: futuraMediumCondensed;
+    src: url(../../../../public/fonts/futura/futura\ medium\ condensed\ bt.ttf)
 }
 
 @font-face {
@@ -109,7 +124,7 @@
 #presname {
     padding-bottom: 0.5rem;
 
-    font-family: 'futuraMediumBT';
+    font-family: 'futuraBook';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
