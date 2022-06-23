@@ -1,7 +1,17 @@
+@font-face {
+    font-family: futuraMediumBT;
+    src: url(../../../../../public/fonts/futura/futura\ medium\ bt.ttf)
+}
+
+@font-face {
+    font-family: mpBlkLt;
+    src: url(../../../../../public/fonts/meta-pro/FFMetaProLight.TTF)
+}
+
 .modal-background{
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.02);
     z-index: 9;
     position: fixed;
     top: 0%;
@@ -19,7 +29,7 @@
     width: 60vw;
     height: 80vh;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
     z-index: 10;
     position: fixed;
     top: 55%;
@@ -34,21 +44,46 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     height: 100%;
-    object-position: -90px 0px;
+    /* object-position: -90px 0px; */
 }
 
 .dinfo{
     flex: 1 1 50vw;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0rem 3rem;
 }
 
 .exit-button{
     position: absolute;
-    top: 3vh;
-    right: 3vw;
+    top: 2rem;
+    right: 2rem;
     background-color: transparent;
     border: none;
-    font-size: 25px;
     cursor: pointer;
+}
+
+.dname {
+    /* Heading 3 */
+
+    font-family: 'futuraMediumBT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.ddesc {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    
+    color: #000000;
 }

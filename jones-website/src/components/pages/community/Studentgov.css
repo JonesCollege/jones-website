@@ -1,21 +1,6 @@
 @font-face {
-    font-family: futura;
-    src: url(../../../../public/fonts/futura/futur.ttf)
-}
-
-@font-face {
-    font-family: futuraBold;
-    src: url(../../../../public/fonts/futura/Futura\ Bold\ font.ttf)
-}
-
-@font-face {
     font-family: futuraBook;
     src: url(../../../../public/fonts/futura/Futura\ Book\ font.ttf)
-}
-
-@font-face {
-    font-family: futuraExBlack;
-    src: url(../../../../public/fonts/futura/Futura\ Extra\ Black\ font.ttf)
 }
 
 @font-face {
@@ -24,48 +9,8 @@
 }
 
 @font-face {
-    font-family: futuraLightBT;
-    src: url(../../../../public/fonts/futura/futura\ light\ bt.ttf)
-}
-
-@font-face {
-    font-family: futuraLight;
-    src: url(../../../../public/fonts/futura/Futura\ Light\ font.ttf)
-}
-
-@font-face {
-    font-family: futuraMediumBT;
-    src: url(../../../../public/fonts/futura/futura\ medium\ bt.ttf)
-}
-
-@font-face {
-    font-family: futuraMediumCondensed;
-    src: url(../../../../public/fonts/futura/futura\ medium\ condensed\ bt.ttf)
-}
-
-@font-face {
-    font-family: futuraXBT;
-    src: url(../../../../public/fonts/futura/Futura\ XBlk\ BT.ttf)
-}
-
-@font-face {
-    font-family: mpBlk;
-    src: url(../../../../public/fonts/meta-pro/FFMetaProBlk.TTF)
-}
-
-@font-face {
     font-family: mpBlkLt;
     src: url(../../../../public/fonts/meta-pro/FFMetaProLight.TTF)
-}
-
-@font-face {
-    font-family: mpReg;
-    src: url(../../../../public/fonts/meta-pro/FFMetaProRegular.TTF)
-}
-
-@font-face {
-    font-family: mpThin;
-    src: url(../../../../public/fonts/meta-pro/FFMetaProThin.TTF)
 }
 
 .govdivide {

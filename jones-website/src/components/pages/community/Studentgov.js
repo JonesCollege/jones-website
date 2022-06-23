@@ -8,7 +8,7 @@ import CabinetCard from './studentgov/CabinetCard'
 import PositionCard from './studentgov/PositionCard'
 import AppointedPosList from './studentgov/AppointedPosList'
 import { PresInfo } from './information/PresidentInfo'
-import { Stugov } from './information/StugovInfo'
+import { CabinetInfo } from './information/CabinetInfo'
 import { ElectedPos } from './information/ElectedPosInfo'
 import { AppointedPos } from './information/AppointedPosInfo'
 import { OtherPos } from './information/OtherPosInfo'
@@ -53,7 +53,7 @@ const Studentgov = () => {
       <div id='cabpos-flexrow'>
         <div id='cabfb-flexcol'>
           <p>Have any feedback for Cabinet?</p>
-          <form target="_blank" action="https://goo.gl/forms/qOgEch2pH41iOdPo2">
+          <form target='_blank' action='https://goo.gl/forms/qOgEch2pH41iOdPo2'>
             <button id={formClick ? 'cabfbclick' : ''} onMouseDown={()=>{setFormClick(true)}} onMouseUp={()=>{setFormClick(false)}}>Form Link</button>
           </form>
         </div>
@@ -68,7 +68,7 @@ const Studentgov = () => {
 
       {/* REQUIRES ALL STUDENT GOVERNMENT IMAGES BE PLACED IN PUBLIC > IMAGES */}
       <div id='stugovflexrow'>
-        {Stugov.map((stugov, idx) => (
+        {CabinetInfo.map((stugov, idx) => (
           <CabinetCard name={stugov.name} pronouns={stugov.pronouns} position={stugov.position} major={stugov.major}
                     img={stugov.img} email={stugov.email} shortdesc={stugov.shortdesc} objpos={stugov.objpos}
                     maxsize={stugov.maxsize} key={idx}/>

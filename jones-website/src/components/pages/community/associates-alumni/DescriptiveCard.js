@@ -1,19 +1,23 @@
 import React from 'react'
 import './DescriptiveCard.css'
+import { MdClose } from 'react-icons/md'
+import { IconContext } from 'react-icons'
 
-const DescriptiveCard = ({ img, name, longdesc, closeonclick }) => {
+const DescriptiveCard = ({ img, name, longdesc, closeonclick, objpos, maxsize }) => {
   return (
     <div>
       <div className='modal-background' onClick={closeonclick}>
       </div>
       <div className='desccard-flex'>
-          <img src={img} alt='' className='descimage'></img>
+          <img src={img} alt='' className='descimage' style={{ objectPosition: objpos, maxWidth: maxsize, maxHeight: maxsize }}></img>
           <div className='dinfo'>
               <h2 className='dname'>{name}</h2>
               <br></br>
               <p className='ddesc'>{longdesc}</p>
           </div>
-          <button className='exit-button' onClick={closeonclick}>X</button>
+          <IconContext.Provider value={{ size: 35 }}>
+            <MdClose className='exit-button' onClick={closeonclick}/>
+          </IconContext.Provider>
       </div>
     </div>
   )

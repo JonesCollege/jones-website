@@ -1,15 +1,15 @@
 import React from 'react'
 import './AssociateCard.css'
 
-const AssociateCard = ( {img, name, shortdesc, email, oncardclick} ) => {
+const AssociateCard = ( {img, name, shortdesc, email, oncardclick, objpos, maxsize} ) => {
   return (
-    <div className='card' onClick={oncardclick}>
-        <div className='img-wrapper'>
-         <img src={img} alt="" className='associateimage'></img>
+    <div className='accard' onClick={oncardclick}>
+        <div className='acimg-wrapper'>
+         <img src={img} alt="" className='acassociateimage' style={{ objectPosition: objpos, maxWidth: maxsize, maxHeight: maxsize }}></img>
         </div>
-        <h3 className='name'>{name}</h3>
-        <p className='shortdesc'>{shortdesc}</p>
-        <p className='email'><a href= 'mailto: {email}'>{email}</a></p>
+        <h3 className='acname'>{name}</h3>
+        <p className='acshortdesc'>{shortdesc}</p>
+        <p className='acemail'>{email}</p>
     </div>
   )
 }
