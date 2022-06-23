@@ -38,7 +38,8 @@
 
     color: rgba(61, 133, 69, 0.56);
 
-    transform: rotate(-90deg);
+    transform-origin: center right;
+    transform: rotate(-90deg) translate(50%, -100%);
 }
 
 #appointposinnerflex {
