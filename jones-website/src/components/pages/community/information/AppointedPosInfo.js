@@ -34,7 +34,7 @@ export const AppointedPos = [
             },
             {
                 "title": "Elections Coordinators",
-                "email": "joneselectionsgmail.com",
+                "email": "joneselections@gmail.com",
                 "people": ["Amy Cao", "Dawson Franklin"],
             },
             {
