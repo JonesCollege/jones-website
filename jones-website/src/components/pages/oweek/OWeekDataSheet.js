@@ -17,3 +17,426 @@ export const CoordLetter =
     ],
         "email": "jonesoweek@rice.edu "
     };
+
+export const OWeekGroups = [
+    {
+        "name": "ANTE SOCIAL SOCIAL CLUB", 
+        "members": "Caroline Leung, Walsh Klineberg, Ryan Dullea, Philip DuBose", 
+        "img": "./images/o-week-groups/antesocialsocialclub.JPG",
+        "profiles": [
+            {
+                "name": "CAROLINE LEUNG",
+                "email": "cal15@rice.edu",
+                "major": "Biosciences",
+                "collegetag": "./college-tags/lovett_tag.png", 
+                "img": "./images/advisors/carolineleung.JPG"
+            },
+            {
+                "name": "WALSH KLINEBERG",
+                "email": "wok1@rice.edu",
+                "major": "Mechanical Engineering",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/walshklineberg.jpg"
+            },
+            {
+                "name": "RYAN DULLEA",
+                "email": "rcd2@rice.edu",
+                "major": "Chemistry",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/ryandullea.jpeg"
+            },
+            {
+                "name": "PHILIP DUBOSE",
+                "email": "pad3@rice.edu",
+                "major": "Cognitive Sciences",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/philipdubose.JPG"
+            }
+        ]
+    },
+    {
+        "name": "KEEPING UP WITH THE CARDASHIANS", 
+        "members": "Olivia Goganian, Hugo Gerbich Pais, Theo Schweizer, Aidan Colon", 
+        "img": "./images/o-week-groups/cardashians.JPG",
+        "profiles": [
+            {
+                "name": "OLIVIA GOGANIAN",
+                "email": "omg1@rice.edu",
+                "major": "Mechanical Engineering",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/oliviagoganian.png"
+            },
+            {
+                "name": "HUGO GERBICH PAIS",
+                "email": "hg40@rice.edu",
+                "major": "English, European Studies",
+                "collegetag": "./college-tags/duncan_tag.png", 
+                "img": "./images/advisors/hugogerbichpais.JPG"
+            },
+            {
+                "name": "THEO SCHWEIZER",
+                "email": "tss8@rice.edu",
+                "major": "Computer Science",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/theoschweizer.JPG"
+            },
+            {
+                "name": "AIDAN COLON",
+                "email": "asc11@rice.edu",
+                "major": "Electrical Engineering",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/aidancolon.JPG"
+            }
+        ]
+    },
+    {
+        "name": "CARD WARS: REVENGE OF THE CHIPS", 
+        "members": "Sam Barton, Lauren Brantley, Olivia Roark, Andrew Ondara", 
+        "img": "./images/o-week-groups/cardwars.JPG",
+        "profiles": [
+            {
+                "name": "SAM BARTON",
+                "email": "spb3@rice.edu",
+                "major": "Astrophysics",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/sambarton.JPG"
+            },
+            {
+                "name": "LAUREN BRANTLEY",
+                "email": "lmb19@rice.edu",
+                "major": "Business, Sports Medicine",
+                "collegetag": "./college-tags/duncan_tag.png", 
+                "img": "./images/advisors/laurenbrantley.JPG"
+            },
+            {
+                "name": "OLIVIA ROARK",
+                "email": "ozr1@rice.edu",
+                "major": "Neuroscience",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/oliviaroark.JPG"
+            },
+            {
+                "name": "ANDREW ONDARA",
+                "email": "aoo4@rice.edu",
+                "major": "Computer Science",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/andrewondara.JPG"
+            }
+        ]
+    },
+    {
+        "name": "ROMEO AND ROULIETTE", 
+        "members": "Garrett French, Marcy Zere, Sarah Luan, Hannah Lloyd", 
+        "img": "./images/o-week-groups/romeoandruliette.JPG",
+        "profiles": [
+            {
+                "name": "GARRETT FRENCH",
+                "email": "cgf3@rice.edu",
+                "major": "Mechanical Engineering",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/garrettfrench.JPG"
+            },
+            {
+                "name": "MARCY ZERE",
+                "email": "mgz2@rice.edu",
+                "major": "Psychology",
+                "collegetag": "./college-tags/willrice_tag.png", 
+                "img": "./images/advisors/marcyzere.JPG"
+            },
+            {
+                "name": "SARAH LUAN",
+                "email": "sl163@rice.edu",
+                "major": "----------",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/sarahluan.JPG"
+            },
+            {
+                "name": "HANNAH LLOYD",
+                "email": "hal12@rice.edu",
+                "major": "Sports Medicine",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/hannahlloyd.JPG"
+            }
+        ]
+    },
+    {
+        "name": "TEXAS HOLD M&M's", 
+        "members": "Grace Walters, Blaine Samson, Jonathan Mak, Vishnu Susheer", 
+        "img": "./images/o-week-groups/texasholdm&ms.JPG",
+        "profiles": [
+            {
+                "name": "GRACE WALTERS",
+                "email": "gnw1@rice.edu",
+                "major": "Linguistics, Asian Studies",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/gracewalters.jpeg"
+            },
+            {
+                "name": "BLAINE SAMSON",
+                "email": "bts7@rice.edu",
+                "major": "Social Policy Analysis, Philosophy",
+                "collegetag": "./college-tags/wiess_tag.png", 
+                "img": "./images/advisors/blainesamson.JPG"
+            },
+            {
+                "name": "JONATHAN MAK",
+                "email": "jm167@rice.edu",
+                "major": "Computer Science",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/jonathanmak.jpeg"
+            },
+            {
+                "name": "VISHNU SUSHEER",
+                "email": "vs48@rice.edu",
+                "major": "Neuroscience",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/vishnususheer.png"
+            }
+        ]
+    },
+    {
+        "name": "GAMBLE OF THRONES", 
+        "members": "Allison Johnson, Amanda Le, Gretchen Schulke, Jack Turner", 
+        "img": "./images/o-week-groups/gambleofthrones.JPG",
+        "profiles": [
+            {
+                "name": "ALLISON JOHNSON",
+                "email": "atj6@rice.edu",
+                "major": "Political Science",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/allisonjohnson.JPG"
+            },
+            {
+                "name": "AMANDA LE",
+                "email": "al106@rice.edu",
+                "major": "-------",
+                "collegetag": "./college-tags/wiess_tag.png", 
+                "img": "./images/advisors/amandale.JPG"
+            },
+            {
+                "name": "GRETCHEN SCHULKE",
+                "email": "gns4@rice.edu",
+                "major": "Mechanical Engineering",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/gretchenschulke.JPG"
+            },
+            {
+                "name": "JACK TURNER",
+                "email": "jft4@rice.edu",
+                "major": "-------",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/jackturner.JPG"
+            }
+        ]
+    },
+    {
+        "name": "ROULETTE THE DOGS OUT", 
+        "members": "Tanuj Prajapati, Brian Serrata, Naomi Doron, Kofo Thomas", 
+        "img": "./images/o-week-groups/roulettethedogsout.JPG",
+        "profiles": [
+            {
+                "name": "TANUJ PRAJAPATI",
+                "email": "tjp5@rice.edu",
+                "major": "Neuroscience",
+                "collegetag": "./college-tags/hanszen_tag.png", 
+                "img": "./images/advisors/tanujprajapati.png"
+            },
+            {
+                "name": "BRIAN SERRATA",
+                "email": "bds7@rice.edu",
+                "major": "Computer Science",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/brianserrata.JPG"
+            },
+            {
+                "name": "NAOMI DORON",
+                "email": "nsd5@rice.edu",
+                "major": "-----",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/naomidoron.JPG"
+            },
+            {
+                "name": "KOFO THOMAS",
+                "email": "kat7@rice.edu",
+                "major": "Sports Management, Sports Medicine",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/kofothomas.JPG"
+            }
+        ]
+    },
+    {
+        "name": "FANTASTIC MR. SLOTS", 
+        "members": "John Curylo, Ella Seigel, Adam Thomas, Lucia Romero-Alston", 
+        "img": "./images/o-week-groups/fantasticmrslots.JPG",
+        "profiles": [
+            {
+                "name": "JOHN CURYLO",
+                "email": "jac26@rice.edu",
+                "major": "Architecture",
+                "collegetag": "./college-tags/lovett_tag.png", 
+                "img": "./images/advisors/johncurylo.JPG"
+            },
+            {
+                "name": "ELLA SEIGEL",
+                "email": "iss4@rice.edu",
+                "major": "-------",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/ellaseigel.JPG"
+            },
+            {
+                "name": "ADAM THOMAS",
+                "email": "ajt15@rice.edu",
+                "major": "Chemistry",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/adamthomas.JPG"
+            },
+            {
+                "name": "ITHZEL RUBIO",
+                "email": "ir22@rice.edu",
+                "major": "-------",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/ithzelrubio.JPG"
+            }
+        ]
+    },
+    {
+        "name": "FULL CHAÜS", 
+        "members": "Hadley Medlock, Prahalad Chari, Delaney Miller, Yuv Sachdeva", 
+        "img": "./images/o-week-groups/fullchaus.JPG",
+        "profiles": [
+            {
+                "name": "HADLEY MEDLOCK",
+                "email": "hgm2@rice.edu",
+                "major": "English",
+                "collegetag": "./college-tags/mcmurtry_tag.png", 
+                "img": "./images/advisors/hadleymedlock.JPG"
+            },
+            {
+                "name": "PRAHALAD CHARI",
+                "email": "pac9@rice.edu",
+                "major": "---------",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/prahaladchari.JPG"
+            },
+            {
+                "name": "DELANEY MILLER",
+                "email": "dem14@rice.edu",
+                "major": "----------",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/delaneymiller.JPG"
+            },
+            {
+                "name": "YUV SACHDEVA",
+                "email": "yss1@rice.edu",
+                "major": "----------",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/yuvsachdeva.JPG"
+            }
+        ]
+    },
+    {
+        "name": "WIZARD OF ODDS: THERES NO PLACE LIKE JONES", 
+        "members": "Peter Townley, Niyah Troup, Logan Simon, Lindsey Pompilus", 
+        "img": "./images/o-week-groups/wizardofodds.JPG",
+        "profiles": [
+            {
+                "name": "PETER TOWNLEY",
+                "email": "pwt1@rice.edu",
+                "major": "Sports Management",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/petertownley.JPG"
+            },
+            {
+                "name": "NIYAH TROUP",
+                "email": "nst4@rice.edu",
+                "major": "Mechanical Engineering",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/niyahtroup.JPG"
+            },
+            {
+                "name": "LOGAN SIMON",
+                "email": "las21@rice.edu",
+                "major": "----------",
+                "collegetag": "./college-tags/duncan_tag.png",
+                "img": "./images/advisors/logansimon.JPG"
+            },
+            {
+                "name": "LINDSEY POMPILUS",
+                "email": "lcp3@rice.edu",
+                "major": "Neuroscience",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/lindseypompilus.JPG"
+            }
+        ]
+    },
+    {
+        "name": "THE QUEENS GAMBLET", 
+        "members": "Jackson Jeffcoat, Emily Yang, Margo Gee, Maaz Zuberi", 
+        "img": "./images/o-week-groups/queensgamblet.JPG",
+        "profiles": [
+            {
+                "name": "JACKSON JEFFCOAT",
+                "email": "jrj9@rice.edu",
+                "major": "Sports Management, Managerial Studies",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/jacksonjeffcoat.JPG"
+            },
+            {
+                "name": "EMILY YANG",
+                "email": "exy2@rice.edu",
+                "major": "Computer Science, Cognitive Sciences",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/emilyyang.JPG"
+            },
+            {
+                "name": "MARGO GEE",
+                "email": "mjg11@rice.edu",
+                "major": "Linguistics, Anthropology",
+                "collegetag": "./college-tags/brown_tag.png",
+                "img": "./images/advisors/margogee.JPEG"
+            },
+            {
+                "name": "MAAZ ZUBERI",
+                "email": "maz8@rice.edu",
+                "major": "--------",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/maazzuberi.JPG"
+            }
+        ]
+    },
+    {
+        "name": "JIBA LAS VEGAS", 
+        "members": "Sam Lowe, Alex Zalles, Dheerj Jasuja, Camila DeAlba", 
+        "img": "./images/o-week-groups/jibalasvegas.JPG",
+        "profiles": [
+            {
+                "name": "SAM LOWE",
+                "email": "sjl9@rice.edu",
+                "major": "Neuroscience",
+                "collegetag": "./college-tags/jones_tag.png", 
+                "img": "./images/advisors/samlowe.JPG"
+            },
+            {
+                "name": "ALEX ZALLES",
+                "email": "agz2@rice.edu",
+                "major": "------",
+                "collegetag": "./college-tags/wiess_tag.png", 
+                "img": "./images/advisors/alexzalles.JPG"
+            },
+            {
+                "name": "DHEERJ JASUJA",
+                "email": "dj32@rice.edu",
+                "major": "Neuroscience",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/dheerjjasuja.JPG"
+            },
+            {
+                "name": "CAMILA DEALBA",
+                "email": "cnd4@rice.edu",
+                "major": "--------",
+                "collegetag": "./college-tags/jones_tag.png",
+                "img": "./images/advisors/camiladealba.JPG"
+            }
+        ]
+    },
+]

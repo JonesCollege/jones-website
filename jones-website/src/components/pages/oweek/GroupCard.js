@@ -6,6 +6,7 @@ import 'animate.css';
 
 
 function GroupCard(props) {
+    console.log(props)
     const [showText, setShowText] = useState(false);
     const [firstLoad, setFirstLoad] = useState(false);
     const [showAdvisorModal, setShowAdvisorModal] = useState(false);
@@ -18,8 +19,9 @@ function GroupCard(props) {
     };
 
     const bgImg = {
-        backgroundColor: "red",
         backgroundImage: `url(${props.img})`,
+        backgroundSize:"300px",
+        backgroundRepeat:"no-repeat"
     }
 
   return (  
@@ -32,13 +34,12 @@ function GroupCard(props) {
             }}
             onMouseOut={()=>setShowText(false)}
             onClick={openAdvisorModal}
-            
         >
-            <h4 className='coord-name'>
-                Sarah Birenbaum
+            <h4 className='group-name'>
+                {props.name}
             </h4>
-            <p className='coord-bio'>
-                Here is some text. Here is some more text. It is very interesting.
+            <p className='group-members'>
+                {props.members}
             </p> 
         </div>
         <Modal
@@ -46,9 +47,8 @@ function GroupCard(props) {
             className="advisor-modal"
             onRequestClose={closeModal}
             centered
-            
         >
-            <AdvisorModal closeModal={closeModal} />
+            <AdvisorModal closeModal={closeModal} profiles={props.profiles} name={props.name}/>
         </Modal>
     </div>
   )

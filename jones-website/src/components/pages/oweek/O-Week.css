@@ -62,3 +62,16 @@
     font-style: italic;
     font-size: 13px;
 }
+
+.o-week-grid-container {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.o-week-group-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    row-gap: 2rem;
+    column-gap: 2rem;
+}

@@ -6,7 +6,7 @@ import CoordCard from './CoordCard';
 import GroupCard from './GroupCard';
 import Footer from '../../Footer';
 import LetterModal from './LetterModal';
-import { CoordLetter } from './OWeekDataSheet';
+import { CoordLetter, OWeekGroups } from './OWeekDataSheet';
 
 export default function OWeek () {
     const [showLetterModal, setShowLetterModal] = useState(false);
@@ -51,7 +51,24 @@ export default function OWeek () {
             </Modal>
 
         </div>
-        <GroupCard />
+        <div className='o-week-grid-container'>
+            <div className='o-week-group-grid'>
+            {
+                OWeekGroups.map((item, key)=> {
+                    return(
+                        <GroupCard 
+                            img={item.img} 
+                            name={item.name} 
+                            members={item.members} 
+                            profiles={item.profiles}
+                        />
+                    )
+                })
+            }
+        </div>
+        </div>
+        
+        
         <Footer/>
     </div>
     )
