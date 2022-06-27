@@ -1,7 +1,6 @@
 import React from "react";
 import AutoPlaySlider from "../AutoPlaySlider";
 import { images } from "./BeerBikeImages";
-import Button from "../../../Button";
 
 // Import css files
 import "slick-carousel/slick/slick.css";
@@ -22,15 +21,6 @@ const BeerBikeGallery = () => {
       >
         CHECK OUT SOME RAD PICS !
       </div>
-      <button
-        className="donate-button donate-text"
-        style={{
-          zIndex: "3",
-          boxShadow: "0px 0px 20px 2px #DDEEDA",
-        }}
-      >
-        DONATE
-      </button>
       <div
         className="gallery-container"
         style={{ width: "100%", padding: "0px 0px 100px 0px" }}

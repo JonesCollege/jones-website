@@ -19,6 +19,7 @@ export default function AutoPlaySlider({ images }) {
           return (
             <div>
               <img
+                className="autoplay-slider-image"
                 style={{ width: "49.8vw", margin: "10px" }}
                 src={image}
                 alt="image"

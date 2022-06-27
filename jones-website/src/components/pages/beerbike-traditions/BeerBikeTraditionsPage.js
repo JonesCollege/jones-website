@@ -11,7 +11,7 @@ const BeerBikeTraditionsPage = () => {
     <div className="beerbikepage">
       <BeerBikeHeader />
       <Beerbikegallery />
-      <BeerBikePeopleSection />
+      {/* <BeerBikePeopleSection /> */}
       <Traditions />
       <History />
     </div>

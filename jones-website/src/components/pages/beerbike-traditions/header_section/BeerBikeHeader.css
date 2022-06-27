@@ -3,7 +3,9 @@
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 110vh;
+  height: 100%;
+  padding-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .beerbike-info {
@@ -16,8 +18,9 @@
   align-items: flex-start;
 
   position: absolute;
-  top: 10vh;
+  top: 140px;
   left: 20vh;
+  height: 100%;
 }
 
 .beerbike-info-title {
@@ -28,8 +31,6 @@
   align-items: center;
   height: 250px;
 
-  font-size: 45px;
-  font-family: "Futura";
   font-style: italic;
   letter-spacing: 0.18em;
   font-weight: 900;
@@ -38,7 +39,13 @@
 
 .beerbike-info-title > h1 {
   color: black;
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15vw;
+  font-size: 100px;
+
+  text-align: left;
+  font-family: "Futura";
 }
 
 .beerbike-info-title-image {
@@ -48,18 +55,15 @@
 
 .beerbike-info-subtitle {
   flex: 1;
-  width: 224px;
+  width: 100%;
   /* padding: 10px; */
-  /* background-color: pink; */
 
   /* Subheading */
-
   font-family: "Futura";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
-  /* identical to box height */
 
   display: flex;
   align-items: center;
@@ -69,7 +73,6 @@
 
 .beerbike-info > p {
   flex: 4;
-  /* padding: 10px; */
 
   height: 355px;
   left: 13.6%;
@@ -81,13 +84,13 @@
   font-size: 13px;
   line-height: 19px;
   text-align: justify;
-
-  /* object-fit: contain; */
 }
 
 .beerbike-graphic {
   width: 100vw;
+
   height: 700px;
+
   background-color: #f7f2ff;
   mask-image: url("./header_images/mask-image2.png");
   mask-size: 85vw 90vh;
@@ -99,9 +102,10 @@
 
 .front-pic {
   position: absolute;
-  bottom: 7vh;
+  bottom: 5vh;
   right: 0px;
-  height: 700px;
+  height: 83vh;
+  min-height: 400px;
 
   z-index: 3;
 }
@@ -111,7 +115,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 110vh;
+    height: 100%;
   }
 
   [class="beerbike-graphic"] {
@@ -126,6 +130,10 @@
     mask-position: top right;
   }
 
+  /* [class="beerbike-info-title-image"] {
+    display: none;
+  } */
+
   [class="front-pic"] {
     position: absolute;
     display: none;
@@ -136,5 +144,11 @@
     width: 60vw;
     top: 80px;
     left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  [class="donate-button donate-text"] {
+    display: none;
   }
 }

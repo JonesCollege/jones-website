@@ -52,7 +52,7 @@ function History() {
   ];
 
   return (
-    <div className="history-container" style={{ padding: "200px" }}>
+    <div className="history-container">
       <h1>History</h1>
       <SimpleSlider items={items} />
     </div>
