@@ -1,17 +1,17 @@
 import React from 'react'
 import { useState } from 'react'
 import './Associatesalumni.css'
-import ACard from './associates-alumni/AssociateCard'
-import DCard from './associates-alumni/DescriptiveCard'
-import { Associates } from './information/AssociateInfo'
+// import ACard from './associates-alumni/AssociateCard'
+// import DCard from './associates-alumni/DescriptiveCard'
+// import { Associates } from './information/AssociateInfo'
 
 const Associatesalumni = () => {
-  const [showModal, setShowModal] = useState(false);
-  const [modalImg, setModalImg] = useState("");
-  const [modalName, setModalName] = useState("");
-  const [modalDesc, setModalDesc] = useState("");
-  const [modalObjPos, setModalObjPos] = useState('');
-  const [modalMaxSize, setModalMaxSize] = useState('');
+  // const [showModal, setShowModal] = useState(false);
+  // const [modalImg, setModalImg] = useState("");
+  // const [modalName, setModalName] = useState("");
+  // const [modalDesc, setModalDesc] = useState("");
+  // const [modalObjPos, setModalObjPos] = useState('');
+  // const [modalMaxSize, setModalMaxSize] = useState('');
   const [mailinglstClicked, setMailingLstClicked] = useState(false);
   const [donateClicked, setDonateClicked] = useState(false);
 
@@ -62,13 +62,15 @@ const Associatesalumni = () => {
         </div>
       </div>
 
-      {showModal && <DCard img={modalImg} name={modalName} longdesc={modalDesc} objpos={modalObjPos} maxsize={modalMaxSize} className='fullassociatescard' closeonclick={()=>{
+      {/* {showModal && <DCard img={modalImg} name={modalName} longdesc={modalDesc} objpos={modalObjPos} maxsize={modalMaxSize} className='fullassociatescard' closeonclick={()=>{
         setShowModal(false);
       }}/>}
 
       <div className='associatescard-flex'>
         {Associates.map((associate, idx) => (
-          /* associate.img must be a path into the public image folder */
+
+          {associate.img must be a path into the public image folder}
+
           <ACard img={associate.img} name={associate.name} shortdesc={associate.shortdesc} email={associate.email} 
           objpos={associate.imgobjpos} maxsize={associate.imgmaxsize} key={idx}
           oncardclick={()=>{setShowModal(true);
@@ -78,6 +80,9 @@ const Associatesalumni = () => {
             setModalObjPos(associate.fullimgobjpos);
             setModalMaxSize(associate.fullimgmaxsize)}}/>
         ))}
+      </div> */}
+      <div id='aaslidewrapper'>
+        <iframe id='aaslidedeck' title="Jones Associates" src="https://docs.google.com/presentation/d/e/2PACX-1vSfgVzqhFzUegoljoGd2tAXccBy0iaq8b-Kjd65Qyq5pxB-CI-F-XnKGtzVibEz4WsyVtbp55kS5jjj/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
       
       <div className='famousassociates-wrapper'>

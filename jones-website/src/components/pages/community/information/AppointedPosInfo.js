@@ -7,21 +7,16 @@ export const AppointedPos = [
                 "email": "beerbikejones@gmail.com",
                 "people": ["Mary Brady", "Sofia Roa", "Steven Dillman", "Olivia Goganian", "Lucia Romero-Alston", "Luisa Tolda"]
             },
-            {
-                "title": "Parliamentarian",
-                "email": "jonesparliamentarian@gmail.com",
-                "people": ["Harry Golen"]
-            },
-            {
-                "title": "Food Rep",
-                "email": "jonescollegefoodrep@gmail.com",
-                "people": []
-            },
-            {
-                "title": "Historians",
-                "email": "thejoneshistorian@gmail.com",
-                "people": []
-            }
+            // {
+            //     "title": "Food Rep",
+            //     "email": "jonescollegefoodrep@gmail.com",
+            //     "people": []
+            // },
+            // {
+            //     "title": "Historians",
+            //     "email": "thejoneshistorian@gmail.com",
+            //     "people": []
+            // }
         ]
     },
     {
@@ -47,16 +42,16 @@ export const AppointedPos = [
                 "email": "jonesmerchcoordinators@gmail.com",
                 "people": ["Annie Li", "Celine Choi", "Daniel Joshua", "Lauren Yu", "Maya Hoffman", "Sarah Luan"],
             },
-            {
-                "title": "PR Director",
-                "email": "jonesprdirector@gmail.com",
-                "people": [],
-            },
-            {
-                "title": "Sports Coordinator",
-                "email": "jonessportscoords@gmail.com",
-                "people": [],
-            }
+            // {
+            //     "title": "PR Director",
+            //     "email": "jonesprdirector@gmail.com",
+            //     "people": [],
+            // },
+            // {
+            //     "title": "Sports Coordinator",
+            //     "email": "jonessportscoords@gmail.com",
+            //     "people": [],
+            // }
         ]
     },
     {

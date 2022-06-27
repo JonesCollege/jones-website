@@ -142,6 +142,17 @@
     padding: 4rem 0rem;
 }
 
+#aaslidewrapper{
+    justify-content: center;
+    align-items: center;
+}
+
+#aaslidedeck{
+    width: 70%;
+    display: block;
+    margin: 5rem auto;
+}
+
 .famousassociates-wrapper{
     justify-content: center;
     align-items: center;

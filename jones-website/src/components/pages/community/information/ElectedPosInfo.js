@@ -1,13 +1,13 @@
 export const ElectedPos = [
-    {
-        "title": "Honor Council Rep",
-        "email": "joneshonorcouncilrep@gmail.com",
-        "people": []
-    },
+    // {
+    //     "title": "Honor Council Rep",
+    //     "email": "joneshonorcouncilrep@gmail.com",
+    //     "people": []
+    // },
     {
         "title": "O-Week Coordinators",
         "email": "jonescollegeoweek@gmail.com",
-        "people": []
+        "people": ["Sarah Birenbaum", "Sofia Roa", "Harry Golen"]
     },
     {
         "title": "RPC Rep",
@@ -19,14 +19,14 @@ export const ElectedPos = [
         "email": "jonessocials@gmail.com",
         "people": ["Naomi Doron", "Ella Siegel", "Maaz Zuberi", "Kofo Thomas"]
     },
-    {
-        "title": "U-Court Rep",
-        "email": "jonesucourt@gmail.com",
-        "people": []
-    },
-    {
-        "title": "Floor Rep",
-        "email": "N/A",
-        "people": []
-    },
+    // {
+    //     "title": "U-Court Rep",
+    //     "email": "jonesucourt@gmail.com",
+    //     "people": []
+    // },
+    // {
+    //     "title": "Floor Rep",
+    //     "email": "N/A",
+    //     "people": []
+    // },
 ]
