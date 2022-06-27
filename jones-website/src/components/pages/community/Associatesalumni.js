@@ -82,7 +82,9 @@ const Associatesalumni = () => {
         ))}
       </div> */}
       <div id='aaslidewrapper'>
-        <iframe id='aaslidedeck' title="Jones Associates" src="https://docs.google.com/presentation/d/e/2PACX-1vSfgVzqhFzUegoljoGd2tAXccBy0iaq8b-Kjd65Qyq5pxB-CI-F-XnKGtzVibEz4WsyVtbp55kS5jjj/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe id='aaslidedeck' title="https://docs.google.com/presentation/d/e/2PACX-1vSfgVzqhFzUegoljoGd2tAXccBy0iaq8b-Kjd65Qyq5pxB-CI-F-XnKGtzVibEz4WsyVtbp55kS5jjj/embed?start=false&loop=true&delayms=3000" 
+        src="https://docs.google.com/presentation/d/e/2PACX-1vSfgVzqhFzUegoljoGd2tAXccBy0iaq8b-Kjd65Qyq5pxB-CI-F-XnKGtzVibEz4WsyVtbp55kS5jjj/embed?start=false&loop=true&delayms=3000" 
+        frameborder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
       
       <div className='famousassociates-wrapper'>

@@ -114,12 +114,17 @@ const Studentgov = () => {
           <p id='constitutiontxt'>The Jones Constitution details the laws of our land. It’s the way we make most of our decisions, 
             and how we put people in charge. From room draw procedures to the most eccentric of Presidential duties, 
             the Constitution has got it all. There are over 35 pages of carefully worded text to guide our college’s 
-            activity. The College Parliamentarian is responsible for updating and changing the Constitution as he or she 
-            sees fit. The Constitution is broken down into six main sections:</p>
+            activity. The College Parliamentarian is responsible for updating and changing the Constitution and 
+            its <a id='bylaws' title='https://docs.google.com/document/d/1sBOXhZnGkC-nO3L14g2DziKVOoi6bzKpwv7YbY5eYj8/pub' 
+            href='https://docs.google.com/document/d/1sBOXhZnGkC-nO3L14g2DziKVOoi6bzKpwv7YbY5eYj8/pub' target="_blank" 
+            rel="noopener noreferrer">bylaws</a> as 
+            he or she sees fit. The Constitution is broken down into six main sections:</p>
           <div id='downloadwrapper'>
-            <IconContext.Provider value={{ size: 200 }}>
-              <MdDownload id='downloadbutton' />
-            </IconContext.Provider>
+            <a href='https://docs.google.com/document/d/1BLsb4rq-Fcj2wgF4A0kCxWFqpW3vI1I_s96o3qxUnug/pub' target="_blank" rel="noopener noreferrer">
+              <IconContext.Provider value={{ size: 200 }}>
+                <MdDownload id='downloadbutton' />
+              </IconContext.Provider>
+            </a>
           </div>
         </div>
       </div>

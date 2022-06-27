@@ -375,6 +375,19 @@
     color: #000000;
 }
 
+#bylaws {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    border-bottom: 1px solid #225E28;
+
+    color: #225E28;
+    letter-spacing: 0.02em;
+}
+
 #constflex {
     display: flex;
     flex-direction: row;
