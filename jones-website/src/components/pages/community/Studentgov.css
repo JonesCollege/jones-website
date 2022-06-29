@@ -1,0 +1,420 @@
+@font-face {
+    font-family: futuraBook;
+    src: url(../../../../public/fonts/futura/Futura\ Book\ font.ttf)
+}
+
+@font-face {
+    font-family: futuraHeavy;
+    src: url(../../../../public/fonts/futura/Futura\ Heavy\ font.ttf)
+}
+
+@font-face {
+    font-family: mpBlkLt;
+    src: url(../../../../public/fonts/meta-pro/FFMetaProLight.TTF)
+}
+
+.govdivide {
+    width: 80%;
+    height: 2px;
+    margin: 4rem auto;
+    color: rgba(196, 196, 196, 0.5)
+}
+
+#instaicon-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    padding-top: 2rem;
+    background-color: rgba(243, 248, 244, 255);
+}
+
+#presflexrow-bg {
+    background: linear-gradient(0deg, #ffffff 50%, rgba(243, 248, 244, 255) 50%);
+    bottom: 0px;
+}
+
+#presflexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    padding: 5rem;
+    gap: 4rem;
+    overflow: auto;
+}
+
+#stugov {
+    padding-bottom: 5rem;
+    background-color: #F3F8F4;
+
+    font-family: 'futuraHeavy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#presname {
+    padding-bottom: 0.5rem;
+
+    font-family: 'futuraBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#prestitle {
+    font-family: 'futuraHeavy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#presintro {
+    padding-top: 1.5rem;
+
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#cabpos-flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    gap: 4rem;
+    width: 80vw;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+#cabfb-flexcol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 50%;
+    gap: 1rem;
+}
+
+#cabfb-flexcol p {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+#cabfb-flexcol button {
+    box-sizing: border-box;
+
+    padding: 0.25rem 3.75rem;
+
+    background: #FFFFFF;
+    border: 1px solid #2B7632;
+    border-radius: 12px;
+
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #2B7632;
+
+
+    /* Inside auto layout */
+
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+#cabfb-flexcol button:hover {
+    color: #FFFFFF;
+    background-color: #2B7632;
+}
+
+#cabfbclick {
+    background: #2B7632;
+    opacity: 0.5;
+}
+
+#aboutcab {
+    justify-self: center;
+}
+
+#cabpos {
+    /* Heading 3 */
+
+    font-family: 'futuraHeavy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    padding-bottom: 1.5rem;
+}
+
+#cabposintro {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#stugovflexrow {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 2rem 0%;
+    background: rgba(214, 231, 216, 0.2);
+    border-radius: 22px;
+}
+
+#electedpos {
+    width: 55%;
+    margin: auto;
+}
+
+.posflexrow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    margin: auto;
+}
+
+.postitle {
+    font-family: 'futuraHeavy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+}
+
+#electedposdesc {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+
+    margin-bottom: 1.5rem;
+}
+
+
+#appointedposheader {
+    width: 55%;
+    margin: auto;
+}
+
+#appointposdesc {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+#otherpos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+  
+#otherpos::before, #otherpos::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid rgba(196, 196, 196, 0.5);
+}
+
+#otherpos:not(:empty)::before {
+    margin-right: 1rem;
+}
+
+#otherpos:not(:empty)::after {
+    margin-left: 0.5rem;
+}
+
+#constitution {
+    width: 90%;
+    background: #F7FBF7;
+    margin: 8rem auto;
+    padding: 13rem 0rem 13rem 15rem;
+}
+
+#constitution .postitle {
+    text-align: left;
+    background: #F7FBF7;
+    margin: 0rem;
+    margin-bottom: 1rem;
+}
+
+#constitutiontxt {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+#bylaws {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    border-bottom: 1px solid #225E28;
+
+    color: #225E28;
+    letter-spacing: 0.02em;
+}
+
+#constflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0rem;
+    gap: 12rem;
+}
+
+#downloadwrapper {
+    border-radius: 100%;
+    /* more aggressive blur */
+    box-shadow: 0px 4px 50px 2px #D6E7D8;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem;
+    height: 76px;
+    width: 76px;
+}
+
+#downloadbutton {
+    color:#2B7632;
+    background-color: transparent;
+    padding: 0rem;
+    margin: 0rem;
+    height: 40px;
+    width: 40px;
+}
