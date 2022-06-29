@@ -6,7 +6,7 @@ import CoordCard from './CoordCard';
 import GroupCard from './GroupCard';
 import Footer from '../../Footer';
 import LetterModal from './LetterModal';
-import { CoordLetter, OWeekGroups } from './OWeekDataSheet';
+import { CoordLetter, OWeekGroups, CoordBios } from './OWeekDataSheet';
 
 export default function OWeek () {
     const [showLetterModal, setShowLetterModal] = useState(false);
@@ -22,10 +22,10 @@ export default function OWeek () {
         <div className='oweek-container'>
             <div className='flex-row'>
                 <div className='flex-column'>
-                    <CoordCard className="card" img={"./images/des_mort.jpg"}/>
-                    <CoordCard className="card" img={"./images/des_mort.jpg"}/>
+                    <CoordCard className="card" coord={CoordBios[0]}/>
+                    <CoordCard className="card" coord={CoordBios[1]} />
                 </div>
-                <CoordCard className="card" img={"./images/des_mort.jpg"}/>
+                <CoordCard className="card" coord={CoordBios[2]}/>
             </div>
             <div className='oweek-text-container'>
                 <h1 className='oweek-h1'>

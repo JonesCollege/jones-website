@@ -4,19 +4,43 @@ export const CoordLetter =
         "coordInfo": [
             {
                 "name": "Sarah Birenbaum",
-                "phone": "(713) 298-9012"
+                "phone": "(713) 298-9012",
+                "img": "./images/advisors/sarahbirenbaum.JPG"
             },
             {
                 "name": "Harry Golen",
-                "phone": "(339) 499-8886"
+                "phone": "(339) 499-8886",
+                "img": "./images/advisors/harrygolen.JPG"
+
             },
             {
                 "name": "Sofia Roa",
-                "phone": "(786) 405-7422"
+                "phone": "(786) 405-7422",
+                "img": "./images/advisors/sofieroa.JPG"
+
             }
     ],
         "email": "jonesoweek@rice.edu "
     };
+
+export const CoordBios = [
+    {
+        "name": "SARAH BIRENBAUM",
+        "bio": "Sarah is a Junior from Houston, TX studying Cognitive Sciences. She loves checking out local coffeeshops, sharing silly animal facts, and making her famous feta pasta.",
+        "img": "./images/advisors/sarahbirenbaum.JPG"
+    },
+    {
+        "name": "HARRY GOLEN",
+        "bio": "Harry is a Senior from Wellesley, MA studying Political Science and Data Science. In his free time, he enjoys playing basketball, reading the news, and cheering on Boston sports teams!",
+        "img": "./images/advisors/harrygolen.JPG"
+    },
+    {
+        "name": "SOFIA ROA",
+        "bio": "Sofia is a Senior from Miami, FL studying Sports Medicine and Sports Management. She loves dancing on the Rice Owls Dance Team, going to Rice and Houston sports games, and watching reality TV.",
+        "img": "./images/advisors/sofieroa.JPG"
+    }
+
+]
 
 export const OWeekGroups = [
     {
