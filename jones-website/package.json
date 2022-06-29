@@ -13,18 +13,13 @@
     "react-dom": "^17.0.2",
     "react-elastic-carousel": "0.6.1",
     "react-icons": "^4.3.1",
-<<<<<<< HEAD
     "react-modal": "^3.15.1",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.0",
-    "react-social-icons": "^5.13.0",
-=======
     "react-responsive-carousel": "^3.2.23",
     "react-rounded-image": "^2.0.14",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-slick": "^0.29.0",
->>>>>>> katherine/beerbike
+    "react-social-icons": "^5.13.0",
     "react-spring": "^9.4.4",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.2"
