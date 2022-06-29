@@ -4,9 +4,10 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import OWeek from './components/pages/oweek/O-Week';
-import Studentgov from './components/pages/community/Studentgov';
 import Ateam from './components/pages/community/Ateam';
-import Associatesalumni from './components/pages/community/Associatesalumni';
+import Associatesalumni from './components/pages/community/Associatesalumni'
+import Studentgov from './components/pages/community/Studentgov'
+
 
 
 
