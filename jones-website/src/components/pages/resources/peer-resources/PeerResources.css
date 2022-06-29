@@ -1,9 +1,17 @@
 .peer-container {
   padding: 4rem 6rem;
 }
+
 .peer-title {
   text-align: center;
-  font-size: 4rem;
-  color: rgb(116, 116, 116);
-  font-weight: lighter;
+  font-size: 35px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Futura Hv BT';
+  letter-spacing: .5rem;
+  margin-bottom: 5rem;
 }
+
+
+/* Book is Bk, Medium is Md, Heavy is Hv, Italics is font-style: 'italic'; */
+

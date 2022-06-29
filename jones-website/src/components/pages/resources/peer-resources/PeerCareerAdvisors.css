@@ -1,0 +1,87 @@
+.pca-center-box{
+  background-color: rgba(247, 243, 252, 0.6);
+  border-radius: 29px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  max-width: 800px;
+  padding:2rem;
+  justify-content: center;
+}
+
+
+  .pca-h3-title {
+    font-family: 'Meta Pro';
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 1rem;
+    letter-spacing: 4px;
+  }
+
+
+  .headline-text {
+    color: #c4c4c4;
+    font-family: "Futura Lt Bt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.pca-p-text {
+  font-family: 'Meta Pro';
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+  color: #000000;
+}
+
+
+.italic-text{
+    font-style: italic;
+    font-family: 'Futura Lt Bt';
+    color: #c4c4c4
+}
+
+.pca-desc-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.pca-indent-padding{
+  margin-left: 1rem;
+}
+
+.pca-grid-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  max-width:530px
+}
+
+.pca-grid-row{
+  display:grid;
+  grid-template-columns: repeat(3, 300px);
+  border-bottom: 1px solid rgba(77, 77, 77, .5);
+  max-width: 450px;
+}
+
+.pca-grid-cell{ 
+  padding: 1rem 2rem;
+}
+
+.pca-italic-text{
+  font-style: italic;
+  font-family: 'Futura Lt Bt';
+  color: #c4c4c4
+}
+
+.pca-grid-parent {
+  display:inline-block;
+}

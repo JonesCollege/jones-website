@@ -8,8 +8,7 @@ import Ateam from './components/pages/community/Ateam';
 import Associatesalumni from './components/pages/community/Associatesalumni'
 import Studentgov from './components/pages/community/Studentgov'
 import BeerBikeTraditionsPage from "./components/pages/beerbike-traditions/BeerBikeTraditionsPage";
-
-
+import PeerResources from './components/pages/resources/peer-resources/PeerResources';
 
 
 function App() {
@@ -23,8 +22,8 @@ function App() {
           <Route path='/studentgov' exact element={<Studentgov />} />
           <Route path='/ateam' exact element={<Ateam />} />
           <Route path='/associates-alumni' exact element={<Associatesalumni />} />
-          <Route path="/beerbike-traditions" exact element={<BeerBikeTraditionsPage />}
-          />
+          <Route path="/beerbike-traditions" exact element={<BeerBikeTraditionsPage />}/>
+          <Route path='/resources' exact element={<PeerResources />} />
         </Routes>
       </Router>
     </>
