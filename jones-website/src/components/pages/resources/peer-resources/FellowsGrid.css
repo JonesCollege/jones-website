@@ -1,22 +1,40 @@
-.headline-text {
-    color: #c4c4c4;
-    font-family: "Futura Lt Bt";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase;
+.grid-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
 }
 
-.regular-text{
+.grid-row{
+    display:grid;
+    grid-template-columns: repeat(3, 300px);
+    border-bottom: 1px solid rgba(77, 77, 77, .5);
+    max-width: 900px;
+}
+
+.grid-cell{ 
+    padding: 1rem 2rem;
+}
+
+.cell-headline-text {
+    color: #c4c4c4;
+    font-family: "Futura Hv BT";
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.cell-text{
     color: #000000;
     font-family: 'Meta Pro';
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 
 .italic-text{
     font-style: italic;
-    font-family: 'Futura Lt Bt';
+    font-family: 'Futura Lt BT';
+    font-size: 13px;
 }

@@ -14,6 +14,11 @@ function PeerResources() {
     <div className='peer-container'>
       <h1 className='peer-title'>PEER RESOURCES</h1>
      <AcademicFellows/>
+     <FellowsGrid/>
+     <AcademicAdvisors/>
+     <HealthAdvisors/>
+     <StriveLiasons/>
+     <PeerCareerAdvisors/>
     </div>
   );
 }

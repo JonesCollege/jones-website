@@ -1,10 +1,14 @@
 .h3-green-title {
-    font-family: 'Futura Lt Bt';
+    font-family: 'Futura Hv BT';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
     color: #000000;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
   }
 
   .advisors-desc-container {
@@ -13,13 +17,21 @@
     justify-content: center;
   }
 
-.center-green-box {
+  .horizontal-buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.a-center-green-box {
   display: flex;
-  background: #D6E7D8;
+  background-color: rgba(214, 231, 216, .2);
   border-radius: 29px;
   flex-direction: column;
   padding: 2rem; 
-  max-width: 540px;
+  max-width: 761px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .meta-pro-text{
@@ -32,11 +44,14 @@
 
 .green-link-text{
     font-family: 'Meta Pro';
+    font-weight: 700;
     font-style: italic;
     color: #2B7632;
 }
 
-.advisor-button {
+  .advisor-button {
+    font-family: 'Meta Pro';
+    font-weight: 700;
     width: 190px;
     height: 40px;
     background-color: white;
@@ -44,10 +59,19 @@
     border-radius: 12px;
     cursor: pointer;
     margin-top: 1rem;
-    border: 1px solid black;
+    color: #2B7632;
+    border: 1px solid #2B7632;
+    margin: 15px;
   }
   
   .advisor-button:hover {
-    background-color: #8CC292;
+    background-color: #2B7632;
     color: white;
+    border: #2B7632;
+  }
+
+  .indent-list {
+      padding-left: 2rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
   }

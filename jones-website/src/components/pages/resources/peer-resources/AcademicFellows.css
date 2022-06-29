@@ -6,7 +6,7 @@
 
 .left-green-box {
     display: flex;
-    background: #D6E7D8;
+    background-color: rgba(214, 231, 216, .2);
     border-radius: 29px;
     flex-direction: column;
     padding: 2rem; 
@@ -15,7 +15,7 @@
 
 
 .h3-left-green-title {
-    font-family: 'Futura Hv BT';
+    font-family: 'Meta Pro';
     font-style: normal;
     font-size: 20px;
     color: #000000;
@@ -24,13 +24,11 @@
   }
 
 .p-left-green-text {
-    font-family: 'Futura CondensedLight';
-    font-style: normal;
+    font-family: 'Meta Pro';
     font-weight: 300;
-    font-size: 12px;
+    font-size: 16px;
     text-align: justify;
     color: #000000;
-    letter-spacing:1px;
 }
 
 .p-right-box {
@@ -61,6 +59,8 @@
 }
 
 .fellows-right-button {
+  font-family: 'Meta Pro';
+  font-weight: 700;
   width: 190px;
   height: 40px;
   background-color: white;
@@ -68,13 +68,14 @@
   border-radius: 12px;
   cursor: pointer;
   margin-top: 1rem;
-  border: 1px solid black;
+  color: #2B7632;
+  border: 1px solid #2B7632;
 }
 
 .fellows-right-button:hover {
-  background-color: #8CC292;
+  background-color: #2B7632;
   color: white;
-  border: #8CC292;
+  border: #2B7632;
 }
 
 

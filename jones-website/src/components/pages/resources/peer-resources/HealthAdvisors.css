@@ -7,12 +7,13 @@
     color: #000000;
   }
 
-  .left-box {
+  .health-left-green-box {
     display: flex;
-    width: 13rem;
-    height: 14rem;
-    background: #D6E7D8;
+    background-color: rgba(214, 231, 216, .2);
     border-radius: 29px;
+    flex-direction: column;
+    padding: 2rem; 
+    max-width: 600px;
   }
 
   .headline-text {
@@ -24,17 +25,75 @@
     text-transform: uppercase;
 }
 
-.regular-text{
-    color: #000000;
-    font-family: 'Meta Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
+.health-p-left-green-text {
+  font-family: 'Meta Pro';
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+  color: #000000;
 }
 
 
-.italic-text{
+.health-italic-text{
     font-style: italic;
     font-family: 'Futura Lt Bt';
     color: #c4c4c4
+}
+
+.health-grid-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  max-width:530px;
+}
+
+.health-grid-row{
+  display:grid;
+  grid-template-columns: repeat(3, 300px);
+  border-bottom: 1px solid rgba(77, 77, 77, .5);
+  max-width: 450px;
+}
+
+.health-grid-cell{ 
+  padding: 1rem 2rem;
+}
+
+.health-desc-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.health-grid-parent {
+  display:inline-block;
+  margin-top: 3rem;
+  background-color: white;
+}
+
+.health-list-desc-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.health-h3-green-title {
+  font-family: 'Futura Hv BT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  letter-spacing: 3px;
+}
+
+.health-padding-right{
+  padding-right: 5rem;
 }

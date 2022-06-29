@@ -1,5 +1,10 @@
 export const Fellows = [
     {
+        "name":"NAME",
+        "subjects":"FELLOWING",
+        "email":"EMAIL",
+    }, 
+    {
         "name": "Neha Tallapragada",
         "subjects": "Scientific Writing; Writing",
         "email": "nt19@rice.edu"
@@ -122,20 +127,20 @@ export const Fellows = [
     
 ]
 
-export const StriveLiasons = [
+export const Strive = [
     {
         "name": "Katie Wall",
-        "position": "Head RHA",
+        "position": "Strive person",
         "email": "krw3@rice.edu",
-        "phone": "949-419-7066",
         "year": "Junior",
+        "phone": "949-419-7066"
     },
     {
         "name": "Theo Schweizer",
         "position": "Head RHA",
         "email": "tss1@rice.edu",
-        "phone": "949-419-7066",
-        "year": "Junior",        
+        "year": "Junior", 
+        "phone": "949-419-7066"      
     }
 ]
 
@@ -144,21 +149,64 @@ export const PCAS = [
         "name": "Katie Wall",
         "email": "krw3@rice.edu",
         "year": "Junior",
-        "majors": "Biochemistry and Cell Biology; French Studies",
+        "majors": "Biochemistry and Cell Biology; French Studies"
     },
     {
         "name": "Ron Underwood",
         "email": "rau1@rice.edu",
         "year": "Junior",
-        "majors": "Computer Science and Cognitive Science",    
+        "majors": "Computer Science and Cognitive Science"   
     }
 ]
 
 export const RHAS = [
     {
         "name": "Candi Zhao",
-        "subjects": "LING",
-        "email": "gnw1@rice.edu"
+        "position": "Head RHA",
+        "email": "gnw1@rice.edu",
+        "year": "Junior",
+        "phone": "949-800-2000"
     },
-
+    {
+        "name": "Ron Schweizer",
+        "position": "Head RHA",
+        "email": "69@rice.edu",
+        "year": "Super Senior",
+        "phone": "713-420-6969"
+    },
+    {
+        "name": "Ron Schweizer",
+        "position": "Head RHA",
+        "email": "69@rice.edu",
+        "year": "Super Senior",
+        "phone": "713-420-6969"
+    },
+    {
+        "name": "Ron Schweizer",
+        "position": "Head RHA",
+        "email": "69@rice.edu",
+        "year": "Super Senior",
+        "phone": "713-420-6969"
+    },
+    {
+        "name": "Ron Schweizer",
+        "position": "Head RHA",
+        "email": "69@rice.edu",
+        "year": "Super Senior",
+        "phone": "713-420-6969"
+    },
+    {
+        "name": "Ron Schweizer",
+        "position": "Head RHA",
+        "email": "69@rice.edu",
+        "year": "Super Senior",
+        "phone": "713-420-6969"
+    },
+    {
+        "name": "Ron Schweizer",
+        "position": "Head RHA",
+        "email": "69@rice.edu",
+        "year": "Super Senior",
+        "phone": "713-420-6969"
+    },
 ]
