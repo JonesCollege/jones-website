@@ -7,6 +7,7 @@ import OWeek from './components/pages/oweek/O-Week';
 import Ateam from './components/pages/community/Ateam';
 import Associatesalumni from './components/pages/community/Associatesalumni'
 import Studentgov from './components/pages/community/Studentgov'
+import BeerBikeTraditionsPage from "./components/pages/beerbike-traditions/BeerBikeTraditionsPage";
 
 
 
@@ -22,7 +23,8 @@ function App() {
           <Route path='/studentgov' exact element={<Studentgov />} />
           <Route path='/ateam' exact element={<Ateam />} />
           <Route path='/associates-alumni' exact element={<Associatesalumni />} />
-
+          <Route path="/beerbike-traditions" exact element={<BeerBikeTraditionsPage />}
+          />
         </Routes>
       </Router>
     </>
