@@ -3,6 +3,7 @@
     width: 300px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .g-text-card {

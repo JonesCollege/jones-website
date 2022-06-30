@@ -12,9 +12,9 @@ export default function OWeek () {
     const [showLetterModal, setShowLetterModal] = useState(false);
 
     const openLetterModal = () => {
-        setShowLetterModal(prev => !prev);
+        setShowLetterModal(true);
     };
-    const closeModal = () => {
+    const closeLetterModal = () => {
         setShowLetterModal(false);
     };
     return (
@@ -44,10 +44,10 @@ export default function OWeek () {
             <Modal
             isOpen={showLetterModal}
             className="advisor-modal"
-            onRequestClose={closeModal}
+            onRequestClose={closeLetterModal}
             centered
             >
-                <LetterModal closeModal={closeModal}/>
+                <LetterModal closeModal={closeLetterModal}/>
             </Modal>
 
         </div>
@@ -61,6 +61,7 @@ export default function OWeek () {
                             name={item.name} 
                             members={item.members} 
                             profiles={item.profiles}
+                            key={key}
                         />
                     )
                 })

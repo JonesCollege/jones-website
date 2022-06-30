@@ -1,7 +1,6 @@
 .coord-name{
     font-family: "Futura Hv BT";
     font-size: 13px;
-    padding-bottom: 1rem;
     letter-spacing: 2px;
 }
 .coord-bio{
@@ -35,10 +34,10 @@
     height: 250px;
     width: 250px;
     background-color: white;
+    padding: 2rem;
 }
 .text-container {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
 }

@@ -8,7 +8,7 @@ import Ateam from './components/pages/community/Ateam';
 import Associatesalumni from './components/pages/community/Associatesalumni'
 import Studentgov from './components/pages/community/Studentgov'
 import BeerBikeTraditionsPage from "./components/pages/beerbike-traditions/BeerBikeTraditionsPage";
-import PeerResources from './components/pages/resources/peer-resources/PeerResources';
+import PeerResources from './components/pages/resources/PeerResources';
 
 
 function App() {

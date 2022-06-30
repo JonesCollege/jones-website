@@ -6,49 +6,51 @@ import 'animate.css';
 
 
 function GroupCard(props) {
-    console.log(props)
     const [showText, setShowText] = useState(false);
     const [firstLoad, setFirstLoad] = useState(false);
     const [showAdvisorModal, setShowAdvisorModal] = useState(false);
 
     const openAdvisorModal = () => {
-        setShowAdvisorModal(prev => !prev);
+        setShowAdvisorModal(true);
     };
-    const closeModal = () => {
+    const closeAdvisorModal = () => {
         setShowAdvisorModal(false);
     };
 
-    const bgImg = {
+    const bgImg = { 
         backgroundImage: `url(${props.img})`,
         backgroundSize:"300px",
         backgroundRepeat:"no-repeat"
     }
 
   return (  
+    <div>
     <div className='g-bg-img'
-        style={bgImg}>  
-        <div className={`g-text-card ${showText ? 'g-text-card-up' : `${firstLoad? "g-text-card-down" : ""}`}`}
-            onMouseOver={()=>{
-                setShowText(true)
-                setFirstLoad(true)
-            }}
-            onMouseOut={()=>setShowText(false)}
-            onClick={openAdvisorModal}
+        style={bgImg}
+        onMouseOver={()=>{
+            setShowText(true)
+            setFirstLoad(true)
+        }}
+        onMouseOut={()=>setShowText(false)}
+        onClick={openAdvisorModal}
+        >  
+        <div className={`g-text-card ${showText ? 'g-text-card-up' : `${firstLoad? "g-text-card-down" : ""}`}`} 
         >
-            <h4 className='group-name'>
+            <h4 className='group-name'> 
                 {props.name}
             </h4>
             <p className='group-members'>
                 {props.members}
             </p> 
         </div>
+        </div>
         <Modal
             isOpen={showAdvisorModal}
             className="advisor-modal"
-            onRequestClose={closeModal}
+            onRequestClose={closeAdvisorModal}
             centered
         >
-            <AdvisorModal closeModal={closeModal} profiles={props.profiles} name={props.name}/>
+            <AdvisorModal closeModal={closeAdvisorModal} profiles={props.profiles} name={props.name}/>
         </Modal>
     </div>
   )

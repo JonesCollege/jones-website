@@ -4,7 +4,7 @@ import "./BeerBikeHeader.css";
 const BeerBikeHeader = () => {
   return (
     <div className="beerbike-header">
-      <button
+      {/* <button
         className="donate-button donate-text"
         style={{
           zIndex: "3",
@@ -12,7 +12,7 @@ const BeerBikeHeader = () => {
         }}
       >
         DONATE
-      </button>
+      </button> */}
       <div className="beerbike-graphic">
         <img
           src={require("./header_images/people-cheering.png")}

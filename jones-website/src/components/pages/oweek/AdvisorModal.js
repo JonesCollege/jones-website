@@ -15,7 +15,7 @@ function AdvisorModal(props) {
                 backgroundSize: "cover",
               }
               return(
-                <div className='a-container'>
+                <div key={key} className='a-container'>
                 <div className='advisor-img' style={bgImg}/>
                 <div>
                   <h4 className='a-name'>{item.name}</h4>
