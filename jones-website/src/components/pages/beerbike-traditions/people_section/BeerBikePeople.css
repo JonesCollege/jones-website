@@ -1,0 +1,71 @@
+.person {
+  object-fit: contain;
+  width: 10vw;
+  margin: 3px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 5px;
+}
+
+.name {
+  font-family: "Futura Hv BT";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  width: 120px;
+
+  color: #2b7632;
+}
+
+.email {
+  font-family: "Meta Pro";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.profile-image {
+  /* max-width: 134px;
+  max-height: 134px; */
+  min-width: 80px;
+  min-height: 80px;
+
+  border-radius: 300px;
+  background-size: 7vw;
+  margin: 10px;
+
+  width: 7vw;
+  height: 7vw;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  [class="profile-image"] {
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+  }
+}

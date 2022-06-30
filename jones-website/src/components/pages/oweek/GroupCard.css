@@ -1,0 +1,53 @@
+.g-bg-img {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.g-text-card {
+    height: 95px;
+    width: 300px;
+    position: absolute;
+    background-color: white;  
+    bottom: -45px;
+    cursor: pointer;
+}
+.g-text-card-down {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.1s;
+    transition: transform 0.5s, opacity 0.1s, -webkit-transform 0.5s;
+}
+.g-text-card-up {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.1s;
+    transition: transform 0.5s, opacity 0.1s, -webkit-transform 0.5s;
+  }
+
+  .advisor-modal{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 99;
+  }
+
+  .group-name {
+        font-family: "Futura Hv BT";
+        font-size: 13px;
+        text-align: center;
+        padding: 1rem 0;
+        letter-spacing: 1px;
+  }
+
+  .group-members{
+    font-family: "Futura Lt BT";
+    font-size: 13px;
+    text-align: center;
+}

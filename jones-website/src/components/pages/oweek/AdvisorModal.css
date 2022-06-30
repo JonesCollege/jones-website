@@ -1,0 +1,59 @@
+.advisor-modal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    min-width: 400px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,.02);
+}
+
+.a-group-name {
+    font-family: "Futura Hv BT";
+    font-size: 15;
+    letter-spacing: 2px;
+    padding-bottom: 2rem;
+}
+
+.a-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    row-gap: 2rem;
+    column-gap: 1rem;
+}
+
+.a-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.advisor-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+.a-majors{
+    font-family: "Meta Pro Light";
+    font-size: 13px;
+    padding: 0.5rem;
+}
+
+.a-email {
+    font-family: "Meta Pro Light";
+    font-style: italic;
+    font-size: 11px;
+    padding: 0.5rem;
+}
+
+.a-name{
+    font-family: "Futura BK BT";
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 0.5rem;
+}
