@@ -1,0 +1,136 @@
+@font-face {
+    font-family: futuraMediumBT;
+    src: url(../../../../public/fonts/futura/futura\ medium\ bt.ttf)
+}
+
+@font-face{
+    font-family: mpBlkLt;
+    src: url(../../../../public/fonts/meta-pro/FFMetaProLight.TTF)
+}
+
+#ateamintro {
+    width: 100%;
+    background-color: #F3F8F4;
+    margin: auto;
+    margin-bottom: 5rem;
+    padding: 6rem;
+}
+
+#ateamintro h2 {
+    /* Heading 2 */
+
+    font-family: 'futuraMediumBT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#ateamintro p {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+    margin: auto;
+    width: 55%;
+}
+
+.ateamflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 8rem;
+    gap: 2.5rem;
+}
+
+.ateamimage {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.ateaminfo {
+    width: 100%;
+}
+
+.ateamname {
+    font-family: 'futuraMediumBT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-bottom: 0.3rem;
+}
+
+.ateamposemail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.ateampos {
+    font-family: 'futuraMediumBT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.39em;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-right: 1rem;
+}
+
+.ateamemail {
+    font-family: 'mpBlkLt';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.ateamdesc {
+    font-family: 'mpBlkLt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+#magisterimage {
+    width: 85%;
+}
+
+#ccimage {
+    width: 75%;
+}
+
+#southraimage {
+    width: 50%;
+}

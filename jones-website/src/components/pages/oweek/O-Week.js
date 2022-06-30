@@ -1,42 +1,75 @@
-import React from 'react';
+import React , { useState } from 'react';
+import Modal from "react-modal";
 import './O-Week.css';
 import '../../../App.css';
 import CoordCard from './CoordCard';
-import Welcome from './Welcome';
-import Banner from './Banner';
-import Coords from './Coords';
-import Advisors from './Advisors';
+import GroupCard from './GroupCard';
 import Footer from '../../Footer';
+import LetterModal from './LetterModal';
+import { CoordLetter, OWeekGroups, CoordBios } from './OWeekDataSheet';
 
 export default function OWeek () {
-    
+    const [showLetterModal, setShowLetterModal] = useState(false);
+
+    const openLetterModal = () => {
+        setShowLetterModal(true);
+    };
+    const closeLetterModal = () => {
+        setShowLetterModal(false);
+    };
     return (
         <div>
         <div className='oweek-container'>
             <div className='flex-row'>
                 <div className='flex-column'>
-                    <CoordCard className="card" img={"./images/des_mort.jpg"}/>
-                    <CoordCard className="card" img={"./images/des_mort.jpg"}/>
+                    <CoordCard className="card" coord={CoordBios[0]}/>
+                    <CoordCard className="card" coord={CoordBios[1]} />
                 </div>
-                <CoordCard className="card" img={"./images/des_mort.jpg"}/>
+                <CoordCard className="card" coord={CoordBios[2]}/>
             </div>
             <div className='oweek-text-container'>
                 <h1 className='oweek-h1'>
                     OWEEK
                 </h1>
                 <h3 className='oweek-h3'>
-                    HI EVERYONE
+                    HELLO NEW JONESIANS!
                 </h3>
-                <p className='oweek-p'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <div className='oweek-letter-box'>
+                {CoordLetter.text.split(/\n/).map(line => <p className='oweek-p' key={line}>{line}<br/></p>)}
+                </div>
+                <div className='open-letter-text'>
+                    <a style={{cursor:"pointer"}} onClick={openLetterModal}>Read More</a>
+                </div>
             </div>
-            
+            <Modal
+            isOpen={showLetterModal}
+            className="advisor-modal"
+            onRequestClose={closeLetterModal}
+            centered
+            >
+                <LetterModal closeModal={closeLetterModal}/>
+            </Modal>
+
         </div>
+        <div className='o-week-grid-container'>
+            <div className='o-week-group-grid'>
+            {
+                OWeekGroups.map((item, key)=> {
+                    return(
+                        <GroupCard 
+                            img={item.img} 
+                            name={item.name} 
+                            members={item.members} 
+                            profiles={item.profiles}
+                            key={key}
+                        />
+                    )
+                })
+            }
+        </div>
+        </div>
+        
+        
         <Footer/>
     </div>
     )
