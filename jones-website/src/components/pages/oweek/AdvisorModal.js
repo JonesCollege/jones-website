@@ -21,7 +21,7 @@ function AdvisorModal(props) {
                   <h4 className='a-name'>{item.name}</h4>
                   <p className='a-email'>{item.email}</p>
                   <p className='a-majors'>{item.major}</p>
-                  <img src={item.collegetag} height={"24px"}/>
+                  <img src={item.collegetag} height={"24px"} alt="College Tag"/>
                 </div>
               </div>
               )

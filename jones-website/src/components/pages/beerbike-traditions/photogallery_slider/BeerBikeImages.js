@@ -1,4 +1,3 @@
-import React from "react";
 import image1 from "./beerbikeimages/1.JPG";
 import image2 from "./beerbikeimages/2.JPG";
 import image3 from "./beerbikeimages/3.JPG";
