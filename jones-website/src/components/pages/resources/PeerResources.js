@@ -1,6 +1,5 @@
 import React from 'react';
 import './PeerResources.css';
-import {Fellows} from './PeerNames';
 import AcademicAdvisors from './AcademicAdvisors';
 import AcademicFellows from './AcademicFellows';
 import FellowsGrid from './FellowsGrid';

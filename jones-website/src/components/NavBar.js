@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
 import './NavBar.css';
@@ -24,34 +24,34 @@ function NavBar() {
   ];
 
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+    //const [button, setButton] = useState(true);
     
     const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+    // const closeMobileMenu = () => setClick(false);
 
-    const showButton = () => {
-        if(window.innerWidth <= 960) {
-            setButton(false);
-        } else{
-            setButton(true);
-        }
-    };
+    // const showButton = () => {
+    //     if(window.innerWidth <= 960) {
+    //         setButton(false);
+    //     } else{
+    //         setButton(true);
+    //     }
+    // };
     
     //dropdown hover actions
     const [dropdownCommunity, setDropdownCommunity] = useState(false);
 
-    useEffect(() => {
-        showButton();
-    }, []);
+    // useEffect(() => {
+    //     showButton();
+    // }, []);
 
-    window.addEventListener('resize', showButton);
+    //window.addEventListener('resize', showButton);
     
     return (
         <>
         <nav className='navbar'>
           <div className='navbar-container'>
             <div className='left-link'>
-              <Link to='/' className='home-container' onClick={closeMobileMenu}>
+              <Link to='/' className='home-container'>
               <div className='home-link'>
                 JONES COLLEGE
               </div>
@@ -66,7 +66,6 @@ function NavBar() {
                   <Link
                     to='/o-week'
                     className='nav-links'
-                    onClick={closeMobileMenu}
                   >
                     OWEEK
                   </Link>
@@ -77,7 +76,6 @@ function NavBar() {
                   <Link
                       to='/beerbike-traditions'
                       className='nav-links'
-                      onClick={closeMobileMenu}
                   >
                     BEER BIKE/<br/>TRADITIONS
                   </Link>
@@ -100,7 +98,6 @@ function NavBar() {
                   <Link
                       to='/resources'
                       className='nav-links'
-                      onClick={closeMobileMenu}
                   >
                     RESOURCES
                   </Link>
@@ -109,7 +106,6 @@ function NavBar() {
                   <Link
                     to='/forms'
                     className='nav-links'
-                    onClick={closeMobileMenu}
                   >
                     FORMS
                   </Link>

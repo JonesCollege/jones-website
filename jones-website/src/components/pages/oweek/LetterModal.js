@@ -2,11 +2,7 @@ import React from 'react'
 import './LetterModal.css'
 import { CoordLetter } from './OWeekDataSheet';
 
-function AdvisorModal(props) {
-  const bgImg = {
-    backgroundColor: "red",
-    backgroundImage: `url(${props.img})`,
-}
+function AdvisorModal() {
   return (
     <div className='letter-modal'>
         <h1 className='letter-h1'>

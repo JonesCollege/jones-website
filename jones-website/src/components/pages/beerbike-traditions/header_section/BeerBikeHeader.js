@@ -17,6 +17,7 @@ const BeerBikeHeader = () => {
         <img
           src={require("./header_images/people-cheering.png")}
           className="front-pic"
+          alt="People Cheering"
         ></img>
       </div>
 

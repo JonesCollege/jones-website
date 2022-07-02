@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Spring } from 'react-spring';
 import './CoordCard.css';
 import 'animate.css';
 

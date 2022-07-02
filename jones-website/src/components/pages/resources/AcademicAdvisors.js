@@ -32,10 +32,10 @@ function AcademicAdvisors () {
                 For more information, visit <a href = 'http://oaa.rice.edu/' className='green-link-text'>http://oaa.rice.edu/.</a>
                 </p>
                 <div className='horizontal-buttons'>
-                <a href = 'https://goo.gl/forms/hWHrm0iiksUldL1z2' target = '_blank'>
+                <a href = 'https://goo.gl/forms/hWHrm0iiksUldL1z2' rel="noreferrer" target = '_blank'>
                             <button className='advisor-button'>Make an Appointment</button>
                         </a>
-                <a href = 'https://goo.gl/forms/uJLB2k6Aj5jjlW6n2' target = '_blank'>
+                <a href = 'https://goo.gl/forms/uJLB2k6Aj5jjlW6n2' rel="noreferrer" target = '_blank'>
                             <button className='advisor-button'>View Office Hours</button>
                         </a>
                 </div>
