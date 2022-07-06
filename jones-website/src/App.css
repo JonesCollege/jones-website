@@ -1,8 +1,29 @@
+@font-face {
+  font-family: futuraHeavy;
+  src: url(../public/fonts/futura/Futura\ Heavy\ font.ttf)
+}
+
+@font-face {
+  font-family: futuraMediumBT;
+  src: url(../public/fonts/futura/futura\ medium\ bt.ttf)
+}
+
+@font-face {
+  font-family: mpBlkLt;
+  src: url(../public/fonts/meta-pro/FFMetaProLight.TTF)
+}
+
+@font-face {
+  font-family: mpReg;
+  src: url(../public/fonts/meta-pro/FFMetaProRegular.TTF)
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home,
