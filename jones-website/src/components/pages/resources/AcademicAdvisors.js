@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './AcademicAdvisors.css';
 
 
 
 
 function AcademicAdvisors () {
+    useEffect(()=>{
+        window.scrollTo({
+            top: 0,
+        });
+    },[])
     return (
         <div className='advisors-desc-container'>
             <div className='a-center-green-box'>

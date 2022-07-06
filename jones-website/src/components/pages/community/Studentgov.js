@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { MdDownload } from 'react-icons/md'
 import { IconContext } from 'react-icons'
@@ -12,9 +12,15 @@ import { CabinetInfo } from './information/CabinetInfo'
 import { ElectedPos } from './information/ElectedPosInfo'
 import { AppointedPos } from './information/AppointedPosInfo'
 import { OtherPos } from './information/OtherPosInfo'
+import Footer from '../../Footer'
 
 const Studentgov = () => {
   const [formClick, setFormClick] = useState(false);
+  useEffect(()=>{
+    window.scrollTo({
+        top: 0,
+    });
+},[])
 
   return (
     <div>
@@ -25,10 +31,10 @@ const Studentgov = () => {
       <h2 id='stugov'>STUDENT GOVERNMENT</h2>
       <div id='presflexrow-bg'>
         <div id='presflexrow'>
-          <img src={PresInfo.img} alt=''></img>
-          <div>
+          <img src={PresInfo.img} alt='Jones President' id='presimg'></img>
+          <div id='prescontainer'>
             <h3 id='presname'>{PresInfo.name}, JONES'23</h3>
-            <p id='prestitle'>PRESIDENT {PresInfo.year}</p>
+            <p id='prestitle'>PRESIDENT {PresInfo.year}</p> 
             <p id='presintro'>Hey Jones! My name is Dan, and I'm the Jones president for the 2022-23 school year! 
               I'm so excited to have the opportunity to be president this year, as we are hoping to 
               both revitalize many of our favorite traditions and cultures following COVID while also 
@@ -109,16 +115,17 @@ const Studentgov = () => {
       </div>
 
       <div id='constitution'>
-        <h3 className='postitle'>The Constitution</h3>
         <div id='constflex'>
+          <h3 className='postitle'>The Constitution</h3>
           <p id='constitutiontxt'>The Jones Constitution details the laws of our land. It’s the way we make most of our decisions, 
             and how we put people in charge. From room draw procedures to the most eccentric of Presidential duties, 
             the Constitution has got it all. There are over 35 pages of carefully worded text to guide our college’s 
             activity. The College Parliamentarian is responsible for updating and changing the Constitution and 
             its <a id='bylaws' title='https://docs.google.com/document/d/1sBOXhZnGkC-nO3L14g2DziKVOoi6bzKpwv7YbY5eYj8/pub' 
             href='https://docs.google.com/document/d/1sBOXhZnGkC-nO3L14g2DziKVOoi6bzKpwv7YbY5eYj8/pub' target="_blank" 
-            rel="noopener noreferrer">bylaws</a> as 
+            rel="noopener noreferrer">Bylaws</a> as 
             he or she sees fit. The Constitution is broken down into six main sections:</p>
+          </div>
           <div id='downloadwrapper'>
             <a href='https://docs.google.com/document/d/1BLsb4rq-Fcj2wgF4A0kCxWFqpW3vI1I_s96o3qxUnug/pub' target="_blank" rel="noopener noreferrer">
               <IconContext.Provider value={{ size: 200 }}>
@@ -126,8 +133,8 @@ const Studentgov = () => {
               </IconContext.Provider>
             </a>
           </div>
-        </div>
       </div>
+      <Footer/>
     </div>
   )
 }

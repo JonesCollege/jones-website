@@ -16,13 +16,27 @@ function Dropdown( props ) {
         {props.arr.map((item, index) => {
           return (
             <li key={index} >
-              <Link
+              {
+                item.path?
+                <Link
                 className={item.cName}
                 to={item.path}
                 onClick={() => setClick(false)}
               >
                 {item.title}
               </Link>
+              :
+              <a 
+              className={item.cName} 
+              onClick={() => setClick(false)}
+              href={item.external}
+              target="_blank"
+              rel="noreferrer"
+              >
+                {item.title}
+              </a>
+              }
+              
             </li>
           );
         })}

@@ -34,14 +34,14 @@ export const CabinetInfo = [
     },
     {
         "name": "Jay Shisler",
-        "pronouns": "",
+        "pronouns": "he/him",
         "position": "Treasurer",
-        "major": "",
-        "img": "",
+        "major": "Math",
+        "img": "images/cabinet/jayshisler.jpg",
         "email": "jonescollegetreasurer@gmail.com",
         "shortdesc": "Manage the Jones budget, maintain financial records",
-        "objpos": '',
-        "maxsize": ''
+        "objpos": '-80px -10px',
+        "maxsize": '230%'
     },
     {
         "name": "Bikram Singh",
@@ -56,14 +56,14 @@ export const CabinetInfo = [
     },
     {
         "name": "Olivia Roark",
-        "pronouns": "",
+        "pronouns": "she/her",
         "position": "SA Senator",
         "major": "",
-        "img": "",
+        "img": "images/cabinet/oliviaroark.jpeg",
         "email": "jonessasentator@gmail.com",
         "shortdesc": "Represent Jones in the Student Association, serve as a non-voting member of Cabinet",
-        "objpos": '',
-        "maxsize": ''
+        "objpos": '-60px -35px',
+        "maxsize": '240%'
     },
     {
         "name": "Nafisa Azizi",

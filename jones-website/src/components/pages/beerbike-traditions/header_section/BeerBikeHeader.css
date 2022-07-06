@@ -3,9 +3,6 @@
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 100%;
-  padding-bottom: 150px;
-  margin-bottom: 100px;
 }
 
 .beerbike-info {
@@ -92,7 +89,7 @@
   height: 700px;
 
   background-color: #f7f2ff;
-  mask-image: url("./header_images/mask-image2.png");
+  mask-image: url("./images/mask-image2.png");
   mask-size: 85vw 90vh;
   mask-position: 17vw -10vh;
   object-fit: contain;
@@ -106,8 +103,6 @@
   right: 0px;
   height: 83vh;
   min-height: 400px;
-
-  z-index: 3;
 }
 
 @media only screen and (max-width: 1088px) {
@@ -130,9 +125,9 @@
     mask-position: top right;
   }
 
-  /* [class="beerbike-info-title-image"] {
+  [class="beerbike-info-title-image"] {
     display: none;
-  } */
+  }
 
   [class="front-pic"] {
     position: absolute;
@@ -151,4 +146,4 @@
   [class="donate-button donate-text"] {
     display: none;
   }
-}
+} 

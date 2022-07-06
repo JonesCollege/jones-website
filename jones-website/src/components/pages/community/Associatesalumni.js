@@ -1,5 +1,6 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import Footer from '../../Footer';
 import './Associatesalumni.css'
 // import ACard from './associates-alumni/AssociateCard'
 // import DCard from './associates-alumni/DescriptiveCard'
@@ -15,7 +16,14 @@ const Associatesalumni = () => {
   const [mailinglstClicked, setMailingLstClicked] = useState(false);
   const [donateClicked, setDonateClicked] = useState(false);
 
+  useEffect(()=>{
+    window.scrollTo({
+        top: 0,
+    });
+},[])
+
   return (
+    <div>
     <div className='associatesalumni'>
       <div className='headflex-row'>
         <div className='associatesintro-text'>
@@ -127,6 +135,8 @@ const Associatesalumni = () => {
       <form target='_blank' action='https://riceconnect.rice.edu/donation/support-jones-college?'>
         <button className={donateClicked ? "donate donateclicked" : "donate"} onMouseDown={()=>{setDonateClicked(true)}} onMouseUp={()=>{setDonateClicked(false)}}>DONATE</button>
       </form>
+    </div>
+    <Footer/>
     </div>
   )
 }

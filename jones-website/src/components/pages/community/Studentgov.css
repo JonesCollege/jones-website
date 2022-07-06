@@ -49,6 +49,15 @@
     overflow: auto;
 }
 
+#presimg {
+    max-width: 400px;
+    height: auto;
+}
+
+#prescontainer {
+    max-width: 50%;
+}
+
 #stugov {
     padding-bottom: 5rem;
     background-color: #F3F8F4;
@@ -351,10 +360,13 @@
 }
 
 #constitution {
-    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background: #F7FBF7;
-    margin: 8rem auto;
-    padding: 13rem 0rem 13rem 15rem;
+    margin: 8rem;
+    padding: 8rem 10rem;
 }
 
 #constitution .postitle {
@@ -390,12 +402,9 @@
 
 #constflex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0rem;
-    gap: 12rem;
+    padding-right: 10rem;
 }
 
 #downloadwrapper {

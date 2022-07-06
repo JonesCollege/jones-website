@@ -1,4 +1,4 @@
-import React , { useState } from 'react';
+import React , { useEffect, useState } from 'react';
 import Modal from "react-modal";
 import './O-Week.css';
 import '../../../App.css';
@@ -10,6 +10,12 @@ import { CoordLetter, OWeekGroups, CoordBios } from './OWeekDataSheet';
 
 export default function OWeek () {
     const [showLetterModal, setShowLetterModal] = useState(false);
+
+    useEffect(()=>{
+        window.scrollTo({
+            top: 0,
+        });
+    },[])
 
     const openLetterModal = () => {
         setShowLetterModal(true);
@@ -68,8 +74,6 @@ export default function OWeek () {
             }
         </div>
         </div>
-        
-        
         <Footer/>
     </div>
     )

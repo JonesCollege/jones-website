@@ -13,12 +13,35 @@ function NavBar() {
     {
       title: 'A-TEAM',
       path: '/ateam',
-      hook: 'coords',
       cName: 'dropdown-link'
     },
     {
       title: 'ASSOCIATES/\nALUMNI',
       path: '/associates-alumni',
+      cName: 'dropdown-link'
+    }
+  ];
+
+  const FormItems = 
+  [
+    {
+      title: 'ROOM RESERVATION',
+      external: 'https://docs.google.com/forms/d/e/1FAIpQLSclKvfrQi-cu-uTbUPSxF-aCCxFtimlpxbnl6uRTeoEtTiexw/viewform',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'ACCESSIBILITY FUND',
+      external: 'https://docs.google.com/forms/d/e/1FAIpQLSfXUTkDQQKmFZgkuCQkoPmhuHPwqIdAfLdGotfAwUoLAXpt4Q/viewform',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'WORK ORDER',
+      external: 'https://www.emailmeform.com/builder/form/uT8P0EVQqH0v1b8905ef2',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'JIBA FUND',
+      external: 'https://docs.google.com/forms/d/e/1FAIpQLSdfdOFz7ugG-UBQs-l3VUd3Ekg0dBd9UuWG_T_LNBJFkSKI5Q/viewform?c=0&w=1',
       cName: 'dropdown-link'
     }
   ];
@@ -39,6 +62,7 @@ function NavBar() {
     
     //dropdown hover actions
     const [dropdownCommunity, setDropdownCommunity] = useState(false);
+    const [dropdownForms, setDropdownForms] = useState(false);
 
     // useEffect(() => {
     //     showButton();
@@ -102,13 +126,16 @@ function NavBar() {
                     RESOURCES
                   </Link>
                 </li>
-                <li className='nav-item'>
-                  <Link
-                    to='/forms'
-                    className='nav-links'
+                <li className='nav-item'
+                  onMouseEnter={() => setDropdownForms(true)}
+                  onMouseLeave={() => setDropdownForms(false)}
+                >
+                    <div
+                      className='nav-links'
                   >
                     FORMS
-                  </Link>
+                  </div>
+                  {dropdownForms && <Dropdown arr={FormItems}/>}
                 </li>
               </ul>
             </div>
