@@ -15,22 +15,22 @@ const BeerBikeHeader = () => {
       </button> */}
       <div className="beerbike-graphic">
         <img
-          src={require("./header_images/people-cheering.png")}
+          src={'./images/people-cheering.png'}
           className="front-pic"
           alt="People Cheering"
-        ></img>
+        />
       </div>
 
       <div className="beerbike-info">
         <div className="beerbike-info-title">
           <h1>BEER BIKE</h1>
           <img
-            src={require("./header_images/bikeicon.png")}
+            src={require("./images/bikeicon.png")}
             className="beerbike-info-title-image"
             alt="bike"
-          ></img>
+          />
         </div>
-        <div className="beerbike-info-subtitle">subitle</div>
+        <div className="beerbike-info-subtitle">What is it?</div>
 
         <p>
           There is a day when all the other colleges come together to celebrate

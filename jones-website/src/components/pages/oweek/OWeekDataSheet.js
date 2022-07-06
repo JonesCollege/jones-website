@@ -290,7 +290,7 @@ export const OWeekGroups = [
     },
     {
         "name": "FANTASTIC MR. SLOTS", 
-        "members": "John Curylo, Ella Seigel, Adam Thomas, Lucia Romero-Alston", 
+        "members": "John Curylo, Ella Seigel, Adam Thomas, Ithzel Rubio", 
         "img": "./images/o-week-groups/fantasticmrslots.JPG",
         "profiles": [
             {

@@ -50,7 +50,7 @@
 
 .home-link {
   color: #37793D;
-  font-family: "Futura Hv BT";
+  font-family: "futuraHeavy";
   font-size: 14px;
   letter-spacing: 0.3rem;
   text-align: center;
@@ -73,6 +73,7 @@
   display:inline-block;
   justify-content: right;
   float: right;
+  padding-right: 2rem;
 }
 
 .nav-grid {
@@ -85,13 +86,14 @@
 .nav-item {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 80px;
 }
 
 .nav-links {
   color: black;
   text-decoration: none;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 2rem;
   font-family: "Futura Hv BT";
   font-size: 12px;
   letter-spacing: 0.3rem;

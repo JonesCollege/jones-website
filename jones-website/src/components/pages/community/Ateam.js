@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import Footer from '../../Footer'
 import './Ateam.css'
 
 const Ateam = () => {
+
+  useEffect(()=>{
+    window.scrollTo({
+        top: 0,
+    });
+  },[])
+
   return (
+    <div>
     <div id='ateam'>
       <div id='ateamintro'>
         <h2>ADULT TEAM</h2>
@@ -70,6 +79,8 @@ const Ateam = () => {
           amount of energy, and you’ll never see them apart. They are both eager to meet anyone and everyone headed towards Jones!</p>
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   )
 }
