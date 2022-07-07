@@ -28,7 +28,7 @@ function CoordCard({ coord }) {
                     <h4 className='coord-name'>
                         {coord.name}
                     </h4>
-                    <p className='coord-bio'>
+                    <p className='coord-bio' style={{fontSize:'12px'}}>
                         {coord.bio}
                     </p> 
                 </div>

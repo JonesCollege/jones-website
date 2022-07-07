@@ -38,11 +38,10 @@
   color: black;
   width: 100%;
   max-width: 250px;
-  font-size: 15vw;
   font-size: 100px;
 
   text-align: left;
-  font-family: "Futura";
+  font-family: "futuraHeavy";
 }
 
 .beerbike-info-title-image {
@@ -56,7 +55,7 @@
   /* padding: 10px; */
 
   /* Subheading */
-  font-family: "Futura";
+  font-family: "futuraMediumBT";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -75,7 +74,7 @@
   left: 13.6%;
   right: 63.72%;
 
-  font-family: "Meta Pro";
+  font-family: "mpBlkLt";
   font-style: normal;
   font-weight: 200;
   font-size: 13px;

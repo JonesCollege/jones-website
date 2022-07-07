@@ -1,11 +1,11 @@
 .coord-name{
-    font-family: "Futura Hv BT";
+    font-family: "futuraHeavy";
     font-size: 13px;
     letter-spacing: 2px;
 }
 .coord-bio{
-    font-family: "Meta Pro Light";
-    font-size: 13px;
+    font-family: "mpBlkLt";
+    font-size: 20px;
 }
 .border-container{
     border-radius:100%;
@@ -15,6 +15,7 @@
     justify-content: center; 
     overflow: hidden;
     margin:1rem;
+    
 }
 
 .opacity-zero{

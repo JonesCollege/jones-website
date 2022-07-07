@@ -12,7 +12,7 @@ const BeerBikeGallery = () => {
       <div
         className="gallerytitle"
         style={{
-          fontFamily: "Futura",
+          fontFamily: "futuraMediumBT",
           fontWeight: "700",
           fontSize: "15px",
           letterSpacing: "0.39em",

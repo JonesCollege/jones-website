@@ -30,7 +30,7 @@
   font-size: 1rem;
   display: flex;
   align-items: center;
-  font-family: "Futura Lt BT";
+  font-family: "futuraLightBT";
   font-weight: 600;
 }
 
@@ -94,7 +94,7 @@
   color: black;
   text-decoration: none;
   padding: 0.5rem 2rem;
-  font-family: "Futura Hv BT";
+  font-family: "futuraHeavy";
   font-size: 12px;
   letter-spacing: 0.3rem;
 }

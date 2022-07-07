@@ -39,7 +39,7 @@
   }
 
   .group-name {
-        font-family: "Futura Hv BT";
+        font-family: "futuraMediumBT";
         font-size: 13px;
         text-align: center;
         padding: 1rem 0;
@@ -47,7 +47,7 @@
   }
 
   .group-members{
-    font-family: "Futura Lt BT";
+    font-family: "futuraLightBT";
     font-size: 13px;
     text-align: center;
 }
