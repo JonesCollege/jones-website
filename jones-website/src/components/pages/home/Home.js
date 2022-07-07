@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../App.css';
-import Footer from '../Footer';
-import InfoSection from '../InfoSection';
+import '../../../App.css';
+import InfoSection from './InfoSection';
+import Footer from '../../Footer';
 import "./Home.css";
 
 function Home() {

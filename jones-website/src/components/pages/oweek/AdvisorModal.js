@@ -17,7 +17,7 @@ function AdvisorModal(props) {
               return(
                 <div key={key} className='a-container'>
                 <div className='advisor-img' style={bgImg}/>
-                <div>
+                <div style={{marginLeft:'1rem'}}>
                   <h4 className='a-name'>{item.name}</h4>
                   <p className='a-email'>{item.email}</p>
                   <p className='a-majors'>{item.major}</p>
