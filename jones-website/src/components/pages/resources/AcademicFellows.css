@@ -15,7 +15,7 @@
 
 
 .h3-left-green-title {
-    font-family: 'Meta Pro';
+    font-family: 'futuraHeavy';
     font-style: normal;
     font-size: 20px;
     color: #000000;
@@ -24,7 +24,7 @@
   }
 
 .p-left-green-text {
-    font-family: 'Meta Pro';
+    font-family: 'mpBlkLt';
     font-weight: 300;
     font-size: 16px;
     text-align: justify;
@@ -41,7 +41,7 @@
 }
 
 .p-right-text{
-  font-family: 'Meta Pro';
+  font-family: 'mpBlkLt';
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
@@ -49,17 +49,17 @@
 }
 
 .p-right-li-title{
-  font-family: 'Meta Pro';
+  font-family: 'mpBlkLt';
   padding-bottom: 1rem;
 }
 
 .p-right-li{
-  font-family: 'Meta Pro';
+  font-family: 'mpBlkLt';
   margin-left: 1rem;
 }
 
 .fellows-right-button {
-  font-family: 'Meta Pro';
+  font-family: 'mpBlkLt';
   font-weight: 700;
   width: 190px;
   height: 40px;

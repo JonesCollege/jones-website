@@ -35,7 +35,7 @@
 }
 
 .meta-pro-text{
-  font-family: 'Meta Pro';
+  font-family: 'mpBlkLt';
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
@@ -43,14 +43,14 @@
 }
 
 .green-link-text{
-    font-family: 'Meta Pro';
+    font-family: 'mpBlkLt';
     font-weight: 700;
     font-style: italic;
     color: #2B7632;
 }
 
   .advisor-button {
-    font-family: 'Meta Pro';
+    font-family: 'mpBlkLt';
     font-weight: 700;
     width: 190px;
     height: 40px;
