@@ -14,7 +14,7 @@
 }
 
 .letter-h1{
-    font-family: "Futura XBlk BT";
+    font-family: "futuraXBlkBT";
     color: black;
     font-style: italic;
     font-size: 70px;
@@ -23,7 +23,7 @@
 }
 
 .letter-h3 {
-    font-family: "Futura Hv BT";
+    font-family: "futuraHeavy";
     font-size: 15px;
     text-align: left;
     letter-spacing: 6px;
@@ -31,13 +31,13 @@
 }
 
 .letter-p {
-    font-family: "Meta Pro Light";
+    font-family: "mpBlkLt";
     font-size: 13px;
     text-align: justify;
 }
 
 .letter-contact {
-    font-family: "Futura Lt BT";
+    font-family: "mpBlkLt";
     font-size: 13px;
     text-align: left;
 }

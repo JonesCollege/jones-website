@@ -6,6 +6,7 @@ function Footer() {
     return (
         <div className='footer-container'>
             <div className='footer-row-container'>
+                <img src='/jones_logo_small_t.png' height={50}/>
                 <div style={{margin:'0 2rem'}}>
                     <h3 className='footer-h-font'>JONES COLLEGE</h3>
                     <p className='footer-p-font'>23 Sunset Blvd<br/>

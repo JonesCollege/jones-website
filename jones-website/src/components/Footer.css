@@ -1,6 +1,6 @@
 .footer-container {
   background-color: #242424;
-  padding: 4rem 0 2rem 0;
+  padding: 3rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,12 +9,14 @@
 }
 
 .footer-h-font {
-  font-family: 'Futura Md BT';
+  font-family: 'futuraBook';
   letter-spacing: 2px;
+  font-size: 13px;
 }
 
 .footer-p-font {
-  font-family: 'Futura Bk BT';
+  font-family: 'futuraBook';
+  font-size: 13px;
 }
 
 .footer-row-container {
@@ -25,7 +27,7 @@
 }
 
 .footer-q-font {
-  font-family: "Meta Pro";
+  font-family: "mpReg";
   font-size: 12px;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }

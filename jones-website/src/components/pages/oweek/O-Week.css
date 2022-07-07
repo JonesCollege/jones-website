@@ -31,7 +31,7 @@
 }
 
 .oweek-h1{
-    font-family: "Futura XBlk BT";
+    font-family: "futuraXblkBT";
     color: black;
     font-style: italic;
     font-size: 70px;
@@ -40,7 +40,7 @@
 }
 
 .oweek-h3 {
-    font-family: "Futura Hv BT";
+    font-family: "futuraHeavy";
     font-size: 15px;
     text-align: left;
     padding-top: 1rem;
@@ -48,7 +48,7 @@
 }
 
 .oweek-p {
-    font-family: "Meta Pro Light";
+    font-family: "mpBlkLt";
     font-size: 13px;
     text-align:justify;
 }

@@ -13,7 +13,7 @@
 }
 
 .name {
-  font-family: "Futura Hv BT";
+  font-family: "futuraHeavy";
   font-style: normal;
   font-weight: 800;
   font-size: 15px;
@@ -29,7 +29,7 @@
 }
 
 .email {
-  font-family: "Meta Pro";
+  font-family: mpReg;
   font-style: italic;
   font-weight: 200;
   font-size: 13px;

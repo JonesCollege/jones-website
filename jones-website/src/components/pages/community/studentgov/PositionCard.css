@@ -1,13 +1,3 @@
-@font-face {
-    font-family: futuraHeavy;
-    src: url(../../../../../public/fonts/futura/Futura\ Heavy\ font.ttf)
-}
-
-@font-face {
-    font-family: mpBlkLt;
-    src: url(../../../../../public/fonts/meta-pro/FFMetaProLight.TTF)
-}
-
 #infocard {
     width: 230px;
     align-items: center;

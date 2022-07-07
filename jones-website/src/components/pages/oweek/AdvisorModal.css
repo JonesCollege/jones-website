@@ -13,7 +13,7 @@
 }
 
 .a-group-name {
-    font-family: "Futura Hv BT";
+    font-family: "futuraMediumBT";
     font-size: 15;
     letter-spacing: 2px;
     padding-bottom: 2rem;
@@ -39,20 +39,20 @@
 }
 
 .a-majors{
-    font-family: "Meta Pro Light";
+    font-family: "mpBlkLt";
     font-size: 13px;
     padding: 0.5rem;
 }
 
 .a-email {
-    font-family: "Meta Pro Light";
+    font-family: "mpBlkLt";
     font-style: italic;
     font-size: 11px;
     padding: 0.5rem;
 }
 
 .a-name{
-    font-family: "Futura BK BT";
+    font-family: "futuraBook";
     font-size: 15px;
     letter-spacing: 2px;
     padding: 0.5rem;
