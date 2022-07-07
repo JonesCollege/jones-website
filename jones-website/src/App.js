@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/NavBar';
 import './App.css';
-import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/pages/home/Home';
 import OWeek from './components/pages/oweek/O-Week';
 import Ateam from './components/pages/community/Ateam';
 import Associatesalumni from './components/pages/community/Associatesalumni'
