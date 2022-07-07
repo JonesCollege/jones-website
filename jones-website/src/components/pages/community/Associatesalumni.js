@@ -111,15 +111,15 @@ const Associatesalumni = () => {
       </div>
       
       <div className='ad-flexbox'>
-       <img src='https://images.squarespace-cdn.com/content/v1/5563c88ae4b09841c644c503/1434239896172-7E9FHI09AORX8YEYL3TV/image-asset.png?format=750w' alt='' className='ad-image'></img>
-       <div className='ad-text'>
+       <img src='/images/jones_alumni.png' alt='Jones alumni graduating' className='ad-image'/>
+       <div >
          <h2 id="ad-title">ATTENTION WINNING JONES ALUMS</h2>
          <p className='aatextdesc'>Please fill out the short form linked below if you would like to 
            stay in touch with Jones College and new Jonesians!
          </p>
-         <form target='_blank' action='https://docs.google.com/forms/d/1DIYgBE9YPs6osayKHLZpSseDUbmTAm9RMsUkHixa2yA/viewform'>
-          <button className={mailinglstClicked ? "ad-button ad-buttonclicked" : "ad-button"} onMouseDown={()=>{setMailingLstClicked(true)}} onMouseUp={()=>{setMailingLstClicked(false)}}>Join the Mailing List!</button>
-         </form>
+         <a target='_blank' rel="noreferrer" href='https://docs.google.com/forms/d/1DIYgBE9YPs6osayKHLZpSseDUbmTAm9RMsUkHixa2yA/viewform'>
+          <button className={`mail-button ${mailinglstClicked? 'mail-buttonclicked': ''}`} onMouseDown={()=>{setMailingLstClicked(true)}} onMouseUp={()=>{setMailingLstClicked(false)}}>Join the Mailing List!</button>
+         </a>
          <p className='aatextdesc'>Opting-in to the mailing list will keep you updated on the following:</p>
          <ul id="ad-list">
            <li className='aatextdesc'>Alumni events at Jones</li>
@@ -130,12 +130,12 @@ const Associatesalumni = () => {
          <p id="ad-comments">If you have any comments or suggestions, please contact the External 
            Vice President at <a href='mailto: jonesevp@gmail.com' className='jonesemail'>jonesevp@gmail.com</a>
         </p>
-       </div>
-      </div>
-      <form target='_blank' action='https://riceconnect.rice.edu/donation/support-jones-college?'>
+        </div>
+     </div>
+      <a target='_blank' rel="noreferrer" href='https://riceconnect.rice.edu/donation/support-jones-college?'>
         <button className={donateClicked ? "donate donateclicked" : "donate"} onMouseDown={()=>{setDonateClicked(true)}} onMouseUp={()=>{setDonateClicked(false)}}>DONATE</button>
-      </form>
-    </div>
+      </a>
+    </div> 
     <Footer/>
     </div>
   )

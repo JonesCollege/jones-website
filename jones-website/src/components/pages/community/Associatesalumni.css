@@ -197,30 +197,29 @@
     padding: 1rem 0;
 }
 
-.ad-button{
+.mail-button {
     background-color: #FFFFFF;
     border: 1px solid #2B7632;
     border-radius: 12px;
-
     font-family: 'mpReg';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 0.01em;
-
     color: #2B7632;
     cursor: pointer;
     padding: 0.5rem 2rem;
     margin: 1.5rem 0;
 }
 
-.ad-button:hover{
+
+.mail-button:hover{
     background-color: #2B7632;
     color: white;
 }
 
-.ad-buttonclicked{
+.mail-buttonclicked{
     background-color: #2B7632;
     opacity: 0.5;
     font-family: 'mpReg';
