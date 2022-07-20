@@ -32,9 +32,12 @@ const Studentgov = () => {
       <div id='presflexrow-bg'>
         <div id='presflexrow'>
           <img src={PresInfo.img} alt='Jones President' id='presimg'></img>
-          <div id='prescontainer'>
+          <div>
+            <p id='prestitle'>PRESIDENT {PresInfo.year}</p>  
             <h3 id='presname'>{PresInfo.name}, JONES'23</h3>
-            <p id='prestitle'>PRESIDENT {PresInfo.year}</p> 
+          </div>
+        </div>
+          <div id='prescontainer'>
             <p id='presintro'>Hey Jones! My name is Dan, and I'm the Jones president for the 2022-23 school year! 
               I'm so excited to have the opportunity to be president this year, as we are hoping to 
               both revitalize many of our favorite traditions and cultures following COVID while also 
@@ -53,7 +56,7 @@ const Studentgov = () => {
               - Dan Helmeci '23 (he/him)
             </p>
           </div>
-        </div>
+
       </div>
 
       <div id='cabpos-flexrow'>

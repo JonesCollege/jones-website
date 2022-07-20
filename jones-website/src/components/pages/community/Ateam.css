@@ -103,6 +103,10 @@
     text-decoration: none;
 }
 
+.float-right {
+    float: right;
+}
+
 .ateamdesc {
     font-family: 'mpBlkLt';
     font-style: normal;
@@ -124,4 +128,17 @@
 
 #southraimage {
     width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .ateamflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 8rem;
+        gap: 2.5rem;
+    }
 }

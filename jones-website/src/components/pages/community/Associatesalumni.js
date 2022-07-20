@@ -112,7 +112,7 @@ const Associatesalumni = () => {
       
       <div className='ad-flexbox'>
        <img src='/images/jones_alumni.png' alt='Jones alumni graduating' className='ad-image'/>
-       <div >
+       <div className='ad-contents'>
          <h2 id="ad-title">ATTENTION WINNING JONES ALUMS</h2>
          <p className='aatextdesc'>Please fill out the short form linked below if you would like to 
            stay in touch with Jones College and new Jonesians!

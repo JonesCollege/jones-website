@@ -1,14 +1,27 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import Footer from '../../Footer'
 import './Ateam.css'
 
 const Ateam = () => {
+  const [resize, setResize] = useState(false)
 
   useEffect(()=>{
     window.scrollTo({
         top: 0,
     });
+    innerWidth()
   },[])
+
+  const innerWidth = () => {
+    if (window.innerWidth <= 768){
+      setResize(true)
+    }
+    else{
+      setResize(false)
+    }
+  }
+  window.addEventListener('resize', innerWidth);
+
 
   return (
     <div>
@@ -23,7 +36,7 @@ const Ateam = () => {
       </div>
 
       <div className='ateamflex'>
-        <img src={require('./ateam/images/ballfamily.jpg')} alt='' className='ateamimage' id='magisterimage'></img>
+        <img src={require('./ateam/images/ballfamily.jpg')} alt='Jones Magisters, Zach and Trisha Ball' className='ateamimage' id='magisterimage'></img>
         <div className='ateaminfo'>
           <p className='ateamname'>Zach, Trisha, and Emilia Ball</p>
           <div className='ateamposemail'><span className='ateampos'>Magisters</span><a href='mailto: zb1@rice.edu' className='ateamemail'>zb1@rice.edu</a></div>
@@ -45,10 +58,13 @@ const Ateam = () => {
       </div>
 
       <div className='ateamflex'>
+        {resize && <img src={require('./ateam/images/michelle.jpeg')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
         <div className='ateaminfo'>
           <p className='ateamname'>Michelle Bennack</p>
           <div className='ateamposemail'><span className='ateampos'>College Coordinator</span><a href='mailto: mrb4@rice.edu' className='ateamemail'>mrb4@rice.edu</a></div>
-          <p className='ateamdesc'>Hello and welcome to Jones College!<br></br><br></br>
+          <p className='ateamdesc'>
+
+          Hello and welcome to Jones College!<br></br><br></br>
           My name is Michelle Bennack, and I am the Jones College Coordinator. I hold the keys to the kingdom of Jones so to speak. 
           My office is located in “central” on the first floor by the Commons.<br></br><br></br>
           As the coordinator, I am here to help you through your college years and provide you with a variety of things: your mail, 
@@ -58,11 +74,11 @@ const Ateam = () => {
           for candy correctly and you will be rewarded with a delicious treat. Also chilling in the office everyday is my golden retriever, Beau. 
           He gives great hugs and plays a mean game of tug-o-war. Stop in anytime!</p>
         </div>
-        <img src={require('./ateam/images/michelle.jpeg')} alt='' className='ateamimage' id='ccimage'></img>
+        {!resize && <img src={require('./ateam/images/michelle.jpeg')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
       </div>
 
       <div className='ateamflex'>
-        <img src={require('./ateam/images/kerri.jpg')} alt='' className='ateamimage' id='southraimage'></img>
+        <img src={require('./ateam/images/kerri.jpg')} alt='Jones RA, Kerri Barber' className='ateamimage' id='southraimage'></img>
         <div className='ateaminfo'>
           <p className='ateamname'>Kerri Barber</p>
           <div className='ateamposemail'><span className='ateampos'>Jones South RA</span><a href='mailto: klb8@rice.edu' className='ateamemail'>klb8@rice.edu</a></div>

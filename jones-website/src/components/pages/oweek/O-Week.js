@@ -26,13 +26,16 @@ export default function OWeek () {
     return (
         <div>
         <div className='oweek-container'>
-            <div className='flex-row'>
-                <div className='flex-column'>
-                    <CoordCard className="card" coord={CoordBios[0]}/>
-                    <CoordCard className="card" coord={CoordBios[1]} />
+            <div className='coord-display'>
+                <div className='coord-row'>
+                    <div className='coord-column'>
+                        <CoordCard coord={CoordBios[0]}/>
+                        <CoordCard coord={CoordBios[1]} />
+                    </div>
+                    <CoordCard coord={CoordBios[2]}/>
                 </div>
-                <CoordCard className="card" coord={CoordBios[2]}/>
             </div>
+            
             <div className='oweek-text-container'>
                 <h1 className='oweek-h1'>
                     OWEEK

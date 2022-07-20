@@ -6,28 +6,24 @@
     align-items: center;
 }
 
-.flex-column{
+.coord-column{
     display: flex;
     flex-direction: column;
 }
-.flex-row{
+.coord-row{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1rem 2rem;
-    min-width:650px;
-}
-
-.card {
-    margin: 5rem;
+    margin:0 3rem;
 }
 .oweek-text-container {
     background-color: white;
     padding: 3rem 6rem;
-    margin: 0 3rem;
+    margin-right: 6rem;
+    margin-left: 4rem;
     margin-bottom: 2rem;
-    width: 40%;
+    max-width: 40%;
 }
 
 .oweek-h1{
@@ -81,4 +77,93 @@
     grid-template-columns: repeat(3, 300px);
     row-gap: 2rem;
     column-gap: 2rem;
+}
+
+
+@media screen and (max-width: 1160px) {
+    .oweek-container{
+        display: flex;
+        flex-direction: row;
+        background-color: #F7F2FF;
+        justify-content: center;
+        align-items: start;
+    }
+    .o-week-group-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+    .coord-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        min-width:0;
+    }
+    .oweek-text-container {
+        background-color: white;
+        padding: 3rem 4rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+        max-width: 50%;
+    }
+    .oweek-h1{
+        font-family: "futuraXblkBT";
+        color: black;
+        font-style: italic;
+        font-size: 60px;
+        letter-spacing: 6px;
+        padding: 2rem 0;
+    }
+    .oweek-letter-box {
+        max-height: 450px;
+        padding-top: 1rem;
+        overflow: hidden;
+        -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+        mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    }
+}
+@media screen and (max-width: 768px) {
+    .o-week-group-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+    .oweek-text-container {
+        background-color: white;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .oweek-h1{
+        font-family: "futuraXblkBT";
+        color: black;
+        font-style: italic;
+        font-size: 40px;
+        letter-spacing: 2px;
+        padding: 0.5rem 0;
+    }
+    .oweek-h3 {
+        font-family: "futuraHeavy";
+        font-size: 13px;
+        text-align: left;
+        padding-top: 1rem;
+        letter-spacing: 2px;
+    }
+    .oweek-letter-box {
+        max-height: 50vh;
+        padding-top: 1rem;
+        overflow: hidden;
+        -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+        mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    }
+    [class="coord-display"] {
+        display: none;
+      }
+    
 }

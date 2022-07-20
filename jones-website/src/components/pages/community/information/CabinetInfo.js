@@ -58,7 +58,7 @@ export const CabinetInfo = [
         "name": "Olivia Roark",
         "pronouns": "she/her",
         "position": "SA Senator",
-        "major": "",
+        "major": "Cognitive Sciences and Social Policy Analysis",
         "img": "images/cabinet/oliviaroark.jpeg",
         "email": "jonessasentator@gmail.com",
         "shortdesc": "Represent Jones in the Student Association, serve as a non-voting member of Cabinet",

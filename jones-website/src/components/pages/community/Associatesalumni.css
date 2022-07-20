@@ -42,9 +42,9 @@
 }
 
 .joinassociates{
-    position: absolute;
-    top: 3rem;
-    right: 4rem;
+    position: absolute; 
+    top: 20px;
+    right:20px;
     border-radius: 100%;
     text-align: center;
     font-style: italic;
@@ -55,7 +55,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    margin-left: 2rem;
 }
 
 .joinassociates-text {
@@ -171,7 +171,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding: 11rem 0rem;
     margin-bottom: 3rem;
     gap: 8%;
@@ -179,8 +178,13 @@
 }
 
 .ad-image{
-    max-height: 50rem;
-    box-shadow: -25px 25px 0px #8CC292;;
+    max-height: 350px;
+    box-shadow: -25px 25px 0px #8CC292;
+    margin-left:3rem;
+}
+
+.ad-contents {
+    padding-right:3rem;
 }
 
 #ad-title{
@@ -293,4 +297,94 @@
     background: #8CC292;
     color: white;
     box-shadow: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .headflex-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3F8F4;;
+        position: relative;
+        width: 100%;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    .joinassociates{
+        position: relative; 
+        border-radius: 100%;
+        text-align: center;
+        font-style: italic;
+        background-color: #FFFFFF;
+        width: 13rem;
+        height: 13rem;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+    .donate{
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0px 4px 20px 3px rgba(214, 231, 216, 0.5);
+        border-radius: 46px;
+        z-index: 8;
+        position: fixed;
+        bottom: 2.8rem;
+        right: 3.5rem;
+        padding: 1rem 2rem;
+    
+        font-family: 'futuraHeavy';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.25em;
+        color: #2B7632;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .introflex-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        background-color: #FFFFFF;
+        position: relative;
+        width: 60%;
+        margin: auto;
+        padding: 3rem;
+        gap: 2rem;
+    }
+
+    .ad-flexbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 11rem 0rem;
+        margin-bottom: 3rem;
+        gap: 8%;
+        overflow: hidden;
+    }
+
+    .ad-image{
+        max-height: 200px;
+        box-shadow: -25px 25px 0px #8CC292;
+        margin-left:3rem;
+    }
+    .ad-contents {
+        padding:4rem;
+    }
+
+    [class="donate"] {
+        display: none;
+      }
+
 }

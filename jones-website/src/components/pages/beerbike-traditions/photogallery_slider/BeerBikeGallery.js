@@ -22,7 +22,6 @@ const BeerBikeGallery = () => {
         CHECK OUT SOME RAD PICS !
       </div>
       <div
-        className="gallery-container"
         style={{ width: "100%", padding: "0px 0px 100px 0px" }}
       >
         <AutoPlaySlider images={images} />

@@ -16,8 +16,11 @@
 }
 
 #presflexrow-bg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background: linear-gradient(0deg, #ffffff 50%, rgba(243, 248, 244, 255) 50%);
-    bottom: 0px;
+    height: auto;
 }
 
 #presflexrow {
@@ -27,21 +30,19 @@
     align-items: center;
     background-color: #FFFFFF;
     position: relative;
-    width: 80vw;
     margin: auto;
-    padding: 5rem;
+    padding: 4rem 6rem;
     gap: 4rem;
-    overflow: auto;
 }
 
 #presimg {
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
 }
 
-#prescontainer {
+/* #prescontainer {
     max-width: 50%;
-}
+} */
 
 #stugov {
     padding-bottom: 5rem;
@@ -84,10 +85,12 @@
     line-height: 15px;
     /* identical to box height */
 
-    letter-spacing: 0.39em;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
 
     color: #000000;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 
 
     /* Inside auto layout */
@@ -99,7 +102,8 @@
 }
 
 #presintro {
-    padding-top: 1.5rem;
+    background-color: white;
+    padding: 0 6rem;
 
     font-family: 'mpBlkLt';
     font-style: normal;
@@ -109,6 +113,7 @@
     text-align: justify;
 
     color: #000000;
+    width: 80vw;
 
 
     /* Inside auto layout */
@@ -402,6 +407,7 @@
     padding: 1.1rem;
     height: 76px;
     width: 76px;
+    margin-top: 2rem;
 }
 
 #downloadbutton {
@@ -411,4 +417,96 @@
     margin: 0rem;
     height: 40px;
     width: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    #presimg {
+        max-width: 350px;
+        height: auto;
+    }
+    #presflexrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FFFFFF;
+        position: relative;
+        margin: auto;
+        padding: 4rem 6rem;
+        width: 80vw;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #presimg {
+        max-width: 300px;
+        height: auto;
+    }
+    #presflexrow {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FFFFFF;
+        position: relative;
+        margin: auto;
+        padding: 4rem 6rem 2rem 6rem;
+        width: 80vw;
+        gap: 1rem;
+    }
+    #prestitle {
+        font-family: 'futuraHeavy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+        /* identical to box height */
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+    
+        color: #000000;
+        padding: 1rem 0;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    #presname {
+        padding-bottom: 0.5rem;
+    
+        font-family: 'futuraBook';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        /* identical to box height */
+    
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+    
+        color: #000000;
+    }
+    #constitution {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #F7FBF7;
+        margin: 8rem;
+        padding: 4rem 10rem;
+    }
+    #constflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0;
+    }
 }
