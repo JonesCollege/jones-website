@@ -194,8 +194,8 @@ const MobileNav = () => {
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <a  
-                      className='nav-links-mobile nav-link-padding-expand' 
+                    <button  
+                      className='nav-links-mobile nav-link-expand' 
                       onClick={()=>setExpandNavCommunity(!expandNavCommunity)}>
                         {expandNavCommunity ? (
                           <GrFormSubtract className='expand-icon'/> 
@@ -203,7 +203,7 @@ const MobileNav = () => {
                           <IoAdd className='expand-icon'/>
                         ) }
                       COMMUNITY
-                    </a>
+                    </button>
                     {expandNavCommunity && 
                       <MobileDropdown 
                         arr={CommunityItems} 
@@ -222,8 +222,8 @@ const MobileNav = () => {
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <a  
-                      className='nav-links-mobile nav-link-padding-expand' 
+                    <button  
+                      className='nav-links-mobile nav-link-expand' 
                       onClick={()=>setExpandNavForm(!expandNavForm)}>
                         {expandNavForm ? (
                           <GrFormSubtract className='expand-icon'/> 
@@ -231,7 +231,7 @@ const MobileNav = () => {
                           <IoAdd className='expand-icon'/>
                         ) }
                       FORMS
-                    </a>
+                    </button>
                     {expandNavForm && 
                       <MobileDropdown 
                         arr={FormItems} 

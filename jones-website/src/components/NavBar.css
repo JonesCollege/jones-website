@@ -193,8 +193,10 @@
     padding-left: 4rem;
     padding-right: 4rem;
   }
-  .nav-link-padding-expand {
+  .nav-link-expand {
     padding-left: 2.4rem;
     padding-right: 4rem;
+    background-color: transparent;
+    border: none;
   }
 }
