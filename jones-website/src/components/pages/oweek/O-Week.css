@@ -86,7 +86,7 @@
         flex-direction: row;
         background-color: #F7F2FF;
         justify-content: center;
-        align-items: start;
+        align-items: flex-start;
     }
     .o-week-group-grid {
         display: grid;

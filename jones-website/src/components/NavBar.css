@@ -23,7 +23,7 @@
 
 .navbar-text {
   color: black;
-  justify-self: start;
+  justify-self: flex-start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
@@ -143,7 +143,7 @@
 
   .nav-item {
     height: auto;
-    align-items: start;
+    align-items: flex-start;
   }
 
   .nav-links {
