@@ -126,6 +126,53 @@
         mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
     }
 }
+
+.oweek-book-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    background-color: #323232;
+    padding: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.book-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.oweek-book-title {
+    font-family: "futuraXblkBT";
+    color: white;
+    font-style: italic;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.book-download-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 1.5rem;
+}
+
+.book-download-icon {
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.oweek-flipbook {
+    height: 600px;
+    width: 70vw;
+}
+
 @media screen and (max-width: 768px) {
     .o-week-group-grid {
         display: grid;
@@ -161,6 +208,19 @@
         overflow: hidden;
         -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
         mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    }
+    .oweek-book-title {
+        font-family: "futuraXblkBT";
+        color: white;
+        font-style: italic;
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+    .book-download-icon {
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        margin-left: 0rem;
     }
     [class="coord-display"] {
         display: none;

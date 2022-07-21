@@ -7,6 +7,7 @@ import GroupCard from './GroupCard';
 import Footer from '../../Footer';
 import LetterModal from './LetterModal';
 import { CoordLetter, OWeekGroups, CoordBios } from './OWeekDataSheet';
+import {MdDownload} from 'react-icons/md'
 
 export default function OWeek () {
     const [showLetterModal, setShowLetterModal] = useState(false);
@@ -76,6 +77,19 @@ export default function OWeek () {
                 })
             }
         </div>
+        </div>
+        <div className='oweek-book-container'>
+            <div className='book-title-container'>
+                <h2 className='oweek-book-title'>OWEEK BOOK</h2>
+                <a 
+                    className='book-download-button' 
+                    target="_blank"
+                    rel="noreferrer" 
+                    href='https://drive.google.com/file/d/1kEZjGrGwCVVVOL-a4AKuKGSxYZsAULGc/view?usp=sharing'>
+                    <MdDownload className='book-download-icon'/>
+                </a>
+            </div>
+            <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://online.fliphtml5.com/qrykg/pebz/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
         </div>
         <Footer/>
     </div>

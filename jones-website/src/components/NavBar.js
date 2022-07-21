@@ -120,11 +120,12 @@ const DesktopNav = () => {
             onMouseEnter={() => setDropdownCommunity(true)}
             onMouseLeave={() => setDropdownCommunity(false)}
           >
-            <div
-                className='nav-links'
+            <button
+                className='nav-links hover-button'
+                onClick={() => setDropdownCommunity(!dropdownCommunity)}
             >
               COMMUNITY
-            </div>
+            </button>
             {dropdownCommunity && <Dropdown arr={CommunityItems}/>}
           </li>
           <li
@@ -141,11 +142,12 @@ const DesktopNav = () => {
             onMouseEnter={() => setDropdownForms(true)}
             onMouseLeave={() => setDropdownForms(false)}
           >
-              <div
-                className='nav-links'
+              <button
+                className='nav-links hover-button'
+                onClick={() => setDropdownForms(!dropdownForms)}
             >
               FORMS
-            </div>
+            </button>
             {dropdownForms && <Dropdown arr={FormItems}/>}
           </li>
         </ul>

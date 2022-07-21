@@ -128,7 +128,7 @@ export const OWeekGroups = [
             {
                 "name": "LAUREN BRANTLEY",
                 "email": "lmb19@rice.edu",
-                "major": "Business, Sports Medicine",
+                "major": "Business, Kinesiology",
                 "collegetag": "./college-tags/duncan_tag.png", 
                 "img": "./images/advisors/laurenbrantley.JPG"
             },
@@ -170,19 +170,19 @@ export const OWeekGroups = [
             {
                 "name": "SARAH LUAN",
                 "email": "sl163@rice.edu",
-                "major": "----------",
+                "major": "Electrical Engineering",
                 "collegetag": "./college-tags/jones_tag.png",
                 "img": "./images/advisors/sarahluan.JPG"
             },
             {
                 "name": "HANNAH LLOYD",
                 "email": "hal12@rice.edu",
-                "major": "Sports Medicine",
+                "major": "Kinesiology",
                 "collegetag": "./college-tags/jones_tag.png",
                 "img": "./images/advisors/hannahlloyd.JPG"
             }
         ]
-    },
+    },  
     {
         "name": "TEXAS HOLD M&M's", 
         "members": "Grace Walters, Blaine Samson, Jonathan Mak, Vishnu Susheer", 
@@ -214,7 +214,7 @@ export const OWeekGroups = [
                 "email": "vs48@rice.edu",
                 "major": "Neuroscience",
                 "collegetag": "./college-tags/jones_tag.png",
-                "img": "./images/advisors/vishnususheer.png"
+                "img": "./images/advisors/vishnususheer.jpg"
             }
         ]
     },
@@ -233,7 +233,7 @@ export const OWeekGroups = [
             {
                 "name": "AMANDA LE",
                 "email": "al106@rice.edu",
-                "major": "-------",
+                "major": "Cognitive Sciences",
                 "collegetag": "./college-tags/wiess_tag.png", 
                 "img": "./images/advisors/amandale.JPG"
             },
@@ -247,7 +247,7 @@ export const OWeekGroups = [
             {
                 "name": "JACK TURNER",
                 "email": "jft4@rice.edu",
-                "major": "-------",
+                "major": "Sports Management, Business",
                 "collegetag": "./college-tags/jones_tag.png",
                 "img": "./images/advisors/jackturner.JPG"
             }
@@ -303,7 +303,7 @@ export const OWeekGroups = [
             {
                 "name": "ELLA SEIGEL",
                 "email": "iss4@rice.edu",
-                "major": "-------",
+                "major": "Social Policy Analysis",
                 "collegetag": "./college-tags/jones_tag.png", 
                 "img": "./images/advisors/ellaseigel.JPG"
             },
@@ -317,7 +317,7 @@ export const OWeekGroups = [
             {
                 "name": "ITHZEL RUBIO",
                 "email": "ir22@rice.edu",
-                "major": "-------",
+                "major": "Sociology",
                 "collegetag": "./college-tags/jones_tag.png",
                 "img": "./images/advisors/ithzelrubio.JPG"
             }
@@ -338,21 +338,21 @@ export const OWeekGroups = [
             {
                 "name": "PRAHALAD CHARI",
                 "email": "pac9@rice.edu",
-                "major": "---------",
+                "major": "Electrical Engineering",
                 "collegetag": "./college-tags/jones_tag.png", 
                 "img": "./images/advisors/prahaladchari.JPG"
             },
             {
                 "name": "DELANEY MILLER",
                 "email": "dem14@rice.edu",
-                "major": "----------",
+                "major": "-",
                 "collegetag": "./college-tags/jones_tag.png",
                 "img": "./images/advisors/delaneymiller.JPG"
             },
             {
                 "name": "YUV SACHDEVA",
                 "email": "yss1@rice.edu",
-                "major": "----------",
+                "major": "Social Policy Analysis, Economics",
                 "collegetag": "./college-tags/jones_tag.png",
                 "img": "./images/advisors/yuvsachdeva.JPG"
             }
@@ -380,7 +380,7 @@ export const OWeekGroups = [
             {
                 "name": "LOGAN SIMON",
                 "email": "las21@rice.edu",
-                "major": "----------",
+                "major": "Math",
                 "collegetag": "./college-tags/duncan_tag.png",
                 "img": "./images/advisors/logansimon.JPG"
             },
@@ -422,7 +422,7 @@ export const OWeekGroups = [
             {
                 "name": "MAAZ ZUBERI",
                 "email": "maz8@rice.edu",
-                "major": "--------",
+                "major": "Electrical Engineering",
                 "collegetag": "./college-tags/jones_tag.png",
                 "img": "./images/advisors/maazzuberi.JPG"
             }
@@ -443,7 +443,7 @@ export const OWeekGroups = [
             {
                 "name": "ALEX ZALLES",
                 "email": "agz2@rice.edu",
-                "major": "------",
+                "major": "Operations Research",
                 "collegetag": "./college-tags/wiess_tag.png", 
                 "img": "./images/advisors/alexzalles.JPG"
             },
@@ -457,7 +457,7 @@ export const OWeekGroups = [
             {
                 "name": "CAMILA DEALBA",
                 "email": "cnd4@rice.edu",
-                "major": "--------",
+                "major": "Social Policy Analysis",
                 "collegetag": "./college-tags/jones_tag.png",
                 "img": "./images/advisors/camiladealba.JPG"
             }
