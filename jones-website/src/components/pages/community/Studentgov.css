@@ -26,23 +26,20 @@
 #presflexrow {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: center;
     background-color: #FFFFFF;
     position: relative;
     margin: auto;
     padding: 4rem 6rem;
-    gap: 4rem;
+    width: 70vw;
 }
 
 #presimg {
-    max-width: 500px;
+    width: 500px;
     height: auto;
+    background-color: white;
 }
-
-/* #prescontainer {
-    max-width: 50%;
-} */
 
 #stugov {
     padding-bottom: 5rem;
@@ -91,8 +88,6 @@
     color: #000000;
     padding-top: 1rem;
     padding-bottom: 1.5rem;
-
-
     /* Inside auto layout */
 
     flex: none;
@@ -113,7 +108,7 @@
     text-align: justify;
 
     color: #000000;
-    width: 80vw;
+    width: 70vw;
 
 
     /* Inside auto layout */
@@ -451,7 +446,7 @@
         background-color: #FFFFFF;
         position: relative;
         margin: auto;
-        padding: 4rem 6rem 2rem 6rem;
+        padding: 2rem 6rem 2rem 6rem;
         width: 80vw;
         gap: 1rem;
     }
@@ -474,6 +469,28 @@
     
         flex: none;
         order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    #presintro {
+        background-color: white;
+        padding: 0 2rem;
+    
+        font-family: 'mpBlkLt';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: justify;
+    
+        color: #000000;
+        width: 80vw;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
         align-self: stretch;
         flex-grow: 0;
     }
@@ -500,7 +517,7 @@
         justify-content: center;
         align-items: center;
         background: #F7FBF7;
-        margin: 8rem;
+        margin: 2rem;
         padding: 4rem 10rem;
     }
     #constflex {
@@ -508,5 +525,17 @@
         flex-direction: column;
         justify-content: center;
         padding-right: 0;
+    }
+
+    #cabpos-flexrow {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        gap: 4rem;
+        width: 80vw;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
     }
 }

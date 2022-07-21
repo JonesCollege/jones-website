@@ -79,6 +79,51 @@
     column-gap: 2rem;
 }
 
+.oweek-book-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    background-color: #323232;
+    padding: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.book-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.oweek-book-title {
+    font-family: "futuraXblkBT";
+    color: white;
+    font-style: italic;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.book-download-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 1.5rem;
+}
+
+.book-download-icon {
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.oweek-flipbook {
+    height: 600px;
+    width: 70vw;
+}
 
 @media screen and (max-width: 1160px) {
     .oweek-container{
@@ -127,52 +172,6 @@
     }
 }
 
-.oweek-book-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: auto;
-    background-color: #323232;
-    padding: 2rem;
-    margin-bottom: 1rem;
-
-}
-
-.book-title-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2rem;
-}
-
-.oweek-book-title {
-    font-family: "futuraXblkBT";
-    color: white;
-    font-style: italic;
-    font-size: 60px;
-    letter-spacing: 4px;
-}
-
-.book-download-button {
-    border: none;
-    background-color: transparent;
-    margin-left: 1.5rem;
-}
-
-.book-download-icon {
-    font-size: 50px;
-    color: white;
-    cursor: pointer;
-}
-
-.oweek-flipbook {
-    height: 600px;
-    width: 70vw;
-}
-
 @media screen and (max-width: 768px) {
     .o-week-group-grid {
         display: grid;
@@ -182,10 +181,10 @@
     }
     .oweek-text-container {
         background-color: white;
-        margin-right: 2rem;
-        margin-left: 2rem;
+        margin-right: 0;
+        margin-left: 0;
         margin-bottom: 2rem;
-        max-width: 60%;
+        max-width: 80%;
     }
     .oweek-h1{
         font-family: "futuraXblkBT";
@@ -193,7 +192,7 @@
         font-style: italic;
         font-size: 40px;
         letter-spacing: 2px;
-        padding: 0.5rem 0;
+        padding: 0;
     }
     .oweek-h3 {
         font-family: "futuraHeavy";
@@ -221,6 +220,17 @@
         color: white;
         cursor: pointer;
         margin-left: 0rem;
+    }
+    .oweek-book-title {
+        font-family: "futuraXblkBT";
+        color: white;
+        font-style: italic;
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+    .oweek-flipbook {
+        height: 400px;
+        width: 70vw;
     }
     [class="coord-display"] {
         display: none;

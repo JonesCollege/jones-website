@@ -31,8 +31,8 @@ const Studentgov = () => {
       <h2 id='stugov'>STUDENT GOVERNMENT</h2>
       <div id='presflexrow-bg'>
         <div id='presflexrow'>
-          <img src={PresInfo.img} alt='Jones President' id='presimg'></img>
-          <div>
+          <img src={PresInfo.img} alt='Jones President' id='presimg' />
+          <div style={{paddingLeft: '3rem', paddingRight: '3rem'}}>
             <p id='prestitle'>PRESIDENT {PresInfo.year}</p>  
             <h3 id='presname'>{PresInfo.name}, JONES'23</h3>
           </div>
@@ -60,18 +60,18 @@ const Studentgov = () => {
       </div>
 
       <div id='cabpos-flexrow'>
-        <div id='cabfb-flexcol'>
-          <p>Have any feedback for Cabinet?</p>
-          <form target='_blank' action='https://goo.gl/forms/qOgEch2pH41iOdPo2'>
-            <button id={formClick ? 'cabfbclick' : ''} onMouseDown={()=>{setFormClick(true)}} onMouseUp={()=>{setFormClick(false)}}>Form Link</button>
-          </form>
-        </div>
         <div id='aboutcab'>
           <h3 id='cabpos'>CABINET POSITIONS</h3>
           <p id='cabposintro'>The Jones Executive Cabinet is the entirely student-run and student-elected system of college governance. 
             The purpose of Cabinet is to provide an atmosphere of social and intellectual growth in the college, plan college activities, 
             and make sure that Jones runs smoothly. The Cabinet is legislated by the Jones Constitution, and elections are held in the spring. 
           </p>
+        </div>
+        <div id='cabfb-flexcol'>
+          <p>Have any feedback for Cabinet?</p>
+          <form target='_blank' action='https://goo.gl/forms/qOgEch2pH41iOdPo2'>
+            <button id={formClick ? 'cabfbclick' : ''} onMouseDown={()=>{setFormClick(true)}} onMouseUp={()=>{setFormClick(false)}}>Form Link</button>
+          </form>
         </div>
       </div>
 
@@ -104,8 +104,7 @@ const Studentgov = () => {
           <p id='appointposdesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
           and the rest are appointed by the President, Vice President, and other officers, usually in the spring.</p>
       </div>
-
-      {AppointedPos.map((pos, idx) => (
+        {AppointedPos.map((pos, idx) => (
         <AppointedPosList position={pos.position} info={pos.info} key={idx}/>
       ))}
 
