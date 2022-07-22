@@ -5,6 +5,7 @@
     margin: auto;
     margin-bottom: 5rem;
     padding: 6rem;
+    text-align: center;
 }
 
 #ateamintro h2 {
@@ -140,5 +141,13 @@
         margin: auto;
         margin-bottom: 8rem;
         gap: 2.5rem;
+    }
+    #ateamintro {
+        width: 100%;
+        background-color: #F3F8F4;
+        margin: auto;
+        margin-bottom: 5rem;
+        padding: 2rem 1rem;
+        text-align: center;
     }
 }
