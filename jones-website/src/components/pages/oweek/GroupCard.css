@@ -31,12 +31,7 @@
     transition: transform 0.5s, opacity 0.1s, -webkit-transform 0.5s;
   }
 
-  .advisor-modal{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 99;
-  }
+
 
   .group-name {
         font-family: "futuraMediumBT";

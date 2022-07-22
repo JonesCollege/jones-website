@@ -1,10 +1,14 @@
 import React from 'react'
+import { IoClose } from 'react-icons/io5'
 import './AdvisorModal.css'
 
 function AdvisorModal(props) {
 
   return (
-    <div className='advisor-modal'>
+    <div className='advisor-modal-container'>
+      <button className='exit-button' onClick={props.closeModal}>
+        <IoClose className='exit-icon'/>
+      </button>
       <h3 className='a-group-name'>{props.name}</h3>
       <div className='a-grid'>
         {

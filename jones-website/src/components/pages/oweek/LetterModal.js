@@ -1,10 +1,14 @@
 import React from 'react'
+import { IoClose } from 'react-icons/io5';
 import './LetterModal.css'
 import { CoordLetter } from './OWeekDataSheet';
 
-function AdvisorModal() {
+function AdvisorModal({closeModal}) {
   return (
     <div className='letter-modal'>
+        <button className='exit-button' onClick={closeModal}>
+            <IoClose className='exit-icon'/>
+        </button>
         <h1 className='letter-h1'>
             OWEEK
         </h1>

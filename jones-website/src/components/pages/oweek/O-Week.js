@@ -53,7 +53,7 @@ export default function OWeek () {
             </div>
             <Modal
             isOpen={showLetterModal}
-            className="advisor-modal"
+            className="letter-popup"
             onRequestClose={closeLetterModal}
             centered
             >

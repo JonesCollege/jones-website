@@ -46,8 +46,8 @@ function GroupCard(props) {
         </div>
         <Modal
             isOpen={showAdvisorModal}
-            className="advisor-modal"
             onRequestClose={closeAdvisorModal}
+            className='advisor-popup'
             centered
         >
             <AdvisorModal closeModal={closeAdvisorModal} profiles={props.profiles} name={props.name}/>

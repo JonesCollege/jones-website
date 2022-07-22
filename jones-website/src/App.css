@@ -48,3 +48,17 @@
   justify-content: center;
   font-size: 3rem;
 }
+
+.exit-icon{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  color: #909090;
+  top:1rem;
+  right:1rem;
+}
+.exit-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
