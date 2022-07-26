@@ -26,7 +26,7 @@ function StriveLiason () {
                         <div className='strive-grid-row'>
                             <div className='strive-grid-cell'>
                                 <p className='cell-text'>
-                                    {item.name}, {item.position}
+                                    {item.name}{item.position && `, ${item.position}`}
                                 </p>
                                 <p className='strive-italic-text'>
                                     {item.year}

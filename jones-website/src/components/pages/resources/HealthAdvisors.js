@@ -72,7 +72,7 @@ function HealthAdvisors () {
                         <div className='health-grid-row'>
                             <div className='health-grid-cell'>
                                 <p className='cell-text'>
-                                    {item.name}, {item.position}
+                                    {item.name}{item.position && `, ${item.position}`}
                                 </p>
                                 <p className='health-italic-text'>
                                     {item.year}

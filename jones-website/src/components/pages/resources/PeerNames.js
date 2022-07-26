@@ -129,33 +129,40 @@ export const Fellows = [
 
 export const Strive = [
     {
-        "name": "Katie Wall",
-        "position": "Strive person",
-        "email": "krw3@rice.edu",
-        "year": "Junior",
-        "phone": "949-419-7066"
+        "name": "Lucy Gruber",
+        "position": "",
+        "email": "lkg5@rice.edu",
+        "year": "Senior",
+        "phone": " (469) 534-9011"
     },
     {
-        "name": "Theo Schweizer",
-        "position": "Head RHA",
-        "email": "tss1@rice.edu",
+        "name": "Sophia Pamphilis",
+        "position": "",
+        "email": "sjp9@rice.edu",
         "year": "Junior", 
-        "phone": "949-419-7066"      
+        "phone": "(832) 585-3861"      
+    },
+    {
+        "name": "Hafsa Ahsan",
+        "position": "",
+        "email": "ha22@rice.edu",
+        "year": "Senior", 
+        "phone": "(346) 232-5412"      
     }
 ]
 
 export const PCAS = [
     {
-        "name": "Katie Wall",
-        "email": "krw3@rice.edu",
-        "year": "Junior",
-        "majors": "Biochemistry and Cell Biology; French Studies"
+        "name": "Mahmoud Al-Madi",
+        "email": "mha6@rice.edu",
+        "year": "Super Senior",
+        "majors": "Electrical Engineering"
     },
     {
-        "name": "Ron Underwood",
-        "email": "rau1@rice.edu",
-        "year": "Junior",
-        "majors": "Computer Science and Cognitive Science"   
+        "name": "Komal Virani",
+        "email": "knv1@rice.edu ",
+        "year": "Senior",
+        "majors": "Economics"   
     }
 ]
 
@@ -164,49 +171,42 @@ export const RHAS = [
         "name": "Candi Zhao",
         "position": "Head RHA",
         "email": "gnw1@rice.edu",
-        "year": "Junior",
+        "year": "Senior",
         "phone": "949-800-2000"
     },
     {
-        "name": "Ron Schweizer",
-        "position": "Head RHA",
-        "email": "69@rice.edu",
-        "year": "Super Senior",
-        "phone": "713-420-6969"
+        "name": "Sarah Birenbaum",
+        "position": "",
+        "email": "smb26@rice.edu",
+        "year": "Junior",
+        "phone": "713-298-9012"
     },
     {
-        "name": "Ron Schweizer",
-        "position": "Head RHA",
-        "email": "69@rice.edu",
-        "year": "Super Senior",
-        "phone": "713-420-6969"
+        "name": "Shria Chug",
+        "position": "",
+        "email": "ssc8@rice.edu",
+        "year": "Junior",
+        "phone": "515-509-3803"
     },
     {
-        "name": "Ron Schweizer",
-        "position": "Head RHA",
-        "email": "69@rice.edu",
-        "year": "Super Senior",
-        "phone": "713-420-6969"
+        "name": "Amy Ho",
+        "position": "",
+        "email": "alh13@rice.edu",
+        "year": "Senior",
+        "phone": "281-687-7571"
     },
     {
-        "name": "Ron Schweizer",
-        "position": "Head RHA",
-        "email": "69@rice.edu",
-        "year": "Super Senior",
-        "phone": "713-420-6969"
+        "name": "Brian Serrata",
+        "position": "",
+        "email": "bds7@rice.edu",
+        "year": "Junior",
+        "phone": ""
     },
     {
-        "name": "Ron Schweizer",
-        "position": "Head RHA",
-        "email": "69@rice.edu",
-        "year": "Super Senior",
-        "phone": "713-420-6969"
-    },
-    {
-        "name": "Ron Schweizer",
-        "position": "Head RHA",
-        "email": "69@rice.edu",
-        "year": "Super Senior",
-        "phone": "713-420-6969"
+        "name": "Vanessa Chuang",
+        "position": "",
+        "email": "vc22@rice.edu",
+        "year": "Junior",
+        "phone": ""
     },
 ]
