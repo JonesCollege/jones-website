@@ -7,7 +7,7 @@ export const CabinetInfo = [
         "img": "images/cabinet/tayalasota.webp",
         "email": "jonescollegecourt@gmail.com",
         "shortdesc": "Enforce the Alcohol Policy and Code of Conduct, appoint Associate Justices, preside over College Court cases",
-        "objpos": '-35px 0px',
+        "objpos": '-35px -25px',
         "maxsize": '155%'
     },
     {
