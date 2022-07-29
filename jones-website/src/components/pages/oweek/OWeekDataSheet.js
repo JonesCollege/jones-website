@@ -225,7 +225,7 @@ export const OWeekGroups = [
         "profiles": [
             {
                 "name": "ALLISON JOHNSON",
-                "email": "atj6@rice.edu",
+                "email": "ajj9@rice.edu",
                 "major": "Political Science",
                 "collegetag": "./college-tags/jones_tag.png", 
                 "img": "./images/advisors/allisonjohnson.JPG"

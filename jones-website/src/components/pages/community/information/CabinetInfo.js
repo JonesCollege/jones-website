@@ -4,7 +4,7 @@ export const CabinetInfo = [
         "pronouns": "she/her",
         "position": "Chief Justice",
         "major": "Kinesiology/Sports Medicine and Exercise Physiology",
-        "img": "images/cabinet/Taya.jpeg",
+        "img": "images/cabinet/tayalasota.webp",
         "email": "jonescollegecourt@gmail.com",
         "shortdesc": "Enforce the Alcohol Policy and Code of Conduct, appoint Associate Justices, preside over College Court cases",
         "objpos": '-35px 0px',
