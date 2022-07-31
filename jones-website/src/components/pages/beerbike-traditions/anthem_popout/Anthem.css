@@ -1,0 +1,92 @@
+.anthem-container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    top: 120px;
+    z-index: 999;
+}
+
+.anthem-box {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 0 40px 40px 0;
+    height: 300px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.anthem-in {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.1s;
+    transition: transform 0.5s, opacity 0.1s, -webkit-transform 0.5s;
+}
+
+.anthem-out {
+    -webkit-transform: translateX(-70px);
+            transform: translateX(-70px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: opacity 0.1s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.1s;
+    transition: transform 0.5s, opacity 0.1s, -webkit-transform 0.5s;
+}
+
+.anthem-icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.anthem-icon {
+    height: 50px;
+    width: 30px;
+}
+
+.anthem-play-pause {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.anthem-rotated {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 250px;
+    position: absolute;
+    left:-106px;
+    top: 105px;
+    font-family: futuraLightBT;
+    color: white;
+    font-size: 14px;
+    text-align: start;
+}
+
+.anthem-contents{
+    display: flex;
+    flex-direction: row;
+}
+
+.anthem-download {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 0 0.25rem;
+}
+@media only screen and (max-width: 768px) {
+    .anthem-container {
+      opacity: 0;
+      display: none;
+    }
+} 

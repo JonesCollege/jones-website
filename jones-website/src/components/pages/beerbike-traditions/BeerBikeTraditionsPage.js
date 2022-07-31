@@ -7,6 +7,7 @@ import BeerBikegallery from "./photogallery_slider/BeerBikeGallery";
 import "./BeerBikeTraditionsPage.css";
 import Footer from "../../Footer";
 import { useState } from "react";
+import Anthem from "./anthem_popout/Anthem";
 
 const BeerBikeTraditionsPage = () => {
   const [resize, setResize] = useState(false)
@@ -28,6 +29,7 @@ const innerWidth = () => {
 window.addEventListener('resize', innerWidth);
   return (
     <div>
+      <Anthem />
     <div className="beerbikepage">
       <BeerBikeHeader />
       {!resize && <BeerBikegallery />}

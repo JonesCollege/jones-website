@@ -6,9 +6,9 @@
 .beerbike-info {
   display: flex;
   flex-direction: column;
-  width: 35vw;
+  width: 40vw;
   padding-top: 2rem ;
-  padding-left: 6rem ;
+  padding-left: 7rem ;
   padding-bottom: 2rem;
 }
 
