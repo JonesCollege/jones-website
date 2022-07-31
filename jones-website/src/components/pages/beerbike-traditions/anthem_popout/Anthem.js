@@ -1,11 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import {BsPlayFill, BsPauseFill, BsChevronRight, BsChevronLeft, BsDownload} from 'react-icons/bs'
+import {BsPlayFill, BsPauseFill, BsChevronRight, BsChevronLeft} from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 import {Box, Slider, createTheme, ThemeProvider } from '@mui/material'
 import './Anthem.css'
 import 'animate.css';
-import { display } from '@mui/system';
 
 const useAudio = url => {
     const [audio] = useState(new Audio(url));
@@ -17,7 +16,7 @@ const useAudio = url => {
     useEffect(() => {
         playing ? audio.play() : audio.pause();
         },
-        [playing]
+        [playing, audio]
     );
     
     useEffect(() => {
