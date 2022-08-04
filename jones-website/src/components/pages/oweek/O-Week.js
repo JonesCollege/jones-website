@@ -85,11 +85,11 @@ export default function OWeek () {
                     className='book-download-button' 
                     target="_blank"
                     rel="noreferrer" 
-                    href='https://drive.google.com/file/d/1kEZjGrGwCVVVOL-a4AKuKGSxYZsAULGc/view?usp=sharing'>
+                    href='https://drive.google.com/file/d/1EsjFhbRyFsTAWfEOBFxxszqInPQ4qNIQ/view?usp=sharing'>
                     <MdDownload className='book-download-icon'/>
                 </a>
             </div>
-            <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://online.fliphtml5.com/qrykg/pebz/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
+            <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://www.yumpu.com/en/embed/view/GoY2zfLseIrK7FMb" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
         </div>
         <Footer/>
     </div>
