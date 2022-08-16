@@ -121,7 +121,7 @@ export const OWeekGroups = [
             {
                 "name": "SAM BARTON",
                 "email": "spb3@rice.edu",
-                "major": "Astrophysics",
+                "major": "Astrophysics, Computer Science",
                 "collegetag": "./college-tags/jones_tag.png", 
                 "img": "./images/advisors/sambarton.JPG"
             },
