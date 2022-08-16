@@ -75,14 +75,14 @@
   right: 0;
   top: 2;
 
-
   background-color: #f7f2ff;
-  mask-image: url("./images/mask-image2.png");
+  --icon: url('./images/mask-image2.png');
+  mask: var(--icon) no-repeat;
+  -webkit-mask: var(--icon) no-repeat;
+  -webkit-mask-size: 85vw 90vh;
   mask-size: 85vw 90vh;
   mask-position: 17vw -10vh;
-  object-fit: contain;
-  mask-mode: luminance;
-  mask-repeat: no-repeat;
+  object-fit: contain; 
   z-index: -99;
 }
 
