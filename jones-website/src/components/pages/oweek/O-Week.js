@@ -87,7 +87,7 @@ export default function OWeek () {
                 PAAs.map((item, key) => {
                     return(
                         <div className='oweek-affiliate-profile' key={key}>
-                            <img className='oweek-affiliate-img' src={item.img}/>
+                            <img className='oweek-affiliate-img' src={item.img} alt={item.name}/>
                             <p className='oweek-affiliate-name'>{item.name}</p>
                             <p className='oweek-affiliate-email'>{item.email}</p>
                             <p className='oweek-affiliate-majors'>{item.major}</p>
@@ -102,7 +102,7 @@ export default function OWeek () {
                 Gophers.map((item, key) => {
                     return (
                         <div className='oweek-affiliate-profile' key={key}>
-                            <img className='oweek-affiliate-img' src={item.img}/>
+                            <img className='oweek-affiliate-img' src={item.img} alt={item.name}/>
                             <p className='oweek-affiliate-name'>{item.name}</p>
                             <p className='oweek-affiliate-majors'>{item.major}</p>
                         </div>
