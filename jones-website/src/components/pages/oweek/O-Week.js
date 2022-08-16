@@ -6,7 +6,7 @@ import CoordCard from './CoordCard';
 import GroupCard from './GroupCard';
 import Footer from '../../Footer';
 import LetterModal from './LetterModal';
-import { CoordLetter, OWeekGroups, CoordBios } from './OWeekDataSheet';
+import { CoordLetter, OWeekGroups, CoordBios, PAAs, Gophers } from './OWeekDataSheet';
 import {MdDownload} from 'react-icons/md'
 
 export default function OWeek () {
@@ -62,6 +62,7 @@ export default function OWeek () {
 
         </div>
         <div className='o-week-grid-container'>
+            <h2 className='oweek-h2'>MEET YOUR ADVISORS</h2>
             <div className='o-week-group-grid'>
             {
                 OWeekGroups.map((item, key)=> {
@@ -76,7 +77,39 @@ export default function OWeek () {
                     )
                 })
             }
+            </div>
         </div>
+        <h2 className='oweek-h2'>OWEEK AFFILIATES</h2>
+        <div className='oweek-affiliate-container'>
+            <h2 className='oweek-h4'>OWEEK PEER ACADEMIC ADVISORS</h2>
+            <div className='oweek-paa-grid'>
+                {
+                PAAs.map((item, key) => {
+                    return(
+                        <div className='oweek-affiliate-profile' key={key}>
+                            <img className='oweek-affiliate-img' src={item.img}/>
+                            <p className='oweek-affiliate-name'>{item.name}</p>
+                            <p className='oweek-affiliate-email'>{item.email}</p>
+                            <p className='oweek-affiliate-majors'>{item.major}</p>
+                        </div>
+                    )   
+                })
+                }
+            </div>
+            <h2 className='oweek-h4'>GOPHERS</h2>
+            <div className='oweek-gopher-grid'>
+                {
+                Gophers.map((item, key) => {
+                    return (
+                        <div className='oweek-affiliate-profile' key={key}>
+                            <img className='oweek-affiliate-img' src={item.img}/>
+                            <p className='oweek-affiliate-name'>{item.name}</p>
+                            <p className='oweek-affiliate-majors'>{item.major}</p>
+                        </div>
+                    )
+                })
+                }
+            </div>
         </div>
         <div className='oweek-book-container'>
             <div className='book-title-container'>

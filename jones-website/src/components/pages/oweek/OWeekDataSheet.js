@@ -464,3 +464,44 @@ export const OWeekGroups = [
         ]
     },
 ]
+
+export const PAAs = [
+    {
+        "name": "EDUARDO RUIZ",
+        "email": "er36@rice.edu",
+        "major": "Biosciences",
+        "img": "./images/advisors/eduardoruiz.WEBP"
+    },
+    {
+        "name": "MADISON ROY",
+        "email": "mr11@rice.edu",
+        "major": "Computer Science, Cognitive Sciences",
+        "img": "./images/advisors/madisonroy.WEBP"
+    },
+    {
+        "name": "SARAH PRESTON",
+        "email": "slp7@rice.edu",
+        "major": "Earth, Environmental, and Planetary Studies",
+        "img": "./images/advisors/sarahpreston.WEBP"
+    },
+    {
+        "name": "MAHMOUD AL-MADI",
+        "email": "mha6@rice.edu",
+        "major": "Electrical Engineering",
+        "collegetag": "./college-tags/jones_tag.png",
+        "img": "./images/advisors/mahmoudalmadi.WEBP"
+    }
+]
+
+export const Gophers = [
+    {
+        "name": "CATHERINE RUSSELL",
+        "major": "Mechanical Engineering",
+        "img": "./images/advisors/catherinerussel.WEBP"
+    },
+    {
+        "name": "ANDREW BUEHLER",
+        "major": "Computer Science, Math",
+        "img": "./images/advisors/andrewbuehler.WEBP"
+    },
+]
