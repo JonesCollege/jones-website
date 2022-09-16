@@ -5,99 +5,19 @@ export const Fellows = [
         "email":"EMAIL",
     }, 
     {
-        "name": "Neha Tallapragada",
-        "subjects": "Scientific Writing; Writing",
+        "name": "Neha Tallapragada (Head Fellow)",
+        "subjects": "Scientific Writing, Writing",
         "email": "nt19@rice.edu"
     },
     {
-        "name": "Filemon Tan",
-        "subjects": "Intro Bio, Biochem I",
-        "email": "fct1@rice.edu"
-    },
-    {
-        "name": "Sam Lowe",
-        "subjects": "Orgo I and II",
-        "email": "sjl9@rice.edu"
-    },
-    {
-        "name": "Terri-Jeanne Liu",
-        "subjects": "Orgo I and II",
-        "email": "tel4@rice.edu"
-    },
-    {
-        "name": "Yannie Guo",
-        "subjects": "MECH 202",
-        "email": "ysg1@rice.edu"
-    },
-    {
-        "name": "Elizabeth Fessler",
-        "subjects": "HART",
-        "email": "egf3@rice.edu"
-    },
-    {
-        "name": "Harrison Huang",
-        "subjects": "COMP 140, CAAM",
+        "name": "Harrison Huang (Head Fellow)",
+        "subjects": "COMP 140/182/382",
         "email": "hch7@rice.edu"
     },
     {
-        "name": "Yang Ding",
-        "subjects": "Anatomy & Physiology",
-        "email": "xd11@rice.edu"
-    },
-    {
-        "name": "Katie Wall",
-        "subjects": "CHEM 121",
-        "email": "krw3@rice.edu"
-    },
-    {
-        "name": "Bri Gonzalez",
-        "subjects": "PSYC 101, 202, 203",
-        "email": "beg2@rice.edu"
-    },
-    {
-        "name": "Brandon Rice",
-        "subjects": "ELEC 220",
-        "email": "br22@rice.edu"
-    },
-    {
-        "name": "Quang Nguyen",
-        "subjects": "MATH 211",
-        "email": "qnn1@rice.edu"
-    },
-    {
-        "name": "Laurel Chen",
-        "subjects": "BIOE 252, BIOE 322",
-        "email": "lxc1@rice.edu"
-    },
-    {
-        "name": "Advaith Peddi",
-        "subjects": "BUSI 296",
-        "email": "ap89@rice.edu"
-    },
-    {
-        "name": "Ziyana Samanani",
-        "subjects": "CHEM 121/122",
-        "email": "zs18@rice.edu"
-    },
-    {
-        "name": "Maria Telesforo",
-        "subjects": "MATH 101",
-        "email": "mjt8@rice.edu"
-    },
-    {
-        "name": "Lucy Gruber",
-        "subjects": "SOSC 302, SOCI 101",
-        "email": "lkg5@rice.edu"
-    },
-    {
-        "name": "Fiona Garrison",
-        "subjects": "Writing and Presentations",
-        "email": "fsg1@rice.edu"
-    },
-    {
-        "name": "Maddie Bell",
-        "subjects": "Writing",
-        "email": "mtb10@rice.edu"
+        "name": "Terri-Jeanne Liu",
+        "subjects": "CHEM 211/212",
+        "email": "tel4@rice.edu"
     },
     {
         "name": "Raiya Myren",
@@ -105,26 +25,125 @@ export const Fellows = [
         "email": "rjm14@rice.edu"
     },
     {
+        "name": "Grace Walters",
+        "subjects": "LING",
+        "email": "gnw1@rice.edu"
+    },
+    {
+        "name": "Fiona Garrison",
+        "subjects": "Writing",
+        "email": "fsg1@rice.edu"
+    },
+    {
+        "name": "Brandon Rice",
+        "subjects": "ELEC 220",
+        "email": "br22@rice.edu"
+    },
+    {
+        "name": "Filemon Tan",
+        "subjects": "BIOS 344",
+        "email": "fct1@rice.edu"
+    },
+    {
+        "name": "Yannie Guo",
+        "subjects": "MECH 202, BIOE 252",
+        "email": "ysg1@rice.edu"
+    },
+    {
+        "name": "Sam Lowe",
+        "subjects": "CHEM 211/212",
+        "email": "sjl9@rice.edu"
+    },
+    {
+        "name": "Advaith Peddi",
+        "subjects": "BUSI 296, Presentations",
+        "email": "ap89@rice.edu"
+    },
+    {
         "name": "Gautam Chaudhry",
         "subjects": "PHYS 125",
         "email": "gc40@rice.edu"
     },
     {
-        "name": "Aaron Chang",
-        "subjects": "STAT 315",
-        "email": "asc10@rice.edu"
+        "name": "Mason LaFerney",
+        "subjects": "MATH 355",
+        "email": "mll4@rice.edu"
+    },
+    {
+        "name": "Daniel Li",
+        "subjects": "BIOS 372",
+        "email": "dyl2@rice.edu"
+    },
+    {
+        "name": "Brendan Hlibok",
+        "subjects": "MATH 212",
+        "email": "bjh10@rice.edu"
+    },
+    {
+        "name": "Madeline Belknap",
+        "subjects": "MATH 101",
+        "email": "mbb11@rice.edu"
+    },
+    {
+        "name": "Andrew Buehler",
+        "subjects": "MATH 221/222",
+        "email": "akb8@rice.edu"
+    },
+    {
+        "name": "Ana Hogan",
+        "subjects": "ECON 200",
+        "email": "bah10@rice.edu"
+    },
+    {
+        "name": "Adam Thomas",
+        "subjects": "CHEM 121/122",
+        "email": "ajt15@rice.edu"
+    },
+    {
+        "name": "Nishanka Kuthuru",
+        "subjects": "POLI 211/338",
+        "email": "nrk6@rice.edu"
     },
     {
         "name": "Abrar Mamun",
-        "subjects": "BIOS 201/301 and CHEM 121/122",
+        "subjects": "CHEM 121/122",
         "email": "afm9@rice.edu"
     },
     {
-        "name": "Grace Walters",
-        "subjects": "LING",
-        "email": "gnw1@rice.edu"
-    }
-    
+        "name": "Annie Li",
+        "subjects": "BUSI 305",
+        "email": "bl55@rice.edu"
+    },
+    {
+        "name": "Eduardo Ruiz",
+        "subjects": "BIOS 201",
+        "email": "er36@rice.edu"
+    },
+    {
+        "name": "Katie Salmon",
+        "subjects": "STAT",
+        "email": "krs9@rice.edu"
+    },
+    {
+        "name": "Sanjay Rajasekhar",
+        "subjects": "COMP 140",
+        "email": "sjr8@rice.edu"
+    },
+    {
+        "name": "Gretchen Schulke",
+        "subjects": "PHYS 101/102",
+        "email": "gns4@rice.edu"
+    },
+    {
+        "name": "Kami Boutotte",
+        "subjects": "PSYC",
+        "email": "klb12@rice.edu"
+    },
+    {
+        "name": "Warda Mohamed",
+        "subjects": "SOCI",
+        "email": "wam2@rice.edu"
+    },
 ]
 
 export const Strive = [
@@ -168,11 +187,18 @@ export const PCAS = [
 
 export const RHAS = [
     {
-        "name": "Candi Zhao",
+        "name": "Vanessa Chuang",
         "position": "Head RHA",
-        "email": "gnw1@rice.edu",
-        "year": "Senior",
-        "phone": "949-800-2000"
+        "email": "vc22@rice.edu",
+        "year": "Junior",
+        "phone": "661-484-9696"
+    },
+    {
+        "name": "Vishnu Susheer",
+        "position": "Head RHA",
+        "email": "vs48@rice.edu",
+        "year": "Junior",
+        "phone": "713-392-7645"
     },
     {
         "name": "Sarah Birenbaum",
@@ -182,31 +208,59 @@ export const RHAS = [
         "phone": "713-298-9012"
     },
     {
+        "name": "Andrew Buehler",
+        "position": "",
+        "email": "akb8@rice.edu",
+        "year": "Junior",
+        "phone": "808-683-9488"
+    },
+    {
         "name": "Shria Chug",
         "position": "",
         "email": "ssc8@rice.edu",
         "year": "Junior",
-        "phone": "515-509-3803"
+        "phone": ""
+    },
+    {
+        "name": "Vyshnavi Gade",
+        "position": "",
+        "email": "vg21@rice.edu",
+        "year": "Senior",
+        "phone": ""
     },
     {
         "name": "Amy Ho",
         "position": "",
         "email": "alh13@rice.edu",
         "year": "Senior",
-        "phone": "281-687-7571"
+        "phone": ""
+    },
+    {
+        "name": "Delaney Miller",
+        "position": "",
+        "email": "dem14@rice.edu",
+        "year": "Sophomore",
+        "phone": ""
+    },
+    {
+        "name": "Yuv Sachdeva",
+        "position": "",
+        "email": "yss1@rice.edu",
+        "year": "Sophomore",
+        "phone": "513-282-5201"
     },
     {
         "name": "Brian Serrata",
         "position": "",
         "email": "bds7@rice.edu",
         "year": "Junior",
-        "phone": ""
+        "phone": "210-780-0200"
     },
     {
-        "name": "Vanessa Chuang",
+        "name": "Candi Zhao",
         "position": "",
-        "email": "vc22@rice.edu",
-        "year": "Junior",
+        "email": "cz44@rice.edu",
+        "year": "Senior",
         "phone": ""
     },
 ]

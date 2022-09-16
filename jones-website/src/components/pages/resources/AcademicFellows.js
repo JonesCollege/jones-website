@@ -28,7 +28,7 @@ function AcademicFellows () {
                     <li className='p-right-li'>Provide information about post-graduation opportunities by connecting students to knowledgable community members within a particular field</li>
                     <li className='p-right-li'>Host talks from faculty members or associates concerning a current event or a topic of interest to the Jones community</li>
                 </ul>
-                <a href = 'https://docs.google.com/spreadsheets/d/1V6dX2OWrP0T_kq5Y-VJLCRTUwkPVFkrl2320KY8hdpk/edit#gid=0' rel="noreferrer" target = '_blank'>
+                <a href = 'https://docs.google.com/spreadsheets/d/1wpKT2s4D7o6WmneMR7EBPK0FS-Vq9CHnsoNyDQ_hYw8/edit#gid=0' rel="noreferrer" target = '_blank'>
                     <button className='fellows-right-button'>View Office Hours</button>
                 </a>
             </div>
