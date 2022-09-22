@@ -9,7 +9,7 @@ import { PCAS } from './DataSheet';
 function PeerCareerAdvisors () {
     return (
         <div className='resource-desc-container'>
-            <div className='resource-center-box'style={{width: '40vw'}}>
+            <div className='resource-center-box'>
             <h3 className='resource-h3-title'>PEER CAREER ADVISORS</h3>
             <ul>
             <p className='resource-p-text'> Peer Career Advisors (PCAs) are a group of student volunteers who are selected through an application and interview

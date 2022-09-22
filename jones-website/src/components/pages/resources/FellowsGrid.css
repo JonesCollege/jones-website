@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
 }
 
 .grid-row{
@@ -37,4 +36,38 @@
     font-style: italic;
     font-family: 'futuraLightBT';
     font-size: 13px;
+}
+
+@media screen and (max-width: 960px) {
+    .grid-row{
+        display:grid;
+        grid-template-columns: repeat(3, 200px);
+        border-bottom: 1px solid rgba(77, 77, 77, .5);
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .grid-row{
+        display:grid;
+        grid-template-columns: repeat(3, 100px);
+        border-bottom: 1px solid rgba(77, 77, 77, .5);
+        max-width: 300px;
+    }
+    .cell-text{
+        color: #000000;
+        font-family: 'mpBlkLt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .cell-headline-text {
+        color: #c4c4c4;
+        font-family: "futuraHeavy";
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .grid-cell{ 
+        padding: 1rem 1rem;
+    }
 }

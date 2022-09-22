@@ -3,9 +3,6 @@ import './Resources.css';
 import { RHAS } from './DataSheet';
 import ContactGrid from './ContactGrid';
 
-
-
-
 function HealthAdvisors () {
     return (
         <div className='resource-desc-container'>
@@ -57,7 +54,6 @@ function HealthAdvisors () {
 }
 
 export default HealthAdvisors  
-
 
 
 

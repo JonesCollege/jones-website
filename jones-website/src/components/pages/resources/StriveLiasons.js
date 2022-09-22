@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Resources.css';
 import { Strive } from './DataSheet';
 import ContactGrid from './ContactGrid';
 
 
 function StriveLiason () {
+    const [resize, setResize] = useState(false)
+
+    const innerWidth = () => {
+        if (window.innerWidth <= 960){
+          setResize(true)
+        }
+        else{
+          setResize(false)
+        }
+      }
+      window.addEventListener('resize', innerWidth);
+
     return (
         <div className='resource-desc-container'>
-            <ContactGrid Info={Strive} />
+            {!resize && <ContactGrid Info={Strive} />}
             <div className='resource-right-box'>
                 <h3 className='resource-h3-title'>Strive Liasons</h3>
                 <br/>
@@ -17,6 +29,7 @@ function StriveLiason () {
                 students by providing information about resources available on and off campus
                 </p>
             </div>
+            {resize && <ContactGrid Info={Strive} />}
         </div>
     )
 }
