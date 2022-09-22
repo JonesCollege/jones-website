@@ -23,7 +23,7 @@ function AdvisorModal({closeModal}) {
             );
         })} 
         </div>
-        
+         
         <div className='letter-contact'>{CoordLetter.email}</div>
     </div>
   )

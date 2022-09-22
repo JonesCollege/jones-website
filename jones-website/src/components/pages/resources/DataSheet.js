@@ -148,6 +148,13 @@ export const Fellows = [
 
 export const Strive = [
     {
+        "name": "Hafsa Ahsan",
+        "position": "",
+        "email": "ha22@rice.edu",
+        "year": "Senior", 
+        "phone": "(346) 232-5412"      
+    },
+    {
         "name": "Lucy Gruber",
         "position": "",
         "email": "lkg5@rice.edu",
@@ -162,27 +169,34 @@ export const Strive = [
         "phone": "(832) 585-3861"      
     },
     {
-        "name": "Hafsa Ahsan",
+        "name": "Emma Li",
         "position": "",
-        "email": "ha22@rice.edu",
-        "year": "Senior", 
-        "phone": "(346) 232-5412"      
+        "email": "el36@rice.edu",
+        "year": "Sophomore", 
+        "phone": "(949) 572-4249"      
     }
 ]
 
 export const PCAS = [
     {
-        "name": "Mahmoud Al-Madi",
-        "email": "mha6@rice.edu",
-        "year": "Super Senior",
-        "majors": "Electrical Engineering"
-    },
-    {
         "name": "Komal Virani",
+        "position": "Head PCA",
         "email": "knv1@rice.edu ",
         "year": "Senior",
         "majors": "Economics"   
-    }
+    },
+    {
+        "name": "Devika Shankar",
+        "email": "ds82@rice.edu",
+        "year": "Sophomore",
+        "majors": "Neuroscience"
+    },
+    {
+        "name": "Lauren Yu",
+        "email": "ly39@rice.edu",
+        "year": "Sophomore",
+        "majors": "Biosciences"
+    },
 ]
 
 export const RHAS = [

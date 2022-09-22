@@ -1,15 +1,12 @@
 import React from 'react'
-import './AcademicFellows.css';
+import './Resources.css';
 
-
-
-
-function AcademicFellows () {
+function Fellows () {
     return (
-        <div className='fellows-desc-container'>
-            <div className="left-green-box">
-                <h3 className = "h3-left-green-title" >ACADEMIC FELLOWS</h3>
-                <p className = "p-left-green-text">
+        <div className='resource-desc-container'>
+            <div className="resource-left-green-box">
+                <h3 className = "resource-h3-title" >ACADEMIC FELLOWS</h3>
+                <p className = "resource-p-text">
                     Each residential college has an academic fellows or mentors society—an honorary service organization dedicated to the promotion of 
                     intellectual and scholastic endeavors. Jones Fellows are juniors and seniors who have proven academic achievement, college citizenship, 
                     an interest in academic life of Jones college, and a willingness to help fellow students. Perhaps most importantly, they are a group of 
@@ -21,20 +18,20 @@ function AcademicFellows () {
                 </p>
             </div>
             <div className='p-right-box'>
-                <ul className='p-right-text'>
-                    <p className='p-right-li-title'>The Jones Academic Fellows:</p>
-                    <li className='p-right-li'>Serve as tutors, peer editors, and mentors for fellow Jonesians</li>
-                    <li className='p-right-li'>Provide academic assistance through review sessions and individual tutoring sessions </li>
-                    <li className='p-right-li'>Provide information about post-graduation opportunities by connecting students to knowledgable community members within a particular field</li>
-                    <li className='p-right-li'>Host talks from faculty members or associates concerning a current event or a topic of interest to the Jones community</li>
+                <ul className='resource-p-text'>
+                    <p className='resource-p-text'>The Jones Academic Fellows:</p>
+                    <li className='resource-p-text'>Serve as tutors, peer editors, and mentors for fellow Jonesians</li>
+                    <li className='resource-p-text'>Provide academic assistance through review sessions and individual tutoring sessions </li>
+                    <li className='resource-p-text'>Provide information about post-graduation opportunities by connecting students to knowledgable community members within a particular field</li>
+                    <li className='resource-p-text'>Host talks from faculty members or associates concerning a current event or a topic of interest to the Jones community</li>
                 </ul>
                 <a href = 'https://docs.google.com/spreadsheets/d/1wpKT2s4D7o6WmneMR7EBPK0FS-Vq9CHnsoNyDQ_hYw8/edit#gid=0' rel="noreferrer" target = '_blank'>
-                    <button className='fellows-right-button'>View Office Hours</button>
+                    <button className='resource-button'>View Office Hours</button>
                 </a>
             </div>
         </div>
     )
 }
 
-export default AcademicFellows
+export default Fellows
 

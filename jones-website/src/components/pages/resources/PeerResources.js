@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './PeerResources.css';
 import AcademicAdvisors from './AcademicAdvisors';
-import AcademicFellows from './AcademicFellows';
+import Fellows from './Fellows';
 import FellowsGrid from './FellowsGrid';
 import HealthAdvisors from './HealthAdvisors';
 import PeerCareerAdvisors from './PeerCareerAdvisors';
@@ -19,7 +19,7 @@ function PeerResources() {
     <div>
       <div className='peer-container'>
         <h1 className='peer-title'>PEER RESOURCES</h1>
-        <AcademicFellows/>
+        <Fellows/>
         <FellowsGrid/>
         <AcademicAdvisors/>
         <HealthAdvisors/>

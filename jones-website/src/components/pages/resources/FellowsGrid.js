@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fellows } from './PeerNames';
+import { Fellows } from './DataSheet';
 import './FellowsGrid.css';
 
 
