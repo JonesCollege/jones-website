@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import Modal from "react-modal";
 import { Link } from 'react-router-dom';
 import { GoKebabVertical } from "react-icons/go";
 import { IoClose, IoAdd } from "react-icons/io5";
 import { GrFormSubtract } from "react-icons/gr";
+import { IoMdCalendar } from "react-icons/io";
 import MobileDropdown from './MobileDropdown';
 import Dropdown from './Dropdown';
 import './NavBar.css';
+import CalendarModal from './calendar/CalendarModal';
 
 const CommunityItems = [
   {
@@ -55,8 +58,7 @@ const FormItems =
 ];
 
 function NavBar() {
-    const [mobileNav, setMobileNav] = useState(false);
-    
+    const [mobileNav, setMobileNav] = useState(false);    
     const showMobileNav = () => {
         if(window.innerWidth <= 1000) {
             setMobileNav(true);
@@ -98,6 +100,15 @@ const DesktopNav = () => {
   //dropdown hover actions
   const [dropdownCommunity, setDropdownCommunity] = useState(false);
   const [dropdownForms, setDropdownForms] = useState(false);
+  const [showCalModal, setShowCalModal] = useState(false);
+
+
+  const openCalModal = () => {
+    setShowCalModal(true);
+  };
+  const closeCalModal = () => {
+      setShowCalModal(false);
+  };
 
   return (
     <div className='nav-grid-container'>
@@ -155,7 +166,20 @@ const DesktopNav = () => {
             </button>
             {dropdownForms && <Dropdown arr={FormItems}/>}
           </li>
+          <li className='nav-item'>
+            <button onClick={openCalModal} className='calendar-button'>
+              <IoMdCalendar />
+            </button>
+          </li>
         </ul>
+        <Modal
+          isOpen={showCalModal}
+          className="calendar-modal"
+          onRequestClose={closeCalModal}
+          centered
+          >
+            <CalendarModal closeModal={closeCalModal}/>
+        </Modal>
       </div>
   )
 }

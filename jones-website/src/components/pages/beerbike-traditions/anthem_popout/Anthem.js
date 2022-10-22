@@ -19,7 +19,7 @@ const useAudio = url => {
         [playing, audio]
     );
     
-    useEffect(() => {
+    useEffect(() => { 
         audio.addEventListener('ended', () => setPlaying(false));
         audio.addEventListener('timeupdate', () => setCurrentTime((audio.currentTime / audio.duration) * 100))
         return () => {

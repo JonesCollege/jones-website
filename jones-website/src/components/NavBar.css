@@ -78,7 +78,7 @@
 
 .nav-grid {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   list-style: none;
   text-align: center;
 }
@@ -115,6 +115,14 @@
 
 .menu-icon {
   display: none;
+}
+
+.calendar-button {
+  border-radius: 100%;
+  width:40px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
