@@ -1,17 +1,60 @@
 .calendar-modal-container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
     background-color: white;
     border-radius: 5px;
-    padding: 2rem 2rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    max-height: 70vh;
+    max-height: 80vh;
     transform: translate(-50%, -65%);
     margin-top: 80px;
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,.02);
     overflow-y: scroll;
     overflow-x: hidden;
     margin-top: 80px;
+    width:80vw;
+    height: 500px;
+}
+
+.calendar-container {
+    display:block;
+    height: 400px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.month-title {
+    font-family: 'futura';
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -0.75rem;
+    color: #333333;
+}
+.month-button {
+    display: flex;
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.day-title {
+    font-family: 'futura';
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color: #333333;
+}
+.day-view-border {
+    box-shadow: -10px 0px 10px 1px #F1D5FE;
+    display:'flex';
+    flex-direction:'column';
+    padding: 2rem 0.5rem;
+    height: 500px;
 }

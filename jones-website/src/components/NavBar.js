@@ -59,6 +59,8 @@ const FormItems =
 
 function NavBar() {
     const [mobileNav, setMobileNav] = useState(false);    
+    const [showCalModal, setShowCalModal] = useState(false);
+
     const showMobileNav = () => {
         if(window.innerWidth <= 1000) {
             setMobileNav(true);
@@ -74,7 +76,7 @@ function NavBar() {
     window.addEventListener('resize', showMobileNav);
     
     return (
-      <nav className='navbar'>
+      <nav className='navbar' style={{zIndex:`${showCalModal? 0: 50}`}}>
         <div className='navbar-container'>
           <div className='left-link'>
             <Link to='/' className='home-container'>
@@ -86,7 +88,7 @@ function NavBar() {
           { mobileNav ? (
             <MobileNav />
             ):(
-            <DesktopNav />
+            <DesktopNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
           )}
         </div>
       </nav>
@@ -96,12 +98,10 @@ function NavBar() {
 export default NavBar
 
 
-const DesktopNav = () => {
+const DesktopNav = ({showCalModal, setShowCalModal}) => {
   //dropdown hover actions
   const [dropdownCommunity, setDropdownCommunity] = useState(false);
   const [dropdownForms, setDropdownForms] = useState(false);
-  const [showCalModal, setShowCalModal] = useState(false);
-
 
   const openCalModal = () => {
     setShowCalModal(true);
@@ -113,6 +113,11 @@ const DesktopNav = () => {
   return (
     <div className='nav-grid-container'>
       <ul className='nav-grid'>
+        <li className='nav-item'>
+            <button onClick={openCalModal} className='calendar-button'>
+              <IoMdCalendar size={20}/>
+            </button>
+          </li>
         <li className='nav-item'>
             <Link
               to='/o-week'
@@ -166,17 +171,13 @@ const DesktopNav = () => {
             </button>
             {dropdownForms && <Dropdown arr={FormItems}/>}
           </li>
-          <li className='nav-item'>
-            <button onClick={openCalModal} className='calendar-button'>
-              <IoMdCalendar />
-            </button>
-          </li>
         </ul>
         <Modal
           isOpen={showCalModal}
           className="calendar-modal"
           onRequestClose={closeCalModal}
           centered
+          style={{zIndex:'99 !important'}}
           >
             <CalendarModal closeModal={closeCalModal}/>
         </Modal>
