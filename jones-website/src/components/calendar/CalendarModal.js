@@ -10,10 +10,11 @@ import jQuery from 'jquery';
 import { useState } from 'react';
 import DayView from './DayView';
 import { config } from '../../config';
+import { IoClose } from 'react-icons/io5'
 
 const localizer = momentLocalizer(moment)
 
-function CalendarModal() {
+function CalendarModal({closeModal}) {
   const [eventsList, setEventsList] = useState([])
   const [selectedDay, setSelectedDay] = useState(new Date())
   const [displayDate, setDisplayDate] = useState(new Date())
@@ -144,6 +145,9 @@ function CalendarModal() {
         </div>
       </div>
       <div className='day-view-border'>
+        <button className='exit-button' onClick={closeModal}>
+          <IoClose className='exit-icon'/>
+        </button>
         <DayView selectedDay={selectedDay} eventsList={eventsList}/>
       </div>
     </div>
