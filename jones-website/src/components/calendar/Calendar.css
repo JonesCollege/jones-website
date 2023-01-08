@@ -1,0 +1,108 @@
+.rbc-calendar {
+    /* height: 90vh!important; */
+    font-family: 'futuraMediumBT'!important;
+}
+
+/* Hide the all day row at the top */
+.rbc-allday-cell {
+    display: none;
+}
+
+/* Hides unwanted border in the calendar */
+.rbc-time-view .rbc-header {
+    border: none;
+}
+
+/* Hides unwanted border in the calendar */
+.rbc-time-view {
+    border: none !important;
+    margin-top: 10px;
+}
+
+/* Hides unwanted border in the calendar */
+.rbc-time-content {
+    border: none;
+}
+
+/* Hides unwanted border in the calendar */
+.rbc-time-header-content {
+    border-left: none;
+    color: var(--primary-color);
+}
+.rbc-day-header {
+    text-align: left;
+    background-color: green;
+    border: none;
+  }
+.rbc-month-view {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+.rbc-day-bg {
+    border-left: 1px solid #ddd !important;
+    border-left: 1px solid #ddd !important;
+}
+.rbc-header {
+    text-align: left !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+.rbc-toolbar .rbc-toolbar-label {
+    text-align: left;
+  }
+
+  .rbc-day-slot{
+    text-align: left;
+    border: none;
+  }
+
+  .rbc-date-cell {
+    text-align: left !important;
+    padding-left: 5px;
+    border: none;
+  }
+
+  .rbc-time-gutter {
+    border: none !important;
+  }
+  .rbc-events-container {
+    border: none !important;
+  }
+  .rbc-time-content {
+    border:none !important;
+  }
+  .rbc-time-slot {
+    border: none!important;
+  }
+  .rbc-timeslot-group{
+    border-color: #DADADA;
+    border-left: none !important;
+    border-right: none !important;
+  }
+  .rbc-label {
+    font-size: 12px;
+    color: #DADADA;
+  }
+
+  /* Don't highlight the current day */
+/* .rbc-today {
+    background-color: transparent !important;
+} */
+.rbc-off-range-bg{
+    background-color: #eaeaea !important;
+}
+.rbc-show-more {
+    color:#D0ACE1 !important;
+}
+
+.rbc-event-label {
+  font-family: 'futuraMediumBT'!important;
+}
+
+.rbc-event-content {
+  font-family: 'futuraMediumBT'!important;
+  font-size: 14px;
+  font-weight: 800;
+}

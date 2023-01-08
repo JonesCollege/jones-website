@@ -1,0 +1,122 @@
+.calendar-modal-container {
+    display: flex;
+    flex-direction: row; 
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-height: 80vh;
+    transform: translate(-50%, -65%);
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,.02);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 80px;
+    width:1025px;
+    height: 500px;
+}
+
+.calendar-container {
+    display:block;
+    height: 400px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.month-title {
+    font-family: 'futura';
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -0.75rem;
+    color: #333333;
+}
+.month-button {
+    display: flex;
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.day-view-container {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.day-title {
+    font-family: 'futura';
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color: #333333;
+}
+.day-view-border {
+    box-shadow: -10px 0px 10px 1px #F1D5FE;
+    display:'flex';
+    flex-direction:'column';
+    padding: 2rem 0.5rem;
+    height: 500px;
+}
+
+.no-events {
+    display: flex;
+    font-family: 'futura';
+    font-size: 14px;
+    color: #e1e1e1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+    border: 1.5px solid #ececec;
+    margin-top: 0.75rem;
+}
+
+.all-day-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 250px;
+}
+
+.all-day-header {
+    font-family: 'futuraBook';
+    font-size: 12px;
+    color: #e1e1e1;
+    flex:1;
+}
+
+.all-day-tag {
+    display: flex;
+    flex-direction: column;
+    background-color: #D0ACE1;
+    border-radius: 5px;
+    flex:4;
+    padding: 0 3px;
+    height: 1rem;
+    margin-left: 5px;
+}
+
+.all-day-tag-title {
+    font-family: 'futuraHeavy';
+    font-size: 12px;
+    color: white;
+}
+
+.all-day-tag-loc {
+    font-family: 'mpReg';
+    font-size: 12px;
+    color: white;
+    padding-left: 3px;
+}
