@@ -1,15 +1,21 @@
 import React, { useCallback } from 'react'
 import moment from 'moment'
+import {IoLocationSharp} from 'react-icons/io5'
 import { Calendar, momentLocalizer, Views } from 'react-big-calendar'
 import './Calendar.css'
 
 
 
 const DayView = ({ selectedDay, eventsList }) => {
+  const eventsToday = findEventsToday(selectedDay, eventsList)
+  const allDayEvents = findAllDay(eventsToday)
+  const partialDayEvents = removeAllDay(eventsToday)
   const localizer = momentLocalizer(moment)
-  const minDate = moment(selectedDay).format('MMMM DD, YYYY')+ ' 08:00:00 AM'
-
   
+  //const minTime = moment(selectedDay).format('MMMM DD, YYYY')+ ' 08:00:00 AM'
+  const minTime = findMinTime(partialDayEvents, selectedDay)
+  const maxTime = findMaxTime(partialDayEvents, selectedDay)
+
   const eventStyleGetter = (event) => {
     let bgColor;
     let borderColor;
@@ -58,9 +64,21 @@ const DayView = ({ selectedDay, eventsList }) => {
   };
 
   return (
-    <div>
+    <div className='day-view-container'>
         <h2 className='day-title'>{moment(selectedDay).format('dddd M/DD')}</h2>
-        <Calendar
+        {
+          allDayEvents.length > 0 &&
+          <div className='all-day-container'>
+          <p className='all-day-header'>ALL DAY:</p>
+          {
+          allDayEvents.map((event, key) => <AllDayTag key={key} title={event.title} location={event.location}/>)
+          }
+        </div>
+        }
+        
+        {
+          partialDayEvents.length > 0 ?
+          <Calendar
             date={selectedDay}
             events={eventsList}
             localizer={localizer}
@@ -73,16 +91,80 @@ const DayView = ({ selectedDay, eventsList }) => {
                 height: 400, 
                 width: 275,
               }}
-            min={new Date(minDate)}
+            min={minTime && new Date(minTime)}
+            max={maxTime && new Date(maxTime)}
             dayLayoutAlgorithm={'no-overlap'}
             formats={{timeGutterFormat: (date, culture, localizer) =>
               localizer.format(date, 'ha', culture),
           }}
             eventPropGetter={eventStyleGetter}
             dayPropGetter={dayStyleGetter}
+            tooltipAccessor={(event) => <EventTooltip event={event} />}
             />
+        :
+        <div className='no-events'>
+          No events.
+        </div>
+        }
+        
     </div>
   )
 }
 
 export default DayView
+
+const findEventsToday = (selectedDay, eventsList) =>{
+  return eventsList.filter(event => moment(selectedDay).format('MM/DD/YYYY') === moment(event.start).format('MM/DD/YYYY'))
+}
+
+const removeAllDay = (eventsToday) => {
+  return eventsToday.filter(event => moment(event.start).format('HH:mm:ss') !== '00:00:00')
+}
+
+const findAllDay = (eventsToday) => {
+  return eventsToday.filter(event => moment(event.start).format('HH:mm:ss') === '00:00:00')
+}
+
+const findMinTime = (partialDayEvents, selectedDay) => {
+  if (partialDayEvents.length !== 0) {
+    const firstTime = partialDayEvents[0].start
+    return moment(firstTime).subtract(3, 'hours')
+  }
+  else {
+    return undefined
+  }
+}
+
+const findMaxTime = (partialDayEvents, selectedDay) => {
+  if (partialDayEvents.length !== 0) {
+    const finalTime = partialDayEvents[partialDayEvents.length - 1].end
+    if (moment(finalTime).diff(moment(selectedDay).endOf('day'), "hours") < -3)
+      return moment(finalTime).add(3, 'hours')
+  }
+  else {
+    return undefined
+  }
+}
+
+const AllDayTag = ({title, location, key}) => {
+  return (
+    <div key={key} className='all-day-tag'>
+      <p className='all-day-tag-title'>{title}</p>
+      {location && 
+        <div className='all-day-tag-loc'>
+          <IoLocationSharp style={{marginRight:'3px'}}/>
+          {location}
+        </div>
+      }
+    </div>
+  )
+}
+
+const EventTooltip = ({event}) => {
+  console.log(event)
+  return (
+    <div style={{backgroundColor:'black'}}>
+      {event.title}
+    </div>
+  )
+}

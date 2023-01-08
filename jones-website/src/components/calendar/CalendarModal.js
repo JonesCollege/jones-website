@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 import jQuery from 'jquery';
 import { useState } from 'react';
 import DayView from './DayView';
-import { config } from '../../../../config';
+import { config } from '../../config';
 
 const localizer = momentLocalizer(moment)
 
@@ -87,7 +87,6 @@ function CalendarModal() {
         style: style,
     };
   };
-  console.log(selectedDay)
 
     return (
     <div className='calendar-modal-container'>

@@ -96,3 +96,13 @@
 .rbc-show-more {
     color:#D0ACE1 !important;
 }
+
+.rbc-event-label {
+  font-family: 'futuraMediumBT'!important;
+}
+
+.rbc-event-content {
+  font-family: 'futuraMediumBT'!important;
+  font-size: 14px;
+  font-weight: 800;
+}
