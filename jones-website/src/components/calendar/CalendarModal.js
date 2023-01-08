@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import { Calendar, momentLocalizer, Views } from 'react-big-calendar'
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 import moment from 'moment'
@@ -19,9 +19,8 @@ function CalendarModal({closeModal}) {
   const [selectedDay, setSelectedDay] = useState(new Date())
   const [displayDate, setDisplayDate] = useState(new Date())
 
-  const queryMinTime = moment().subtract(6, 'months').format('YYYY-MM-DDTHH:mm:ss')
-
   useEffect(() => {
+    const queryMinTime = moment().subtract(6, 'months').format('YYYY-MM-DDTHH:mm:ss')
     jQuery.ajax({
       url:"https://www.googleapis.com/calendar/v3/calendars/"+ config.CAL_ID +"/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin="+queryMinTime+".808Z&maxResults=500&key="+ config.API_KEY,
       type: "GET",
