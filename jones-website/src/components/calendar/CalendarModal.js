@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import { Calendar, momentLocalizer, Views } from 'react-big-calendar'
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 import moment from 'moment'
@@ -6,11 +6,10 @@ import './CalendarModal.css'
 import './Calendar.css'
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { useEffect } from 'react';
-import jQuery from 'jquery';
 import { useState } from 'react';
 import DayView from './DayView';
-import { config } from '../../config';
 import { IoClose } from 'react-icons/io5'
+import { FetchCalendar } from './FetchCalendar';
 
 const localizer = momentLocalizer(moment)
 
@@ -19,75 +18,9 @@ function CalendarModal({closeModal}) {
   const [selectedDay, setSelectedDay] = useState(new Date())
   const [displayDate, setDisplayDate] = useState(new Date())
 
-  const queryMinTime = moment().subtract(6, 'months').format('YYYY-MM-DDTHH:mm:ss')
-
   useEffect(() => {
-    jQuery.ajax({
-      url:"https://www.googleapis.com/calendar/v3/calendars/"+ config.CAL_ID +"/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin="+queryMinTime+".808Z&maxResults=500&key="+ config.API_KEY,
-      type: "GET",
-      dataType: "json",
-      async:false,
-      // async lets the data stay saved after the inital call, otherwise the data will be removed after the success call
-      success: function(data) {
-        setEventsList(data.items.map((event, key)=> {
-          let start = ''
-          let end = ''
-          if (event.start.date){
-            start = new Date(moment(event.start.date).toISOString())
-            end = new Date(moment(event.end.date).toISOString())
-          }
-          else {
-            start = new Date(moment(event.start.dateTime).toISOString())
-            end = new Date(moment(event.end.dateTime).toISOString())
-          }
-          return(
-          {
-            id: key,
-            start: start, 
-            end: end,
-            title: event.summary,
-          } 
-        )}))
-      }
-        });
-  }, []) 
-
-  const eventStyleGetter = (event) => {
-    const style = {
-        // background:  0% 0% no-repeat padding-box;
-        backgroundColor: '#D0ACE1',
-        borderLeft: `none`,
-        borderTop:'none',
-        borderRight:'none',
-        borderBottom:'none',
-        borderRadius: "0px 7px 7px 0px",
-        color: "white",
-        display: "block",
-    };
-
-    return {
-        style: style,
-    };
-  };
-
-  const selectedDayStyleGetter = (date) => {
-    let style;
-    if (moment(date).isSame(selectedDay)){
-      style = {
-        backgroundColor: '#fcf5ff',
-        color: 'white',
-    };
-    }
-    else{
-      style = {
-        // background:  0% 0% no-repeat padding-box;
-        backgroundColor: 'transparent',
-    };
-    }
-    return {
-        style: style,
-    };
-  };
+    FetchCalendar(setEventsList)
+  }, [1]) 
 
     return (
     <div className='calendar-modal-container'>
@@ -139,7 +72,7 @@ function CalendarModal({closeModal}) {
                 localizer.format(date, 'dd', culture).substring(0,1)
             }}
             eventPropGetter={eventStyleGetter}
-            dayPropGetter={selectedDayStyleGetter}
+            dayPropGetter={(date)=>selectedDayStyleGetter(date, selectedDay)}
             />
           </div>
         </div>
@@ -155,3 +88,40 @@ function CalendarModal({closeModal}) {
 }
 
 export default CalendarModal
+
+const eventStyleGetter = (event) => {
+  const style = {
+      // background:  0% 0% no-repeat padding-box;
+      backgroundColor: '#D0ACE1',
+      borderLeft: `none`,
+      borderTop:'none',
+      borderRight:'none',
+      borderBottom:'none',
+      borderRadius: "0px 7px 7px 0px",
+      color: "white",
+      display: "block",
+  };
+
+  return {
+      style: style,
+  };
+};
+
+const selectedDayStyleGetter = (date, selectedDay) => {
+  let style;
+  if (moment(date).isSame(selectedDay)){
+    style = {
+      backgroundColor: '#fcf5ff',
+      color: 'white',
+  };
+  }
+  else{
+    style = {
+      // background:  0% 0% no-repeat padding-box;
+      backgroundColor: 'transparent',
+  };
+  }
+  return {
+      style: style,
+  };
+};

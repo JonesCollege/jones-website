@@ -126,6 +126,12 @@
   cursor: pointer;
 }
 
+.mobile-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1000px) {
   .NavbarItems {
     position: relative;
@@ -175,11 +181,13 @@
     transform: translate(25%, 50%);
   }
 
-  .menu-icon {
-    display: block;
+  .menu-icons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 2rem;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: -2rem;
     transform: translate(-100%, 80%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -203,6 +211,7 @@
     padding-bottom: 1rem;
     cursor: pointer;
   }
+
   .nav-link-padding {
     padding-left: 4rem;
     padding-right: 4rem;

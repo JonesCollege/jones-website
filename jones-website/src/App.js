@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/NavBar';
+import Navbar from './components/navbar/NavBar';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/home/Home';
@@ -9,6 +9,7 @@ import Associatesalumni from './components/pages/community/Associatesalumni'
 import Studentgov from './components/pages/community/Studentgov'
 import BeerBikeTraditionsPage from "./components/pages/beerbike-traditions/BeerBikeTraditionsPage";
 import PeerResources from './components/pages/resources/PeerResources';
+import CalendarMobile from './components/calendar/CalendarMobile';
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
           <Route path='/ateam' exact element={<Ateam />} />
           <Route path='/associates-alumni' exact element={<Associatesalumni />} />
           <Route path="/beerbike-traditions" exact element={<BeerBikeTraditionsPage />}/>
-          <Route path='/resources' exact element={<PeerResources />} />
+          <Route path='/resources' exact element={<PeerResources />} />          
+          <Route path='/calendar' exact element={<CalendarMobile />} />
         </Routes>
       </Router>
     </>

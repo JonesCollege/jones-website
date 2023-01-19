@@ -8,58 +8,14 @@ import { IoMdCalendar } from "react-icons/io";
 import MobileDropdown from './MobileDropdown';
 import Dropdown from './Dropdown';
 import './NavBar.css';
-import CalendarModal from './calendar/CalendarModal';
-
-const CommunityItems = [
-  {
-    title: 'STUDENT GOV',
-    path: '/studentgov',
-    cName: 'dropdown-link'
-  },
-  {
-    title: 'A-TEAM',
-    path: '/ateam',
-    cName: 'dropdown-link'
-  },
-  {
-    title: 'ASSOCIATES/\nALUMNI',
-    path: '/associates-alumni',
-    cName: 'dropdown-link'
-  }
-];
-
-const FormItems = 
-[
-  {
-    title: 'ROOM RESERVATION',
-    external: 'https://docs.google.com/forms/d/e/1FAIpQLSclKvfrQi-cu-uTbUPSxF-aCCxFtimlpxbnl6uRTeoEtTiexw/viewform',
-    cName: 'dropdown-link'
-  },
-  {
-    title: 'ACCESSIBILITY FUND',
-    external: 'https://docs.google.com/forms/d/e/1FAIpQLSdt3hB8SsNMdGu8_R0nuFMLIyeqW2UMTlhAIw-vhh-s4Ynw3w/viewform',
-    cName: 'dropdown-link'
-  },
-  {
-    title: 'WORK ORDER',
-    external: 'https://www.emailmeform.com/builder/form/uT8P0EVQqH0v1b8905ef2',
-    cName: 'dropdown-link'
-  },
-  {
-    title: 'JIBA FUND',
-    external: 'https://docs.google.com/forms/d/e/1FAIpQLSdfdOFz7ugG-UBQs-l3VUd3Ekg0dBd9UuWG_T_LNBJFkSKI5Q/viewform?c=0&w=1',
-    cName: 'dropdown-link'
-  },
-  {
-    title: 'RICE MUTUAL AID',
-    external: 'linktr.ee/ricemutualaid',
-    cName: 'dropdown-link'
-  }
-];
+import CalendarModal from '../calendar/CalendarModal';
+import CalendarMobile from '../calendar/CalendarMobile';
+import { CommunityItems, FormItems } from './NavbarItems';
 
 function NavBar() {
     const [mobileNav, setMobileNav] = useState(false);    
     const [showCalModal, setShowCalModal] = useState(false);
+    const [showMobileCal, setShowMobileCal] = useState(false);
 
     const showMobileNav = () => {
         if(window.innerWidth <= 1000) {
@@ -74,9 +30,10 @@ function NavBar() {
     }, []);
 
     window.addEventListener('resize', showMobileNav);
+    console.log(showMobileCal)
     
     return (
-      <nav className='navbar' style={{zIndex:`${showCalModal? 0: 50}`}}>
+      <nav className='navbar' style={{zIndex:`${(showCalModal || showMobileCal)? 0: 50}`}}>
         <div className='navbar-container'>
           <div className='left-link'>
             <Link to='/' className='home-container'>
@@ -86,9 +43,9 @@ function NavBar() {
             </Link>
           </div>
           { mobileNav ? (
-            <MobileNav />
+            <MobileNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
             ):(
-            <DesktopNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
+            <DesktopNav showCalModal={showMobileCal} setShowCalModal={setShowMobileCal}/>
           )}
         </div>
       </nav>
@@ -185,13 +142,20 @@ const DesktopNav = ({showCalModal, setShowCalModal}) => {
   )
 }
 
-const MobileNav = () => {
+const MobileNav = (showCalModal, setShowCalModal) => {
   const [navOpen, setNavOpen] = useState(false)
   const [expandNavCommunity, setExpandNavCommunity] = useState(false)
   const [expandNavForm, setExpandNavForm] = useState(false)
   const handleNavClick = () => {
     setNavOpen(!navOpen)
   }
+
+  const openCalModal = () => {
+    setShowCalModal(true);
+  };
+  const closeCalModal = () => {
+      setShowCalModal(false);
+  };
   
   return(
     <div>
@@ -286,7 +250,25 @@ const MobileNav = () => {
                 </ul>
             </div>
         ) : (
-          <GoKebabVertical className='menu-icon' onClick={handleNavClick}/>
+          <>
+          <div className='menu-icons'>
+            <button onClick={openCalModal} className='mobile-button'>
+              <IoMdCalendar size={24}/>
+            </button>
+            <button onClick={handleNavClick} className='mobile-button'>
+              <GoKebabVertical size={24} />
+            </button>
+          </div>
+            <Modal
+              isOpen={showCalModal}
+              className="calendar-modal"
+              onRequestClose={closeCalModal}
+              centered
+              style={{zIndex:'99 !important'}}
+              >
+                <CalendarMobile closeModal={closeCalModal}/>
+            </Modal>
+          </>
         )
       }
       
