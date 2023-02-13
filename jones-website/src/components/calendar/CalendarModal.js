@@ -21,12 +21,7 @@ function CalendarModal({closeModal}) {
 
   useEffect(() => {
     FetchCalendar(setEventsList)
-<<<<<<< HEAD
   }, [bool]) 
-=======
-  }, [1]) 
-
->>>>>>> e1fba5b914306e45803a82dce21f754bf77cdbf3
 
     return (
     <div className='calendar-modal-container'>
