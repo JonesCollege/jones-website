@@ -58,23 +58,30 @@ const Ateam = () => {
       </div>
 
       <div className='ateamflex'>
-        {resize && <img src={require('./ateam/images/michelle.jpeg')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
+        {resize && <img src={require('./ateam/images/michelle.webp')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
         <div className='ateaminfo'>
           <p className='ateamname'>Michelle Bennack</p>
           <div className='ateamposemail'><span className='ateampos'>College Coordinator</span><a href='mailto: mrb4@rice.edu' className='ateamemail'>mrb4@rice.edu</a></div>
           <p className='ateamdesc'>
-
-          Hello and welcome to Jones College!<br></br><br></br>
-          My name is Michelle Bennack, and I am the Jones College Coordinator. I hold the keys to the kingdom of Jones so to speak. 
-          My office is located in “central” on the first floor by the Commons.<br></br><br></br>
-          As the coordinator, I am here to help you through your college years and provide you with a variety of things: your mail, 
-          packages from home, stamps, envelopes, faxes, photocopies, answers to your queries, and so much more!<br></br><br></br>
-          The office is a great place to hang out (there are great sofas in here) and take a breather in your day. 
-          You can jump on the office computer to print your plane tickets, homework and such. If you're lacking in energy, answer the daily quiz 
-          for candy correctly and you will be rewarded with a delicious treat. Also chilling in the office everyday is my golden retriever, Beau. 
-          He gives great hugs and plays a mean game of tug-o-war. Stop in anytime!</p>
+          Michelle joined the team at Jones College in 2009 and is the college coordinator
+          for Jones College. Michelle is responsible for the daily operations of the college.
+          She helps manage the college's finances, events and facilities. Michelle's
+          involvement in the many aspects of Jones College life, means she will often be a
+          student's first stop for questions and guidance. She is here to help you through
+          your college years and provide you with a variety of things: your mail, packages
+          from home, stamps, envelopes, faxes, photocopies, answers to your queries, and
+          being the cool aunt providing you with smiles, hugs and a candy treat!
+          <br/><br/>
+          When she's not making the kingdom of Jones run smoothly, Michelle enjoys
+          entertaining friends with the perfect cocktail, relaxing with a great book or movie
+          and cycling with her husband Lloyd (btw he's a Rice Grad, a Jones associate, and
+          all round great guy).
+          <br/><br/>
+          Just know the office is a great place to hangout with comfy couches, candy, and
+          the amazing Michelle! Stop by anytime to take a break from your busy day!
+          </p>
         </div>
-        {!resize && <img src={require('./ateam/images/michelle.jpeg')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
+        {!resize && <img src={require('./ateam/images/michelle.webp')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
       </div>
 
       <div className='ateamflex'>
