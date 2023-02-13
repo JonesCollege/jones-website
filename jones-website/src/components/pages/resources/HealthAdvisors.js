@@ -47,6 +47,12 @@ function HealthAdvisors () {
                 RHAs are also stocked with: bandages, pain relievers, ear plugs, condoms, cough drops, tampons, pads, cool packs, heating
                 pads, antacids, and thermometers. These resources are available at anytime, please don’t hesitate to ask!
                 </p>
+                <div style={{display:'flex', justifyContent:'center'}}>
+                    <a href = 'https://forms.gle/F9pTKgNc4fCNZsDr7' rel="noreferrer" target = '_blank'>
+                        <button className='resource-button'>Confidential Help Form</button>
+                    </a>
+                </div>
+                
             </div>
                 <ContactGrid Info={RHAS} />
             </div>

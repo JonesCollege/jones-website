@@ -236,13 +236,6 @@ export const RHAS = [
         "phone": ""
     },
     {
-        "name": "Vyshnavi Gade",
-        "position": "",
-        "email": "vg21@rice.edu",
-        "year": "Senior",
-        "phone": ""
-    },
-    {
         "name": "Amy Ho",
         "position": "",
         "email": "alh13@rice.edu",

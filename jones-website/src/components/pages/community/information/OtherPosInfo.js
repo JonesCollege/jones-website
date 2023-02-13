@@ -9,13 +9,13 @@ export const OtherPos = [
     //     "email": "",
     //     "people": []
     // },
-    // {
-    //     "title": "Student Maintenance Representative",
-    //     "email": "",
-    //     "people": []
-    // },
     {
-        "title": "Senior Events Coordinators",
+        "title": "Student Maintenance Representative",
+        "email": "akb8@rice.edu",
+        "people": ["Andrew Buehler"]
+    },
+    {
+        "title": "Senior Events Coordinators",  
         "email": "jonesseniorevents@gmail.com",
         "people": ["Tiffany Vuong", "Mary Brady", "Sofia Roa", "Christi Nguyen"]
     },
