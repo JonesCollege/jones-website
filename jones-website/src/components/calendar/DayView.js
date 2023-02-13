@@ -67,13 +67,15 @@ const DayView = ({ selectedDay, eventsList }) => {
     <div className='day-view-container'>
         <h2 className='day-title'>{moment(selectedDay).format('dddd M/DD')}</h2>
         {
-          allDayEvents.length > 0 &&
+          allDayEvents.length > 0 ?
           <div className='all-day-container'>
           <p className='all-day-header'>ALL DAY:</p>
           {
           allDayEvents.map((event, key) => <AllDayTag key={key} title={event.title} location={event.location}/>)
           }
         </div>
+        :
+        <div className='all-day-empty' />
         }
         
         {
@@ -100,6 +102,7 @@ const DayView = ({ selectedDay, eventsList }) => {
             eventPropGetter={eventStyleGetter}
             dayPropGetter={dayStyleGetter}
             tooltipAccessor={(event) => <EventTooltip event={event} />}
+            showTimeIndicator={false}
             />
         :
         <div className='no-events'>

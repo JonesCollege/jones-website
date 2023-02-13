@@ -43,9 +43,9 @@ function NavBar() {
             </Link>
           </div>
           { mobileNav ? (
-            <MobileNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
+            <MobileNav showMobileCal={showMobileCal} setShowMobileCal={setShowMobileCal}/>
             ):(
-            <DesktopNav showCalModal={showMobileCal} setShowCalModal={setShowMobileCal}/>
+            <DesktopNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
           )}
         </div>
       </nav>
@@ -142,34 +142,38 @@ const DesktopNav = ({showCalModal, setShowCalModal}) => {
   )
 }
 
-const MobileNav = (showCalModal, setShowCalModal) => {
+const MobileNav = ({showMobileCal, setShowMobileCal}) => {
   const [navOpen, setNavOpen] = useState(false)
   const [expandNavCommunity, setExpandNavCommunity] = useState(false)
   const [expandNavForm, setExpandNavForm] = useState(false)
+  //const [showMobileCal, setShowMobileCal] = useState(false)
   const handleNavClick = () => {
     setNavOpen(!navOpen)
+    }
+  const openCalMobile = () => {
+    setShowMobileCal(true)
   }
-
-  const openCalModal = () => {
-    setShowCalModal(true);
-  };
-  const closeCalModal = () => {
-      setShowCalModal(false);
-  };
+  const closeCalMobile = () => {
+    setShowMobileCal(false)
+  }
   
   return(
     <div>
       {
         navOpen ? (
           <div className='nav-menu'>
-            <IoClose 
-              className='menu-icon'
+            <button 
               onClick={() => {
                 handleNavClick()
                 setExpandNavForm(false)
                 setExpandNavCommunity(false)
               }}
-            />
+              className='mobile-button' 
+              style={{position:'absolute', top:'2rem', right:'2rem'}}
+              >
+              <IoClose size={28}/>
+            </button>
+            
               <ul>
                 <li className='nav-item'>
                     <Link
@@ -252,7 +256,7 @@ const MobileNav = (showCalModal, setShowCalModal) => {
         ) : (
           <>
           <div className='menu-icons'>
-            <button onClick={openCalModal} className='mobile-button'>
+            <button onClick={openCalMobile} className='mobile-button'>
               <IoMdCalendar size={24}/>
             </button>
             <button onClick={handleNavClick} className='mobile-button'>
@@ -260,13 +264,13 @@ const MobileNav = (showCalModal, setShowCalModal) => {
             </button>
           </div>
             <Modal
-              isOpen={showCalModal}
+              isOpen={showMobileCal}
               className="calendar-modal"
-              onRequestClose={closeCalModal}
+              onRequestClose={closeCalMobile}
               centered
               style={{zIndex:'99 !important'}}
               >
-                <CalendarMobile closeModal={closeCalModal}/>
+                <CalendarMobile closeModal={closeCalMobile}/>
             </Modal>
           </>
         )

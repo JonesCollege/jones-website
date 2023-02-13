@@ -57,7 +57,6 @@
     font-size: 22px;
     text-align: center;
     letter-spacing: 2px;
-    padding-left: 1rem;
     padding-bottom: 1rem;
     color: #333333;
 }
@@ -77,10 +76,10 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 390px;
     width: 250px;
     border: 1.5px solid #ececec;
-    margin-top: 0.75rem;
+    margin-top: 10px;
 }
 
 .all-day-container {
@@ -88,6 +87,11 @@
     flex-direction: row;
     flex: 1;
     width: 250px;
+}
+
+.all-day-empty {
+    display: block;
+    height: 1.5rem;
 }
 
 .all-day-header {
@@ -103,9 +107,10 @@
     background-color: #D0ACE1;
     border-radius: 5px;
     flex:4;
-    padding: 0 3px;
-    height: 1rem;
+    padding: 0 0.25rem;
+    height: 1.25rem;
     margin-left: 5px;
+    justify-content: center;
 }
 
 .all-day-tag-title {
@@ -129,15 +134,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    max-height: 80vh;
-    transform: translate(-50%, -65%);
-    margin-top: 80px;
+    max-height: 90vh;
+    transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,.02);
     overflow-y: hidden;
     overflow-x: hidden;
-    margin-top: 80px;
-    width:300px;
-    height: 500px;
+    width:330px;
+    height: auto;
+    padding-top: 7rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .calendar-mobile-header {
@@ -163,4 +169,31 @@
 
 .react-datepicker__current-month {
     font-family: 'futuraMediumBT'!important;
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: white !important;
+    color: black !important;
+}
+.react-datepicker__day--keyboard-selected:hover {
+    background-color: #f0f0f0 !important;
+}
+
+.left-day-carat {
+    color: #D0ACE1;
+    position: absolute;
+    top:5.5rem;
+    left:1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.right-day-carat {
+    color: #D0ACE1;
+    position: absolute;
+    top:5.5rem;
+    right:1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
