@@ -17,10 +17,11 @@ function CalendarModal({closeModal}) {
   const [eventsList, setEventsList] = useState([])
   const [selectedDay, setSelectedDay] = useState(new Date())
   const [displayDate, setDisplayDate] = useState(new Date())
+  const bool = true;
 
   useEffect(() => {
     FetchCalendar(setEventsList)
-  }, [1]) 
+  }, [bool]) 
 
     return (
     <div className='calendar-modal-container'>

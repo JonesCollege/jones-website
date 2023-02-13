@@ -11,11 +11,11 @@ import { useRef } from 'react'
 function CalendarMobile() {
     const [eventsList, setEventsList] = useState([])
     const [selectedDay, setSelectedDay] = useState(new Date())
-    const [pickerIsOpen, setPickerIsOpen] = useState(false)
+    //const [pickerIsOpen, setPickerIsOpen] = useState(false)
     const datePicker = useRef()
     
     useEffect(()=>{
-        FetchCalendar(setEventsList)
+    FetchCalendar(setEventsList)
     }, [1])
 
     // const handleDatePicker = () => {
@@ -39,7 +39,7 @@ function CalendarMobile() {
                 ref={datePicker}
                 selected={new Date(selectedDay)} 
                 onChange={(date) => setSelectedDay(moment(date))} 
-                onCalendarOpen={()=>setPickerIsOpen(true)}
+                //onCalendarOpen={()=>setPickerIsOpen(true)}
                 customInput={
                     <BsCalendar2Fill />
                     }
