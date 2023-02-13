@@ -18,12 +18,13 @@ function CalendarMobile() {
         FetchCalendar(setEventsList)
     }, [1])
 
-    const handleDatePicker = () => {
-        if (pickerIsOpen){
-            setPickerIsOpen(false)
-            datePicker.current?.setOpen(false)
-        }
-    };
+    // const handleDatePicker = () => {
+    //     if (pickerIsOpen){
+    //         setPickerIsOpen(false)
+    //         datePicker.current?.setOpen(false)
+    //     }
+    // };
+
   return (
     <div className='calendar-mobile-container'>     
         <div className='calendar-mobile-header'>    
