@@ -11,7 +11,20 @@
   letter-spacing: .5rem;
   margin-bottom: 5rem;
 }
-
+@media screen and (max-width: 600px) {
+  .peer-title {
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'futuraHeavy';
+    letter-spacing: .5rem;
+    margin-bottom: 5rem;
+  }
+  .peer-container {
+    padding: 4rem 3rem;
+  }
+}
 
 /* Book is Bk, Medium is Md, Heavy is Hv, Italics is font-style: 'italic'; */
 

@@ -22,6 +22,7 @@ function CalendarModal({closeModal}) {
     FetchCalendar(setEventsList)
   }, [1]) 
 
+
     return (
     <div className='calendar-modal-container'>
       <div style={{padding:'2rem'}}>

@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 import moment from 'moment'
 import {IoLocationSharp} from 'react-icons/io5'
 import { Calendar, momentLocalizer, Views } from 'react-big-calendar'
