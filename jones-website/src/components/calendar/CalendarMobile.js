@@ -13,10 +13,11 @@ function CalendarMobile() {
     const [selectedDay, setSelectedDay] = useState(new Date())
     //const [pickerIsOpen, setPickerIsOpen] = useState(false)
     const datePicker = useRef()
+    const bool = true;
     
     useEffect(()=>{
     FetchCalendar(setEventsList)
-    }, [1])
+    }, [bool])
 
     // const handleDatePicker = () => {
     //     if (pickerIsOpen){
