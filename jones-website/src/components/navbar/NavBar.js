@@ -15,7 +15,7 @@ import { CommunityItems, FormItems } from './NavbarItems';
 function NavBar() {
     const [mobileNav, setMobileNav] = useState(false);    
     const [showCalModal, setShowCalModal] = useState(false);
-    const [showMobileCal, setShowMobileCal] = useState(false);
+    //const [showMobileCal, setShowMobileCal] = useState(false);
 
     const showMobileNav = () => {
         if(window.innerWidth <= 1000) {
@@ -33,7 +33,8 @@ function NavBar() {
     console.log(showMobileCal)
     
     return (
-      <nav className='navbar' style={{zIndex:`${(showCalModal || showMobileCal)? 0: 50}`}}>
+      <nav className='navbar' style={{zIndex:`${(showCalModal)? 0: 50}`}}>
+      {/* <nav className='navbar' style={{zIndex:`${(showCalModal || showMobileCal)? 0: 50}`}}> */}
         <div className='navbar-container'>
           <div className='left-link'>
             <Link to='/' className='home-container'>
@@ -43,10 +44,10 @@ function NavBar() {
             </Link>
           </div>
           { mobileNav ? (
-            // <MobileNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
+            // <MobileNav showCalModal={showMobileCal} setShowCalModal={setShowMobileCal}/>
             <MobileNav />
             ):(
-            <DesktopNav showCalModal={showMobileCal} setShowCalModal={setShowMobileCal}/>
+            <DesktopNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
           )}
         </div>
       </nav>
