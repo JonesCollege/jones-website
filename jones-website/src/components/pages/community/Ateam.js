@@ -122,7 +122,6 @@ const Ateam = () => {
           <br/> <br/>
           We're excited to get to know all of you! Please do not hesitate to reach out if there's anything you need, ways I can help you to have a better experience 
           at Jones or Rice, or if you just want to chat!
- 
           </p>
         </div>
         {!resize && <img src={require('./ateam/images/caitlin.webp')} alt='Jones RA, Caitlin Lindsay' className='ateamimage float-right' id='ccimage'></img>}
