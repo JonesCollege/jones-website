@@ -30,7 +30,6 @@ function NavBar() {
     }, []);
 
     window.addEventListener('resize', showMobileNav);
-    console.log(showMobileCal)
     
     return (
       <nav className='navbar' style={{zIndex:`${(showCalModal)? 0: 50}`}}>
