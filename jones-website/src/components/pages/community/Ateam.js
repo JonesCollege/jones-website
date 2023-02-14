@@ -102,6 +102,31 @@ const Ateam = () => {
           amount of energy, and you’ll never see them apart. They are both eager to meet anyone and everyone headed towards Jones!</p>
         </div>
       </div>
+      <div className='ateamflex'>
+        {resize && <img src={require('./ateam/images/caitlin.webp')} alt='Jones RA, Caitlin Lindsay' className='ateamimage float-right' id='ccimage'></img>}
+        <div className='ateaminfo'>
+          <p className='ateamname'>Caitlin Lindsay</p>
+          <div className='ateamposemail'><span className='ateampos'>Jones North RA</span><a href='mailto: cml18@rice.edu' className='ateamemail'>cml18@rice.edu</a></div>
+          <p className='ateamdesc'>
+          We are Caitlin and Calypso and so excited to be a part of the Jones Community. We moved to Houston from Pennsylvania in 2021, but Caitlin is originally from 
+          Milwaukee, WI (something you'll quickly recognize when you see how much better she is with the cold, compared to Houston's heat).
+          <br/> <br/>
+          My Master's Degree is in Higher Education Administration from St. Cloud State, meaning I went to school specifically to learn strategies for working at a 
+          university and advising/supporting students. At Rice, I am the Associate Director of Facilities, Events, and Student Run Businesses in the Student Center. 
+          I'm also an Adviser for the Rice Black Women's Association, Instructor for the Critical Dialogues on Diversity course, and am the Chair of the Multiracial 
+          Network for a higher education organization called ACPA.  When not working, you can usually find me spending time with Calypso, at the theatre, playing games 
+          (video, board, or card), reading, or trying out new restaurants and venues in Houston.
+          <br/> <br/>
+          Calypso is a Shiba Inu mix Caitlin rescued in 2021. You'll often hear her compared to a cat. She loves to sniff people, and is easily bribed with food, but 
+          she's skittish and takes time to warm up to people before she's comfortable being pet.
+          <br/> <br/>
+          We're excited to get to know all of you! Please do not hesitate to reach out if there's anything you need, ways I can help you to have a better experience 
+          at Jones or Rice, or if you just want to chat!
+ 
+          </p>
+        </div>
+        {!resize && <img src={require('./ateam/images/caitlin.webp')} alt='Jones RA, Caitlin Lindsay' className='ateamimage float-right' id='ccimage'></img>}
+      </div>
     </div>
     <Footer/>
     </div>
