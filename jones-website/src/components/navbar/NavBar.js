@@ -9,7 +9,7 @@ import MobileDropdown from './MobileDropdown';
 import Dropdown from './Dropdown';
 import './NavBar.css';
 import CalendarModal from '../calendar/CalendarModal';
-import CalendarMobile from '../calendar/CalendarMobile';
+//import CalendarMobile from '../calendar/CalendarMobile';
 import { CommunityItems, FormItems } from './NavbarItems';
 
 function NavBar() {
@@ -43,7 +43,8 @@ function NavBar() {
             </Link>
           </div>
           { mobileNav ? (
-            <MobileNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
+            // <MobileNav showCalModal={showCalModal} setShowCalModal={setShowCalModal}/>
+            <MobileNav />
             ):(
             <DesktopNav showCalModal={showMobileCal} setShowCalModal={setShowMobileCal}/>
           )}
@@ -142,7 +143,8 @@ const DesktopNav = ({showCalModal, setShowCalModal}) => {
   )
 }
 
-const MobileNav = (showCalModal, setShowCalModal) => {
+//const MobileNav = (showCalModal, setShowCalModal) => {
+const MobileNav = () => {
   const [navOpen, setNavOpen] = useState(false)
   const [expandNavCommunity, setExpandNavCommunity] = useState(false)
   const [expandNavForm, setExpandNavForm] = useState(false)
@@ -150,12 +152,12 @@ const MobileNav = (showCalModal, setShowCalModal) => {
     setNavOpen(!navOpen)
   }
 
-  const openCalModal = () => {
-    setShowCalModal(true);
-  };
-  const closeCalModal = () => {
-      setShowCalModal(false);
-  };
+  // const openCalModal = () => {
+  //   setShowCalModal(true);
+  // };
+  // const closeCalModal = () => {
+  //     setShowCalModal(false);
+  // };
   
   return(
     <div>
@@ -252,14 +254,14 @@ const MobileNav = (showCalModal, setShowCalModal) => {
         ) : (
           <>
           <div className='menu-icons'>
-            <button onClick={openCalModal} className='mobile-button'>
+            {/* <button onClick={openCalModal} className='mobile-button'>
               <IoMdCalendar size={24}/>
-            </button>
+            </button> */}
             <button onClick={handleNavClick} className='mobile-button'>
               <GoKebabVertical size={24} />
             </button>
           </div>
-            <Modal
+            {/* <Modal
               isOpen={showCalModal}
               className="calendar-modal"
               onRequestClose={closeCalModal}
@@ -267,7 +269,7 @@ const MobileNav = (showCalModal, setShowCalModal) => {
               style={{zIndex:'99 !important'}}
               >
                 <CalendarMobile closeModal={closeCalModal}/>
-            </Modal>
+            </Modal> */}
           </>
         )
       }
