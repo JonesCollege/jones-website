@@ -29,18 +29,18 @@ export const CommunityItems = [
       cName: 'dropdown-link'
     },
     {
-      title: 'WORK ORDER',
-      external: 'https://www.emailmeform.com/builder/form/uT8P0EVQqH0v1b8905ef2',
+      title: 'JIBA FUND',
+      external: 'https://docs.google.com/forms/d/e/1FAIpQLSdfdOFz7ugG-UBQs-l3VUd3Ekg0dBd9UuWG_T_LNBJFkSKI5Q/viewform?c=0&w=1',
       cName: 'dropdown-link'
     },
     {
-      title: 'JIBA FUND',
-      external: 'https://docs.google.com/forms/d/e/1FAIpQLSdfdOFz7ugG-UBQs-l3VUd3Ekg0dBd9UuWG_T_LNBJFkSKI5Q/viewform?c=0&w=1',
+      title: 'RHA HELP FORM',
+      external: 'https://forms.gle/F9pTKgNc4fCNZsDr7',
       cName: 'dropdown-link'
     },
     {
       title: 'RICE MUTUAL AID',
       external: 'linktr.ee/ricemutualaid',
       cName: 'dropdown-link'
-    }
+    },
   ];
