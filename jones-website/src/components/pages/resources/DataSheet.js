@@ -81,7 +81,7 @@ export const Fellows = [
     },
     {
         "name": "Nishanka Kuthuru",
-        "subjects": "POLI 211/338",
+        "subjects": "POLI 211/339",
         "email": "nrk6@rice.edu"
     },
     {
