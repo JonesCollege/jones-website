@@ -274,15 +274,15 @@ export const RHAS = [
     {
         "name": "Doug Cavillo",
         "position": "",
-        "email": "",
+        "email": "djc9@rice.edu",
         "year": "Junior",
-        "phone": ""
+        "phone": "260-336-7198"
     },
     {
         "name": "Christina Ko",
         "position": "",
-        "email": "",
+        "email": "cyk3@rice.edu",
         "year": "Junior",
-        "phone": ""
+        "phone": "512-915-1130"
     },
 ]
