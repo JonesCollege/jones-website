@@ -40,7 +40,7 @@ export const CommunityItems = [
     },
     {
       title: 'RICE MUTUAL AID',
-      external: 'linktr.ee/ricemutualaid',
+      external: 'https://linktr.ee/ricemutualaid',
       cName: 'dropdown-link'
     },
   ];
