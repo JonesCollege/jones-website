@@ -282,7 +282,7 @@ export const RHAS = [
         "name": "Christina Ko",
         "position": "",
         "email": "cyk3@rice.edu",
-        "year": "Junior",
+        "year": "Sophomore",
         "phone": "512-915-1130"
     },
 ]
