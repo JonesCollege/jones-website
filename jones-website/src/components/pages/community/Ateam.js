@@ -85,21 +85,24 @@ const Ateam = () => {
       </div>
 
       <div className='ateamflex'>
-        <img src={require('./ateam/images/kerri.jpg')} alt='Jones RA, Kerri Barber' className='ateamimage' id='southraimage'></img>
+        <img src={require('./ateam/images/Kelsey.jpg')} alt='Jones RA, Kelsey Ullom' className='ateamimage' id='southraimage'></img>
         <div className='ateaminfo'>
-          <p className='ateamname'>Kerri Barber</p>
-          <div className='ateamposemail'><span className='ateampos'>Jones South RA</span><a href='mailto: klb8@rice.edu' className='ateamemail'>klb8@rice.edu</a></div>
-          <p className='ateamdesc'>Kerri is a BoSox lovin’, Yankee hating, country music parrot-head that uses “wicked” and “y’all” in the same sentence. 
-          Kerri earned her B.S. in Sport Management from Ithaca College and was a member of the 2002 NCAA DIII National Championship softball team. 
-          Kerri is such a competitive player she thought it would be a great idea to play in the championship series with a busted ankle and broken nose 
-          (hey a fancy ring was worth it right?!?)<br></br><br></br>
-          After spending four years bundled up in blankets and snow suits, Kerri realized she wanted to spend her days in flip flops and shorts. 
-          Since owning an island was way too expensive, she decided moving to hot-humid Houston was the answer. Kerri taught Physical Education and 
-          was the founding Athletic Director at the Southwest Campus of YES Prep Public Schools. Kerri was a Maverick for eight years until she made 
-          the wicked smart decision to become an Owl as the administrator for the Department of Sport Management. When she isn’t keeping her rowdy faculty 
-          in line, Kerri enjoys supporting the Houston sports scene, hosting TV watch parties (Game of Thrones &amp; Bachelor), reliving her softball glory days, 
-          or indulging herself in the Houston brewery and food scenes. Kerri and her furbaby Bruin (or BruBru pup) are always together and have the same 
-          amount of energy, and you’ll never see them apart. They are both eager to meet anyone and everyone headed towards Jones!</p>
+          <p className='ateamname'>Kelsey Ullom</p>
+          <div className='ateamposemail'><span className='ateampos'>Jones South RA</span><a href='mailto: keu1@rice.edu' className='ateamemail'>keu1@rice.edu</a></div>
+          <p className='ateamdesc'>
+            Kelsey (she/they) is a world-traveling lifelong learner who is starting her first year as the Jones South RA.
+            <br/> <br/>
+            Originally from Miami, Florida, Kelsey has lived in many different places within the south, mid-west, and eastern United States. As an International Studies 
+            major at Ohio Wesleyan University, Kelsey was fortunate to participate in several study abroad opportunities, which convinced her of the power of learning 
+            through travel. She has since facilitated service programs in Haiti, administered study abroad programs with the U.S. Department of State, consulted for the 
+            United Nations, and earned her master’s degree in International Education from the University of Pennsylvania.
+            <br/> <br/>
+            Kelsey came to Rice about two years ago. As an Assistant Director at the Center for Civic Leadership, she oversees international programs, including global 
+            internships and fellowships. Kelsey loves helping Rice students dream up a travel itinerary and find funding to make their dream a reality. She takes any 
+            chance she gets to learn something new about the cultures and traditions that Rice students bring with them from near and far.
+            <br/> <br/>
+            Kelsey is an avid cyclist and enjoys crafting, reading and writing, trying to play the ukulele, and being outside, preferably near a large body of water. 
+            </p>
         </div>
       </div>
       <div className='ateamflex'>
