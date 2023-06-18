@@ -7,7 +7,7 @@ export const ElectedPos = [
     {
         "title": "O-Week Coordinators",
         "email": "jonescollegeoweek@gmail.com",
-        "people": ["Sarah Birenbaum", "Sofia Roa", "Harry Golen"]
+        "people": ["Delaney Miller", "Dheerj Jasuja", "Ithzel Rubio"]
     },
     {
         "title": "RPC Rep",
