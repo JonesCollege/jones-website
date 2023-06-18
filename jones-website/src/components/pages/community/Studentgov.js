@@ -34,26 +34,24 @@ const Studentgov = () => {
           <img src={PresInfo.img} alt='Jones President' id='presimg' />
           <div style={{paddingLeft: '3rem', paddingRight: '3rem'}}>
             <p id='prestitle'>PRESIDENT {PresInfo.year}</p>  
-            <h3 id='presname'>{PresInfo.name}, JONES'23</h3>
+            <h3 id='presname'>{PresInfo.name}, JONES '24</h3>
           </div>
         </div>
           <div id='prescontainer'>
-            <p id='presintro'>Hey Jones! My name is Dan, and I'm the Jones president for the 2022-23 school year! 
-              I'm so excited to have the opportunity to be president this year, as we are hoping to 
-              both revitalize many of our favorite traditions and cultures following COVID while also 
-              reimagining the way in which the college is run. Community inclusion is my biggest 
-              priority this year, and I'm excited to see the ways in which Jones can continue to be a 
-              home away from home for all of its students. <br></br>College presidents wear a lot of hats, but 
-              the role's main responsibilities are to act as a liaison between the college and university 
-              administration, represent the will of the college across university government, and steer the 
-              goals and direction of the college's government internally. With that being said, the best 
-              part of the job is interacting with Jonesians and seeing the passion that all members of our 
-              community bring to a wide variety of issues. Whether you are a new student, graduating senior, 
-              college alum, or anyone else, I hope that I am accessible enough to act as a helping hand, campus 
-              resource guide, or a listener if you just need someone to talk to. Congrats on finding the webpage 
-              of the best college at Rice University and, as always, JIBA!!!
+            <p id='presintro'>Hey Jones! My name is Taya, and I'm the Jones president for the 2023-24 school year! 
+            I'm so excited to have the opportunity to be president this year as we continue to strengthen our culture 
+            and traditions while also reimagining the way in which the college is run. Community inclusion and 
+            engagement are my biggest priorities, and I'm excited to see the ways in which Jones can be a home away 
+            from home for all of its students.<br></br>College presidents wear a lot of hats, but the role's main 
+            responsibilities are to act as a liaison between the college and university administration, represent 
+            the will of the college across university government, and steer the goals and direction of the college's 
+            government internally. With that being said, the best part of the job is interacting with Jonesians and 
+            seeing the passion that all members of our community bring to a wide variety of issues. Whether you are a 
+            new student, graduating senior, college alum, or anyone else, I hope that I am accessible enough to act as 
+            a helping hand, campus resource guide, or a listener if you just need someone to talk to. Congrats on 
+            finding the webpage of the best college at Rice University and, as always, JIBA!!!
               <br></br><br></br>
-              - Dan Helmeci '23 (he/him)
+              - Taya Lasota '24 (she/her)
             </p>
           </div>
 
@@ -87,7 +85,7 @@ const Studentgov = () => {
       <hr className='govdivide'></hr>
 
       <div id='electedpos'>
-          <h3 className='postitle'>ELECTED POSITIONS 2022-2023</h3>
+          <h3 className='postitle'>ELECTED POSITIONS 2023-2024</h3>
           <p id='electedposdesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
           and the rest are appointed by the President, Vice President, and other officers, usually in the spring.</p>
           <div className='posflexrow'>
@@ -100,7 +98,7 @@ const Studentgov = () => {
       <hr className='govdivide'></hr>
 
       <div id='appointedposheader'>
-          <h3 className='postitle'>APPOINTED POSITIONS 2022-2023</h3>
+          <h3 className='postitle'>APPOINTED POSITIONS 2023-2024</h3>
           <p id='appointposdesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
           and the rest are appointed by the President, Vice President, and other officers, usually in the spring.</p>
       </div>

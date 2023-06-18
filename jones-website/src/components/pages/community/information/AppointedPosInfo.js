@@ -5,18 +5,18 @@ export const AppointedPos = [
             {
                 "title": "Beer Bike Coordinators",
                 "email": "beerbikejones@gmail.com",
-                "people": ["Mary Brady", "Sofia Roa", "Steven Dillman", "Olivia Goganian", "Lucia Romero-Alston", "Luisa Tolda"]
+                "people": ["Olivia Goganian", "Camila DeAlba", "Luisa Tolda", "Wed Timraz", "Katie Maurano", "Madison Munroe"]
             },
             // {
             //     "title": "Food Rep",
             //     "email": "jonescollegefoodrep@gmail.com",
             //     "people": []
             // },
-            // {
-            //     "title": "Historians",
-            //     "email": "thejoneshistorian@gmail.com",
-            //     "people": []
-            // }
+            {
+                "title": "Historians",
+                "email": "thejoneshistorian@gmail.com",
+                "people": ["Sam Ogundare"]
+            },
         ]
     },
     {
@@ -25,33 +25,33 @@ export const AppointedPos = [
             {
                 "title": "Ambiance Coordinators",
                 "email": "jones.ambiance@gmail.com",
-                "people": ["Lauren Yu", "Yuv Sachdeva"],
+                "people": ["Arryana Lyon"],
             },
-            {
-                "title": "Elections Coordinators",
-                "email": "joneselections@gmail.com",
-                "people": ["Amy Cao", "Dawson Franklin"],
-            },
+            // {
+            //     "title": "Elections Coordinators",
+            //     "email": "joneselections@gmail.com",
+            //     "people": [],
+            // },
             {
                 "title": "Kitchen Coordinators",
                 "email": "joneskitchencommittee@gmail.com",
-                "people": ["Joseph Gioia", "Ryan Dullea"],
+                "people": ["Catherine Cook", "Nicole Castellanos", "Ellery Underhill"],
             },
             {
                 "title": "Merchandise Coordinators",
                 "email": "jonesmerchcoordinators@gmail.com",
-                "people": ["Annie Li", "Celine Choi", "Daniel Joshua", "Lauren Yu", "Maya Hoffman", "Sarah Luan"],
+                "people": ["Celine Choi", "Seryna Ayala", "Ioana Murgulet", "Sahitha Vuddagiri", "Varsha Chandramouli"],
             },
-            // {
-            //     "title": "PR Director",
-            //     "email": "jonesprdirector@gmail.com",
-            //     "people": [],
-            // },
-            // {
-            //     "title": "Sports Coordinator",
-            //     "email": "jonessportscoords@gmail.com",
-            //     "people": [],
-            // }
+            {
+                "title": "PR Directors",
+                "email": "jonesprdirector@gmail.com",
+                "people": ["Isabella Xiong"],
+            },
+            {
+                "title": "Sports Coordinators",
+                "email": "jonessportscoords@gmail.com",
+                "people": ["Tim Rinehart", "Emma Whitehurst", "Sean McGarry"],
+            }
         ]
     },
     {
@@ -60,17 +60,17 @@ export const AppointedPos = [
             {
                 "title": "Community Involvement Coordinators",
                 "email": "jones.cic5@gmail.com",
-                "people": ["Darren Wang", "Rija Naqvi"]
+                "people": ["Madison Roy", "Philip DuBose"]
             },
             {
-                "title": "Arts and Cultural Coordinators",
+                "title": "Arts and Culture Coordinators",
                 "email": "jonesculturals@gmail.com",
-                "people": ["Andrea Gomez", "Hafsa Ahsan", "Edelawit Negash", "Eduardo Ruiz"]
+                "people": ["Gracie Chiang", "Komal Talloo", "Chelsea An"]
             },
             {
                 "title": "Webmagisters",
                 "email": "jibawebmaster@gmail.com",
-                "people": ["Theo Schweizer", "Katherine Chui", "Harrison Huang", "Ron Underwood"]
+                "people": ["Theo Schweizer", "Katherine Chui", "Harrison Huang", "Emily Yang"]
             }
         ]
     }
