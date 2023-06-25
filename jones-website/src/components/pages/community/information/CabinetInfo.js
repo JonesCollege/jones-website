@@ -55,7 +55,7 @@ export const CabinetInfo = [
         "maxsize": '160%'
     },
     {
-        "name": "Ayra Shaliha",
+        "name": "Ayra Matondang",
         "pronouns": "",
         "position": "SA Senator",
         "major": "Social Policy Analysis and Cognitive Sciences",
