@@ -42,7 +42,7 @@ const Studentgov = () => {
             I'm so excited to have the opportunity to be president this year as we continue to strengthen our culture 
             and traditions while also reimagining the way in which the college is run. Community inclusion and 
             engagement are my biggest priorities, and I'm excited to see the ways in which Jones can be a home away 
-            from home for all of its students.<br></br>College presidents wear a lot of hats, but the role's main 
+            from home for all of its students.<br/><br/>College presidents wear a lot of hats, but the role's main 
             responsibilities are to act as a liaison between the college and university administration, represent 
             the will of the college across university government, and steer the goals and direction of the college's 
             government internally. With that being said, the best part of the job is interacting with Jonesians and 

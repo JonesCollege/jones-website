@@ -98,17 +98,17 @@ export const CabinetInfo = [
         "objpos": '-60px -50px',
         "maxsize": '190%'
     },
-//     {
-//         "name": "Kareena Patel",
-//         "pronouns": "",
-//         "position": "DEI Coord",
-//         "major": "Sports Medicine & Exercise Physiology",
-//         "img": "images/cabinet/Kareena.jpg",
-//         "email": "",
-//         "shortdesc": "",
-//         "objpos": '-135px -160px',
-//         "maxsize": '350%'
-//     },
+    {
+        "name": "Kareena Patel",
+        "pronouns": "she/her",
+        "position": "DEI Coord",
+        "major": "Sports Medicine & Exercise Physiology",
+        "img": "images/cabinet/Kareena.jpg",
+        "email": "",
+        "shortdesc": "Creating and fostering a diverse, equitable, and inclusive environment at Jones through annual surveys, college-wide town hall forums, and trainings for all elected positions",
+        "objpos": '-135px -160px',
+        "maxsize": '350%'
+    },
 //     {
 //         "name": "Lia Kim",
 //         "pronouns": "",
@@ -116,7 +116,7 @@ export const CabinetInfo = [
 //         "major": "",
 //         "img": "images/cabinet/",
 //         "email": "",
-//         "shortdesc": "",
+//         "shortdesc": "Creating and fostering a diverse, equitable, and inclusive environment at Jones through annual surveys, college-wide town hall forums, and trainings for all elected positions",
 //         "objpos": '-135px -160px',
 //         "maxsize": '350%'
 //     },
