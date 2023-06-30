@@ -109,15 +109,15 @@ export const CabinetInfo = [
         "objpos": '-135px -160px',
         "maxsize": '350%'
     },
-//     {
-//         "name": "Lia Kim",
-//         "pronouns": "",
-//         "position": "DEI Coord",
-//         "major": "",
-//         "img": "images/cabinet/",
-//         "email": "",
-//         "shortdesc": "Creating and fostering a diverse, equitable, and inclusive environment at Jones through annual surveys, college-wide town hall forums, and trainings for all elected positions",
-//         "objpos": '-135px -160px',
-//         "maxsize": '350%'
-//     },
+    {
+        "name": "Lia Kim",
+        "pronouns": "she/her",
+        "position": "DEI Coord",
+        "major": "Cognitive Science",
+        "img": "images/cabinet/Lia.jpg",
+        "email": "",
+        "shortdesc": "Creating and fostering a diverse, equitable, and inclusive environment at Jones through annual surveys, college-wide town hall forums, and trainings for all elected positions",
+        "objpos": '-10px -30px',
+        "maxsize": '155%'
+    },
 ]
