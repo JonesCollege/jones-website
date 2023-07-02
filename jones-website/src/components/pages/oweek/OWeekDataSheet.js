@@ -25,19 +25,19 @@ export const CoordLetter =
 
 export const CoordBios = [
     {
-        "name": "SARAH BIRENBAUM",
-        "bio": "Sarah is a Junior from Houston, TX studying Cognitive Sciences. She loves checking out local coffeeshops, sharing silly animal facts, and making her famous feta pasta.",
-        "img": "./images/advisors/sarahbirenbaum.JPG"
+        "name": "DELANEY MILLER",
+        "bio": "Delaney is a junior from Los Angeles, CA studying Computer Science, Cognitive Science, and minoring in Spanish. In her free time, she loves cooking, exploring new places, or anything active, especially running and biking for the Jones Bike Team!",
+        "img": "./images/coords/delaneymiller.JPG"
     },
     {
-        "name": "HARRY GOLEN",
-        "bio": "Harry is a Senior from Wellesley, MA studying Political Science and Data Science. In his free time, he enjoys playing basketball, reading the news, and cheering on Boston sports teams!",
-        "img": "./images/advisors/harrygolen.JPG"
+        "name": "ITHZEL RUBIO",
+        "bio": "Ithzel is a rising junior from Waco, TX studying Sociology, as well as minoring in Business and PLST. In her free time, she loves watching old 2000s cartoons, exploring Houston, and playing for the Marching Owl Band!",
+        "img": "./images/coords/ithzelrubio.JPG"
     },
     {
-        "name": "SOFIA ROA",
-        "bio": "Sofia is a Senior from Miami, FL studying Sports Medicine and Sports Management. She loves dancing on the Rice Owls Dance Team, going to Rice and Houston sports games, and watching reality TV.",
-        "img": "./images/advisors/sofieroa.JPG"
+        "name": "DHEERJ JASUJA",
+        "bio": "Dheerj is a rising junior from San Jose, CA, majoring in Neuroscience and minoring in Sociology. Outside of class, he enjoys listening to music, playing chess, and practicing soccer.",
+        "img": "./images/coords/dheerjjasuja.JPG"
     }
 
 ]
