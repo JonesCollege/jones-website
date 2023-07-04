@@ -1,5 +1,5 @@
 export const CoordLetter = {
-  text: "We are Harry, Sarah, and Sofia (otherwise known as the Casinoords), and we're coordinating your O-Week! We were elected at the end of the Fall 2021 semester by Jones College and have been working since January to make sure O-Week 2022 is as fun, informative, and fulfilling as possible. We are so excited to welcome you into Jones, a place that has meant so much to the three of us, and we can assure you with 110% certainty that your advisors and all the other Jonesians can't wait to meet you either. This is the start of a great new chapter in your life, and our goal for O-Week is to familiarize you with all the resources you have available to you (including alumni, associates, advisors, and offices on campus) so you can make something incredible out of your Rice experience. \n\nRice Orientation Week, more commonly known as O-Week, is very different from normal university orientations. It's a full week of events that basically fit into three categories: those that help you plan your classes, those that describe the opportunities and resources you have here at Rice and beyond, and those that make you feel at home in Houston, on campus, and especially at Jones. \n\nNo need to worry about planning anything beforehand. We'll walk you through everything you need to know and do during the week! It'll be a lot to take in, but trust us, it's going to be a great time. \n\n The first people you'll meet when you get here will be your O-Week group: four upperclassman advisors and about eight other new students. (You can look up your advisors in this book.) This is your new little family. These are the people who will guide you, support you, and be there for you even after O-Week itself ends. Together, you'll learn many fundamental truths: why Jones is the winningest college, why Beer Bike is the best sport ever, and what makes Jones a family. As you come to rely on your new family here at Jones, we will teach you to embrace our defining characteristic of winning. This doesn't necessarily mean that Jones always comes in first place, nor do we expect you to. It describes an attitude and a philosophy of life that Jonesians subscribe to. When we chant “Jones Wins Again,” it means that regardless of the outcome of an event, we all get to be winners because we get to head back to Jones. It is this strong sense of pride and fellowship that makes us feel lucky to call Jones our home because when we're together, there's no doubt that all we do is win. \n\nWhile at Rice, you'll quickly learn to love (or put up with) our obsession with themes and punny names. So why CasinO-Week? CasinO-Week is built around two main values: courage and support. We remember when we decided to come to Rice, and it was daunting. Your matriculating class comes from all places, backgrounds, identities, lifestyles, and traditions, and as excited as you are to attend such an amazing university, putting yourselves in this new environment is intimidating. But even in a totally new place with totally new people, we don't want you to shy away from taking risks. Each and every one of the special experiences we have had here has come about because a risk we took paid off. Whether it's attending a new club meeting (or starting your own!), taking a class you're unsure about (or teaching your own!), or joining an intramural sports team (or forming your own!), we want new students to come away from O-Week with the courage to make the most of their Rice experience. And at the end of the day, the most important lesson is that Jones will be there to support you. Your fellow Jonesians know that not every gamble pays off, and we'll be there for the highs and the lows. \n\nBy the time you read this, we will already be in Houston planning O-Week. If you have any concerns, requests for advice, packing questions, weather forecasting needs, or movie recommendations, please don't hesitate to reach out—that's why we're here. \n\nSee you soon!",
+  text: "Our names are Dheerj, Delaney, and Ithzel (also known as Team Illuminate), and we are your Jones Orientation Week Coordinators!\n\nRight now, we are just names on a screen, and you're probably expecting us to give you boring presentations and pamphlets about time management in college. In reality, we've spent the last nine months planning the most hype, informative, and meaningful welcome to your next four years. As your Coordinators, our job is to make your transition to college as smooth and stress-free as possible, ensuring that no matter who you are, you know you have a home at Rice.\n\nRice's Orientation Week, also known as O-Week, is not your average university orientation … in fact, many students say that it's their favorite part about going to school here. Every aspect of O-Week serves one of three purposes: planning your classes, introducing you to resources at Rice and beyond, and making you feel welcome at Jones. One thing is for sure; you won't find an experience like this anywhere else! And don't worry, you don't need to plan anything beforehand. It's okay not to know exactly what classes you want to take or which extracurriculars you want to do. By the end of this extraordinary week, you will learn the ins and outs of what it means to be a Rice student.\n\nThe people who make this week possible are our wonderful Advisors — a hand-picked, diverse, and engaged group of upperclassmen who volunteer part of their summer to introduce you to Rice and Jones. Every student is placed into an “O-Week Family” with roughly 10 new students and 4 Advisors. This group is not only a major part of your O-Week, but also your whole first year — you'll check in on each other, share meals weekly, and find the answers to any questions you may have. There's a saying here at Rice … O-Week is forever.\n\nMoreover, at Rice, you will find spirited residential college cheers everywhere: “Baker comes first,” “Will Rice Will Sweep,” and many more. But as Jonesians, we proudly shout “Jones Wins Again!” Don't get us wrong; it doesn't mean that Jones always comes in first place, nor do we expect you to. When we say “Jones Wins Again,” we mean that we are winners because we gave our best effort as a part of the most caring, driven, and winningest residential college. This strong sense of pride and identity shines bright amongst Jonesians, and it makes us feel lucky to call Jones home.\n\nThere's so much more we want to say, but for your sake (and to fit this letter into the O-Week Book), we have to end our remarks here. Feel free to reach out with any questions or concerns - we're here for you. See you at GLO-Week!\n\nSincerely,\n\nDheerj Jasuja, Delaney Miller, and Ithzel Rubio",
   coordInfo: [
     {
       name: "Delaney Miller",
@@ -33,7 +33,7 @@ export const CoordBios = [
   },
   {
     name: "DHEERJ JASUJA",
-    bio: "Dheerj is a rising junior from San Jose, CA, majoring in Neuroscience and minoring in Sociology. Outside of class, he enjoys listening to music, playing chess, and practicing soccer. He is excited to meet all of the new students and looks forward to O-Week!",
+    bio: "Dheerj is a rising junior from San Jose, CA, majoring in Neuroscience and minoring in Sociology. Outside of class, he enjoys listening to music, playing chess, and practicing soccer. He's excited to meet all the new students and looks forward to O-Week!",
     img: "./images/advisors/dheerj.png",
   },
 ];
@@ -128,7 +128,7 @@ export const OWeekGroups = [
     name: "H2GLO: Just Add WATTer",
     members:
       "Gautam Chaudhry, Joel Villarino, Ryan MacMurray, Wed Timraz, Mahliya Dolan",
-    img: "./images/o-week-groups/h2glow/h2glow.png",
+    img: "./images/o-week-groups/h2glow/h2glow.jpg",
     profiles: [
       {
         name: "GAUTAM C",
@@ -310,7 +310,7 @@ export const OWeekGroups = [
   {
     name: "Mike Watt-zowski: Monsters, Blink.",
     members: "Catherine Cook, Korinna Ruiz, Mina Schepmann, Zarek lu",
-    img: "./images/o-week-groups/mikewatt/mikewatt.png",
+    img: "./images/o-week-groups/mikewatt/mikewatt.jpg",
     profiles: [
       {
         name: "CATHERINE C",
@@ -503,20 +503,20 @@ export const PAAs = [
     name: "EDUARDO RUIZ",
     email: "eduardo.ruiz@rice.edu",
     major: "Biosciences",
-    img: "./images/advisors/EduardoRuiz.png",
+    img: "./images/paas/EduardoRuiz.jpg",
   },
   {
     name: "MAYA HOFFMAN",
     email: "maya.hoffman@rice.edu",
     major: "Health Sciences",
-    img: "./images/advisors/MayaHoffman.png",
+    img: "./images/paas/MayaHoffman.jpg",
   },
   {
     name: "RIJA NAQVI",
     email: "rija.h.naqvi@rice.edu",
     major: "Biosciences",
     collegetag: "./college-tags/jones_tag.png",
-    img: "./images/advisors/RijaNaqvi.jpg",
+    img: "./images/paas/RijaNaqvi.jpg",
   },
 ];
 
@@ -526,7 +526,7 @@ export const Gophers = [
     email: "sm201@rice.edu",
     major: "Engineering Division",
     collegetag: "./college-tags/jones_tag.png",
-    img: "./images/o-week-groups/sundirection/samym.jpeg",
+    img: "./images/o-week-groups/sundirection/samym.png",
   },
   {
     name: "MAHLIYA D",

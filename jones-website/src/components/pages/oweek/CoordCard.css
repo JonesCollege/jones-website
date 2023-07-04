@@ -6,6 +6,7 @@
 .coord-bio{
     font-family: "mpBlkLt";
     font-size: 20px;
+    margin-top: -4px;
 }
 .border-container{
     border-radius:100%;

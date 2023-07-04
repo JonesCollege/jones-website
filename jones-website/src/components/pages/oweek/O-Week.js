@@ -24,6 +24,7 @@ export default function OWeek () {
     const closeLetterModal = () => {
         setShowLetterModal(false);
     };
+    const text = 'hello'
     return (
         <div>
         <div className='oweek-container'>
@@ -42,10 +43,10 @@ export default function OWeek () {
                     OWEEK
                 </h1>
                 <h3 className='oweek-h3'>
-                    HELLO NEW JONESIANS!
+                    WELCOME FUTURE JONESIANS!
                 </h3>
                 <div className='oweek-letter-box'>
-                {CoordLetter.text.split(/\n/).map(line => <p className='oweek-p' key={line}>{line}<br/></p>)}
+                {CoordLetter.text.split('\n').map(line => <p className='oweek-p' key={line}>{line}<br/></p>)}
                 </div>
                 <div style={{textAlign:'center'}}>
                     <button className='open-letter-text' onClick={openLetterModal}>Read More</button>
@@ -85,9 +86,14 @@ export default function OWeek () {
             <div className='oweek-paa-grid'>
                 {
                 PAAs.map((item, key) => {
+                    const bgImg = {
+                        backgroundImage: `url(${item.img})`,
+                        backgroundPosition:"center",
+                        backgroundSize: "cover",
+                      }
                     return(
                         <div className='oweek-affiliate-profile' key={key}>
-                            <img className='oweek-affiliate-img' src={item.img} alt={item.name}/>
+                            <div className='advisor-img' style={bgImg}/>
                             <p className='oweek-affiliate-name'>{item.name}</p>
                             <p className='oweek-affiliate-email'>{item.email}</p>
                             <p className='oweek-affiliate-majors'>{item.major}</p>
@@ -100,9 +106,14 @@ export default function OWeek () {
             <div className='oweek-gopher-grid'>
                 {
                 Gophers.map((item, key) => {
+                    const bgImg = {
+                        backgroundImage: `url(${item.img})`,
+                        backgroundPosition:"center",
+                        backgroundSize: "cover",
+                      }
                     return (
                         <div className='oweek-affiliate-profile' key={key}>
-                            <img className='oweek-affiliate-img' src={item.img} alt={item.name}/>
+                            <div className='advisor-img' style={bgImg}/>
                             <p className='oweek-affiliate-name'>{item.name}</p>
                             <p className='oweek-affiliate-majors'>{item.major}</p>
                         </div>
