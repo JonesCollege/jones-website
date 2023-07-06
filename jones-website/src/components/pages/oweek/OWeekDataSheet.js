@@ -26,7 +26,7 @@ export const CoordBios = [
   {
     name: "ITHZEL RUBIO",
     bio: "Ithzel is a junior from Waco, TX studying Sociology, as well as minoring in Business and PLST. In her free time, she loves watching old 2000s cartoons, exploring Houston, and playing for the Marching Owl Band!",
-    img: "./images/coords/ithzelrubio.png",
+    img: "./images/coords/ithzelrubio.jpg",
   },
   {
     name: "DHEERJ JASUJA",
