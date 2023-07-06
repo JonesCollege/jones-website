@@ -13,7 +13,7 @@ function AdvisorModal({closeModal}) {
             OWEEK
         </h1>
         <h3 className='letter-h3'>
-            HELLO NEW JONESIANS!
+            WELCOME FUTURE
         </h3>
         {CoordLetter.text.split(/\n/).map(line => <p className='letter-p' key={line}>{line}<br/></p>)}
         <div style={{padding:"1rem 0"}}>
