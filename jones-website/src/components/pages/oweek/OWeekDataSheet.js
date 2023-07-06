@@ -27,17 +27,17 @@ export const CoordBios = [
     {
         "name": "DELANEY MILLER",
         "bio": "Delaney is a junior from Los Angeles, CA studying Computer Science, Cognitive Science, and minoring in Spanish. In her free time, she loves cooking, exploring new places, or anything active, especially running and biking for the Jones Bike Team!",
-        "img": "./images/coords/delaneymiller.JPG"
+        "img": "./images/coords/delaneymiller.png"
     },
     {
         "name": "ITHZEL RUBIO",
         "bio": "Ithzel is a rising junior from Waco, TX studying Sociology, as well as minoring in Business and PLST. In her free time, she loves watching old 2000s cartoons, exploring Houston, and playing for the Marching Owl Band!",
-        "img": "./images/coords/ithzelrubio.JPG"
+        "img": "./images/coords/ithzelrubio.jpg"
     },
     {
         "name": "DHEERJ JASUJA",
         "bio": "Dheerj is a rising junior from San Jose, CA, majoring in Neuroscience and minoring in Sociology. Outside of class, he enjoys listening to music, playing chess, and practicing soccer.",
-        "img": "./images/coords/dheerjjasuja.JPG"
+        "img": "./images/coords/dheerjjasuja.png"
     }
 
 ]
