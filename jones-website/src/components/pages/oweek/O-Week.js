@@ -113,7 +113,7 @@ export default function OWeek () {
                       }
                     return (
                         <div className='oweek-affiliate-profile' key={key}>
-                            <img className='oweek-affiliate-img' src={item.img} alt={item.name}/>
+                            <div className='advisor-img' style={bgImg}/>
                             <p className='oweek-affiliate-name'>{item.name}</p>
                             <p className='oweek-affiliate-majors'>{item.major}</p>
                         </div>
