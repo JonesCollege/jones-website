@@ -7,7 +7,7 @@ import GroupCard from './GroupCard';
 import Footer from '../../Footer';
 import LetterModal from './LetterModal';
 import { CoordLetter, OWeekGroups, CoordBios, PAAs, Gophers } from './OWeekDataSheet';
-import {MdDownload} from 'react-icons/md'
+// import {MdDownload} from 'react-icons/md'
 
 export default function OWeek () {
     const [showLetterModal, setShowLetterModal] = useState(false);
