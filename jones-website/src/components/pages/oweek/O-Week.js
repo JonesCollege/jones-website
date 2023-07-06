@@ -24,7 +24,7 @@ export default function OWeek () {
     const closeLetterModal = () => {
         setShowLetterModal(false);
     };
-    const text = 'hello'
+
     return (
         <div>
         <div className='oweek-container'>
