@@ -46,8 +46,7 @@ export default function OWeek () {
                     WELCOME FUTURE JONESIANS!
                 </h3>
                 <div className='oweek-letter-box'>
-                {CoordLetter.text.split('\n').map(line => <p className='oweek-p' key={line}>{line}<br/></p>)}
-                </div>
+                {CoordLetter.text.split('\n').map(line => <p className='oweek-p' key={line}>{line}<br/></p>)}                </div>
                 <div style={{textAlign:'center'}}>
                     <button className='open-letter-text' onClick={openLetterModal}>Read More</button>
                 </div>
