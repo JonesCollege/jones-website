@@ -4,17 +4,14 @@ export const CoordLetter = {
     {
       name: "Delaney Miller",
       phone: "delaney.e.miller@rice.edu",
-      img: "./images/advisors/delaneymiller.png",
     },
     {
       name: "Ithzel Rubio",
       phone: "ithzel.rubio@rice.edu",
-      img: "./images/advisors/ithzelrubio.png",
     },
     {
       name: "Dheerj Jasuja",
       phone: "dheerj.jasuja@rice.edu",
-      img: "./images/advisors/dheerj.png",
     },
   ],
   email: "jonesoweek@rice.edu ",
@@ -24,17 +21,17 @@ export const CoordBios = [
   {
     name: "DELANEY MILLER",
     bio: "Delaney is a junior from Los Angeles, CA studying Computer Science, Cognitive Science, and minoring in Spanish. In her free time, she loves cooking, exploring new places, or anything active, especially running and biking for the Jones Bike Team!",
-    img: "./images/advisors/delaneymiller.png",
+    img: "./images/coords/delaneymiller.png",
   },
   {
     name: "ITHZEL RUBIO",
-    bio: "Ithzel is a rising junior from Waco, TX studying Sociology, as well as minoring in Business and PLST. In her free time, she loves watching old 2000s cartoons, exploring Houston, and playing for the Marching Owl Band!",
-    img: "./images/advisors/ithzelrubio.png",
+    bio: "Ithzel is a junior from Waco, TX studying Sociology, as well as minoring in Business and PLST. In her free time, she loves watching old 2000s cartoons, exploring Houston, and playing for the Marching Owl Band!",
+    img: "./images/coords/ithzelrubio.png",
   },
   {
     name: "DHEERJ JASUJA",
-    bio: "Dheerj is a rising junior from San Jose, CA, majoring in Neuroscience and minoring in Sociology. Outside of class, he enjoys listening to music, playing chess, and practicing soccer. He's excited to meet all the new students and looks forward to O-Week!",
-    img: "./images/advisors/dheerj.png",
+    bio: "Dheerj is a junior from San Jose, CA, majoring in Neuroscience and minoring in Sociology. Outside of class, he enjoys listening to music, playing chess, and practicing soccer. He's excited to meet the new students and looks forward to O-Week!",
+    img: "./images/coords/dheerj.png",
   },
 ];
 

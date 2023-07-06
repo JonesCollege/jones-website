@@ -113,7 +113,7 @@ export default function OWeek () {
                       }
                     return (
                         <div className='oweek-affiliate-profile' key={key}>
-                            <div className='advisor-img' style={bgImg}/>
+                            <img className='oweek-affiliate-img' src={item.img} alt={item.name}/>
                             <p className='oweek-affiliate-name'>{item.name}</p>
                             <p className='oweek-affiliate-majors'>{item.major}</p>
                         </div>
@@ -129,12 +129,12 @@ export default function OWeek () {
                     className='book-download-button' 
                     target="_blank"
                     rel="noreferrer" 
-                    href='https://drive.google.com/file/d/1EsjFhbRyFsTAWfEOBFxxszqInPQ4qNIQ/view?usp=sharing'>
+                    href='https://drive.google.com/file/d/1u-HmxieeziywHnF7iUEhzBzPjs4N6iSq/view?usp=sharing'>
                     <MdDownload className='book-download-icon'/>
                 </a>
             </div>
-            <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://www.yumpu.com/en/embed/view/GoY2zfLseIrK7FMb" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
-        </div>
+            {/* <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://www.yumpu.com/en/embed/view/GoY2zfLseIrK7FMb" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe> */}
+            <iframe width="620px" height="565px" src="https://www.yumpu.com/xx/embed/view/JDThxrt2QYCA0Rsv" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe><br/><a href="https://www.yumpu.com/xx/document/view/68332838/glo-week-book" title="GLO-Week Book " target="_blank">GLO-Week Book </a>        </div>
         <Footer/>
     </div>
     )
