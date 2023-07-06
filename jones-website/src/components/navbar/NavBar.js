@@ -259,7 +259,7 @@ const MobileNav = (showCalModal, setShowCalModal) => {
               <GoKebabVertical size={24} />
             </button>
           </div>
-            <Modal
+            {/* <Modal
               isOpen={showCalModal}
               className="calendar-modal"
               onRequestClose={closeCalModal}
@@ -267,7 +267,7 @@ const MobileNav = (showCalModal, setShowCalModal) => {
               style={{zIndex:'99 !important'}}
               >
                 <CalendarMobile closeModal={closeCalModal}/>
-            </Modal>
+            </Modal> */}
           </>
         )
       }
