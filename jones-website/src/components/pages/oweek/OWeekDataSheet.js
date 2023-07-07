@@ -39,11 +39,11 @@ export const OWeekGroups = [
   {
     name: "Sun Direction: Moonlight Memories",
     members:
-      "Asha Zinke, Brandon Nunez, Samy Martinez, Varsha Chandramouli, Zach Donovan",
+      "Aasha Zinke, Brandon Nunez, Samy Martinez, Varsha Chandramouli, Zach Donovan",
     img: "./images/o-week-groups/sundirection/sundirection.jpeg",
     profiles: [
       {
-        name: "ASHA Z",
+        name: "AASHA Z",
         email: "aasha.g.zinke@rice.edu",
         major: "Material Science & Nano Engineering",
         collegetag: "./college-tags/jones_tag.png",
