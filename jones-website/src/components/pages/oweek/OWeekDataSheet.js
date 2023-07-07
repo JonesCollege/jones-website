@@ -236,7 +236,7 @@ export const OWeekGroups = [
   },
   {
     name: "Evergleam Everglare All At Once",
-    members: "Ben Smiley, Dumari De Leon, Grace Stewart, Saumya Jhaveri",
+    members: "Ben Smiley, Dumari De Leon, Grace Sattem, Saumya Jhaveri",
     img: "./images/o-week-groups/evergleam/evergleameverywhere.JPG",
     profiles: [
       {
@@ -255,9 +255,9 @@ export const OWeekGroups = [
       },
       {
         name: "GRACE S",
-        email: "grace.e.stewart@rice.edu",
-        major: "History",
-        collegetag: "./college-tags/hanszen_tag.png",
+        email: "gcs2@rice.edu",
+        major: "Social Sciences Division",
+        collegetag: "./college-tags/jones_tag.png",
         img: "./images/o-week-groups/evergleam/graces.JPG",
       },
       {
@@ -395,9 +395,9 @@ export const OWeekGroups = [
       },
       {
         name: "NILDA J",
-        email: "nilda.m.jarero@rice.edu",
+        email: "nmj5@rice.edu",
         major: "Computer Science & Cognitive Sciences",
-        collegetag: "./college-tags/duncan_tag.png",
+        collegetag: "./college-tags/jones_tag.png",
         img: "./images/o-week-groups/flareypotter/nildaj.JPG",
       },
       {
@@ -440,7 +440,7 @@ export const OWeekGroups = [
         name: "JORGE A",
         email: "jorge.l.arnez.gonzales@rice.edu",
         major: "Biosciences",
-        collegetag: "./college-tags/brown_tag.png",
+        collegetag: "./college-tags/mcmurtry_tag.png",
         img: "./images/o-week-groups/vvglow/jorgea.png",
       },
       {
