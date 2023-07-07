@@ -433,7 +433,7 @@ export const OWeekGroups = [
         name: "CADEN A",
         email: "caden.acosta@rice.edu",
         major: "Engineering Division",
-        collegetag: "./college-tags/jones_tag.png",
+        collegetag: "./college-tags/wiess_tag.png",
         img: "./images/o-week-groups/vvglow/cadena.JPG",
       },
       {
