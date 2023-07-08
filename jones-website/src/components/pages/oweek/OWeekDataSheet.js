@@ -242,7 +242,7 @@ export const OWeekGroups = [
       {
         name: "BEN S",
         email: "bms8@rice.edu",
-        major: "Civil Engineering",
+        major: "Civil and Environmental Engineering",
         collegetag: "./college-tags/wiess_tag.png",
         img: "./images/o-week-groups/evergleam/bens.png",
       },
