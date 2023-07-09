@@ -352,9 +352,9 @@ export const OWeekGroups = [
         img: "./images/o-week-groups/glotoro/alexb.jpeg",
       },
       {
-        name: "ARYA M",
-        email: "-",
-        major: "-",
+        name: "AYRA M",
+        email: "ayra.s.matondang@rice.edu",
+        major: "Social Policy Analysis, Cognitive Sciences",
         collegetag: "./college-tags/jones_tag.png",
         img: "./images/o-week-groups/glotoro/aryam.JPG",
       },
