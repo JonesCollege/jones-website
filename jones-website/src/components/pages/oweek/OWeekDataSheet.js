@@ -306,7 +306,7 @@ export const OWeekGroups = [
   },
   {
     name: "Mike Watt-zowski: Monsters, Blink.",
-    members: "Catherine Cook, Korinna Ruiz, Mina Schepmann, Zarek lu",
+    members: "Catherine Cook, Korinna Ruiz, Mina Schepmann, Zarek Lu",
     img: "./images/o-week-groups/mikewatt/mikewatt.jpg",
     profiles: [
       {
@@ -341,7 +341,7 @@ export const OWeekGroups = [
   },
   {
     name: "My Neighbor GLOtoro",
-    members: "Alex Breazeale, Doug Calvillo, Shreya Majeti",
+    members: "Alex Breazeale, Ayra Matondang, Doug Calvillo, Shreya Majeti",
     img: "./images/o-week-groups/glotoro/glotoro.JPG",
     profiles: [
       {
