@@ -121,7 +121,7 @@ export default function OWeek () {
                 }
             </div>
         </div>
-        {/* <div className='oweek-book-container'>
+        <div className='oweek-book-container'>
             <div className='book-title-container'>
                 <h2 className='oweek-book-title'>OWEEK BOOK</h2>
                 <a 
@@ -132,8 +132,8 @@ export default function OWeek () {
                     <MdDownload className='book-download-icon'/>
                 </a>
             </div>
-            <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://publuu.com/flip-book/181965/446672/page/1?embed" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
-        </div> */}
+            <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://publuu.com/flip-book/188334/459823/page/1?embed" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+        </div>
         <Footer/>
     </div>
     )
