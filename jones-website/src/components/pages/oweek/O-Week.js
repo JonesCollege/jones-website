@@ -132,7 +132,7 @@ export default function OWeek () {
                     <MdDownload className='book-download-icon'/>
                 </a>
             </div>
-            <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://publuu.com/flip-book/188334/459823/page/1?embed" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+            <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://online.fliphtml5.com/qrykg/omln/" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
         </div>
         <Footer/>
     </div>
