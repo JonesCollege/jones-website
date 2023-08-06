@@ -11,7 +11,6 @@ import { IoClose } from 'react-icons/io5'
 import { IoMdCalendar } from "react-icons/io";
 
 
-
 function CalendarMobile({closeModal}) {
     const [eventsList, setEventsList] = useState([])
     const [selectedDay, setSelectedDay] = useState(new Date())
@@ -29,7 +28,8 @@ function CalendarMobile({closeModal}) {
         }
     };
   return (
-    <div className='calendar-mobile-container'>  
+    <div className='calendar-mobile-container'>
+        <div className='calendar-mobile-header'>
             <div style={{position:'absolute', top:'1rem', left:'2rem', color:'#999'}}>
                 <DatePicker 
                 ref={datePicker}
@@ -45,14 +45,17 @@ function CalendarMobile({closeModal}) {
             <button className='exit-button' onClick={closeModal}>
                 <IoClose className='exit-icon'/>
             </button>  
-           <button 
-            className='left-day-carat' 
+        </div>
+        <div className='calendar-mobile-header'>
+            <button 
+            className='mobile-calendar-absolute left-day-carat' 
             onClick={()=>setSelectedDay(moment(selectedDay).subtract(1, 'day'))}
             >
                 <BsChevronLeft size={25}/>
             </button>
+            <h2 className='mobile-calendar-absolute day-title mobile-day-title'>{moment(selectedDay).format('dddd M/DD')}</h2>
             <button 
-                className='right-day-carat' 
+                className='mobile-calendar-absolute right-day-carat' 
                 onClick={()=>setSelectedDay(moment(selectedDay).add(1, 'day'))}
             >
                 <BsChevronRight size={25}/>
@@ -68,8 +71,10 @@ function CalendarMobile({closeModal}) {
                     }
                 style={{zIndex:100}}
                 />
-        </div> */}
-        <DayView  selectedDay={selectedDay} eventsList={eventsList}/>
+            </div> */}
+        </div>
+        <DayView  selectedDay={selectedDay} eventsList={eventsList} mobile={true}/>
+           
     </div>
   )
 }

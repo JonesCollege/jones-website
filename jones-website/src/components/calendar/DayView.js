@@ -6,7 +6,7 @@ import './Calendar.css'
 
 
 
-const DayView = ({ selectedDay, eventsList }) => {
+const DayView = ({ selectedDay, eventsList, mobile }) => {
   const eventsToday = findEventsToday(selectedDay, eventsList)
   const allDayEvents = findAllDay(eventsToday)
   const partialDayEvents = removeAllDay(eventsToday)
@@ -65,7 +65,11 @@ const DayView = ({ selectedDay, eventsList }) => {
 
   return (
     <div className='day-view-container'>
+        {mobile ? 
+        <h2></h2>
+        :
         <h2 className='day-title'>{moment(selectedDay).format('dddd M/DD')}</h2>
+        }
         {
           allDayEvents.length > 0 ?
           <div className='all-day-container'>

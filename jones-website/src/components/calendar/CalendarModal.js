@@ -81,7 +81,7 @@ function CalendarModal({closeModal}) {
         <button className='exit-button' onClick={closeModal}>
           <IoClose className='exit-icon'/>
         </button>
-        <DayView selectedDay={selectedDay} eventsList={eventsList}/>
+        <DayView selectedDay={selectedDay} eventsList={eventsList} mobile={false}/>
       </div>
     </div>
   )

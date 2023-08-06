@@ -141,7 +141,7 @@
     overflow-x: hidden;
     width:330px;
     height: auto;
-    padding-top: 7rem;
+    padding: 7rem 0rem 2rem;
     justify-content: center;
     align-items: center;
 }
@@ -150,7 +150,21 @@
     display: flex;
     flex-direction: row;
     width: 300px;
+    justify-content: space-between;
 }
+
+.mobile-day-title {
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobile-calendar-absolute {
+    top:4.5rem !important;
+}
+
 .day-selector-icon {
     font-size: 24px;
     flex: 5;
