@@ -128,7 +128,7 @@ export default function OWeek () {
                     className='book-download-button' 
                     target="_blank"
                     rel="noreferrer" 
-                    href='https://drive.google.com/file/d/1u-HmxieeziywHnF7iUEhzBzPjs4N6iSq/view?usp=sharing'>
+                    href='https://drive.google.com/file/d/1bM1lSvrYIUiTobyoSGKiuF_PeHCNNoKh/view?usp=drivesdk'>
                     <MdDownload className='book-download-icon'/>
                 </a>
             </div>
