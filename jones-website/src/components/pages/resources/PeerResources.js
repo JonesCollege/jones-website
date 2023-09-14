@@ -5,7 +5,7 @@ import Fellows from './Fellows';
 import FellowsGrid from './FellowsGrid';
 import HealthAdvisors from './HealthAdvisors';
 import PeerCareerAdvisors from './PeerCareerAdvisors';
-import StriveLiasons from './StriveLiasons';
+// import StriveLiasons from './StriveLiasons';
 import Footer from '../../Footer';
 
 
