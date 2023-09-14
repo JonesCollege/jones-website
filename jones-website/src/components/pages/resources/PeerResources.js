@@ -23,7 +23,7 @@ function PeerResources() {
         <FellowsGrid/>
         <AcademicAdvisors/>
         <HealthAdvisors/>
-        <StriveLiasons/>
+        {/* <StriveLiasons/> */}
         <PeerCareerAdvisors/>
       </div>
       <Footer/>
