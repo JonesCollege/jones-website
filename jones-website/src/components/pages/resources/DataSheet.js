@@ -213,7 +213,7 @@ export const RHAS = [
         "position": "",
         "email": "vc22@rice.edu",
         "year": "Senior",
-        "phone": "661-484-9696"
+        "phone": ""
     },
     {
         "name": "Vishnu Susheer",

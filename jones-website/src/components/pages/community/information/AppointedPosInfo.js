@@ -5,13 +5,13 @@ export const AppointedPos = [
             {
                 "title": "Beer Bike Coordinators",
                 "email": "beerbikejones@gmail.com",
-                "people": ["Olivia Goganian", "Camila DeAlba", "Luisa Tolda", "Wed Timraz", "Katie Maurano", "Madison Munroe"]
+                "people": ["Olivia Goganian", "Camila DeAlba", "Luisa Tolda", "Wed Timraz", "Ashley Kase", "Madison Munroe"]
             },
-            // {
-            //     "title": "Food Rep",
-            //     "email": "jonescollegefoodrep@gmail.com",
-            //     "people": []
-            // },
+            {
+                "title": "Food Rep",
+                "email": "jonescollegefoodrep@gmail.com",
+                "people": ["Christina Ko"]
+            },
             {
                 "title": "Historians",
                 "email": "thejoneshistorian@gmail.com",
@@ -25,7 +25,7 @@ export const AppointedPos = [
             {
                 "title": "Ambiance Coordinators",
                 "email": "jones.ambiance@gmail.com",
-                "people": ["Arryana Lyon"],
+                "people": ["Arryana Lyon", "Christina Ko"],
             },
             // {
             //     "title": "Elections Coordinators",
@@ -65,12 +65,17 @@ export const AppointedPos = [
             {
                 "title": "Arts and Culture Coordinators",
                 "email": "jonesculturals@gmail.com",
-                "people": ["Gracie Chiang", "Komal Talloo", "Chelsea An"]
+                "people": ["Gracie Chiang", "Komal Talloo", "Chelsea An", "Helena Coleman", "Daniel Peinado"]
             },
             {
                 "title": "Webmagisters",
                 "email": "jibawebmaster@gmail.com",
                 "people": ["Theo Schweizer", "Katherine Chui", "Harrison Huang", "Emily Yang"]
+            },
+            {
+                "title": "Voter Rep",
+                "email": "",
+                "people": ["Ben Lindenbaum"]
             }
         ]
     }
