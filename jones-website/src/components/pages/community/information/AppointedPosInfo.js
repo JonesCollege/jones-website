@@ -15,7 +15,7 @@ export const AppointedPos = [
             {
                 "title": "Historians",
                 "email": "thejoneshistorian@gmail.com",
-                "people": ["Sam Ogundare"]
+                "people": ["Sam Ogundare, Zach Donovan"]
             },
         ]
     },
@@ -45,7 +45,7 @@ export const AppointedPos = [
             {
                 "title": "PR Directors",
                 "email": "jonesprdirector@gmail.com",
-                "people": ["Isabella Xiong"],
+                "people": ["Isabella Xiong, Sam Foreman"],
             },
             {
                 "title": "Sports Coordinators",

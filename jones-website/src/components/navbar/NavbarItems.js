@@ -43,4 +43,9 @@ export const CommunityItems = [
       external: 'https://linktr.ee/ricemutualaid',
       cName: 'dropdown-link'
     },
+    {
+      title: 'P-CARD REQUEST',
+      external: 'https://docs.google.com/forms/d/e/1FAIpQLSc8YZvR48no9vxIBxrAqwAfafGLgcdw4Q_NnTf6ivMCaR6tMw/viewform',
+      cName: 'dropdown-link'
+    },
   ];

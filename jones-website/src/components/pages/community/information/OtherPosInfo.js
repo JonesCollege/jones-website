@@ -9,11 +9,11 @@ export const OtherPos = [
     //     "email": "",
     //     "people": []
     // },
-    // {
-    //     "title": "Student Maintenance Representative",
-    //     "email": "",
-    //     "people": []
-    // },
+    {
+        "title": "Student Maintenance Representative",
+        "email": "akb8@rice.edu",
+        "people": ["Andrew Buehler"]
+    },
     {
         "title": "Senior Events Coordinators",  
         "email": "jonesseniorevents@gmail.com",

@@ -194,23 +194,16 @@ export const Strive = [
 
 export const PCAS = [
     {
-        "name": "Komal Virani",
-        "position": "Head PCA",
-        "email": "knv1@rice.edu ",
+        "name": "Garrett French",
+        "email": "cgf3@rice.edu",
         "year": "Senior",
-        "majors": "Economics"   
+        "majors": "Mechanical Engineering"   
     },
     {
-        "name": "Devika Shankar",
-        "email": "ds82@rice.edu",
+        "name": "Christina Ko",
+        "email": "cyk3@rice.edu",
         "year": "Sophomore",
         "majors": "Neuroscience"
-    },
-    {
-        "name": "Lauren Yu",
-        "email": "ly39@rice.edu",
-        "year": "Sophomore",
-        "majors": "Biosciences"
     },
 ]
 
