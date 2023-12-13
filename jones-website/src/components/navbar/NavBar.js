@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import Modal from "react-modal";
 import { Link } from 'react-router-dom';
 import { GoKebabVertical } from "react-icons/go";
+import { GoKebabHorizontal } from "react-icons/go";
 import { IoClose, IoAdd } from "react-icons/io5";
 import { GrFormSubtract } from "react-icons/gr";
 import { IoMdCalendar } from "react-icons/io";
+import {IoMdCheckmarkCircle} from "react-icons/io";
 import MobileDropdown from './MobileDropdown';
 import Dropdown from './Dropdown';
 import './NavBar.css';
@@ -73,6 +75,11 @@ const DesktopNav = ({showCalModal, setShowCalModal}) => {
         <li className='nav-item'>
             <button onClick={openCalModal} className='calendar-button'>
               <IoMdCalendar size={20}/>
+            </button>
+          </li>
+          <li className='nav-item'>
+            <button onClick={event =>  window.location.href='https://jonescollege.skedda.com/booking'} className='room-reservation-button'>
+              <IoMdCheckmarkCircle size={20}/>
             </button>
           </li>
         <li className='nav-item'>
@@ -256,7 +263,7 @@ const MobileNav = (showCalModal, setShowCalModal) => {
               <IoMdCalendar size={24}/>
             </button>
             <button onClick={handleNavClick} className='mobile-button'>
-              <GoKebabVertical size={24} />
+              <GoKebabHorizontal size={24} />
             </button>
           </div>
             {/* <Modal
