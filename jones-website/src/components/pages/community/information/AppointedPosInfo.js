@@ -20,6 +20,15 @@ export const AppointedPos = [
         ]
     },
     {
+        "position": "Chief Justice",
+        "info": [
+            {
+                "title": "Associate Justices",
+                "people": ["Zack Donovan, 4S", "Anthony Valente, 4N", "Simon Quintero, 3S", "Katie Maurano, 3N", "Nyla Hartigan, 2S", "Sammy Baek, 2N", "Mina Schepmann, 1S", "Izzy Xiong, 1N"]
+            },
+        ]
+    },
+    {
         "position": "IVP",
         "info": [
             {
@@ -70,7 +79,7 @@ export const AppointedPos = [
             {
                 "title": "Webmagisters",
                 "email": "jibawebmaster@gmail.com",
-                "people": ["Theo Schweizer", "Katherine Chui", "Harrison Huang", "Emily Yang"]
+                "people": ["Theo Schweizer", "Ananya Rao", "Emily Yang"]
             },
             {
                 "title": "Voter Rep",
