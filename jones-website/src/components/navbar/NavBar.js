@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Modal from "react-modal";
 import { Link } from 'react-router-dom';
-import { GiHamburgerMenu } from "react-icons/gi";
+import { GoKebabHorizontal } from "react-icons/go";
 import { IoClose, IoAdd } from "react-icons/io5";
 import { GrFormSubtract } from "react-icons/gr";
 import { IoMdCalendar } from "react-icons/io";
+import { LuBookmarkPlus } from "react-icons/lu";
 import MobileDropdown from './MobileDropdown';
 import Dropdown from './Dropdown';
 import './NavBar.css';
 import CalendarModal from '../calendar/CalendarModal';
 //import CalendarMobile from '../calendar/CalendarMobile';
 import { CommunityItems, FormItems } from './NavbarItems';
+import Tooltip from '../Tooltip';
 
 function NavBar() {
     const [mobileNav, setMobileNav] = useState(false);    
@@ -72,10 +74,19 @@ const DesktopNav = ({showCalModal, setShowCalModal}) => {
     <div className='nav-grid-container'>
       <ul className='nav-grid'>
         <li className='nav-item'>
+          <Tooltip text="Reserve a room">
+            <button onClick={event =>  window.open("https://jonescollege.skedda.com/booking", "_blank")} className='room-reservation-button'>
+              <LuBookmarkPlus  size={20}/>
+            </button>
+          </Tooltip>
+        </li>
+        <li className='nav-item'>
+          <Tooltip text="Calendar">
             <button onClick={openCalModal} className='calendar-button'>
               <IoMdCalendar size={20}/>
             </button>
-          </li>
+          </Tooltip>
+        </li>
         <li className='nav-item'>
             <Link
               to='/o-week'
@@ -258,7 +269,7 @@ const MobileNav = () => {
               <IoMdCalendar size={24}/>
             </button> */}
             <button onClick={handleNavClick} className='mobile-button'>
-              <GiHamburgerMenu size={24} />
+              <GoKebabHorizontal size={24} />
             </button>
           </div>
             {/* <Modal

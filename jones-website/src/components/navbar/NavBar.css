@@ -77,7 +77,7 @@
 
 .nav-grid {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(7, auto);
   list-style: none;
   text-align: center;
 }
@@ -117,6 +117,16 @@
 }
 
 .calendar-button {
+  width:40px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.room-reservation-button {
   width:40px;
   height: 40px;
   font-size: 15px;
