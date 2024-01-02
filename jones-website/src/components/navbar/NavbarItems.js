@@ -20,7 +20,7 @@ export const CommunityItems = [
   [
     {
       title: 'ROOM RESERVATION',
-      external: 'https://docs.google.com/forms/d/e/1FAIpQLSclKvfrQi-cu-uTbUPSxF-aCCxFtimlpxbnl6uRTeoEtTiexw/viewform',
+      external: 'https://jonescollege.skedda.com/booking',
       cName: 'dropdown-link'
     },
     {
