@@ -66,3 +66,6 @@
 h1, h2, h3, p, div {
   font-display: block;
 }
+
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';

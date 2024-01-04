@@ -1,21 +1,20 @@
 import React from 'react';
+import './Lines.css';
 
 const lineStyle = {
     height: '8px',
     width: '100%',
     background: '#CDE5F1', 
     position: 'absolute',
-    left: '50%', 
-    transform: 'translateX(-50%)',
-    bottom: '130px',
+    top: '15px',
   };
 
 function Lines() {
     return (
-        <div>
+        <div className="lines-container">
             <div style={lineStyle}></div>
-            <div style={{ ...lineStyle, backgroundColor: '#F7F2FF', bottom: '110px' }}></div>
-            <div style={{ ...lineStyle, backgroundColor: '#F3F8F4', bottom: '90px' }}></div>
+            <div style={{ ...lineStyle, backgroundColor: '#F7F2FF', top: '38px' }}></div>
+            <div style={{ ...lineStyle, backgroundColor: '#F3F8F4', top: '61px' }}></div>
         </div>
     )
 }

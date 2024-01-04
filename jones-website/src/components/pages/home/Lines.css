@@ -1,0 +1,6 @@
+.lines-container {
+    background-color: #ffffff;
+    height: 30px;
+    display: flex;
+    position: relative;
+}
