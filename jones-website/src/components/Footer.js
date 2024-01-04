@@ -13,14 +13,14 @@ function Footer() {
                         Houston TX, 77005</p>
                 </div>
                 <a style={{margin:'10px'}} target="_blank" rel="noreferrer" href='https://www.instagram.com/mary_gibbs_jones_college/'>
-                    <BsInstagram color='white' size={35}/> 
+                    <BsInstagram color='black' size={35}/> 
                 </a>
                 <a style={{margin:'10px'}} target="_blank" rel="noreferrer" href='https://www.facebook.com/jones.historian?fref=ts'>
-                    <BsFacebook color='white' size={35}/> 
+                    <BsFacebook color='black' size={35}/> 
                 </a>
             </div>
             <p className='footer-q-font'>
-                Questions? Contact College Coordinator Michelle Bennack at mrb4@rice.edu.
+                Questions? Contact our College Coordinator Michelle Bennack at mrb4@rice.edu.
             </p>
         </div>
     )
