@@ -125,3 +125,9 @@ video {
     margin-left: 2rem;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .half-style1 {
+    display: none;
+  }
+}

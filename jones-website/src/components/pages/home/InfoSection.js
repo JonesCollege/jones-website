@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../../App.css';
 import './InfoSection.css';
 import backgroundImage from './images/gradient-min.png';
 import bikeImage from './images/IMG_3963.webp';
 import bikeImageHover from './images/IMG_3484.webp';
-import { useResizeWidth } from '../../../utility';
 
 function InfoSection() {
-  const [resize, setResize] = useState(false)
-  useResizeWidth(460, setResize)
-
   const halfStyle1 = {
     backgroundImage: `url(${backgroundImage})`,
   };
@@ -17,19 +13,15 @@ function InfoSection() {
   return (
     <div>
       <div className='colored-div'>
-        {
-          !resize &&  
-          <div className='half-style1' style={halfStyle1}>
-            <img
-                src={bikeImage}
-                alt="Jones Beer Bike Team"
-                className='centered-image-home'
-                onMouseOver={(e) => (e.target.src = bikeImageHover)}
-                onMouseOut={(e) => (e.target.src = bikeImage)}
-              />
-          </div>
-        }
-        
+        <div className='half-style1' style={halfStyle1}>
+          <img
+              src={bikeImage}
+              alt="Jones Beer Bike Team"
+              className='centered-image-home'
+              onMouseOver={(e) => (e.target.src = bikeImageHover)}
+              onMouseOut={(e) => (e.target.src = bikeImage)}
+            />
+        </div>
         <div className='half-style2'>
           <h1 className="header">JONES COLLEGE</h1>
           <img className="goat-image" src="https://cdn-icons-png.flaticon.com/512/1886/1886905.png" alt="Goat" />
