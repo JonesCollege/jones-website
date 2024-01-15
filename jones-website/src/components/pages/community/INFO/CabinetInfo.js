@@ -11,11 +11,11 @@ export const CabinetInfo = [
         "maxsize": '250%'
     },
     {
-        "name": "Korinna Ruiz",
+        "name": "Delaney Miller",
         "pronouns": "she/her",
         "position": "External Vice President",
-        "major": "Biochemistry",
-        "img": "images/cabinet/Korinna.jpg",
+        "major": "Computer Science and Cognitive Science",
+        "img": "images/cabinet/delaneymiller.jpg",
         "email": "jonesevp@gmail.com",
         "shortdesc": "Coordinate Associates' Nights, organize other Associates and alumni events, appoint & chair Associates Committee",
         "objpos": '-105px -50px',
