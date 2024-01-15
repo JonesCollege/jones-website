@@ -1,28 +1,23 @@
 import React, { useEffect } from 'react';
-import './PeerResources.css';
-import AcademicAdvisors from './AcademicAdvisors';
+import './css/PeerResources.css';
+import PeerAcademicAdvisors from './PeerAcademicAdvisors';
 import Fellows from './Fellows';
-import FellowsGrid from './FellowsGrid';
-import HealthAdvisors from './HealthAdvisors';
+import RiceHealthAdvisors from './RiceHealthAdvisors';
 import PeerCareerAdvisors from './PeerCareerAdvisors';
 // import StriveLiasons from './StriveLiasons';
 import Footer from '../../Footer';
+import { useScrollToTop } from '../../../utility'
 
 
 function PeerResources() {
-  useEffect(()=>{
-    window.scrollTo({
-        top: 0,
-    });
-},[])
+  useScrollToTop()
   return (
     <div>
       <div className='peer-container'>
         <h1 className='peer-title'>PEER RESOURCES</h1>
         <Fellows/>
-        <FellowsGrid/>
-        <AcademicAdvisors/>
-        <HealthAdvisors/>
+        <PeerAcademicAdvisors/>
+        <RiceHealthAdvisors/>
         {/* <StriveLiasons/> */}
         <PeerCareerAdvisors/>
       </div>

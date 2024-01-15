@@ -1,0 +1,147 @@
+.beerbike-header {
+  display: flex;
+  width: 100vw;
+}
+
+.beerbike-info {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding-top: 2rem ;
+  padding-left: 7rem ;
+  padding-bottom: 2rem;
+}
+
+.beerbike-info-title {
+  object-fit: contain;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-style: italic;
+  letter-spacing: 0.18em;
+  font-weight: 900;
+  text-align: justify;
+}
+
+.beerbike-info-title > h1 {
+  color: black;
+  width: 100%;
+  max-width: 250px;
+  font-size: 100px;
+
+  text-align: left;
+  font-family: "futuraXBlkBT";
+}
+
+.beerbike-info-title-image {
+  max-height: 200px;
+  justify-self: flex-start;
+}
+
+.beerbike-info-subtitle {
+  flex: 1;
+  width: 100%;
+  /* padding: 10px; */
+
+  /* Subheading */
+  font-family: "futuraMediumBT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 1rem 0;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.475em;
+  text-transform: uppercase;
+}
+
+.beerbike-info > p {
+  flex: 4;
+  font-family: "mpBlkLt";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: justify;
+}
+
+.beerbike-graphic {
+  width: 100vw;
+  height: 700px;
+  position: absolute;
+  right: 0;
+  top: 2;
+
+  background-color: #f7f2ff;
+  --icon: url('../INFO/header_images/mask-image2.png');
+  mask: var(--icon) no-repeat;
+  -webkit-mask: var(--icon) no-repeat;
+  -webkit-mask-size: 85vw 90vh;
+  mask-size: 85vw 90vh;
+  mask-position: 17vw -10vh;
+  object-fit: contain; 
+  z-index: -99;
+}
+
+.front-pic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 83vh;
+  min-height: 400px;
+}
+
+@media only screen and (max-width: 1088px) {
+  .beerbike-info {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 2rem 6rem;
+  }
+  [class="beerbike-header"] {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+  }
+
+  [class="beerbike-graphic"] {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    width: 100vw;
+    background-color: #f7f2ff;
+    mask-size: 95vw 500px;
+    mask-position: top right;
+  }
+
+  [class="beerbike-info-title-image"] {
+    display: none;
+  }
+
+  [class="front-pic"] {
+    position: absolute;
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .beerbike-info-title > h1 {
+    color: black;
+    width: 100%;
+    max-width: 250px;
+    font-size: 50px;
+  
+    text-align: left;
+    font-family: "futuraXBlkBT";
+  }
+  [class="donate-button donate-text"] {
+    display: none;
+  }
+} 

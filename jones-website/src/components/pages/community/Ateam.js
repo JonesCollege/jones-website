@@ -1,26 +1,13 @@
 import React, {useEffect, useState} from 'react'
 import Footer from '../../Footer'
-import './Ateam.css'
+import './css/Ateam.css'
+import { useResizeWidth, useScrollToTop } from '../../../utility'
 
 const Ateam = () => {
   const [resize, setResize] = useState(false)
 
-  useEffect(()=>{
-    window.scrollTo({
-        top: 0,
-    });
-    innerWidth()
-  },[])
-
-  const innerWidth = () => {
-    if (window.innerWidth <= 768){
-      setResize(true)
-    }
-    else{
-      setResize(false)
-    }
-  }
-  window.addEventListener('resize', innerWidth);
+  useScrollToTop();
+  useResizeWidth(768, setResize);
 
 
   return (
@@ -36,7 +23,7 @@ const Ateam = () => {
       </div>
 
       <div className='ateamflex'>
-        <img src={require('./ateam/images/ballfamily.jpg')} alt='Jones Magisters, Zach and Trisha Ball' className='ateamimage' id='magisterimage'></img>
+        <img src={require('./INFO/ateam_images/ballfamily.jpg')} alt='Jones Magisters, Zach and Trisha Ball' className='ateamimage' id='magisterimage'></img>
         <div className='ateaminfo'>
           <p className='ateamname'>Zach, Trisha, and Emilia Ball</p>
           <div className='ateamposemail'><span className='ateampos'>Magisters</span><a href='mailto: zb1@rice.edu' className='ateamemail'>zb1@rice.edu</a></div>
@@ -58,7 +45,7 @@ const Ateam = () => {
       </div>
 
       <div className='ateamflex'>
-        {resize && <img src={require('./ateam/images/michelle.webp')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
+        {resize && <img src={require('./INFO/ateam_images/michelle.webp')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
         <div className='ateaminfo'>
           <p className='ateamname'>Michelle Bennack</p>
           <div className='ateamposemail'><span className='ateampos'>College Coordinator</span><a href='mailto: mrb4@rice.edu' className='ateamemail'>mrb4@rice.edu</a></div>
@@ -81,11 +68,11 @@ const Ateam = () => {
           the amazing Michelle! Stop by anytime to take a break from your busy day!
           </p>
         </div>
-        {!resize && <img src={require('./ateam/images/michelle.webp')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
+        {!resize && <img src={require('./INFO/ateam_images/michelle.webp')} alt='Jones College Coordinator, Michelle Bennack' className='ateamimage float-right' id='ccimage'></img>}
       </div>
 
       <div className='ateamflex'>
-        <img src={require('./ateam/images/Kelsey.jpg')} alt='Jones RA, Kelsey Ullom' className='ateamimage' id='southraimage'></img>
+        <img src={require('./INFO/ateam_images/Kelsey.jpg')} alt='Jones RA, Kelsey Ullom' className='ateamimage' id='southraimage'></img>
         <div className='ateaminfo'>
           <p className='ateamname'>Kelsey Ullom</p>
           <div className='ateamposemail'><span className='ateampos'>Jones South RA</span><a href='mailto: keu1@rice.edu' className='ateamemail'>keu1@rice.edu</a></div>
@@ -106,7 +93,7 @@ const Ateam = () => {
         </div>
       </div>
       <div className='ateamflex'>
-        {resize && <img src={require('./ateam/images/caitlin.webp')} alt='Jones RA, Caitlin Lindsay' className='ateamimage float-right' id='ccimage'></img>}
+        {resize && <img src={require('./INFO/ateam_images/caitlin.webp')} alt='Jones RA, Caitlin Lindsay' className='ateamimage float-right' id='ccimage'></img>}
         <div className='ateaminfo'>
           <p className='ateamname'>Caitlin Lindsay</p>
           <div className='ateamposemail'><span className='ateampos'>Jones North RA</span><a href='mailto: cml18@rice.edu' className='ateamemail'>cml18@rice.edu</a></div>
@@ -127,7 +114,7 @@ const Ateam = () => {
           at Jones or Rice, or if you just want to chat!
           </p>
         </div>
-        {!resize && <img src={require('./ateam/images/caitlin.webp')} alt='Jones RA, Caitlin Lindsay' className='ateamimage float-right' id='ccimage'></img>}
+        {!resize && <img src={require('./INFO/ateam_images/caitlin.webp')} alt='Jones RA, Caitlin Lindsay' className='ateamimage float-right' id='ccimage'></img>}
       </div>
     </div>
     <Footer/>

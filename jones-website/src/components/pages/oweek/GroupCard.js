@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from "react-modal";
 import AdvisorModal from './AdvisorModal';
-import './GroupCard.css';
+import './css/GroupCard.css';
 import 'animate.css';
 
 

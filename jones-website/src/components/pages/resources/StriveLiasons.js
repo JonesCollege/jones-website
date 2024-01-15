@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Resources.css';
+import './css/Resources.css';
 import { Strive } from './DataSheet';
 import ContactGrid from './ContactGrid';
 

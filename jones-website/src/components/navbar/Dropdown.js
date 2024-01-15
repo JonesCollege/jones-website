@@ -13,9 +13,12 @@ function Dropdown(props) {
       className={click ? "dropdown-menu clicked" : "dropdown-menu"}
     >
       {props.arr.map((item, index) => {
+        if (item.route) {
+          console.log("heeee")
+        }
         return (
           <li key={index}>
-            {item.path ? (
+            {item.route ? (
               <Link
                 className="dropdown-link"
                 to={item.route}
