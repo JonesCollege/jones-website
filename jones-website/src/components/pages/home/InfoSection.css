@@ -6,6 +6,38 @@ video {
   z-index: -1;
 }
 
+.colored-div {
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+.half-style1 {
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.half-style2 {
+  flex: 1;
+  background-color: #f3f8f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.centered-image-home {
+  width: 75%;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
 .goat-image {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -15,6 +47,8 @@ video {
 .header {
   font-family: "futuraHeavy";
   letter-spacing: 0.75rem;
+  text-align: center;
+  padding-top: 2rem;
 }
 
 .info-container > p {
@@ -34,22 +68,35 @@ video {
   margin-left: 4px;
 }
 
-.banner-btn {
-  background-color: transparent;
+.buttons-wrap {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.button-home {
+  cursor: pointer;
   text-align: center;
-  font-size: xX-large;
-  color: #fff;
-  border-radius: 5px;
-  border-color: rgb(222, 145, 234);
-  margin: 10px;
-}
-
-.banner-btn:hover {
-  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: 'futuraHeavy';
+  text-decoration: none;
   color: black;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+  height:fit-content;
 }
 
-@media screen and (max-width: 768px) {
+.button-left-margin {
+  margin-left: 4rem;
+}
+
+.button-home:hover {
+  background-color: #8CC292;
+  color: white;
+}
+
+@media screen and (max-width: 850px) {
   .info-container > h1 {
     font-size: 50px;
     margin-top: -100px;
@@ -62,5 +109,19 @@ video {
   .btn-mobile {
     display: block;
     text-decoration: none;
+  }
+
+  .header {
+    letter-spacing: 0.5rem;
+    font-size: 18px;
+  }
+  .button-home {
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .button-left-margin {
+    margin-left: 2rem;
   }
 }

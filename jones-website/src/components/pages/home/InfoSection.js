@@ -1,97 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../../App.css';
 import './InfoSection.css';
-import backgroundImage from './gradient.png';
-import bikeImage from './IMG_3963.JPG';
-import bikeImageHover from './IMG_3484.JPG';
+import backgroundImage from './images/gradient-min.png';
+import bikeImage from './images/IMG_3963.webp';
+import bikeImageHover from './images/IMG_3484.webp';
+import { useResizeWidth } from '../../../utility';
 
 function InfoSection() {
-  const coloredDivStyle = {
-    display: 'flex',
-    height: '600px',
-  };
+  const [resize, setResize] = useState(false)
+  useResizeWidth(460, setResize)
 
   const halfStyle1 = {
-    flex: 1,
     backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    position: 'relative',
-  };
-
-  const halfStyle2 = {
-    flex: 1,
-    backgroundColor: '#f3f8f4',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center', 
-    position: 'relative',
-  };
-
-  const centeredImageStyle = {
-    width: '75%', 
-    borderRadius: '10px',
-    transition: 'transform 0.5s',
-  };
-
-  const buttonStyle = {
-    position: 'absolute',
-    bottom: '22px',
-    cursor: 'pointer',
-    padding: '20px',
-    borderRadius: '15px',
-    fontFamily: 'futuraHeavy',
-    left: '70px',
-    textDecoration: 'none',
-    color: 'black',
-    backgroundColor: 'white',
-    transition: 'background-color 0.3s, color 0.3s',
   };
 
   return (
     <div>
-      <div style={coloredDivStyle}>
-        <div style={halfStyle1}>
-        <img
-            src={bikeImage}
-            alt="bike team picture"
-            style={centeredImageStyle}
-            onMouseOver={(e) => (e.target.src = bikeImageHover)}
-            onMouseOut={(e) => (e.target.src = bikeImage)}
-          />
-        </div>
-        <div style={halfStyle2}>
-        <a href="https://riceconnect.rice.edu/donation/support-jones-college?fbclid=IwAR3rym2N0QS5e5j3QziVX2OoG_ts5oHdKrMQTcQBhxRHBbcKmHZHaY7Q6aA"
-            style={{ ...buttonStyle }}
-            onMouseOver={(e) => {
-              e.target.style.backgroundColor = '#8CC292';
-              e.target.style.color = 'white'; 
-            }}
-            onMouseOut={(e) => {
-              e.target.style.backgroundColor = 'white';
-              e.target.style.color = 'black'; 
-            }}
-            target="_blank">DONATE</a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScufBAZ8oyIadqTW9ZhbJ-8iEVlpIHBh8oXQy2c5MGcRq2vJQ/viewform"
-            style={{ ...buttonStyle, left: 'auto', right: '50px' }}
-            onMouseOver={(e) => {
-              e.target.style.backgroundColor = '#8CC292';
-              e.target.style.color = 'white'; 
-            }}
-            onMouseOut={(e) => {
-              e.target.style.backgroundColor = 'white';
-              e.target.style.color = 'black'; 
-            }}
-            target="_blank">JOIN MAILING LIST</a>
+      <div className='colored-div'>
+        {
+          !resize &&  
+          <div className='half-style1' style={halfStyle1}>
+            <img
+                src={bikeImage}
+                alt="Jones Beer Bike Team"
+                className='centered-image-home'
+                onMouseOver={(e) => (e.target.src = bikeImageHover)}
+                onMouseOut={(e) => (e.target.src = bikeImage)}
+              />
+          </div>
+        }
+        
+        <div className='half-style2'>
           <h1 className="header">JONES COLLEGE</h1>
-          <img className="goat-image" src="https://cdn-icons-png.flaticon.com/512/1886/1886905.png" alt="goat image" />
+          <img className="goat-image" src="https://cdn-icons-png.flaticon.com/512/1886/1886905.png" alt="Goat" />
           <h2 className='header'>EST. 1957</h2>
+          <div className='buttons-wrap'>
+            <a href="https://riceconnect.rice.edu/donation/support-jones-college?fbclid=IwAR3rym2N0QS5e5j3QziVX2OoG_ts5oHdKrMQTcQBhxRHBbcKmHZHaY7Q6aA"
+              className='button-home'
+              target="_blank"
+              rel="noreferrer">DONATE</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScufBAZ8oyIadqTW9ZhbJ-8iEVlpIHBh8oXQy2c5MGcRq2vJQ/viewform"
+              className='button-home button-left-margin'
+              target="_blank"
+              rel="noreferrer">JOIN MAILING LIST</a>
+          </div>
         </div>
       </div>
     </div>

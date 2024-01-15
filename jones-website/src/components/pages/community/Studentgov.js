@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { MdDownload } from 'react-icons/md'
 import { IconContext } from 'react-icons'

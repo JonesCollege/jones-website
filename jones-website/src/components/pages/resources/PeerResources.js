@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './css/PeerResources.css';
 import PeerAcademicAdvisors from './PeerAcademicAdvisors';
 import Fellows from './Fellows';

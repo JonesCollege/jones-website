@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState} from 'react'
 import Footer from '../../Footer'
 import './css/Ateam.css'
 import { useResizeWidth, useScrollToTop } from '../../../utility'

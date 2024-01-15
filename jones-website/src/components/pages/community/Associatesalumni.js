@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Footer from '../../Footer';
 import './css/Associatesalumni.css'
 import { useScrollToTop } from '../../../utility';

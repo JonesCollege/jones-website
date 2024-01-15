@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './css/Resources.css';
 import ResourceGrid from './ResourceGrid';
 import {PAAs} from './INFO/paas_list'
