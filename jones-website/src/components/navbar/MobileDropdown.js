@@ -1,5 +1,4 @@
 import React from 'react';
-import './MobileDropdown.css';
 import { Link } from 'react-router-dom';
 
 function Dropdown({arr, closeDropdown, closeNavMenu}) {

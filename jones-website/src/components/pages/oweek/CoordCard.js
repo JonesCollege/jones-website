@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CoordCard.css';
+import './css/CoordCard.css';
 import 'animate.css';
 
 function CoordCard({ coord }) {

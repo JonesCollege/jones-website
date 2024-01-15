@@ -3,24 +3,19 @@ import { useState, useEffect } from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { MdDownload } from 'react-icons/md'
 import { IconContext } from 'react-icons'
-import './Studentgov.css'
-import CabinetCard from './studentgov/CabinetCard'
-import PositionCard from './studentgov/PositionCard'
-import AppointedPosList from './studentgov/AppointedPosList'
-import { PresInfo } from './information/PresidentInfo'
-import { CabinetInfo } from './information/CabinetInfo'
-import { ElectedPos } from './information/ElectedPosInfo'
-import { AppointedPos } from './information/AppointedPosInfo'
-import { OtherPos } from './information/OtherPosInfo'
+import './css/Studentgov.css'
+import { PositionCard, CabinetCard, AppointedPosList } from './StudentGovPositions'
+import { PresInfo } from './INFO/PresidentInfo'
+import { CabinetInfo } from './INFO/CabinetInfo'
+import { ElectedPos } from './INFO/ElectedPosInfo'
+import { AppointedPos } from './INFO/AppointedPosInfo'
+import { OtherPos } from './INFO/OtherPosInfo'
 import Footer from '../../Footer'
+import { useScrollToTop } from '../../../utility'
 
 const Studentgov = () => {
   const [formClick, setFormClick] = useState(false);
-  useEffect(()=>{
-    window.scrollTo({
-        top: 0,
-    });
-},[])
+  useScrollToTop()
 
   return (
     <div>
@@ -86,8 +81,8 @@ const Studentgov = () => {
 
       <div id='electedpos'>
           <h3 className='postitle'>ELECTED POSITIONS 2023-2024</h3>
-          <p id='electedposdesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
-          and the rest are appointed by the President, Vice President, and other officers, usually in the spring.</p>
+          <p id='electedposdesc'>are a great way for Jonesians to contribute to life in the college. Anyone is eligible to run
+          for these positions and they are voted on by the entirety of the Jones student body.</p>
           <div className='posflexrow'>
             {ElectedPos.map((elected, idx) => (
               <PositionCard title={elected.title} email={elected.email} people={elected.people} key={idx}/>
@@ -99,9 +94,9 @@ const Studentgov = () => {
 
       <div id='appointedposheader'>
           <h3 className='postitle'>APPOINTED POSITIONS 2023-2024</h3>
-          <p id='appointposdesc'>are many other ways for Jonesians to contribute to life in the college. Some positions are elected, 
-          and the rest are appointed by the President, Vice President, and other officers, usually in the spring.</p>
-      </div>
+          <p id='appointposdesc'>are another way to get involved. These positions are selected by the President, Chief Justice, 
+          IVP, and EVP each year, usually in the spring.</p>
+      </div>  
         {AppointedPos.map((pos, idx) => (
         <AppointedPosList position={pos.position} info={pos.info} key={idx}/>
       ))}

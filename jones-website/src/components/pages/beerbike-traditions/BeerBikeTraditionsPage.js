@@ -1,43 +1,29 @@
-import React, { useEffect } from "react";
-import History from "./history_section/History";
-import Traditions from "./traditions_section/Traditions";
-//import BeerBikePeopleSection from "./people_section/BeerBikePeopleSection";
-import BeerBikeHeader from "./header_section/BeerBikeHeader";
-import BeerBikegallery from "./photogallery_slider/BeerBikeGallery";
-import "./BeerBikeTraditionsPage.css";
+import React from "react";
+import History from "./History";
+import Traditions from "./Traditions";
+import BeerBikeHeader from "./BeerBikeHeader";
+import BeerBikegallery from "./BeerBikeGallery";
+import "./css/BeerBikeTraditionsPage.css";
 import Footer from "../../Footer";
 import { useState } from "react";
-import Anthem from "./anthem_popout/Anthem";
+import Anthem from "./Anthem";
+import { useScrollToTop, useResizeWidth } from "../../../utility";
 
 const BeerBikeTraditionsPage = () => {
   const [resize, setResize] = useState(false)
-  useEffect(()=>{
-    window.scrollTo({
-        top: 0,
-    });
-    innerWidth()
-},[])
+  useResizeWidth(500, setResize)
+  useScrollToTop();
 
-const innerWidth = () => {
-  if (window.innerWidth <= 500){
-    setResize(true)
-  }
-  else{
-    setResize(false)
-  }
-}
-window.addEventListener('resize', innerWidth);
   return (
     <div>
       <Anthem />
-    <div className="beerbikepage">
-      <BeerBikeHeader />
-      {!resize && <BeerBikegallery />}
-      {/* <BeerBikePeopleSection /> */}
-      <Traditions />
-      <History />
-    </div>
-    <Footer/>
+      <div className="beerbikepage">
+        <BeerBikeHeader />
+        {!resize && <BeerBikegallery />}
+        <Traditions />
+        <History />
+      </div>
+      <Footer/>
     </div>
   );
 };

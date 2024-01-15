@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoClose } from 'react-icons/io5'
-import './AdvisorModal.css'
+import './css/AdvisorModal.css'
 
 function AdvisorModal(props) {
 

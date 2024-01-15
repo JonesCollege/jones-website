@@ -1,0 +1,535 @@
+export const CoordLetter = {
+  text: "Our names are Dheerj, Delaney, and Ithzel (also known as Team Illuminate), and we are your Jones Orientation Week Coordinators!\n\nRight now, we are just names on a screen, and you're probably expecting us to give you boring presentations and pamphlets about time management in college. In reality, we've spent the last nine months planning the most hype, informative, and meaningful welcome to your next four years. As your Coordinators, our job is to make your transition to college as smooth and stress-free as possible, ensuring that no matter who you are, you know you have a home at Rice.\n\nRice's Orientation Week, also known as O-Week, is not your average university orientation … in fact, many students say that it's their favorite part about going to school here. Every aspect of O-Week serves one of three purposes: planning your classes, introducing you to resources at Rice and beyond, and making you feel welcome at Jones. One thing is for sure; you won't find an experience like this anywhere else! And don't worry, you don't need to plan anything beforehand. It's okay not to know exactly what classes you want to take or which extracurriculars you want to do. By the end of this extraordinary week, you will learn the ins and outs of what it means to be a Rice student.\n\nThe people who make this week possible are our wonderful Advisors — a hand-picked, diverse, and engaged group of upperclassmen who volunteer part of their summer to introduce you to Rice and Jones. Every student is placed into an “O-Week Family” with roughly 10 new students and 4 Advisors. This group is not only a major part of your O-Week, but also your whole first year — you'll check in on each other, share meals weekly, and find the answers to any questions you may have. There's a saying here at Rice … O-Week is forever.\n\nMoreover, at Rice, you will find spirited residential college cheers everywhere: “Baker comes first,” “Will Rice Will Sweep,” and many more. But as Jonesians, we proudly shout “Jones Wins Again!” Don't get us wrong; it doesn't mean that Jones always comes in first place, nor do we expect you to. When we say “Jones Wins Again,” we mean that we are winners because we gave our best effort as a part of the most caring, driven, and winningest residential college. This strong sense of pride and identity shines bright amongst Jonesians, and it makes us feel lucky to call Jones home.\n\nThere's so much more we want to say, but for your sake (and to fit this letter into the O-Week Book), we have to end our remarks here. Feel free to reach out with any questions or concerns - we're here for you. See you at GLO-Week!\n\nSincerely,\n\nDheerj Jasuja, Delaney Miller, and Ithzel Rubio",
+  coordInfo: [
+    {
+      name: "Delaney Miller",
+      phone: "delaney.e.miller@rice.edu",
+    },
+    {
+      name: "Ithzel Rubio",
+      phone: "ithzel.rubio@rice.edu",
+    },
+    {
+      name: "Dheerj Jasuja",
+      phone: "dheerj.jasuja@rice.edu",
+    },
+  ],
+  email: "jonesoweek@rice.edu ",
+};
+
+export const CoordBios = [
+  {
+    name: "DELANEY MILLER",
+    bio: "Delaney is a junior from Los Angeles, CA studying Computer Science, Cognitive Science, and minoring in Spanish. In her free time, she loves cooking, exploring new places, or anything active, especially running and biking for the Jones Bike Team!",
+    img: "./images/coords/delaneymiller.jpg",
+  },
+  {
+    name: "ITHZEL RUBIO",
+    bio: "Ithzel is a junior from Waco, TX studying Sociology, as well as minoring in Business and PLST. In her free time, she loves watching old 2000s cartoons, exploring Houston, and playing for the Marching Owl Band!",
+    img: "./images/coords/ithzelrubio.jpg",
+  },
+  {
+    name: "DHEERJ JASUJA",
+    bio: "Dheerj is a junior from San Jose, CA, majoring in Neuroscience and minoring in Sociology. Outside of class, he enjoys listening to music, playing chess, and practicing soccer. He's excited to meet the new students and looks forward to O-Week!",
+    img: "./images/coords/dheerj.jpg",
+  },
+];
+
+export const OWeekGroups = [
+  {
+    name: "Sun Direction: Moonlight Memories",
+    members:
+      "Aasha Zinke, Brandon Nunez, Samy Martinez, Varsha Chandramouli, Zach Donovan",
+    img: "./images/o-week-groups/sundirection/sundirection.jpeg",
+    profiles: [
+      {
+        name: "AASHA Z",
+        email: "aasha.g.zinke@rice.edu",
+        major: "Material Science & Nano Engineering",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/sundirection/ashaz.jpeg",
+      },
+      {
+        name: "BRANDON N",
+        email: "brandon.nunez@rice.edu",
+        major: "Natural Sciences Division",
+        collegetag: "./college-tags/mcmurtry_tag.png",
+        img: "./images/o-week-groups/sundirection/brandonn.jpeg",
+      },
+      {
+        name: "SAMY M",
+        email: "sm201@rice.edu",
+        major: "Engineering Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/sundirection/samym.png",
+      },
+      {
+        name: "VARSHA C",
+        email: "varsha.k.chandramouli@rice.edu",
+        major: "Sports Medicine & Exercise Phy",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/sundirection/varshac.jpeg",
+      },
+      {
+        name: "ZACK D",
+        email: "zack.donovan@rice.edu",
+        major: "Natural Sciences Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/sundirection/zackd.jpeg",
+      },
+    ],
+  },
+  {
+    name: "Glochella",
+    members: "Piper Winn, Raleigh Bellard, Alex Xu, Skye Fredericks, Zach Pool",
+    img: "./images/o-week-groups/glochella/glochella.JPG",
+    profiles: [
+      {
+        name: "PIPER W",
+        email: "piper.j.winn@rice.edu",
+        major: "Sports Medicine & Exercise Phy",
+        collegetag: "./college-tags/baker_tag.png",
+        img: "./images/o-week-groups/glochella/piperw.jpg",
+      },
+      {
+        name: "RALEIGH B",
+        email: "raleigh.s.bellard@rice.edu",
+        major: "Biosciences",
+        collegetag: "./college-tags/baker_tag.png",
+        img: "./images/o-week-groups/glochella/raleighb.JPG",
+      },
+      {
+        name: "ALEX X",
+        email: "alexandra.xu@rice.edu",
+        major: "Social Sciences Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glochella/alexx.JPG",
+      },
+      {
+        name: "SKYE F",
+        email: "skye.k.fredericks@rice.edu",
+        major: "Social Policy Analysis Anthropology",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glochella/skyef.JPG",
+      },
+      {
+        name: "ZACH P",
+        email: "zach.pool@rice.edu",
+        major: "Visual and Dramatic Arts",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glochella/zachp.JPG",
+      },
+    ],
+  },
+  {
+    name: "H2GLO: Just Add WATTer",
+    members:
+      "Gautam Chaudhry, Joel Villarino, Ryan MacMurray, Wed Timraz, Mahliya Dolan",
+    img: "./images/o-week-groups/h2glow/h2glow.jpg",
+    profiles: [
+      {
+        name: "GAUTAM C",
+        email: "gautam.chaudhry@rice.edu",
+        major: "Chemistry",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/h2glow/gautamc.JPG",
+      },
+      {
+        name: "JOEL V",
+        email: "joel.a.villarino@rice.edu",
+        major: "Computer Science",
+        collegetag: "./college-tags/sid_tag.png",
+        img: "./images/o-week-groups/h2glow/joelv.JPG",
+      },
+      {
+        name: "RYAN M",
+        email: "rrm@rice.edu",
+        major: "Chemistry",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/h2glow/ryanm.JPG",
+      },
+      {
+        name: "WED T",
+        email: "wed.h.timraz@rice.edu",
+        major: "History",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/h2glow/wedt.JPG",
+      },
+      {
+        name: "MAHLIYA D",
+        email: "mahliya.m.dolan@rice.edu",
+        major: "Engineering Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/h2glow/mahliyad.JPG",
+      },
+    ],
+  },
+  {
+    name: "AvaSTAR: The Last FLAREbender",
+    members: "Gospel Ibe, Gretchen Schulke, Katie Maurano, Megan Enriquez",
+    img: "./images/o-week-groups/avastar/avastar.JPG",
+    profiles: [
+      {
+        name: "GOSPEL I",
+        email: "gii1@rice.edu",
+        major: "Sports Medicine & Exercise Phy",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/avastar/gospeli.JPG",
+      },
+      {
+        name: "GRETCHEN S",
+        email: "gretchen.n.schulke@rice.edu",
+        major: "Mechanical Engineering",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/avastar/gretchens.JPG",
+      },
+      {
+        name: "KATIE M",
+        email: "km78@rice.edu",
+        major: "Psychology & Visual and Dramatic Arts",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/avastar/katiem.JPG",
+      },
+      {
+        name: "MEGAN E",
+        email: "megan.enriquez@rice.edu",
+        major: "Mechanical Engineering",
+        collegetag: "./college-tags/brown_tag.png",
+        img: "./images/o-week-groups/avastar/megane.JPG",
+      },
+    ],
+  },
+  {
+    name: "Hannah GLOtana",
+    members: "Edelawit Negash, Ellery Underhill, James Cheng, Jesus Adame",
+    img: "./images/o-week-groups/hannahglotana/hannahglotana.jpeg",
+    profiles: [
+      {
+        name: "EDELAWIT N",
+        email: "edelawit@rice.edu",
+        major: "Economics Business",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/hannahglotana/edelawitn.jpeg",
+      },
+      {
+        name: "ELLERY U",
+        email: "ellery.v.underhill@rice.edu",
+        major: "Natural Sciences Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/hannahglotana/elleryu.jpeg",
+      },
+      {
+        name: "JAMES C",
+        email: "james.d.cheng@rice.edu",
+        major: "Biosciences",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/hannahglotana/jamesc.jpeg",
+      },
+      {
+        name: "JESUS A",
+        email: "jesus.adame@rice.edu",
+        major: "Social Sciences Division",
+        collegetag: "./college-tags/baker_tag.png",
+        img: "./images/o-week-groups/hannahglotana/jesusa.jpeg",
+      },
+    ],
+  },
+  {
+    name: "Evergleam Everglare All At Once",
+    members: "Ben Smiley, Dumari De Leon, Grace Sattem, Saumya Jhaveri",
+    img: "./images/o-week-groups/evergleam/evergleameverywhere.JPG",
+    profiles: [
+      {
+        name: "BEN S",
+        email: "bms8@rice.edu",
+        major: "Civil and Environmental Engineering",
+        collegetag: "./college-tags/wiess_tag.png",
+        img: "./images/o-week-groups/evergleam/bens.png",
+      },
+      {
+        name: "DUMARI D",
+        email: "dmd11@rice.edu",
+        major: "Environmental Science",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/evergleam/dumarid.JPG",
+      },
+      {
+        name: "GRACE S",
+        email: "gcs2@rice.edu",
+        major: "Social Sciences Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/evergleam/graces.JPG",
+      },
+      {
+        name: "SAUMYA J",
+        email: "saj6@rice.edu",
+        major: "Managerial Econ & Org Sci",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/evergleam/saumyaj.JPG",
+      },
+    ],
+  },
+  {
+    name: "Glow White and the 7 Dwarfs",
+    members: "Daniel Li, Dylan Council, Komal Talloo, Samantha Ogundare",
+    img: "./images/o-week-groups/glowwhite/glowwhite.JPG",
+    profiles: [
+      {
+        name: "DANIEL L",
+        email: "dyl2@rice.edu",
+        major: "Cognitive Sciences",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glowwhite/daniell.jpg",
+      },
+      {
+        name: "DYLAN C",
+        email: "dylan.h.council@rice.edu",
+        major: "Social Sciences Division",
+        collegetag: "./college-tags/sid_tag.png",
+        img: "./images/o-week-groups/glowwhite/dylanc.JPG",
+      },
+      {
+        name: "KOMAL T",
+        email: "kst8@rice.edu",
+        major: "Social Sciences Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glowwhite/komalt.JPG",
+      },
+      {
+        name: "SAM O",
+        email: "samantha.ogundare@rice.edu",
+        major: "Engineering Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glowwhite/samanthao.JPG",
+      },
+    ],
+  },
+  {
+    name: "Mike Watt-zowski: Monsters, Blink.",
+    members: "Catherine Cook, Korinna Ruiz, Mina Schepmann, Zarek Lu",
+    img: "./images/o-week-groups/mikewatt/mikewatt.jpg",
+    profiles: [
+      {
+        name: "CATHERINE C",
+        email: "catherine.cook@rice.edu",
+        major: "Neuroscience & Health Sciences",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/mikewatt/catherinec.jpeg",
+      },
+      {
+        name: "KORINNA R",
+        email: "kar13@rice.edu",
+        major: "Biosciences",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/mikewatt/korinnar.jpeg",
+      },
+      {
+        name: "MINA S",
+        email: "mina.schepmann@rice.edu",
+        major: "Mechanical Engineering",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/mikewatt/minas.jpeg",
+      },
+      {
+        name: "ZAREK L",
+        email: "zarek.f.lu@rice.edu",
+        major: "Computer Science",
+        collegetag: "./college-tags/hanszen_tag.png",
+        img: "./images/o-week-groups/mikewatt/zarekl.jpeg",
+      },
+    ],
+  },
+  {
+    name: "My Neighbor GLOtoro",
+    members: "Alex Breazeale, Ayra Matondang, Doug Calvillo, Shreya Majeti",
+    img: "./images/o-week-groups/glotoro/glotoro.JPG",
+    profiles: [
+      {
+        name: "ALEX B",
+        email: "alex.w.breazeale@rice.edu",
+        major: "Natural Sciences Division",
+        collegetag: "./college-tags/wiess_tag.png",
+        img: "./images/o-week-groups/glotoro/alexb.jpeg",
+      },
+      {
+        name: "AYRA M",
+        email: "ayra.s.matondang@rice.edu",
+        major: "Social Policy Analysis, Cognitive Sciences",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glotoro/aryam.JPG",
+      },
+      {
+        name: "DOUG C",
+        email: "doug.calvillo@rice.edu",
+        major: "Neuroscience, Health Sciences, & Psychology",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glotoro/dougc.JPG",
+      },
+      {
+        name: "SHREYA M",
+        email: "shreya.majeti@rice.edu",
+        major: "Bioengineering",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/glotoro/shreyam.JPG",
+      },
+    ],
+  },
+  {
+    name: "Flarey Potter and the GobLIT of Fire",
+    members: "Savan Patel, Samuel Barton, Nilda Jarero, Leela Sydow",
+    img: "./images/o-week-groups/flareypotter/flareypotter.JPG",
+    profiles: [
+      {
+        name: "SAMUEL B",
+        email: "spb3@rice.edu",
+        major: "Astrophysics",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/flareypotter/samuelb.JPG",
+      },
+      {
+        name: "SAVAN P",
+        email: "savan.a.patel@rice.edu",
+        major: "Business Division",
+        collegetag: "./college-tags/wiess_tag.png",
+        img: "./images/o-week-groups/flareypotter/savanp.JPG",
+      },
+      {
+        name: "NILDA J",
+        email: "nmj5@rice.edu",
+        major: "Computer Science & Cognitive Sciences",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/flareypotter/nildaj.JPG",
+      },
+      {
+        name: "LEELA S",
+        email: "leela.p.sydow@rice.edu",
+        major: "Humanities Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/flareypotter/leelas.JPG",
+      },
+    ],
+  },
+  {
+    name: "Vincent van Glow: The Starry Night",
+    members:
+      "Abigail Jablon, Audrey Nguyen, Caden Acosta, Jorge Arnez Gonzales, Theo Schweizer",
+    img: "./images/o-week-groups/vvglow/vvglow.JPG",
+    profiles: [
+      {
+        name: "ABIGAIL J",
+        email: "abigail.jablon@rice.edu",
+        major: "Architecture Divisions",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/vvglow/abigailj.JPG",
+      },
+      {
+        name: "AUDREY N",
+        email: "audrey.t.nguyen@rice.edu",
+        major: "Biosciences",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/vvglow/audreyn.JPG",
+      },
+      {
+        name: "CADEN A",
+        email: "caden.acosta@rice.edu",
+        major: "Engineering Division",
+        collegetag: "./college-tags/wiess_tag.png",
+        img: "./images/o-week-groups/vvglow/cadena.JPG",
+      },
+      {
+        name: "JORGE A",
+        email: "jorge.l.arnez.gonzales@rice.edu",
+        major: "Biosciences",
+        collegetag: "./college-tags/mcmurtry_tag.png",
+        img: "./images/o-week-groups/vvglow/jorgea.png",
+      },
+      {
+        name: "THEO S",
+        email: "theo.schweizer@rice.edu",
+        major: "Computer Science",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/vvglow/theos.JPG",
+      },
+    ],
+  },
+  {
+    name: "Pokémon Glo: Jones, I choose you!",
+    members: "Skyler Zinker, Ryan Hartgerink, Anthony Valente, Adi Peddi",
+    img: "./images/o-week-groups/pokemonglow/pokemonglow.JPG",
+    profiles: [
+      {
+        name: "ADI P",
+        email: "adi.peddi@rice.edu",
+        major: "Biosciences",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/pokemonglow/adip.jpeg",
+      },
+      {
+        name: "ANTHONY V",
+        email: "anthony.m.valente@rice.edu",
+        major: "Natural Sciences Division",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/pokemonglow/anthonyv.jpeg",
+      },
+      {
+        name: "RYAN H",
+        email: "ryan.e.hartgerink@rice.edu",
+        major: "Neuroscience",
+        collegetag: "./college-tags/jones_tag.png",
+        img: "./images/o-week-groups/pokemonglow/ryanh.jpeg",
+      },
+      {
+        name: "SKYLER Z",
+        email: "skyler.c.zinker@rice.edu",
+        major: "Social Sciences Division",
+        collegetag: "./college-tags/wiess_tag.png",
+        img: "./images/o-week-groups/pokemonglow/skylerz.JPG",
+      },
+    ],
+  },
+];
+
+export const PAAs = [
+  {
+    name: "ARRYANA LYON",
+    email: "arryana.lyon@rice.edu",
+    major: "Social Sciences Division",
+    img: "./images/paas/ArryanaLyon.jpg",
+  },
+  {
+    name: "EDUARDO RUIZ",
+    email: "eduardo.ruiz@rice.edu",
+    major: "Biosciences",
+    img: "./images/paas/EduardoRuiz.jpg",
+  },
+  {
+    name: "MAYA HOFFMAN",
+    email: "maya.hoffman@rice.edu",
+    major: "Health Sciences",
+    img: "./images/paas/MayaHoffman.jpg",
+  },
+  {
+    name: "RIJA NAQVI",
+    email: "rija.h.naqvi@rice.edu",
+    major: "Biosciences",
+    collegetag: "./college-tags/jones_tag.png",
+    img: "./images/paas/RijaNaqvi.jpg",
+  },
+];
+
+export const Gophers = [
+  {
+    name: "SAMY M",
+    email: "sm201@rice.edu",
+    major: "Engineering Division",
+    collegetag: "./college-tags/jones_tag.png",
+    img: "./images/o-week-groups/sundirection/samym.png",
+  },
+  {
+    name: "MAHLIYA D",
+    email: "mahliya.m.dolan@rice.edu",
+    major: "Engineering Division",
+    collegetag: "./college-tags/jones_tag.png",
+    img: "./images/o-week-groups/h2glow/mahliyad.JPG",
+  },
+];

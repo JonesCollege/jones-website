@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/navbar/NavBar';
+import Nav from './components/navbar/Nav';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/home/Home';
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <Nav />
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/o-week' exact element={<OWeek />} />

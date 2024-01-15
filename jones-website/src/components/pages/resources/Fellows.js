@@ -1,8 +1,12 @@
 import React from 'react'
-import './Resources.css';
+import { FellowsList } from './INFO/fellows_list'
+import './css/Resources.css';
+import './css/FellowsGrid.css';
 
-function Fellows () {
+
+const Fellows = () => {
     return (
+        <>
         <div className='resource-desc-container'>
             <div className="resource-left-green-box">
                 <h3 className = "resource-h3-title" >ACADEMIC FELLOWS</h3>
@@ -30,8 +34,42 @@ function Fellows () {
                 </a>
             </div>
         </div>
+        <FellowsGrid />
+        </>
     )
 }
 
 export default Fellows
+
+
+const FellowsGrid = () => {
+    return (
+        <div className='grid-container'>
+            {
+                FellowsList.map((item, key) => {
+                    return (
+                        <div className='grid-row'>
+                            <div className='grid-cell'>
+                                <p className={(key === 0)? `cell-headline-text`: `cell-text`}>
+                                    {item.name}
+                                </p>
+                            </div>
+                            <div className='grid-cell'>
+                                <p className={(key === 0)? `cell-headline-text`: `cell-text`}>
+                                    {item.email}
+                                </p>
+                            </div>
+                            <div className='grid-cell'>
+                                <p className={(key === 0)? `cell-headline-text`: `cell-text`}>
+                                    {item.subjects}
+                                </p>
+                            </div>
+                        </div>
+                    );
+                })
+            }
+        </div> 
+    )
+}
+
 
