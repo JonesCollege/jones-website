@@ -33,7 +33,7 @@ export const Tabs = [
         dropdownItems: [
             {
               title: 'ROOM RESERVATION',
-              external: 'https://jonescollege.skedda.com/booking',
+              route: '/reserve-room',
             },
             {
               title: 'ACCESSIBILITY FUND',

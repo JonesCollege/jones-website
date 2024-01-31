@@ -41,12 +41,10 @@ export default DesktopNav;
 const ReserveRoomButton = () => (
   <li className="nav-item">
     <Tooltip text="Reserve a room">
-      <button
-        onClick={() =>
-          window.open("https://jonescollege.skedda.com/booking", "_blank")
-        }
-        className="room-reservation-button"
-      >
+    <button
+    onClick={() => window.open("/reserve-room", "_blank")}
+    className="room-reservation-button"
+    >
         <LuBookmarkPlus size={20} />
       </button>
     </Tooltip>
