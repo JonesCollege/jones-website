@@ -42,7 +42,7 @@ const ReserveRoomButton = () => (
   <li className="nav-item">
     <Tooltip text="Reserve a room">
     <button
-    onClick={() => window.open("/email_michelle", "_blank")}
+    onClick={() => window.open("/reserve-room", "_blank")}
     className="room-reservation-button"
     >
         <LuBookmarkPlus size={20} />

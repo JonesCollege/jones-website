@@ -1,7 +1,7 @@
 import React from 'react';
-import './email_michelle.css'; 
+import './RoomReservation.css'; 
 
-function EmailMichelle() {
+function RoomReservation() {
   return (
     <div className="main-txt">
       <div className="centered-text">
@@ -12,4 +12,4 @@ function EmailMichelle() {
   );
 }
 
-export default EmailMichelle;
+export default RoomReservation;

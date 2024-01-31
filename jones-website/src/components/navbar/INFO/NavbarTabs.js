@@ -33,7 +33,7 @@ export const Tabs = [
         dropdownItems: [
             {
               title: 'ROOM RESERVATION',
-              external: '/email_michelle',
+              route: '/reserve-room',
             },
             {
               title: 'ACCESSIBILITY FUND',
