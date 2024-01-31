@@ -1,0 +1,13 @@
+.main-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.centered-text {
+  text-align: center;
+  color: black;
+  max-width: 1000px; 
+  padding: 0 20px;
+}

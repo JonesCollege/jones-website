@@ -10,6 +10,7 @@ import Studentgov from './components/pages/community/Studentgov'
 import BeerBikeTraditionsPage from "./components/pages/beerbike-traditions/BeerBikeTraditionsPage";
 import PeerResources from './components/pages/resources/PeerResources';
 import CalendarMobile from './components/calendar/CalendarMobile';
+import EmailMichelle from './components/navbar/email_michelle.js';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/beerbike-traditions" exact element={<BeerBikeTraditionsPage />}/>
           <Route path='/resources' exact element={<PeerResources />} />          
           <Route path='/calendar' exact element={<CalendarMobile />} />
+          <Route path='/email_michelle' exact element={<EmailMichelle />} />
         </Routes>
       </Router>
     </>
