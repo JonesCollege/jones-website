@@ -1,13 +1,14 @@
-.main-txt {
+.room-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
+  flex-direction: row;
+
+}
+
+.day-header {
+  display: flex;
+  flex-direction: row;
 }
 
 .centered-text {
   text-align: center;
-  color: black;
-  max-width: 1000px; 
-  padding: 0 20px;
 }
