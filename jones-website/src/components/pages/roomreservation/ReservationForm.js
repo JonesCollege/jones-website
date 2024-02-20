@@ -9,8 +9,6 @@ const rooms = {
     'PDR': '8d7c4798cf2d4f3fff978a6d207680d0a480a1a626dedc1dd36475c487f8672c@group.calendar.google.com'
 }
 
-
-
 const ReservationForm = () => {
     const [eventInfo, setEventInfo] = useState({
         eventName: '',

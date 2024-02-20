@@ -41,9 +41,9 @@ function RoomReservation() {
   }, [])
   
   return (
-    <div className='day-header'>
-      <h1>Reserve a Room</h1>
-    <div>
+    <div className='room-reservation-container'>
+      <h1 className="header-text">RESERVE A ROOM</h1>
+    <div className='border'>
       <div className='day-header'>
         <div className='calendar-mobile-header'>    
            <button 
@@ -72,9 +72,8 @@ function RoomReservation() {
                 />
             </div>
         </div>
-
-
       </div>
+
     <div className='room-container'>
           <RoomEventView title="Commons" eventsList={commonsEvents} selectedDay={selectedDay}/>
           <RoomEventView title="PDR" eventsList={pdrEvents} selectedDay={selectedDay}/>

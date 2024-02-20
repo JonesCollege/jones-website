@@ -1,17 +1,40 @@
 * {
-  font-family: 'futuraMediumBT'!important;
+  font-family: 'futuraMediumBT';
 }
 
 .room-container {
   display: flex;
   flex-direction: row;
+  margin-left: 10%;
 }
 
-.day-header {
+.calendar-mobile-header {
+  margin-top: 15px;
+}
+
+.room-reservation-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-text {
+  margin-bottom: 30px;
+  margin-top: 5%;
+  letter-spacing: .45rem;
+}
+
+.calendar-mobile-header {
   display: flex;
   flex-direction: row;
 }
 
-.centered-text {
-  text-align: center;
+.calendar-box {
+  border-color: black;
+}
+
+.day-header {
+  position: relative;
+  left: 12%;
+  margin-bottom: 25px;
 }
