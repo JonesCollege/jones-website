@@ -67,8 +67,8 @@ function RoomReservation() {
                 onChange={(date) => setSelectedDay(moment(date))} 
                 //onCalendarOpen={()=>setPickerIsOpen(true)}
                 customInput={
-                    <BsCalendar2Fill />
-                    }
+                  <BsCalendar2Fill />
+                  }
                 />
             </div>
         </div>
