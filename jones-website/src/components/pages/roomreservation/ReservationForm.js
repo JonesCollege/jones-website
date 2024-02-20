@@ -40,10 +40,10 @@ const ReservationForm = () => {
   
     return (
       <div className="form-box">
-        <h2 className="form-header">Event Information Form</h2>
+        <h2 className="form-header">R E S E R V E</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-          <label htmlFor="eventName">Event Name:</label>
+          <label htmlFor="eventName">Name:</label>
           <input
             type="text"
             id="eventName"
@@ -55,7 +55,7 @@ const ReservationForm = () => {
           </div>
 
           <div className="form-group">
-          <label htmlFor="eventDate">Event Date:</label>
+          <label htmlFor="eventDate">Date:</label>
           <input
             type="date"
             id="eventDate"
@@ -68,7 +68,7 @@ const ReservationForm = () => {
           
           <div className="time-group">
             <div className="time-input">
-            <label htmlFor="startTime">Start Time:</label>
+            <label htmlFor="startTime">Start:</label>
             <input
               type="time"
               id="startTime"
@@ -80,7 +80,7 @@ const ReservationForm = () => {
             </div>
 
             <div className="time-input">
-            <label htmlFor="endTime">End Time:</label>
+            <label htmlFor="endTime">End:</label>
               <input
                 type="time"
                 id="endTime"
@@ -108,7 +108,7 @@ const ReservationForm = () => {
           </div> 
 
           <div className="repeated-group">
-            <label htmlFor="repeated">Repeated Weekly:</label>
+            <label htmlFor="repeated">Repeated Weekly?</label>
             <input
               type="checkbox"
               id="repeated"
@@ -120,7 +120,7 @@ const ReservationForm = () => {
   
           {eventInfo.repeated && (
             <div className="form-group">
-              <label htmlFor="endDate">End Date for Weekly Repeat:</label>
+              <label htmlFor="endDate">Until what date?</label>
               <input
                 type="date"
                 id="endDate"
