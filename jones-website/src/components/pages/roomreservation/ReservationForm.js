@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { OAuthSignIn } from "./PostEvent";
+import './ReservationForm.css'; 
 
 const rooms = {
     'Commons':'0dc519d2efedb636f29ca28335aee7f34b90095d46507b879e92af4dbcf07e68@group.calendar.google.com',
@@ -38,9 +39,10 @@ const ReservationForm = () => {
     };
   
     return (
-      <div>
-        <h2>Event Information Form</h2>
+      <div className="form-box">
+        <h2 className="form-header">Event Information Form</h2>
         <form onSubmit={handleSubmit}>
+          <div className="form-group">
           <label htmlFor="eventName">Event Name:</label>
           <input
             type="text"
@@ -50,7 +52,9 @@ const ReservationForm = () => {
             onChange={handleInputChange}
             required
           /><br />
-  
+          </div>
+
+          <div className="form-group">
           <label htmlFor="eventDate">Event Date:</label>
           <input
             type="date"
@@ -60,51 +64,62 @@ const ReservationForm = () => {
             onChange={handleInputChange}
             required
           /><br />
-  
-          <label htmlFor="startTime">Start Time:</label>
-          <input
-            type="time"
-            id="startTime"
-            name="startTime"
-            value={eventInfo.startTime}
-            onChange={handleInputChange}
-            required
-          /><br />
-  
-          <label htmlFor="endTime">End Time:</label>
-          <input
-            type="time"
-            id="endTime"
-            name="endTime"
-            value={eventInfo.endTime}
-            onChange={handleInputChange}
-            required
-          /><br />
-  
-          <label htmlFor="room">Room:</label>
-          <select
-            id="room"
-            name="room"
-            value={eventInfo.room}
-            onChange={handleInputChange}
-          >
-            <option value="Commons">Commons</option>
-            <option value="PDR">PDR</option>
-            <option value="Jitchen">Jitchen</option>
-            <option value="Movie Room">Movie Room</option>
-          </select><br />
-  
-          <label htmlFor="repeated">Repeated Weekly:</label>
-          <input
-            type="checkbox"
-            id="repeated"
-            name="repeated"
-            checked={eventInfo.repeated}
-            onChange={handleInputChange}
-          /><br />
+          </div>
+          
+          <div className="time-group">
+            <div className="time-input">
+            <label htmlFor="startTime">Start Time:</label>
+            <input
+              type="time"
+              id="startTime"
+              name="startTime"
+              value={eventInfo.startTime}
+              onChange={handleInputChange}
+              required
+            /><br />
+            </div>
+
+            <div className="time-input">
+            <label htmlFor="endTime">End Time:</label>
+              <input
+                type="time"
+                id="endTime"
+                name="endTime"
+                value={eventInfo.endTime}
+                onChange={handleInputChange}
+                required
+              /><br />
+            </div>
+          </div>
+     
+          <div className="form-group">
+            <label htmlFor="room">Select Room:</label>
+            <select
+              id="room"
+              name="room"
+              value={eventInfo.room}
+              onChange={handleInputChange}
+            >
+              <option value="Commons">Commons</option>
+              <option value="PDR">PDR</option>
+              <option value="Jitchen">Jitchen</option>
+              <option value="Movie Room">Movie Room</option>
+            </select><br />
+          </div> 
+
+          <div className="repeated-group">
+            <label htmlFor="repeated">Repeated Weekly:</label>
+            <input
+              type="checkbox"
+              id="repeated"
+              name="repeated"
+              checked={eventInfo.repeated}
+              onChange={handleInputChange}
+            /><br />
+          </div>
   
           {eventInfo.repeated && (
-            <div>
+            <div className="form-group">
               <label htmlFor="endDate">End Date for Weekly Repeat:</label>
               <input
                 type="date"
@@ -118,7 +133,7 @@ const ReservationForm = () => {
   
           <br />
   
-          <input type="submit" value="Submit"/>
+          <input className='submit-button' type="submit" value="Submit"/>
         </form>
       </div>
     );

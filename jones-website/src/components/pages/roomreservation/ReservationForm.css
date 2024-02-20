@@ -1,0 +1,103 @@
+* {
+    font-family: 'futuraMediumBT'!important;
+}
+
+.submit-button {
+    font-size: 20px;
+    padding: 13px;
+    border-radius:10px;
+    background-color: #BE8EE3;
+    color: white;
+    border: none;
+}
+
+.form-box {
+    position: absolute;
+    top: 250px;
+    right: 400px;
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.form-header {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+  
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.time-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-input {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center; 
+}
+
+.time-input label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.time-input input[type="time"] {
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    padding: 6px;
+}
+
+.form-group label {
+    flex: 0 0 auto; 
+    margin-right: 10px; 
+}
+
+.form-group select {
+    flex: 1; 
+    width: 100%; 
+    padding: 6px;
+}
+
+.repeated-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.repeated-group label {
+    margin-right: 10px; /* Add spacing between label and checkbox */
+}
