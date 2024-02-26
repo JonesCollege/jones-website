@@ -43,7 +43,7 @@ function RoomReservation() {
   return (
     <div className='room-reservation-container'>
       <h1 className="header-text">RESERVE A ROOM</h1>
-    <div className='border'>
+    <div className='purple-border'>
       <div className='day-header'>
         <div className='calendar-mobile-header'>    
            <button 
@@ -81,7 +81,9 @@ function RoomReservation() {
           <RoomEventView title="Movie Room" eventsList={movieRoomEvents} selectedDay={selectedDay}/>
     </div>
     </div>
-    <ReservationForm />
+    <div className="reservation-form">
+      <ReservationForm />
+    </div>
     </div>
   );
 }

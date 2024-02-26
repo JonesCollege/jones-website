@@ -16,10 +16,21 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 20px;
+}
+
+.purple-border {
+  border: 2px solid #BE8EE3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; 
+  max-width: 1300px;
+  border-radius: 20px; 
 }
 
 .header-text {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   margin-top: 4%;
   letter-spacing: .45rem;
 }

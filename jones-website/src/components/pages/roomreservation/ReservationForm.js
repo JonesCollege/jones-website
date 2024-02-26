@@ -89,21 +89,49 @@ const ReservationForm = () => {
               /><br />
             </div>
           </div>
-     
-          <div className="form-group">
-            <label htmlFor="room">Select Room:</label>
-            <select
-              id="room"
-              name="room"
-              value={eventInfo.room}
-              onChange={handleInputChange}
-            >
-              <option value="Commons">Commons</option>
-              <option value="PDR">PDR</option>
-              <option value="Jitchen">Jitchen</option>
-              <option value="Movie Room">Movie Room</option>
-            </select><br />
-          </div> 
+          
+          <div className="form-group"  style={{marginBottom: '5px'}}>
+            <label style={{marginBottom: '0px'}}>Select Room:</label><br />
+            <label htmlFor="commons" style={{paddingLeft: '15px', marginBottom: '2px'}}>
+              <input
+                type="radio"
+                id="commons"
+                name="room"
+                value="Commons"
+                checked={eventInfo.room === "Commons"}
+                onChange={handleInputChange}
+              />{" "}Commons</label><br />
+            
+            <label htmlFor="pdr" style={{paddingLeft: '15px', marginBottom: '2px'}}>
+              <input
+                type="radio"
+                id="pdr"
+                name="room"
+                value="PDR"
+                checked={eventInfo.room === "PDR"}
+                onChange={handleInputChange}
+              />{" "}PDR</label><br />
+            
+            <label htmlFor="jitchen" style={{paddingLeft: '15px', marginBottom: '2px'}}>
+              <input
+                type="radio"
+                id="jitchen"
+                name="room"
+                value="Jitchen"
+                checked={eventInfo.room === "Jitchen"}
+                onChange={handleInputChange}
+              />{" "}Jitchen</label><br />
+            
+            <label htmlFor="movieRoom" style={{paddingLeft: '15px', marginBottom: '0px'}}>
+              <input
+                type="radio"
+                id="movieRoom"
+                name="room"
+                value="Movie Room"
+                checked={eventInfo.room === "Movie Room"}
+                onChange={handleInputChange}
+              />{" "}Movie Room</label><br />
+          </div>
 
           <div className="repeated-group">
             <label htmlFor="repeated">Repeated Weekly?</label>
