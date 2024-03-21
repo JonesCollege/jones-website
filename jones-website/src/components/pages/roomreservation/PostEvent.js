@@ -3,7 +3,7 @@ import { config } from '../../../config'
 export function OAuthSignIn() {
   const oauth2Endpoint = 'https://accounts.google.com/o/oauth2/v2/auth';
     const clientId = config.CLIENT_ID;
-    const redirectUri = 'http://jones.rice.edu/reserve-room';
+    const redirectUri = 'https://jones.rice.edu/reserve-room';
 
     const params = {
       client_id: clientId,
