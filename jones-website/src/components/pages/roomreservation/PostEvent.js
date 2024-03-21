@@ -1,7 +1,4 @@
-import React from 'react';
 import { config } from '../../../config' 
-import jQuery from 'jquery';
-
 
 export function OAuthSignIn() {
   const oauth2Endpoint = 'https://accounts.google.com/o/oauth2/v2/auth';

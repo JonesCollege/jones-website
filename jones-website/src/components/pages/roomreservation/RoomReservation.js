@@ -16,17 +16,10 @@ function RoomReservation() {
   const [pdrEvents, setPdrEvents] = useState([])
   const [kitchenEvents, setKitchenEvents] = useState([])
   const [movieRoomEvents, setMovieRoomEvents] = useState([])
-  const [addedEvent, setAddedEvent] = useState(["",
-  {
-    id: '',
-    start: '', 
-    end: '',
-    title: '',
-  }])
+
   const datePicker = useRef()
 
   useEffect(() => {
-    console.log("PRINTED")
     FetchRooms('Commons', setCommonsEvents)
     FetchRooms('PDR', setPdrEvents)
     FetchRooms('Jitchen', setKitchenEvents)
@@ -36,7 +29,7 @@ function RoomReservation() {
     const accessTokenFromFragment = url.hash.includes('access_token') ? url.hash.split('access_token=')[1] : '';
     const accessToken = accessTokenFromFragment.includes('&token_type=') ? accessTokenFromFragment.split('&token_type=')[0] : '';
     const eventInfo = sessionStorage.getItem('eventInfo');
-    if (accessToken != "" && eventInfo) {
+    if (accessToken !== "" && eventInfo) {
       PostEvent(accessToken, eventInfo).then(() => {
           // just automatically reload page to get new list
           window.location.href = "/reserve-room"
@@ -104,7 +97,7 @@ function RoomReservation() {
         </div>
       </div>
       <div className="reservation-form">
-        <ReservationForm setAddedEvent={setAddedEvent}/>
+        <ReservationForm/>
       </div>
     </div>
     <Footer />

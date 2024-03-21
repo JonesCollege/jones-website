@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import { OAuthSignIn } from "./PostEvent";
 import './ReservationForm.css'; 
-import moment from 'moment';
 
 
 const rooms = {
@@ -11,7 +10,7 @@ const rooms = {
     'PDR': '8d7c4798cf2d4f3fff978a6d207680d0a480a1a626dedc1dd36475c487f8672c@group.calendar.google.com'
 }
 
-const ReservationForm = ({setAddedEvent}) => {
+const ReservationForm = () => {
     const [eventInfo, setEventInfo] = useState({
         eventName: '',
         eventDate: '',
@@ -32,10 +31,10 @@ const ReservationForm = ({setAddedEvent}) => {
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      sessionStorage.setItem('eventInfo', buildResponse(eventInfo, setAddedEvent))
+      sessionStorage.setItem('eventInfo', buildResponse(eventInfo))
       // Add your logic to handle form submission
       OAuthSignIn()
-      console.log('Form submitted:', buildResponse(eventInfo, setAddedEvent));
+      console.log('Form submitted:', buildResponse(eventInfo));
     };
   
     return (
@@ -193,15 +192,7 @@ const buildResponse = (eventInfo, setAddedEvent) => {
             `RRULE:FREQ=WEEKLY;COUNT=${countWeeklyOccurrences(eventInfo.eventDate, eventInfo.endDate)}`,
           ]
     }
-    setAddedEvent([
-      eventInfo.room,
-      {
-        id: 50,
-        start: new Date(moment(convertTime(eventInfo.eventDate, eventInfo.startTime)).toISOString()), 
-        end: new Date(moment(convertTime(eventInfo.eventDate, eventInfo.endTime)).toISOString()),
-        title: eventInfo.eventName,
-      }]
-    )
+
     return JSON.stringify(event)
 }
 

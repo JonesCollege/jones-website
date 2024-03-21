@@ -81,30 +81,6 @@ const RoomEventView = ({title, eventsList, selectedDay}) => {
   }
 
   export default RoomEventView
-  
-          {/* <Calendar
-            date={selectedDay}
-            events={eventsList}
-            localizer={localizer}
-            startAccessor="start"
-            endAccessor="end"
-            defaultView={Views.DAY}
-            views={{ month: false, week: false, day: true }}
-            toolbar={false}
-            style={{ 
-                height: 400, 
-                width: 275,
-              }}
-            min={minTime && new Date(minTime)}
-            max={maxTime && new Date(maxTime)}
-            dayLayoutAlgorithm={'no-overlap'}
-            formats={{timeGutterFormat: (date, culture, localizer) =>
-              localizer.format(date, 'ha', culture),
-          }}
-            eventPropGetter={eventStyleGetter}
-            dayPropGetter={dayStyleGetter}
-            tooltipAccessor={(event) => <EventTooltip event={event} />}
-            /> */}
 
 
 const EventTooltip = ({event}) => {
