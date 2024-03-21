@@ -32,8 +32,11 @@ function RoomReservation() {
     if (accessToken !== "" && eventInfo) {
       PostEvent(accessToken, eventInfo).then(() => {
           // just automatically reload page to get new list
-          window.location.href = "/reserve-room"
-          window.history.pushState({}, "", "/reserve-room")
+          setTimeout(function() {
+            // Your code to be executed after 1 second
+            window.location.href = "/reserve-room"
+            window.history.pushState({}, "", "/reserve-room")
+        }, 1000);
         
         // if (resp.status == "confirmed") {
         //   console.log(addedEvent)
@@ -59,7 +62,7 @@ function RoomReservation() {
   return (
   <div className='room-reservation-container'>
     <h1 className="header-text">RESERVE A ROOM</h1>
-    <p className='description-text'>Creating a room reservation requires a Google Calendar account. Reservation will be added to Google Calendar and can be deleted by removing from your calendar. </p>
+    <p className='description-text'>Creating a room reservation requires a Google Calendar account. Once submitted, confirm the reservation has been created by checking your Google Calendar, it can then be deleted by simply removing it from your calendar. </p>
     <div className='display-container'>
       <div className='purple-border'>
         <div className='date-header'>
