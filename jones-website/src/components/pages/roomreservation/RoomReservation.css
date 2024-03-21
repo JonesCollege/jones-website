@@ -1,13 +1,68 @@
-.main-txt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
+* {
+  font-family: 'futuraMediumBT';
 }
 
-.centered-text {
+.room-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.calendar-mobile-header {
+  margin-top: 15px;
+}
+
+.room-reservation-container {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  color: black;
-  max-width: 1000px; 
-  padding: 0 20px;
+  padding: 20px;
+}
+.display-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.purple-border {
+  border-top: 2px solid #BE8EE3;
+  border-left: 2px solid #BE8EE3;
+  border-bottom: 2px solid #BE8EE3;
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: calc(100vh - 85px);
+  overflow: scroll;
+  padding: 1rem;
+}
+
+.header-text {
+  margin-top: 4%;
+  letter-spacing: .45rem;
+}
+
+.description-text {
+  font-family: 'mpReg';
+  padding:24px 40px;
+}
+
+.date-header {
+  display: flex;
+  flex-direction: row;
+  width:  350px;
+  padding: 1rem 0;
+}
+
+.calendar-mobile-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.calendar-box {
+  border-color: black;
+}
+
+.calendar-title {
+  font-size: 100px;
 }

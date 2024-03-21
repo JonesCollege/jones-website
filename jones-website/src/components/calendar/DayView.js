@@ -103,7 +103,7 @@ const DayView = ({ selectedDay, eventsList }) => {
             />
         :
         <div className='no-events'>
-          No events.
+          No events today.
         </div>
         }
         
@@ -161,7 +161,6 @@ const AllDayTag = ({title, location, key}) => {
 }
 
 const EventTooltip = ({event}) => {
-  console.log(event)
   return (
     <div style={{backgroundColor:'black'}}>
       {event.title}
