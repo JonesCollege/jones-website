@@ -12,7 +12,7 @@ export function OAuthSignIn() {
       client_id: clientId,
       redirect_uri: redirectUri,
       response_type: 'token',
-      scope: 'https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email',
+      scope: 'https://www.googleapis.com/auth/calendar.events',
       include_granted_scopes: 'true',
       state: 'pass-through value',
     };

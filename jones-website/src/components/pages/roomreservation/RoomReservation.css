@@ -5,7 +5,6 @@
 .room-container {
   display: flex;
   flex-direction: row;
-  margin-left: 10%;
 }
 
 .calendar-mobile-header {
@@ -18,21 +17,41 @@
   text-align: center;
   padding: 20px;
 }
-
+.display-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .purple-border {
-  border: 2px solid #BE8EE3;
-  padding: 20px;
+  border-top: 2px solid #BE8EE3;
+  border-left: 2px solid #BE8EE3;
+  border-bottom: 2px solid #BE8EE3;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px; 
   max-width: 1300px;
-  border-radius: 20px; 
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: calc(100vh - 85px);
+  overflow: scroll;
+  padding: 1rem;
 }
 
 .header-text {
-  margin-bottom: 60px;
   margin-top: 4%;
   letter-spacing: .45rem;
+}
+
+.description-text {
+  font-family: 'mpReg';
+  padding:24px 40px;
+}
+
+.date-header {
+  display: flex;
+  flex-direction: row;
+  width:  350px;
+  padding: 1rem 0;
 }
 
 .calendar-mobile-header {
@@ -42,12 +61,6 @@
 
 .calendar-box {
   border-color: black;
-}
-
-.day-header {
-  position: relative;
-  left: 12%;
-  margin-bottom: 25px;
 }
 
 .calendar-title {

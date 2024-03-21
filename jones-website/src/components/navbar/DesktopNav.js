@@ -41,12 +41,9 @@ export default DesktopNav;
 const ReserveRoomButton = () => (
   <li className="nav-item">
     <Tooltip text="Reserve a room">
-    <button
-    onClick={() => window.open("/reserve-room", "_blank")}
-    className="room-reservation-button"
-    >
+      <Link to={"/reserve-room"} className="nav-links">
         <LuBookmarkPlus size={20} />
-      </button>
+      </Link>
     </Tooltip>
   </li>
 );

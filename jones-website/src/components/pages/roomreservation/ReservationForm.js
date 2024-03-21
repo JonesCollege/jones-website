@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import { OAuthSignIn } from "./PostEvent";
 import './ReservationForm.css'; 
+import moment from 'moment';
+
 
 const rooms = {
     'Commons':'0dc519d2efedb636f29ca28335aee7f34b90095d46507b879e92af4dbcf07e68@group.calendar.google.com',
@@ -9,7 +11,7 @@ const rooms = {
     'PDR': '8d7c4798cf2d4f3fff978a6d207680d0a480a1a626dedc1dd36475c487f8672c@group.calendar.google.com'
 }
 
-const ReservationForm = () => {
+const ReservationForm = ({setAddedEvent}) => {
     const [eventInfo, setEventInfo] = useState({
         eventName: '',
         eventDate: '',
@@ -30,10 +32,10 @@ const ReservationForm = () => {
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      sessionStorage.setItem('eventInfo', buildResponse(eventInfo))
+      sessionStorage.setItem('eventInfo', buildResponse(eventInfo, setAddedEvent))
       // Add your logic to handle form submission
       OAuthSignIn()
-      console.log('Form submitted:', buildResponse(eventInfo));
+      console.log('Form submitted:', buildResponse(eventInfo, setAddedEvent));
     };
   
     return (
@@ -41,7 +43,7 @@ const ReservationForm = () => {
         <h2 className="form-header">R E S E R V E</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-          <label htmlFor="eventName">Name:</label>
+          <label htmlFor="eventName">Event Name:</label>
           <input
             type="text"
             id="eventName"
@@ -167,7 +169,7 @@ const ReservationForm = () => {
 
 export default ReservationForm
 
-const buildResponse = (eventInfo) => {
+const buildResponse = (eventInfo, setAddedEvent) => {
     const event = {
         summary: eventInfo.eventName,
         start: {
@@ -191,6 +193,15 @@ const buildResponse = (eventInfo) => {
             `RRULE:FREQ=WEEKLY;COUNT=${countWeeklyOccurrences(eventInfo.eventDate, eventInfo.endDate)}`,
           ]
     }
+    setAddedEvent([
+      eventInfo.room,
+      {
+        id: 50,
+        start: new Date(moment(convertTime(eventInfo.eventDate, eventInfo.startTime)).toISOString()), 
+        end: new Date(moment(convertTime(eventInfo.eventDate, eventInfo.endTime)).toISOString()),
+        title: eventInfo.eventName,
+      }]
+    )
     return JSON.stringify(event)
 }
 

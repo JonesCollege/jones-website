@@ -11,20 +11,17 @@
     background-color: #BE8EE3;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .form-box {
-    position: absolute;
-    top: 31%;
-    right: 10%;
-    width: 310px;
-    height: 620px;
     margin: 0 auto;
     text-align: center;
     background-color: white;
-    padding: 35px;
+    padding: 1.5rem 3rem;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #BE8EE3; 
+    min-width: 320px;
 }
 
 .form-header {
