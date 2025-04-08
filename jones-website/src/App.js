@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/home/Home';
 import OWeek from './components/pages/oweek/O-Week';
-import Ateam from './components/pages/community/Ateam';
+import Jteam from './components/pages/community/Jteam';
 import Associatesalumni from './components/pages/community/Associatesalumni'
 import Studentgov from './components/pages/community/Studentgov'
 import BeerBikeTraditionsPage from "./components/pages/beerbike-traditions/BeerBikeTraditionsPage";
@@ -23,7 +23,7 @@ function App() {
           <Route path='/' exact element={<Home />} />
           <Route path='/o-week' exact element={<OWeek />} />
           <Route path='/studentgov' exact element={<Studentgov />} />
-          <Route path='/ateam' exact element={<Ateam />} />
+          <Route path='/jteam' exact element={<Jteam />} />
           <Route path='/associates-alumni' exact element={<Associatesalumni />} />
           <Route path="/beerbike-traditions" exact element={<BeerBikeTraditionsPage />}/>
           <Route path='/resources' exact element={<PeerResources />} />          

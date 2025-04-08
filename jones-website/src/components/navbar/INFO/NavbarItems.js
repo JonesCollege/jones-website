@@ -5,8 +5,8 @@ export const CommunityItems = [
       cName: 'dropdown-link'
     },
     {
-      title: 'A-TEAM',
-      path: '/ateam',
+      title: 'J-TEAM',
+      path: '/jteam',
       cName: 'dropdown-link'
     },
     {

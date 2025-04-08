@@ -15,8 +15,8 @@ export const Tabs = [
               route: '/studentgov',
             },
             {
-              title: 'A-TEAM',
-              route: '/ateam',
+              title: 'J-TEAM',
+              route: '/jteam',
             },
             {
               title: 'ASSOCIATES/\nALUMNI',

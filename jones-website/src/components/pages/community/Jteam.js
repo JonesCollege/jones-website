@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 import Footer from '../../Footer'
-import './css/Ateam.css'
+import './css/Jteam.css'
 import { useResizeWidth, useScrollToTop } from '../../../utility'
 
 const Ateam = () => {
@@ -17,7 +17,7 @@ const Ateam = () => {
         <h2>ADULT TEAM</h2>
         <p>Here at Rice, each college has a number of amazing faculty, staff, alumni, and 
           community members that are affectionately referred to as Associates. At Jones, 
-          they are the best of the bunch. They cheer on our Powderpuff, sponsor study breaks, 
+          they are the best of the bunch. They cheer on our Powderpuff team, sponsor study breaks, 
           and do whatever they can to make your college experience the best it can possibly be.
         </p>
       </div>
@@ -68,16 +68,11 @@ const Ateam = () => {
           <p className='ateamname'>Kelsey Ullom</p>
           <div className='ateamposemail'><span className='ateampos'>Jones South RA</span><a href='mailto: keu1@rice.edu' className='ateamemail'>keu1@rice.edu</a></div>
           <p className='ateamdesc'>
-            Kelsey (she/they) is a world-traveling lifelong learner who is starting her first year as the Jones South RA.
+            Kelsey (she/they) is a world-traveling lifelong learner who's been the RA in Jones South since 2023. 
             <br/> <br/>
-            Originally from Miami, Florida, Kelsey has lived in many different places within the south, mid-west, and eastern United States. As an International Studies 
-            major at Ohio Wesleyan University, Kelsey was fortunate to participate in several study abroad opportunities, which convinced her of the power of learning 
-            through travel. She has since facilitated service programs in Haiti, administered study abroad programs with the U.S. Department of State, consulted for the 
-            United Nations, and earned her master’s degree in International Education from the University of Pennsylvania.
+            Originally from Miami, Florida, Kelsey has lived in many different places within the south, mid-west, and eastern United States. As an International Studies major at Ohio Wesleyan University, Kelsey was fortunate to participate in several study abroad opportunities, which convinced her of the power of learning through travel. She has since facilitated service programs in Haiti, administered study abroad programs with the U.S. Department of State, consulted for the United Nations, and earned her master’s degree in International Education from the University of Pennsylvania.
             <br/> <br/>
-            Kelsey came to Rice about two years ago. As an Assistant Director at the Center for Civic Leadership, she oversees international programs, including global 
-            internships and fellowships. Kelsey loves helping Rice students dream up a travel itinerary and find funding to make their dream a reality. She takes any 
-            chance she gets to learn something new about the cultures and traditions that Rice students bring with them from near and far.
+            Kelsey came to Rice in 2021. As an Associate Director at the Center for Civic Leadership, she oversees international programs, including global internships and fellowships. Kelsey loves helping Rice students dream up a travel itinerary and find funding to make their dream a reality. She takes any chance she gets to learn something new about the cultures and traditions that Rice students bring with them from near and far.
             <br/> <br/>
             Kelsey is an avid cyclist and enjoys crafting, reading and writing, trying to play the ukulele, and being outside, preferably near a large body of water. 
             </p>
