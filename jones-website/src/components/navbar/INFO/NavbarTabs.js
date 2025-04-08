@@ -53,7 +53,11 @@ export const Tabs = [
             },
             {
               title: 'P-CARD REQUEST',
-              external: 'https://docs.google.com/forms/d/e/1FAIpQLSc8YZvR48no9vxIBxrAqwAfafGLgcdw4Q_NnTf6ivMCaR6tMw/viewform',
+              external: 'https://forms.gle/yRUphKyi7PkHovhr5',
+            },
+            {
+              title: 'P-CARD POST USE',
+              external: 'https://forms.gle/nLmh3VVJSEAie2w8A',
             },
         ]
     },
