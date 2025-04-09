@@ -14,7 +14,7 @@ const Ateam = () => {
     <div>
     <div id='ateam'>
       <div id='ateamintro'>
-        <h2>ADULT TEAM</h2>
+        <h2>J-TEAM</h2>
         <p>Here at Rice, each college has a number of amazing faculty, staff, alumni, and 
           community members that are affectionately referred to as Associates. At Jones, 
           they are the best of the bunch. They cheer on our Powderpuff team, sponsor study breaks, 
