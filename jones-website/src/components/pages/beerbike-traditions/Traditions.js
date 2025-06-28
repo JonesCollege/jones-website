@@ -2,7 +2,7 @@ import React from "react";
 import "./css/Traditions.css";
 
 import image1 from "./INFO/traditions_images/fitq.JPG";
-import image2 from "./INFO/traditions_images/coke_cart.jpeg";
+import image2 from "./INFO/traditions_images/coke_cart.jpg";
 import image3 from "./INFO/traditions_images/night_ride.JPG";
 
 
