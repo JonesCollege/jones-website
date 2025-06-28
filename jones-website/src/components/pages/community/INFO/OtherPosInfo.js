@@ -1,8 +1,13 @@
 export const OtherPos = [
     {
+        "title": "Food Ambassador",
+        "email": "",
+        "people": ["Samvita Gautham"]
+    },
+    {
         "title": "Technology Coordinators",
         "email": "",
-        "people": ["Evan Ho", "Maaz Zuberi"]
+        "people": ["Evan Ho", "TBD"]
     },
     {
         "title": "Student Maintenance Representative",
@@ -12,16 +17,26 @@ export const OtherPos = [
     {
         "title": "Senior Events Coordinators",  
         "email": "jonesseniorevents@gmail.com",
-        "people": ["Ashley Kase", "Kareena Patel", "Maaz Zuberi", "Maya Hoffman"]
+        "people": ["Sean McGarry", "Nyla Hartigan", "Ryan MacMurray", "Sergio Rojas", "Adrian Pomer", "Varsha Chandramouli"]
     },
     // {
     //     "title": "Diversity Council",
     //     "email": "N/A",
-    //     "people": ["Christi Nguyen", "Alex Walberg", "Kareena Patel"]
+    //     "people": ["TBD"]
     // },
     {
         "title": "Public Space Coordinator",
         "email": "dmr10@rice.edu",
-        "people": ["Dylan Raaum"]
+        "people": [" Samvita Gautham", "Ayra Matondan"]
+    },
+    {
+        "title": "Head Caregivers",
+        "email": "",
+        "people": ["TBD"]
+    },
+    {
+        "title": "College Night",
+        "email": "",
+        "people": ["TBD"]
     },
 ]

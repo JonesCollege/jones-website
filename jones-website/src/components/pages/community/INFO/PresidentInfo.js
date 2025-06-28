@@ -1,6 +1,6 @@
 export const PresInfo = {
-    "img": "./images/cabinet/2024-2025/yuv.jpg",
-    "name": "Yuv Sachdeva",
-    "year": "2024-2025",
+    "img": "./images/cabinet/2025-2026/Zack Donavan.jpg",
+    "name": "Zac Donovan",
+    "year": "2025-2026",
     "desc": ""
 }

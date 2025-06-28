@@ -7,22 +7,22 @@ export const ElectedPos = [
     {
         "title": "O-Week Coordinators",
         "email": "jonescollegeoweek@gmail.com",
-        "people": ["Arryana Lyon", "Sammy Baek", "Samy Martinez"]
+        "people": ["Rachel Parr", "Garrett Pirretti", "Manav Lund"]
     },
     {
         "title": "RPC Rep",
         "email": "jones.rpc.rep@gmail.com",
-        "people": ["Delaney Miller"]
+        "people": ["TBD"]
     },
     {
         "title": "Social Coordinators",
         "email": "jonessocials@gmail.com",
-        "people": ["Gayatri Singla", "Jacob Lowenstein", "Walsh Klineberg"]
+        "people": ["Demetris Chrysostomou", "Max Hess", "Jude Thomas", "Iris Rivera"]
     },
     {
         "title": "U-Court Rep",
         "email": "jonesucourt@gmail.com",
-        "people": ["Simon Quintero"]
+        "people": ["Ellis Vance"]
     },
     // {
     //     "title": "Floor Rep",

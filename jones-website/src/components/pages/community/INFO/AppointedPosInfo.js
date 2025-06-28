@@ -3,14 +3,19 @@ export const AppointedPos = [
         "position": "President",
         "info": [
             {
-                "title": "Beer Bike Coordinators",
+                "title": "Senior Beer Bike Coordinators",
                 "email": "beerbikejones@gmail.com",
-                "people": ["Ashley Kase", "Dheerj Jasuja", "Helena Coleman", "Lucia Romero-Alston", "Luisa Tolda"]
+                "people": ["Abigail Li", "Claudia Sterling", " Ryan MacMurray"]
+            },
+            {
+                "title": "Junior Beer Bike Coordinators",
+                "email": "beerbikejones@gmail.com",
+                "people": ["TBD"]
             },
             {
                 "title": "Food Rep",
                 "email": "jonescollegefoodrep@gmail.com",
-                "people": ["Dumari De Leon"]
+                "people": ["TBD"]
             },
         ]
     },
@@ -19,7 +24,7 @@ export const AppointedPos = [
         "info": [
             {
                 "title": "Associate Justices",
-                "people": ["Rachel Parr, 4C", "Craig Pentland, 4S", "Biraj Nainabasti, 4N", "Evan Ho, 3S", "Ava Brazell, 3N", "Eshika Tandon, 2S", "Daijah Wilson, 2N", "Ben Lindenbaum, 1S", "Izzy Xiong, 1N"]
+                "people": ["TBD"]
             },
         ]
     },
@@ -39,27 +44,27 @@ export const AppointedPos = [
             {
                 "title": "Arts and Wellness Coordinators",
                 "email": "jones.cic5@gmail.com",
-                "people": ["Anna Stravato", "Rachel Parr"]
+                "people": ["Anna Averill", "Samanantha Mahung"]
             },
             {
                 "title": "Cultural Coordinators",
                 "email": "jonesculturals@gmail.com",
-                "people": ["Daniel Peinado", "Safa Merani"]
+                "people": ["Daniel Peinado", "Safa Merani", "Komal Talloo"]
             },
             {
                 "title": "Kitchen Coordinators",
                 "email": "joneskitchencommittee@gmail.com",
-                "people": ["Abigail Li", "Anjali Mathew", "Delaney Miller"],
+                "people": ["Banesa Valencia", "Sarah Yesnowitz"]
             },
             {
                 "title": "Environmental Representatives",
                 "email": "jones.ecoreps@gmail.com",
-                "people": ["Abigail Jablon", "Dyllan Lozano-Lomeli"]
+                "people": ["TBD"]
             },
             {
                 "title": "Merchandise Coordinators",
                 "email": "jonesmerchcoordinators@gmail.com",
-                "people": ["Seryna Ayala", "Ioana Murgulet", "Andrew Ondara"],
+                "people": ["Cheyenne Hayes", "Leela Sydow", "Valentina Hoover", "Nina Yu", "Sarah Yesnowitz"]
             }
         ]
     },
@@ -69,7 +74,7 @@ export const AppointedPos = [
             {
                 "title": "Sports Coordinators",
                 "email": "jonessportscoords@gmail.com",
-                "people": ["Aditya Daga", "Maya Gerke", "Sean McGarry"],
+                "people": ["Sean McGarry", "Adity Daga", "Leela Sydow"]
             },
             // {
             //     "title": "Voter Rep",
@@ -79,12 +84,12 @@ export const AppointedPos = [
             {
                 "title": "JIBoArd Representative",
                 "email": "",
-                "people": ["Leela Sydow", "Sneha Johnson", "Yilan Ruan"],
+                "people": ["Valentina Hoover", "TBD"]
             },
             {
                 "title": "Jones Goes Coordinators",
                 "email": "",
-                "people": ["Danielle Colon", "Eshika Tandon", "James Cheng", "Lauren Light"],
+                "people": ["Ryan MacMurray", "Eshika Tandon", "Lauren Light", "Nina Yu", "Leslie Rojo Flores", "Danielle Colon"]
             }
         ]
     },
@@ -94,17 +99,17 @@ export const AppointedPos = [
             {
                 "title": "Webmagisters",
                 "email": "jibawebmaster@gmail.com",
-                "people": ["Ananya Rao", "Anjali Mathew"]
+                "people": ["Ananya Rao", "Lakshanyaa Rajkumar", "Anjali Mathew"]
             },
             {
                 "title": "Historians",
                 "email": "thejoneshistorian@gmail.com",
-                "people": ["Catherine Cook", "Hannah Lloyd"]
+                "people": ["Catherine Cook", "Shuken Nakamura", "Ryan Ji","Alex DeGreiner"]
             },
             {
                 "title": "Social Media Directors",
                 "email": "jonesprdirector@gmail.com",
-                "people": ["CJ Friend", "Navya Dronamraju"],
+                "people": ["CJ Friend", "Shuken Nakamura"]
             },
         ]
     }
