@@ -509,6 +509,6 @@ export const Gophers = [
     email: "--",
     major: "--",
     collegetag: "./college-tags/jones_tag.png",
-    img: "./images/questionmark.png",
+    img: "./images/jones_logo_l.jpeg",
   },
 ];
