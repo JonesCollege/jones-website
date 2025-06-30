@@ -1,4 +1,4 @@
-import React , { useState } from 'react';
+import { useState } from 'react';
 import Modal from "react-modal";
 // import {MdDownload} from 'react-icons/md'
 import CoordCard from './CoordCard';
@@ -132,7 +132,7 @@ const AffiliateGrid = () => {
 const OweekBook = () =>
  <div className='oweek-book-container'>
     <div className='book-title-container'>
-        <h2 className='oweek-book-title'>OWEEK BOOK</h2>
+        <h2 className='oweek-book-title'>OWEEK BOOK (COMING SOON)</h2>
         {/* <a
             className='book-download-button'
             target="_blank"
@@ -141,5 +141,5 @@ const OweekBook = () =>
             <MdDownload className='book-download-icon' />
         </a> */}
     </div>
-    <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://heyzine.com/flip-book/64a4f37b27.html" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>
+    {/* <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://heyzine.com/flip-book/64a4f37b27.html" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe> */}
 </div>;
