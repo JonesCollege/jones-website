@@ -70,21 +70,21 @@ export const CabinetInfo = [
         "pronouns": "",
         "position": "Secretary",
         "major": "_____",
-        "img": "images/cabinet/2025-2026/jones.webp",
+        "img": "images/cabinet/2025-2026/sawyer.jpeg",
         "email": "jonessecretaries@gmail.com",
         "shortdesc": "Manage the e-mail listserv, record & distribute Cabinet meeting minutes",
-        "objpos": '-35px -10px',
-        "maxsize": '145%'
+        "objpos": '-5px -10px',
+        "maxsize": '150%'
     },
     {
         "name": "Ridhi Dondeti",
         "pronouns": "",
         "position": "Secretary",
         "major": "Social Policy Analysis and Economics",
-        "img": "images/cabinet/2025-2026/jones.webp",
+        "img": "images/cabinet/2025-2026/ridhi.jpeg",
         "email": "jonessecretaries@gmail.com",
         "shortdesc": "Manage the e-mail listserv, record & distribute Cabinet meeting minutes",
-        "objpos": '-35px -10px',
+        "objpos": '-30px -30px',
         "maxsize": '145%'
     },
     {
