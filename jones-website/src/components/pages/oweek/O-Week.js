@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Modal from "react-modal";
-// import {MdDownload} from 'react-icons/md'
+import {MdDownload} from 'react-icons/md'
 import CoordCard from './CoordCard';
 import GroupCard from './GroupCard';
 import Footer from '../../Footer';
@@ -132,14 +132,14 @@ const AffiliateGrid = () => {
 const OweekBook = () =>
  <div className='oweek-book-container'>
     <div className='book-title-container'>
-        <h2 className='oweek-book-title'>OWEEK BOOK (COMING SOON)</h2>
-        {/* <a
+        <h2 className='oweek-book-title'>OWEEK BOOK</h2>
+        <a
             className='book-download-button'
             target="_blank"
             rel="noreferrer"
-            href='https://drive.google.com/file/d/1bM1lSvrYIUiTobyoSGKiuF_PeHCNNoKh/view?usp=drivesdk'>
+            href='https://drive.google.com/file/d/1TTXbP9-Tned6JH3v1N1f4Rm1Db7ChoNn/view'>
             <MdDownload className='book-download-icon' />
-        </a> */}
+        </a>
     </div>
-    {/* <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://heyzine.com/flip-book/64a4f37b27.html" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe> */}
+    <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://heyzine.com/flip-book/e2f633895a.html" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>
 </div>;
