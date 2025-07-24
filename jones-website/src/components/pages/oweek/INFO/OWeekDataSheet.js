@@ -416,7 +416,7 @@ export const OWeekGroups = [
         img: "./images/oweek/oweek-groups/wizards/toby.jpg",
       },
       {
-        name: "SEGIO R",
+        name: "SERGIO R",
         email: "sr111@rice.edu",
         major: "Business and Sports Management",
         collegetag: "./college-tags/jones_tag.png",
