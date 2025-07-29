@@ -32,7 +32,7 @@ export const CoordBios = [
   {
     name: "GARRET PIRRETTI",
     bio: "Garrett is a Sophmore from Chandler, Arizona studying Chemical Engineering with aspirations of going to medical school. He is known for working various jobs in the RMC, frequenting the North laundry room and 3N table, and bringing an overall sense of whimsy.",
-    img: "./images/oweek/coords/garrett.jpg",
+    img: "./images/oweek/coords/garrett_pic.jpg",
   },
 ];
 export const OWeekGroups = [
@@ -416,7 +416,7 @@ export const OWeekGroups = [
         img: "./images/oweek/oweek-groups/wizards/toby.jpg",
       },
       {
-        name: "SEGIO R",
+        name: "SERGIO R",
         email: "sr111@rice.edu",
         major: "Business and Sports Management",
         collegetag: "./college-tags/jones_tag.png",
@@ -509,6 +509,6 @@ export const Gophers = [
     email: "--",
     major: "--",
     collegetag: "./college-tags/jones_tag.png",
-    img: "./images/questionmark.png",
+    img: "./images/jones_logo_l.jpeg",
   },
 ];
