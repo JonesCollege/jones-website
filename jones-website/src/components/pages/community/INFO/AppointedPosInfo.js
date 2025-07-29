@@ -74,7 +74,7 @@ export const AppointedPos = [
             {
                 "title": "Sports Coordinators",
                 "email": "jonessportscoords@gmail.com",
-                "people": ["Sean McGarry", "Adity Daga", "Leela Sydow"]
+                "people": ["Sean McGarry", "Aditya Daga", "Leela Sydow"]
             },
             // {
             //     "title": "Voter Rep",
