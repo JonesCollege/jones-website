@@ -63,18 +63,24 @@ const Ateam = () => {
       </div>
 
       <div className='ateamflex'>
-        <img src={require('./INFO/ateam_images/Kelsey.jpg')} alt='Jones RA, Kelsey Ullom' className='ateamimage' id='southraimage'></img>
+        <img src={require('./INFO/ateam_images/kelsey_heather.jpg')} alt='Jones RA, Kelsey Ullom' className='ateamimage' id='southraimage'></img>
         <div className='ateaminfo'>
-          <p className='ateamname'>Kelsey Ullom</p>
+          <p className='ateamname'>Kelsey Ullom and Heather Roberts</p>
           <div className='ateamposemail'><span className='ateampos'>Jones South RA</span><a href='mailto: keu1@rice.edu' className='ateamemail'>keu1@rice.edu</a></div>
           <p className='ateamdesc'>
-            Kelsey (she/they) is a world-traveling lifelong learner who's been the RA in Jones South since 2023. 
-            <br/> <br/>
-            Originally from Miami, Florida, Kelsey has lived in many different places within the south, mid-west, and eastern United States. As an International Studies major at Ohio Wesleyan University, Kelsey was fortunate to participate in several study abroad opportunities, which convinced her of the power of learning through travel. She has since facilitated service programs in Haiti, administered study abroad programs with the U.S. Department of State, consulted for the United Nations, and earned her master’s degree in International Education from the University of Pennsylvania.
-            <br/> <br/>
-            Kelsey came to Rice in 2021. As an Associate Director at the Center for Civic Leadership, she oversees international programs, including global internships and fellowships. Kelsey loves helping Rice students dream up a travel itinerary and find funding to make their dream a reality. She takes any chance she gets to learn something new about the cultures and traditions that Rice students bring with them from near and far.
-            <br/> <br/>
-            Kelsey is an avid cyclist and enjoys crafting, reading and writing, trying to play the ukulele, and being outside, preferably near a large body of water. 
+            Hey Jones! We are Kelsey and Heather, your RAs residing in Jones South. 
+            <br/><br/>
+            Originally from Miami, Florida, Kelsey has called a lot of places home—everywhere from Arkansas to DC. She majored in International Studies at Ohio Wesleyan University, where she took full advantage of study abroad opportunities and quickly became a believer in the power of learning through travel.
+            <br/><br/>
+            Since then, Kelsey’s global adventures have taken her far and wide: She’s led service-learning programs in Haiti, worked on study abroad initiatives with the U.S. Department of State, consulted for the United Nations, and earned a master’s degree in International Education from the University of Pennsylvania. 
+            <br/><br/>
+            At Rice, Kelsey serves as Associate Director at the Center for Civic Leadership, where she helps students turn their travel dreams into action through international programs, internships, and fellowships. Outside of work, Kelsey is an avid cyclist and an amateur crafter, writer, and birder. She dabbles in the ukulele, enjoys reading, camping, hiking, and baking key lime pie. You can usually find her outdoors, ideally near a body of water.
+            <br/><br/>
+            Heather was born in Houston and raised just down the road in Pasadena, so this area has always been home. She went to college at Texas A&M University–Corpus Christi (go Islanders!) where she earned her BA in Communication. Over the years, she’s worked a variety of fun and random jobs—from a music venue and a local visitor’s center to a dog food company. Currently, she manages a LensCrafters store, where she helps people find the glasses of their dreams (because life’s just better in focus, right?)
+            <br/><br/>
+            When she’s off the clock, Heather loves reading with her book club, juggling (yes, literally), and contemplating the purchase of a unicycle she’s had in her Amazon cart for years. She also has a skateboard, but hasn't figured out how to do any tricks yet. Open to tips! Even though Jones is big on biking, Heather prefers to exercise on two legs—she’s completed six half marathons and countless 5k’s. Maybe a Jones Running Club in the future? 
+            <br/><br/>
+            We live with a beloved, anti-social cat named Atlas, who you may or may not get the chance to meet (he prefers his privacy). Stop by Jones South to hang out, see our art collection, and debate where to get the best french fries. We’re excited to be part of the Jones College community and looking forward to getting to know everyone!
             </p>
         </div>
       </div>
