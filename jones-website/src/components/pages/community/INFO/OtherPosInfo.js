@@ -5,9 +5,9 @@ export const OtherPos = [
         "people": ["Samvita Gautham"]
     },
     {
-        "title": "Technology Coordinators",
+        "title": "Technology Coordinator",
         "email": "",
-        "people": ["Evan Ho", "TBD"]
+        "people": ["Evan Ho"]
     },
     {
         "title": "Student Maintenance Representative",

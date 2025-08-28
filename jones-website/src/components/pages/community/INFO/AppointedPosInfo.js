@@ -10,7 +10,7 @@ export const AppointedPos = [
             {
                 "title": "Junior Beer Bike Coordinators",
                 "email": "beerbikejones@gmail.com",
-                "people": ["Shivani Patel, Sofia Tambalotti"]
+                "people": ["Shivani Patel", "Sofia Tambalotti"]
             },
         ]
     },
@@ -54,7 +54,7 @@ export const AppointedPos = [
             {
                 "title": "Environmental Representatives",
                 "email": "jones.ecoreps@gmail.com",
-                "people": ["TBD"]
+                "people": ["Dyllan Lozano-Lomelli", "Lily Hestjean"]
             },
             {
                 "title": "Merchandise Coordinators",
