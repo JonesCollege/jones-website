@@ -19,24 +19,24 @@ export const OtherPos = [
         "email": "jonesseniorevents@gmail.com",
         "people": ["Sean McGarry", "Nyla Hartigan", "Ryan MacMurray", "Sergio Rojas", "Adrian Pomer", "Varsha Chandramouli"]
     },
-    // {
-    //     "title": "Diversity Council",
-    //     "email": "N/A",
-    //     "people": ["TBD"]
-    // },
     {
-        "title": "Public Space Coordinator",
+        "title": "Public Space Coordinators",
         "email": "dmr10@rice.edu",
-        "people": [" Samvita Gautham", "Ayra Matondan"]
+        "people": [" Samvita Gautham", "Ayra Matondang"]
     },
     {
         "title": "Head Caregivers",
         "email": "",
-        "people": ["TBD"]
+        "people": ["Katie Maurano", "Simon Quintero", "Shivani Patel"]
     },
     {
-        "title": "College Night",
+        "title": "College Night Coordinators",
         "email": "",
-        "people": ["TBD"]
+        "people": ["Anthony Valente", "Sam Ogundare"]
+    },
+    {
+        "title": "Traditions Committee Coordinators",
+        "email": "",
+        "people": ["Rachel Parr", "Judson McGiness", "Ayra Matondang"]
     },
 ]

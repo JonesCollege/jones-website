@@ -10,12 +10,7 @@ export const AppointedPos = [
             {
                 "title": "Junior Beer Bike Coordinators",
                 "email": "beerbikejones@gmail.com",
-                "people": ["TBD"]
-            },
-            {
-                "title": "Food Rep",
-                "email": "jonescollegefoodrep@gmail.com",
-                "people": ["TBD"]
+                "people": ["Shivani Patel, Sofia Tambalotti"]
             },
         ]
     },
@@ -44,7 +39,7 @@ export const AppointedPos = [
             {
                 "title": "Arts and Wellness Coordinators",
                 "email": "jones.cic5@gmail.com",
-                "people": ["Anna Averill", "Samanantha Mahung"]
+                "people": ["Sophia Straus", "Samanantha Mahung"]
             },
             {
                 "title": "Cultural Coordinators",
@@ -65,6 +60,16 @@ export const AppointedPos = [
                 "title": "Merchandise Coordinators",
                 "email": "jonesmerchcoordinators@gmail.com",
                 "people": ["Cheyenne Hayes", "Leela Sydow", "Valentina Hoover", "Nina Yu", "Sarah Yesnowitz"]
+            },
+            {
+                "title": "Trivia Rep",
+                "email": "",
+                "people": ["Sean McGarry", "Simon Quintero"]
+            },
+            {
+                "title": "Theater Coordinators",
+                "email": "",
+                "people": ["CJ Friend", "Katie Maurano"]
             }
         ]
     },
