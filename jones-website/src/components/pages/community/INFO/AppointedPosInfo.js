@@ -19,23 +19,13 @@ export const AppointedPos = [
         "info": [
             {
                 "title": "Associate Justices",
-                "people": ["TBD"]
+                "people": ["Rachel Parr (1N)", "Sammie Mahung (2N)", "Sawyer Rudy (3N)", "Alex Watt (4N)", "Nina Yu (2S)", "Ellis Vance (3S)", "Ian Rodriguez (4S)"]
             },
         ]
     },
     {
         "position": "IVP",
         "info": [
-            // {
-            //     "title": "Ambiance Coordinator",
-            //     "email": "jones.ambiance@gmail.com",
-            //     "people": ["Dylan Raaum"],
-            // },
-            // {
-            //     "title": "Elections Coordinators",
-            //     "email": "joneselections@gmail.com",
-            //     "people": [],
-            // },
             {
                 "title": "Arts and Wellness Coordinators",
                 "email": "jones.cic5@gmail.com",
@@ -62,7 +52,7 @@ export const AppointedPos = [
                 "people": ["Cheyenne Hayes", "Leela Sydow", "Valentina Hoover", "Nina Yu", "Sarah Yesnowitz"]
             },
             {
-                "title": "Trivia Rep",
+                "title": "Trivia Representatives",
                 "email": "",
                 "people": ["Sean McGarry", "Simon Quintero"]
             },
@@ -81,15 +71,10 @@ export const AppointedPos = [
                 "email": "jonessportscoords@gmail.com",
                 "people": ["Sean McGarry", "Aditya Daga", "Leela Sydow"]
             },
-            // {
-            //     "title": "Voter Rep",
-            //     "email": "",
-            //     "people": ["Ben Lindenbaum"]
-            // },
             {
                 "title": "JIBoArd Representative",
                 "email": "",
-                "people": ["Valentina Hoover", "TBD"]
+                "people": ["Valentina Hoover"]
             },
             {
                 "title": "Jones Goes Coordinators",

@@ -1,6 +1,6 @@
 export const ElectedPos = [
     {
-        "title": "Honor Council Rep",
+        "title": "Honor Council Representative",
         "email": "joneshonorcouncilrep@gmail.com",
         "people": ["Mira Srinivasa"]
     },
@@ -10,7 +10,7 @@ export const ElectedPos = [
         "people": ["Rachel Parr", "Garrett Pirretti", "Manav Lund"]
     },
     {
-        "title": "RPC Rep",
+        "title": "RPC Representative",
         "email": "jones.rpc.rep@gmail.com",
         "people": ["Daniela Serna"]
     },
@@ -20,13 +20,8 @@ export const ElectedPos = [
         "people": ["Demetris Chrysostomou", "Max Hess", "Jude Thomas", "Iris Rivera"]
     },
     {
-        "title": "U-Court Rep",
+        "title": "U-Court Representative",
         "email": "jonesucourt@gmail.com",
         "people": ["Ellis Vance"]
     },
-    // {
-    //     "title": "Floor Rep",
-    //     "email": "N/A",
-    //     "people": []
-    // },
 ]
