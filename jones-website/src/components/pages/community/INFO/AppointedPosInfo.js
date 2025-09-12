@@ -57,7 +57,7 @@ export const AppointedPos = [
                 "people": ["Banesa Valencia", "Sarah Yesnowitz"]
             },
             {
-                "title": "Environmental Representatives",
+                "title": "EcoReps",
                 "email": "jones.ecoreps@gmail.com",
                 "people": ["TBD"]
             },
