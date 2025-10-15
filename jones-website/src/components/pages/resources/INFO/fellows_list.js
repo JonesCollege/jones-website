@@ -40,11 +40,6 @@ export const FellowsList = [
         "email": "zd25@rice.edu"
     },
     {
-        "name": "Ana Letca",
-        "subjects": "BIOS 201/202/301/341, CHEM 211, PHYS 125/126",
-        "email": "aal10@rice.edu"
-    },
-    {
         "name": "Anjali Mathew",
         "subjects": "COMP 140, ECON 100, COMP 182, ECON 200/203, COMP 215/312",
         "email": "am307@rice.edu"
@@ -65,12 +60,12 @@ export const FellowsList = [
         "email": "mcl15@rice.edu"
     },
     {
-        "name": "Jackson O'Brien",
+        "name": "Jackson O'Brian",
         "subjects": "MECH 202/310, CHEM 121/211, CMOR 220, MATH 211",
         "email": "jo60@rice.edu"
     },
     {
-        "name": "Coleman O'Brien",
+        "name": "Coleman O'Brian",
         "subjects": "MECH 202/200, CMOR 220, MATH 212/211",
         "email": "co63@rice.edu"
     },
@@ -103,11 +98,6 @@ export const FellowsList = [
         "name": "Tori Cole",
         "subjects": "POLI 211, POLI 210, Writing/FWIS",
         "email": "tmc16@rice.edu"
-    },
-    {
-        "name": "Ryan Hartgerink",
-        "subjects": "Pre-law related classes, Cog Sci",
-        "email": "reh6@rice.edu"
     },
     {
         "name": "Eshika Tandon",

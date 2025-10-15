@@ -29,9 +29,6 @@ const Fellows = () => {
                     <li className='resource-p-text'>Provide information about post-graduation opportunities by connecting students to knowledgable community members within a particular field</li>
                     <li className='resource-p-text'>Host talks from faculty members or associates concerning a current event or a topic of interest to the Jones community</li>
                 </ul>
-                <a href = 'https://docs.google.com/spreadsheets/d/1M41oSg5dVmD5FTauyBtquQuUOpPLmcfJIFbE_CiOQeQ/edit?usp=sharing' rel="noreferrer" target = '_blank'>
-                    <button className='resource-button'>View Office Hours</button>
-                </a>
             </div>
         </div>
         <FellowsGrid />
