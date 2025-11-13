@@ -6,7 +6,8 @@ import GroupCard from './GroupCard';
 import Footer from '../../Footer';
 import LetterModal from './LetterModal';
 import {insertLineBreak, useScrollToTop} from '../../../utility.js'
-import { CoordLetter, OWeekGroups, CoordBios, PAAs, Gophers } from './INFO/OWeekDataSheet';
+import { CoordLetter, OWeekGroups, CoordBios, PAAs } from './INFO/OWeekDataSheet';
+// import { Gophers } from './INFO/OWeekDataSheet';
 import './css/O-Week.css';
 import '../../../App.css';
 
