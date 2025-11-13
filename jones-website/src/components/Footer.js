@@ -12,7 +12,7 @@ function Footer() {
                     <p className='footer-p-font'>23 Sunset Blvd<br/>
                         Houston TX, 77005</p>
                 </div>
-                <a style={{margin:'10px'}} target="_blank" rel="noreferrer" href='https://www.instagram.com/mary_gibbs_jones_college/'>
+                <a style={{margin:'10px'}} target="_blank" rel="noreferrer" href='https://www.instagram.com/mg_jones_college/'>
                     <BsInstagram color='black' size={35}/> 
                 </a>
                 <a style={{margin:'10px'}} target="_blank" rel="noreferrer" href='https://www.facebook.com/jones.historian?fref=ts'>
@@ -22,7 +22,6 @@ function Footer() {
             <p className='footer-q-font'>
                 Questions? Contact our College Coordinator Kellie Sager at ks235@rice.edu.
             </p>
-            <a style={{ margin: '10px' }} href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
         </div>
     )
 }

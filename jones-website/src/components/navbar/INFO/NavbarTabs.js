@@ -32,10 +32,6 @@ export const Tabs = [
         title: "FORMS",
         dropdownItems: [
             {
-              title: 'ROOM RESERVATION',
-              route: '/reserve-room',
-            },
-            {
               title: 'ACCESSIBILITY FUND',
               external: 'https://docs.google.com/forms/d/e/1FAIpQLSdt3hB8SsNMdGu8_R0nuFMLIyeqW2UMTlhAIw-vhh-s4Ynw3w/viewform',
             },
@@ -58,6 +54,10 @@ export const Tabs = [
             {
               title: 'P-CARD POST USE',
               external: 'https://forms.gle/nLmh3VVJSEAie2w8A',
+            },
+            {
+              title: 'RICE RESOURCES',
+              external: 'https://docs.google.com/spreadsheets/d/16Xjca-Rjk1V1WAggpVee0vRPY0ui9W8QUkr_ftR0kjg/edit?usp=sharing',
             },
         ]
     },

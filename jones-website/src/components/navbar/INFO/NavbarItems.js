@@ -19,11 +19,6 @@ export const CommunityItems = [
   export const FormItems = 
   [
     {
-      title: 'ROOM RESERVATION',
-      external: 'https://docs.google.com/forms/d/e/1FAIpQLSfpRvK5HQXsglj10SMKeNIhW-VjCiOKSvpxA-XobnvgVPCkrw/viewform?usp=sf_link',
-      cName: 'dropdown-link'
-    },
-    {
       title: 'ACCESSIBILITY FUND',
       external: 'https://docs.google.com/forms/d/e/1FAIpQLSdt3hB8SsNMdGu8_R0nuFMLIyeqW2UMTlhAIw-vhh-s4Ynw3w/viewform',
       cName: 'dropdown-link'
@@ -51,6 +46,11 @@ export const CommunityItems = [
     {
       title: 'P-CARD POST USE',
       external: 'https://forms.gle/nLmh3VVJSEAie2w8A',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'RICE RESOURCES',
+      external: 'https://docs.google.com/spreadsheets/d/16Xjca-Rjk1V1WAggpVee0vRPY0ui9W8QUkr_ftR0kjg/edit?usp=sharing',
       cName: 'dropdown-link'
     },
   ];

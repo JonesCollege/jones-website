@@ -121,10 +121,10 @@ const AffiliateGrid = () => {
             <div className='oweek-paa-grid'>
                 {AffiliateMap(PAAs)}
             </div>
-            <h2 className='oweek-h4'>GOPHER</h2>
+            {/* <h2 className='oweek-h4'>GOPHER</h2>
             <div className='oweek-gopher-grid'>
                 {AffiliateMap(Gophers)}
-            </div>
+            </div> */}
         </div>
     </>
     )}
