@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import '../../../App.css';
 import './InfoSection.css';
 import backgroundImage from './images/gradient-min.png';
@@ -12,7 +12,7 @@ const jones_4 = '/images/home/jones_home_4.jpg';
 function InfoSection() {
   const [timeLeft, setTimeLeft] = useState({});
 
-  const beerBikeDate = new Date(2026, 3, 11, 9, 0, 0); 
+  const beerBikeDate = useMemo(() => new Date(2026, 3, 11, 9, 0, 0), []); 
 
   useEffect(() => {
     const calculateTimeLeft = () => {
@@ -38,7 +38,7 @@ function InfoSection() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [beerBikeDate]);
 
   const halfStyle1 = {
     backgroundImage: `url(${backgroundImage})`,
