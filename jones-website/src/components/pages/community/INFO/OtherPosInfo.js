@@ -21,7 +21,7 @@ export const OtherPos = [
     },
     {
         "title": "Public Space Coordinators",
-        "email": "dmr10@rice.edu",
+        // "email": "dmr10@rice.edu",
         "people": [" Samvita Gautham", "Ayra Matondang"]
     },
     {
