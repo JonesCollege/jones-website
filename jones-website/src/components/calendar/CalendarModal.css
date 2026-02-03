@@ -15,6 +15,7 @@
     margin-top: 80px;
     width:1025px;
     height: 500px;
+    z-index: 1000;
 }
 
 .calendar-container {
@@ -138,6 +139,7 @@
     margin-top: 80px;
     width:300px;
     height: 500px;
+    z-index: 1000;
 }
 
 .calendar-mobile-header {
