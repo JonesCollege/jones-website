@@ -88,15 +88,15 @@ export const CabinetInfo = [
         "maxsize": '145%'
     },
     {
-        "name": "Lakshanyaa Rajkumar Sudhakar",
-        "pronouns": "she/her",
+        "name": "Prasanna Bendalam",
+        "pronouns": "",
         "position": "Parliamentarian",
-        "major": "Computer Science",
-        "img": "images/cabinet/2025-2026/lakshanyaa.jpeg",
+        "major": "Biosciences",
+        "img": "images/cabinet/2025-2026/prasanna.jpeg",
         "email": "jonesparliamentarian@gmail.com",
         "shortdesc": "Maintain the Jones Constitution, count votes, and serve as a non-voting member of Cabinet",
-        "objpos": '-90px -50px',
-        "maxsize": '190%'
+        "objpos": '-1px -10px',
+        "maxsize": '150%'
     },
     {
         "name": "Daijah Wilson ",
