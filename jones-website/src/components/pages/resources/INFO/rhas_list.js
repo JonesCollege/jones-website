@@ -60,7 +60,7 @@ export const RHAs = [
         "year": "Sophomore",
     },
     {
-        "name": "Manav Lund",
+        "name": "Manja Lund",
         "email": "pk65@rice.edu",
         "year": "Senior",
     },
