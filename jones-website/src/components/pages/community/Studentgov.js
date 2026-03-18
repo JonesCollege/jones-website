@@ -29,7 +29,7 @@ const Studentgov = () => {
           <img src={PresInfo.img} alt='Jones President' id='presimg' />
           <div style={{paddingLeft: '3rem', paddingRight: '3rem'}}>
             <p id='prestitle'>PRESIDENT {PresInfo.year}</p>  
-            <h3 id='presname'>{PresInfo.name}, JONES '25</h3>
+            <h3 id='presname'>{PresInfo.name}, JONES '27</h3>
             <h3 id='presinfo'>Political Science & Politics, Law, and Social Thought</h3>
             <h3 id='presinfo'>210-973-4359 | jonespresident@rice.edu</h3>
           </div>
