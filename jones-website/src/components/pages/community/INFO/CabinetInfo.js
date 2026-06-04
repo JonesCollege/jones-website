@@ -74,7 +74,7 @@ export const CabinetInfo = [
     name: "Banesa Valencia ",
     pronouns: "she/her",
     position: "Senior DEI Coord",
-    major: "Political Science and Social Policy Analysis",
+    major: "Chemical and Biomolecular Engineering",
     img: "images/cabinet/2025-2026/banessa.jpeg",
     email: "jonesdei.council@gmail.com",
     shortdesc:

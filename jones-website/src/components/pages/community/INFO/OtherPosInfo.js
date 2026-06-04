@@ -7,12 +7,12 @@ export const OtherPos = [
   {
     title: "Technology Coordinator",
     email: "",
-    people: ["Evan Ho"],
+    people: ["interested?", "Contact the Jones President!"],
   },
   {
     title: "Student Maintenance Representative",
-    email: "ny21@rice.edu",
-    people: ["Nina Yu"],
+    email: "jp228@rice.edu",
+    people: ["JT Parr"],
   },
   {
     title: "Senior Events Committee Council",
@@ -30,12 +30,12 @@ export const OtherPos = [
   {
     title: "Public Space Coordinators",
     // "email": "dmr10@rice.edu",
-    people: [" Samvita Gautham", "Ayra Matondang"],
+    people: ["Interested?", "Reach out to the Jones President!"],
   },
   {
     title: "Head Caregivers",
     email: "",
-    people: ["Katie Maurano", "Simon Quintero", "Shivani Patel"],
+    people: ["Franco Uribe", "Shivani Patel", "Lisa Wang"],
   },
   {
     title: "College Night Coordinators",
