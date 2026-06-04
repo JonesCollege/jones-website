@@ -7,17 +7,12 @@ export const ElectedPos = [
   {
     title: "O-Week Coordinators",
     email: "jonescollegeoweek@gmail.com",
-    people: ["Rachel Parr", "Garrett Pirretti", "Manja Lund"],
-  },
-  {
-    title: "RPC Representative",
-    email: "jones.rpc.rep@gmail.com",
-    people: ["Daniela Serna"],
+    people: ["Banesa Valencia", "Sawyer Rudy", "Iris Rivera"],
   },
   {
     title: "Social Coordinators",
     email: "jonessocials@gmail.com",
-    people: ["Demetris Chrysostomou", "Max Hess", "Jude Thomas", "Iris Rivera"],
+    people: ["Iris Rivera", "Poema Sumrow", "Andrei Jones", "Maxwell Hansen"],
   },
   {
     title: "U-Court Representative",
