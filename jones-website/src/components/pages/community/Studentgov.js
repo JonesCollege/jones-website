@@ -1,127 +1,224 @@
-import React from 'react'
-import { useState } from 'react'
-import { SocialIcon } from 'react-social-icons'
-import { MdDownload } from 'react-icons/md'
-import { IconContext } from 'react-icons'
-import './css/Studentgov.css'
-import { PositionCard, CabinetCard, AppointedPosList } from './StudentGovPositions'
-import { PresInfo } from './INFO/PresidentInfo'
-import { CabinetInfo } from './INFO/CabinetInfo'
-import { ElectedPos } from './INFO/ElectedPosInfo'
-import { AppointedPos } from './INFO/AppointedPosInfo'
-import { OtherPos } from './INFO/OtherPosInfo'
-import Footer from '../../Footer'
-import { useScrollToTop } from '../../../utility'
+import React from "react";
+import { useState } from "react";
+import { SocialIcon } from "react-social-icons";
+import { MdDownload } from "react-icons/md";
+import { IconContext } from "react-icons";
+import "./css/Studentgov.css";
+import {
+  PositionCard,
+  CabinetCard,
+  AppointedPosList,
+} from "./StudentGovPositions";
+import { PresInfo } from "./INFO/PresidentInfo";
+import { CabinetInfo } from "./INFO/CabinetInfo";
+import { ElectedPos } from "./INFO/ElectedPosInfo";
+import { AppointedPos } from "./INFO/AppointedPosInfo";
+import { OtherPos } from "./INFO/OtherPosInfo";
+import Footer from "../../Footer";
+import { useScrollToTop } from "../../../utility";
 
 const Studentgov = () => {
   const [formClick, setFormClick] = useState(false);
-  useScrollToTop()
+  useScrollToTop();
 
   return (
     <div>
-      <div id='instaicon-wrap'>
-        <SocialIcon url='https://www.instagram.com/mary_gibbs_jones_college/?hl=en' fgColor='white' bgColor='rgba(243, 248, 244, 255)' style={{ height: 100, width: 100 }} id='instaicon'/>
+      <div id="instaicon-wrap">
+        <SocialIcon
+          url="https://www.instagram.com/mary_gibbs_jones_college/?hl=en"
+          fgColor="white"
+          bgColor="rgba(243, 248, 244, 255)"
+          style={{ height: 100, width: 100 }}
+          id="instaicon"
+        />
       </div>
-      
-      <h2 id='stugov'>STUDENT GOVERNMENT</h2>
-      <div id='presflexrow-bg'>
-        <div id='presflexrow'>
-          <img src={PresInfo.img} alt='Jones President' id='presimg' />
-          <div style={{paddingLeft: '3rem', paddingRight: '3rem'}}>
-            <p id='prestitle'>PRESIDENT {PresInfo.year}</p>  
-            <h3 id='presname'>{PresInfo.name}, JONES '27</h3>
-            <h3 id='presinfo'>Political Science & Politics, Law, and Social Thought</h3>
-            <h3 id='presinfo'>210-973-4359 | jonespresident@rice.edu</h3>
+
+      <h2 id="stugov">STUDENT GOVERNMENT</h2>
+      <div id="presflexrow-bg">
+        <div id="presflexrow">
+          <img src={PresInfo.img} alt="Jones President" id="presimg" />
+          <div style={{ paddingLeft: "3rem", paddingRight: "3rem" }}>
+            <p id="prestitle">PRESIDENT {PresInfo.year}</p>
+            <h3 id="presname">{PresInfo.name}, JONES '27</h3>
+            <h3 id="presinfo">
+              Political Science & Politics, Law, and Social Thought
+            </h3>
+            <h3 id="presinfo">210-973-4359 | jonespresident@rice.edu</h3>
           </div>
         </div>
-          <div id='prescontainer'>
-            <p id='presintro'>Hey Jones! My name is Ava, and I am so excited to be serving as the 2026-2027 Jones President. <br/><br/> After three years of being a Jonesian, I look forward to finally giving back to my Jones community.  <br/><br/> My main vision as President is to ensure that Jones' culture and traditions are given a space to shine, adapt, and be innovative. Jones is a special family, and I want to celebrate our traditions while also implementing new ideas from current Jonesians! Creating a safe space on campus is important to the livelihood of our college and to everyone’s personal needs. I want to work to make Jones a fun space to be with friends while also the coziest relaxation spot on campus. Of course, I could not do this without the help of Jones’ amazing J-Team, executive cabinet members, committee heads, and our larger community of loving Jonesians who make this college a home. <br/><br/> While these are my main goals for the upcoming year, I also have the duty of serving as liaison between the college government and university administration. This means voicing the opinions of Jonesians across the university government and guiding the college's internal direction. Serving as the voice of Jonesians is a daunting task, but I could not ask for a better position at Rice. I am passionate about Jones and acting on the issues Jonesians may deem important on a campus level. <br/><br/> Whether you are a new student, graduating senior, college alum, or anyone else, I hope to always be accessible to you and your needs. Feel free to come to me with Jones feedback and concerns, personal inquiries, or anything related to navigating Rice. Congratulations on entering the website of the winningest college at Rice University! And as always, JIBAAAA!!<br></br><br></br>
-              - Ava Brazell '27 (she/her)
-            </p>
-          </div>
-
-      </div>
-
-      <div id='cabpos-flexrow'>
-        <div id='aboutcab'>
-          <h3 id='cabpos'>CABINET POSITIONS</h3>
-          <p id='cabposintro'>The Jones Executive Cabinet is the entirely student-run and student-elected system of college governance. 
-            The purpose of Cabinet is to provide an atmosphere of social and intellectual growth in the college, plan college activities, 
-            and make sure that Jones runs smoothly. The Cabinet is legislated by the Jones Constitution, and elections are held in the spring. 
+        <div id="prescontainer">
+          <p id="presintro">
+            Hey Jones! My name is Ava, and I am so excited to be serving as the
+            2026-2027 Jones President. <br />
+            <br /> After three years of being a Jonesian, I look forward to
+            finally giving back to my Jones community. <br />
+            <br /> My main vision as President is to ensure that Jones' culture
+            and traditions are given a space to shine, adapt, and be innovative.
+            Jones is a special family, and I want to celebrate our traditions
+            while also implementing new ideas from current Jonesians! Creating a
+            safe space on campus is important to the livelihood of our college
+            and to everyone’s personal needs. I want to work to make Jones a fun
+            space to be with friends while also the coziest relaxation spot on
+            campus. Of course, I could not do this without the help of Jones’
+            amazing J-Team, executive cabinet members, committee heads, and our
+            larger community of loving Jonesians who make this college a home.{" "}
+            <br />
+            <br /> While these are my main goals for the upcoming year, I also
+            have the duty of serving as liaison between the college government
+            and university administration. This means voicing the opinions of
+            Jonesians across the university government and guiding the college's
+            internal direction. Serving as the voice of Jonesians is a daunting
+            task, but I could not ask for a better position at Rice. I am
+            passionate about Jones and acting on the issues Jonesians may deem
+            important on a campus level. <br />
+            <br /> Whether you are a new student, graduating senior, college
+            alum, or anyone else, I hope to always be accessible to you and your
+            needs. Feel free to come to me with Jones feedback and concerns,
+            personal inquiries, or anything related to navigating Rice.
+            Congratulations on entering the website of the winningest college at
+            Rice University! And as always, JIBAAAA!!<br></br>
+            <br></br>- Ava Brazell '27 (she/her)
           </p>
         </div>
-        <div id='cabfb-flexcol'>
+      </div>
+
+      <div id="cabpos-flexrow">
+        <div id="aboutcab">
+          <h3 id="cabpos">CABINET POSITIONS</h3>
+          <p id="cabposintro">
+            The Jones Executive Cabinet is the entirely student-run and
+            student-elected system of college governance. The purpose of Cabinet
+            is to provide an atmosphere of social and intellectual growth in the
+            college, plan college activities, and make sure that Jones runs
+            smoothly. The Cabinet is legislated by the Jones Constitution, and
+            elections are held in the spring.
+          </p>
+        </div>
+        <div id="cabfb-flexcol">
           <p>Have any feedback for Cabinet?</p>
-          <form target='_blank' action='https://goo.gl/forms/qOgEch2pH41iOdPo2'>
-            <button id={formClick ? 'cabfbclick' : ''} onMouseDown={()=>{setFormClick(true)}} onMouseUp={()=>{setFormClick(false)}}>Form Link</button>
+          <form target="_blank" action="https://goo.gl/forms/qOgEch2pH41iOdPo2">
+            <button
+              id={formClick ? "cabfbclick" : ""}
+              onMouseDown={() => {
+                setFormClick(true);
+              }}
+              onMouseUp={() => {
+                setFormClick(false);
+              }}
+            >
+              Form Link
+            </button>
           </form>
         </div>
       </div>
 
       {/* REQUIRES ALL STUDENT GOVERNMENT IMAGES BE PLACED IN PUBLIC > IMAGES */}
-      <div id='stugovflexrow'>
+      <div id="stugovflexrow">
         {CabinetInfo.map((stugov, idx) => (
-          <CabinetCard name={stugov.name} pronouns={stugov.pronouns} position={stugov.position} major={stugov.major}
-                    img={stugov.img} email={stugov.email} shortdesc={stugov.shortdesc} objpos={stugov.objpos}
-                    maxsize={stugov.maxsize} key={idx}/>
+          <CabinetCard
+            name={stugov.name}
+            pronouns={stugov.pronouns}
+            position={stugov.position}
+            major={stugov.major}
+            img={stugov.img}
+            email={stugov.email}
+            shortdesc={stugov.shortdesc}
+            objpos={stugov.objpos}
+            maxsize={stugov.maxsize}
+            key={idx}
+          />
         ))}
       </div>
 
-      <hr className='govdivide'></hr>
+      <hr className="govdivide"></hr>
 
-      <div id='electedpos'>
-          <h3 className='postitle'>ELECTED POSITIONS 2025-2026</h3>
-          <p id='electedposdesc'>are a great way for Jonesians to contribute to life in the college. Anyone is eligible to run
-          for these positions and they are voted on by the entirety of the Jones student body.</p>
-          <div className='posflexrow'>
-            {ElectedPos.map((elected, idx) => (
-              <PositionCard title={elected.title} email={elected.email} people={elected.people} key={idx}/>
-            ))}
-          </div>
+      <div id="electedpos">
+        <h3 className="postitle">ELECTED POSITIONS 2025-2026</h3>
+        <p id="electedposdesc">
+          are a great way for Jonesians to contribute to life in the college.
+          Anyone is eligible to run for these positions and they are voted on by
+          the entirety of the Jones student body.
+        </p>
+        <div className="posflexrow">
+          {ElectedPos.map((elected, idx) => (
+            <PositionCard
+              title={elected.title}
+              email={elected.email}
+              people={elected.people}
+              key={idx}
+            />
+          ))}
+        </div>
       </div>
 
-      <hr className='govdivide'></hr>
+      <hr className="govdivide"></hr>
 
-      <div id='appointedposheader'>
-          <h3 className='postitle'>APPOINTED POSITIONS 2025-2026</h3>
-          <p id='appointposdesc'>are another way to get involved. These positions are selected by the President, Chief Justice, 
-          IVP, and EVP each year, usually in the spring.</p>
-      </div>  
-        {AppointedPos.map((pos, idx) => (
-        <AppointedPosList position={pos.position} info={pos.info} key={idx}/>
+      <div id="appointedposheader">
+        <h3 className="postitle">APPOINTED POSITIONS 2025-2026</h3>
+        <p id="appointposdesc">
+          are another way to get involved. These positions are selected by the
+          President, Chief Justice, IVP, and EVP each year, usually in the
+          spring.
+        </p>
+      </div>
+      {AppointedPos.map((pos, idx) => (
+        <AppointedPosList position={pos.position} info={pos.info} key={idx} />
       ))}
 
-      <div id='otherpos' className='postitle'>Other Positions</div>
+      <div id="otherpos" className="postitle">
+        Other Positions
+      </div>
 
-      <div className='posflexrow'>
+      <div className="posflexrow">
         {OtherPos.map((position, idx) => (
-          <PositionCard title={position.title} email={position.email} people={position.people} key={idx}/>
+          <PositionCard
+            title={position.title}
+            email={position.email}
+            people={position.people}
+            key={idx}
+          />
         ))}
       </div>
 
-      <div id='constitution'>
-        <div id='constflex'>
-          <h3 className='postitle'>The Constitution</h3>
-          <p id='constitutiontxt'>The Jones Constitution details the laws of our land. It’s the way we make most of our decisions, 
-            and how we put people in charge. From room draw procedures to the most eccentric of Presidential duties, 
-            the Constitution has got it all. There are over 35 pages of carefully worded text to guide our college’s 
-            activity. The College Parliamentarian is responsible for updating and changing the Constitution and 
-            its <a id='bylaws' title='https://docs.google.com/document/d/1sBOXhZnGkC-nO3L14g2DziKVOoi6bzKpwv7YbY5eYj8/pub' 
-            href='https://docs.google.com/document/d/1sBOXhZnGkC-nO3L14g2DziKVOoi6bzKpwv7YbY5eYj8/pub' target="_blank" 
-            rel="noopener noreferrer">Bylaws</a> as 
-            he or she sees fit. The Constitution is broken down into six main sections:</p>
-          </div>
-          <div id='downloadwrapper'>
-            <a href='https://docs.google.com/document/d/1BLsb4rq-Fcj2wgF4A0kCxWFqpW3vI1I_s96o3qxUnug/pub' target="_blank" rel="noopener noreferrer">
-              <IconContext.Provider value={{ size: 200 }}>
-                <MdDownload id='downloadbutton' />
-              </IconContext.Provider>
-            </a>
-          </div>
+      <div id="constitution">
+        <div id="constflex">
+          <h3 className="postitle">The Constitution</h3>
+          <p id="constitutiontxt">
+            The Jones Constitution details the laws of our land. It’s the way we
+            make most of our decisions, and how we put people in charge. From
+            room draw procedures to the most eccentric of Presidential duties,
+            the Constitution has got it all. There are over 35 pages of
+            carefully worded text to guide our college’s activity. The College
+            Parliamentarian is responsible for updating and changing the
+            Constitution and its{" "}
+            <a
+              id="bylaws"
+              title="https://docs.google.com/document/d/1sBOXhZnGkC-nO3L14g2DziKVOoi6bzKpwv7YbY5eYj8/pub"
+              href="https://docs.google.com/document/d/1sBOXhZnGkC-nO3L14g2DziKVOoi6bzKpwv7YbY5eYj8/pub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bylaws
+            </a>{" "}
+            as he or she sees fit. The Constitution is broken down into six main
+            sections:
+          </p>
+        </div>
+        <div id="downloadwrapper">
+          <a
+            href="https://docs.google.com/document/d/1BLsb4rq-Fcj2wgF4A0kCxWFqpW3vI1I_s96o3qxUnug/pub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconContext.Provider value={{ size: 200 }}>
+              <MdDownload id="downloadbutton" />
+            </IconContext.Provider>
+          </a>
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Studentgov
+export default Studentgov;
