@@ -82,8 +82,7 @@ const Ateam = () => {
               </a>
             </div>
             <p className="ateamdesc">
-              Kellie Sager (she/they) is the new College Coordinator for Jones
-              College Started on June 17th. Originally from Dallas.
+              Kellie Sager (she/they) has been with Jones over 2 years.
               <br />
               <br />
               She helps manage the college's finances, events and facilities.
@@ -112,7 +111,7 @@ const Ateam = () => {
           </div>
           {!resize && (
             <img
-              src={require("./INFO/ateam_images/SagerPic.jpg")}
+              src={require("./INFO/ateam_images/KellieSager.jpg")}
               alt="Jones College Coordinator, Michelle Bennack"
               className="ateamimage float-right"
               id="ccimage"
