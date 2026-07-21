@@ -1,45 +1,43 @@
 export const CoordLetter = {
-  text: "We are Rachel Parr, Garrett Pirretti, and Manja Lund, collectively known as team By the P.P.L, For the P.P.L, and we are your 2025 UFO-Week Coordinators! \n\nAs O-Week Coordinators it’s our job to make sure that your crash landing into college goes as smoothly as it possibly can and make sure that every new Jonesian has the opportunity to showcase their unique skillsets and experiences from across the galaxy. In just a week, we will introduce you to all of the many resources at Jones and at Rice that have been set up to ensure that each and every one of you has the tools to succeed and leave your mark on our community. \n\nRice's Orientation-Week, otherwise known as “O-Week”, is unique and distinguished from orientation programs at other universities. Broadly, events in O-Week can be divided into three ways: events that help you plan your classes and prepare for them, events that describe the resources you have at Rice and beyond, and events that help you get to know the family of Jones and of Rice! \n\n And if you’re worried about bringing anything or being prepared for any of this, don’t worry – this book, and the people around you during this exciting week, will help you to know exactly what to bring, and what to expect at any given moment. It’s okay if you don’t have everything figured out right now – what classes to take, what clubs to join, where you want to end up after graduating – as your Coords, and as part of your O-Week Team, we’ll help you find your magic together. \n\nThe very first people you’ll meet during O-Week will be your Advisors, a hand-picked, diverse, engaged, and trained group of upperclassmen who volunteer part of their summer to learn how to best introduce you to Jones. Every freshman is paired with 4-5 Advisors and 8-10 other freshmen, who all together form an “O-Week Family”. This group is not only a major part of your O-Week, but also your whole first year — you’ll check in on each other, share meals weekly, and find the answers to any questions you may have. As the saying here at Rice goes, O-Week is forever. \n\n Jones, as a community, is made up of people from every corner of the universe, with their own unique perspectives and contributions to our beautiful college. It was because of this range of experiences and the out-of-this world love and support of the Jones family that we chose our O-Week theme: UFO-Week! We look forward to making first contact with the newest Jonesians and fostering an absolutely intergalactic introduction to the culture of both Jones and Rice. We understand that coming to college can feel like being stranded on a foreign planet but we are here to help you feel at home! \n\n You probably have a lot of questions going into O-Week, but never fear. No matter what happens, the three of us and the rest of your new family will always be here to help. Don’t be afraid to reach out with any concerns. \n\n We can’t wait to welcome you with open arms!!",
-  
+  text: "We are Iris Rivera, Banesa Valencia, and Sawyer Rudy, collectively known as Team I.B.S, and we are your 2026 DINO-Week Coordinators!\n\n As O-Week Coordinators, it’s our job to make sure that your hatching into college goes as smoothly as it possibly can, and that all of you incoming Jonesians are given the best opportunity to dino-soar. In just a week, we will introduce you to the many resources at Jones and Rice that are established to ensure that each and every one of you has the tools to succeed and leave your claw-prints on our community. We know it can be scary; we were in your shoes less than 2 years ago, but it is not veloci-rapture. We will be here to support you every step of the way. Rice's Orientation-Week, otherwise known as “O-Week”, is unique and distinguished from orientation programs at other universities. Broadly, events in O-Week can be divided into three ways: events that help you plan your classes and prepare for them, events that describe the resources you have at Rice and beyond, and events that help you get to know the family of Jones and of Rice! And if you’re worried about bringing anything or being prepared for any of this, don’t worry – this book, and the people around you during this exciting week, will help you to know exactly what to bring, and what to expect at any given moment. It’s okay if you don’t have everything figured out right now—what classes to take, what clubs to join, or where you want to end up after graduation. As your Coords and part of your O-Week Team, we’ll guide your tracks through the Mesozoic jungle of college. \n\n The very first people you’ll meet during O-Week will be your Advisors, a hand-picked, diverse, engaged, and trained group of upperclassmen who volunteer part of their summer to learn how to best introduce you to Jones. Every freshman is paired with 4-5 Advisors and 8-10 other freshmen, who all together form an “O-Week Family”. This group is not only a major part of your O-Week, but also your whole first year – you’ll check in on each other, share meals weekly, and find the answers to any questions you may have. As the saying here at Rice goes, O-Week is forever.\n\n All throughout your new nest at Jones, you will encounter every species of dinosaur, with each bringing its own set of strengths and shortcomings. Despite these variations, you will find that any and every one of your fellow Jonesians will always be there to protect their hatch. It is for this reason that we chose DinO-Week to be our Jones O-Week 2026 Theme. No two people hatch into Jones the same; some of our hatchlings may fly, some may swim, some may have feathers, and some may have spikes, but we are undeniably exuberant to welcome all regardless. College will undeniably send some meteors in your direction, but fret not, we will be there to support every step of the way. \n\n You probably have a lot of questions going into O-Week, but never fear. No matter what happens, the three of us and the rest of your nest will always be here to help. Don’t be afraid to reach out with any concerns. \n\n We can’t wait to welcome you with open arms!",
   coordInfo: [
     {
-      name: "Manja Lund",
-      phone: "ml185@rice.edu",
+      name: "Iris Rivera",
+      phone: "ir32@rice.edu",
     },
     {
-      name: "Rachel Parr",
-      phone: "rmp7@rice.edu",
+      name: "Banesa Valencia ",
+      phone: "bv23@rice.edu",
     },
     {
-      name: "Garret Pirretti",
-      phone: "gp66@rice.edu",
+      name: "Sawyer Rudy",
+      phone: "sr168@rice.edu",
     },
   ],
-  email: "jonescollegeoweek@gmail.com",
+  email: "marygibbsjonesoweek@gmail.com",
 };
 
 export const CoordBios = [
   {
-    name: "MANJA LUND",
-    bio: "Manja is a junior from Austin, TX studying Psychology. Outside of academics, she loves listening to music, taking walks, thrifting, frequenting the Jitchen late at night, and rotting on TikTok. ", 
-    img: "./images/oweek/coords/manav.jpg",
+    name: "IRIS RIVERA",
+    bio: "Iris is a junior from Austin, TX studying Psychology. Outside of academics, she loves listening to music, taking walks, thrifting, frequenting the Jitchen late at night, and rotting on TikTok. ",
+    img: "./images/oweek/coords/Iris.JPG",
   },
   {
-    name: "RACHEL PARR",
-    bio: "Rachel is a junior from Ridgeland, Ms studying Mathematics and English on the Creative writing track. She is known for her insane sudoku stats, making friendship bracelets in the 1N lobby, and working at the RMC info desk.",
-    img: "./images/oweek/coords/rachel.jpg",
+    name: "BANESA VALENCIA",
+    bio: "Banesa is a junior from Ridgeland, Ms studying Mathematics and English on the Creative writing track. She is known for her insane sudoku stats, making friendship bracelets in the 1N lobby, and working at the RMC info desk.",
+    img: "./images/oweek/coords/Banesa.JPG",
   },
   {
-    name: "GARRET PIRRETTI",
-    bio: "Garrett is a Sophmore from Chandler, Arizona studying Chemical Engineering with aspirations of going to medical school. He is known for working various jobs in the RMC, frequenting the North laundry room and 3N table, and bringing an overall sense of whimsy.",
-    img: "./images/oweek/coords/garrett_pic.jpg",
+    name: "SAWYER RUDY",
+    bio: "Sawyer is a Sophmore from Chandler, Arizona studying Chemical Engineering with aspirations of going to medical school. He is known for working various jobs in the RMC, frequenting the North laundry room and 3N table, and bringing an overall sense of whimsy.",
+    img: "./images/oweek/coords/Sawyer.JPG",
   },
 ];
 export const OWeekGroups = [
   {
     name: "Star Wars: Attack of the Jones",
-    members:
-      "Jaemason Long, Nancy Martinez, Evan Ringwald, Milène Hacheme",
+    members: "Jaemason Long, Nancy Martinez, Evan Ringwald, Milène Hacheme",
     img: "./images/oweek/oweek-groups/starwars/starwars.jpg",
     profiles: [
       {
@@ -109,8 +107,7 @@ export const OWeekGroups = [
   },
   {
     name: "Blank Space (Jones Version)",
-    members:
-      "Tim Voelker, Tori Barrera, Sawyer Rudy, Simmy Ghosh",
+    members: "Tim Voelker, Tori Barrera, Sawyer Rudy, Simmy Ghosh",
     img: "./images/oweek/oweek-groups/blankspace/blankspace.jpg",
     profiles: [
       {
@@ -327,7 +324,8 @@ export const OWeekGroups = [
   },
   {
     name: "Toy Starry: To Infinity and Beyond",
-    members: "Audrey Arroyave, Ankhi Banerjee, Kenechukwi Okerke, Daniel Peinado",
+    members:
+      "Audrey Arroyave, Ankhi Banerjee, Kenechukwi Okerke, Daniel Peinado",
     img: "./images/oweek/oweek-groups/toystarry/toystarry.jpg",
     profiles: [
       {
@@ -362,7 +360,8 @@ export const OWeekGroups = [
   },
   {
     name: "E.T. Phone Jones",
-    members: "Lizzie Craig, Anna Stravato, Max Hess, Karen Martinez, Benjamin Kwait-Gonchar",
+    members:
+      "Lizzie Craig, Anna Stravato, Max Hess, Karen Martinez, Benjamin Kwait-Gonchar",
     img: "./images/oweek/oweek-groups/et/et.jpg",
     profiles: [
       {
@@ -404,9 +403,8 @@ export const OWeekGroups = [
   },
   {
     name: "Wizards of Waverly Space",
-    members:
-      "Toby Slatken, Sergio Rojas, Nilda Izquierdo, Komal Talloo",
-        img: "./images/oweek/oweek-groups/wizards/wizards.jpg",
+    members: "Toby Slatken, Sergio Rojas, Nilda Izquierdo, Komal Talloo",
+    img: "./images/oweek/oweek-groups/wizards/wizards.jpg",
     profiles: [
       {
         name: "TOBY S",
@@ -448,28 +446,28 @@ export const OWeekGroups = [
         email: "np60@rice.edu",
         major: "Earth, Enviornmental, and Planetary Sciences",
         collegetag: "./college-tags/dunacn_tag.png",
-        img:  "./images/oweek/oweek-groups/rupaul/nat.jpg",
+        img: "./images/oweek/oweek-groups/rupaul/nat.jpg",
       },
       {
         name: "ANAEL R.G.",
         email: "ar208@rice.edu",
         major: "Bioengineering",
         collegetag: "./college-tags/jones_tag.png",
-        img:  "./images/oweek/oweek-groups/rupaul/anael.jpg",
+        img: "./images/oweek/oweek-groups/rupaul/anael.jpg",
       },
       {
         name: "SOPHIA S",
         email: "ss531@rice.edu",
         major: "Astrophysics",
         collegetag: "./college-tags/jones_tag.png",
-        img:  "./images/oweek/oweek-groups/rupaul/sophia.jpg",
+        img: "./images/oweek/oweek-groups/rupaul/sophia.jpg",
       },
       {
         name: "ANTHONY R",
         email: "amv15@rice.edu",
         major: "Neuroscience",
         collegetag: "./college-tags/jones_tag.png",
-        img:  "./images/oweek/oweek-groups/rupaul/anthony.jpg",
+        img: "./images/oweek/oweek-groups/rupaul/anthony.jpg",
       },
     ],
   },
@@ -480,7 +478,7 @@ export const PAAs = [
     name: "JACKSON O'BRIAN",
     email: "jo60@rice.edu",
     major: "Mechanical Engineering",
-    img:  "./images/oweek/paas/jackson.jpg",
+    img: "./images/oweek/paas/jackson.jpg",
   },
   {
     name: "COLEMAN O'BRIAN",
