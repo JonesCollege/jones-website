@@ -147,7 +147,13 @@ const OweekBook = () => (
             <MdDownload className='book-download-icon' />
         </a> */}
     </div>
-    <h3 className="oweek-book-subtitle">Coming soon!</h3>
-    {/* <iframe className='oweek-flipbook' title='Jones O-Week Book' src="https://heyzine.com/flip-book/1db325e587.html" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe> */}
+    <iframe
+      allowFullScreen
+      allow="autoplay; fullscreen; clipboard-write"
+      scrolling="no"
+      className="fp-iframe"
+      style={{ border: "1px solid lightgray", width: "100%", height: "532px" }}
+      src="https://heyzine.com/flip-book/834d1280e8.html"
+    ></iframe>
   </div>
 );

@@ -478,7 +478,7 @@ export const PAAs = [
     name: "JACKSON O'BRIAN",
     email: "jo60@rice.edu",
     major: "Mechanical Engineering",
-    img: "./images/oweek/paas/jackson.jpg",
+    img: "./images/oweek/paas/jackson.png",
   },
   {
     name: "COLEMAN O'BRIAN",
@@ -487,17 +487,17 @@ export const PAAs = [
     img: "./images/oweek/paas/coleman.jpg",
   },
   {
-    name: "BENJAMIN SCHUSSLER",
-    email: "bns5@rice.edu",
-    major: "Mathematics, Physics, and Linguistics",
-    img: "./images/oweek/paas/bens.jpg",
+    name: "SHIVANI PATEL",
+    email: "sjp11@rice.edu",
+    major: "Biology and Neuroscience",
+    img: "./images/oweek/paas/shivani_p.png",
   },
   {
-    name: "ARRYANA LYON",
-    email: "an110@rice.edu",
-    major: "Cognitive Sciences",
+    name: "MAYA IYENGAR",
+    email: "mi28@rice.edu",
+    major: "Sports Management and SOPA",
     collegetag: "./college-tags/jones_tag.png",
-    img: "./images/oweek/paas/arryana.jpg",
+    img: "./images/oweek/paas/maya_i.png",
   },
 ];
 
