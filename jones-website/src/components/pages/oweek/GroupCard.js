@@ -18,7 +18,7 @@ function GroupCard(props) {
     };
 
     const bgImg = { 
-        backgroundImage: `url(${props.img})`,
+        backgroundImage: `url("${encodeURI(props.img)}")`,
         backgroundSize:"300px",
         backgroundRepeat:"no-repeat"
     }

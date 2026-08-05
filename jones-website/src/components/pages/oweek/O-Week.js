@@ -104,7 +104,7 @@ const AffiliateGrid = () => {
   const AffiliateMap = (affiliateList) => {
     return affiliateList.map((item, key) => {
       const bgImg = {
-        backgroundImage: `url(${item.img})`,
+        backgroundImage: `url("${encodeURI(item.img)}")`,
         backgroundPosition: "center",
         backgroundSize: "cover",
       };
