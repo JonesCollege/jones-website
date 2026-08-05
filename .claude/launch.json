@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jones-website-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start", "--prefix", "jones-website"],
+      "port": 3000
+    }
+  ]
+}
