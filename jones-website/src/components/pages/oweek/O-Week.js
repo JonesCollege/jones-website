@@ -148,6 +148,7 @@ const OweekBook = () => (
         </a> */}
     </div>
     <iframe
+      title="OWeek Book"
       allowFullScreen
       allow="autoplay; fullscreen; clipboard-write"
       scrolling="no"
