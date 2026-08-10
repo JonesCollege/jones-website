@@ -104,7 +104,7 @@ const AffiliateGrid = () => {
   const AffiliateMap = (affiliateList) => {
     return affiliateList.map((item, key) => {
       const bgImg = {
-        backgroundImage: `url("${encodeURI(item.img)}")`,
+        backgroundImage: `url(${item.img})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
       };
@@ -147,14 +147,14 @@ const OweekBook = () => (
             <MdDownload className='book-download-icon' />
         </a> */}
     </div>
+    <h3 className="oweek-book-subtitle">Coming soon!</h3>
     <iframe
-      title="OWeek Book"
       allowFullScreen
       allow="autoplay; fullscreen; clipboard-write"
       scrolling="no"
       className="fp-iframe"
       style={{ border: "1px solid lightgray", width: "100%", height: "532px" }}
-      src="https://heyzine.com/flip-book/834d1280e8.html"
+      src="https://heyzine.com/flip-book/98fb38506d.html"
     ></iframe>
   </div>
 );
